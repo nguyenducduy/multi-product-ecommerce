@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="searchNotFound" descr=""><![CDATA[no result match]]></lines>
+	<lines name="product" descr=""><![CDATA[Sản phẩm]]></lines>
+	<lines name="news" descr=""><![CDATA[Tin tức]]></lines>
+</data>

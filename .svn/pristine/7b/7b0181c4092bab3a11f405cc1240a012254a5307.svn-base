@@ -1,0 +1,262 @@
+
+
+@media only screen and (max-width: 1024px){
+	
+}
+
+@media only screen and (max-width: 800px) {
+	
+	.criteria {left:81.2%;}
+	.drop-down-filter{width:688px;}
+	.droppk{width:512px;}
+	.drop-down-criteria{right:0;}
+	/*news*/
+	.newscontain li{float:left; width:350px; padding:9px 0}
+	.newscontain li img{max-width:250px; max-height:200px;float:none; display:block; margin:5px auto}
+	/*.newscontain li h3{text-align:center}*/
+	.li_img{width:360px !important; margin-left:30px}
+
+}
+
+@media only screen and (max-width: 768px) {
+	.banners-container .swiper-slide{width:auto; overflow:hidden}
+	.galdetail{float:left;height:300px; width:300px; background:white;margin:0 auto; overflow:hidden; margin-right:20px}
+	.galdetail img{max-width:280px; max-height:280px; margin:auto 5px;}
+	.widimg{width:300px; text-align:center; overflow:hidden}
+	.criteria {left:81.2%;}
+	.drop-down-filter{width:688px;}
+	.droppk{width:512px;}
+	.drop-down-criteria{right:0;}
+	
+	/*news*/
+	.newscontain li{float:left; width:300px; padding:9px 0}
+	.newscontain li img{max-width:250px; max-height:200px;float:none; display:block; margin:5px auto}
+	/*.newscontain li h3{text-align:center}*/
+	.li_img{width:350px !important; margin-left:50px}
+}
+
+@media only screen and (max-width: 640px) {
+	
+	.criteria {left:77.2%;}
+	.drop-down-criteria{right:0;}
+	.galdetail{float:left;margin-left:0;}
+	
+	.newscontain li{float:left; width:300px; padding:9px 0}
+	.newscontain li img{max-width:250px; max-height:200px;float:none; display:block; margin:5px auto}
+	/*.newscontain li h3{text-align:center}*/
+	.li_img{width:250px !important; margin-left:30px}
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.criteria {left:77.2%;}
+	.drop-down-criteria{right:0;}
+	.galdetail{float:left;margin-left:0;}
+	.newscontain li{float:left; width:300px; padding:9px 0}
+	.newscontain li img{max-width:250px; max-height:200px;float:none; display:block; margin:5px auto}
+	/*.newscontain li h3{text-align:center}*/
+	.li_img{width:250px !important; margin-left:30px}
+	
+	/*news*/
+	.newscontain li{float:left; width:250px; padding:9px 0}
+	.newscontain li img{max-width:250px; max-height:200px;float:none; display:block; margin:5px auto}
+	.li_img{width:280px !important; margin-left:20px}
+}
+
+
+@media only screen and (max-width: 560px) {
+	
+	/*.sublist{ width:95%; margin:0 10px;}
+	.sublist li{float:none; text-align:left;width:100%; border-bottom:1px solid #ccc; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+	.sublist li a img{float:left; margin-right:8px;max-width:120px; max-height:120px;}
+	.sublist li a{display:inline;text-align:left; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}*/
+	.sublist li{float:left; text-align:center;width:48%; border-bottom:none; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+	.sublist li a img{float:none;margin:5px auto 15px;display:block;}
+	.sublist li a{display:block;text-align:center; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+	
+	.pricenew{display:block;}
+	.priceold{display:block}
+	
+	.mobitab{width:161px;}		
+	.laptop{width:161px;}	
+	.giadung{width:161px;}	
+	.electro{width:161px;}	
+	.office{width:161px;}	
+	.camera{width:161px;}	
+	.accessories{width:161px;}		
+	.closemenu{width:161px;}
+	
+	.drop-down-criteria ul {height:400px;}	
+	.drop-down-filter{width:344px;}
+	.droppk{width:256px;}
+	header .search input[type=search]:focus {width:52%;}
+	#mainsearch input[type=search]:focus {width:52%}
+	
+	.galdetail{display:block; float:none;height:250px; width:250px; background:white;margin:0 auto; overflow:hidden}
+	.galdetail img{max-width:230px; max-height:230px; margin:auto 5px;}
+	.widimg{width:250px;height:250px; text-align:center; overflow:hidden}
+	.areadescshort{float:none; width:95%}
+	.head-right{float:none; width:95%}
+	
+	.areaprice{display:block; clear:both; margin-left:10px}
+	.reviewclum{min-width:320px;max-width:520px; margin-right:10px;}
+	.numbercall{display:block; width:100%; float:none}
+	.wrap-sale{display:block; margin-top:10px; margin:auto; width:100%;}
+	.btn-buy{display:block; margin:5px auto; float:none}
+	.numbercall{display:block; float:none; background:white; text-align:center;padding:8px 0; margin:5px auto}
+	#articles{width:100%}
+	
+	/*news*/
+	.newscontain li{float:left; width:250px; padding:9px 0}
+	.newscontain li img{max-width:250px; max-height:200px;float:none; display:block; margin:5px auto}
+	.li_img{width:245px !important; margin-left:20px}
+	
+}
+
+@media only screen and (max-width: 540px) {
+	/*news*/
+	.newscontain li{float:none; display:block; width:100%;}
+	.newscontain li img{max-width:145px; max-height:115px; float:left; margin-right:10px;}
+	.li_img{float:left; overflow:hidden; margin:0; width:100% !important}
+	/*.sublist{ width:95%; margin:0 10px;}
+	.sublist li{float:none; text-align:left;width:100%; border-bottom:1px solid #ccc; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+	.sublist li a img{float:left; margin-right:8px;max-width:120px; max-height:120px;}
+	.sublist li a{display:inline;text-align:left; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}*/
+	.sublist li{float:left; text-align:center;width:48%; border-bottom:none; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+	.sublist li a img{float:none;margin:5px auto 15px;display:block;}
+	.sublist li a{display:block;text-align:center; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+	
+	.pricenew{display:block;}
+	.priceold{display:block}
+	
+	.mobitab{width:161px;}		
+	.laptop{width:161px;}	
+	.giadung{width:161px;}	
+	.electro{width:161px;}	
+	.office{width:161px;}	
+	.camera{width:161px;}	
+	.accessories{width:161px;}		
+	.closemenu{width:161px;}
+	
+	.drop-down-criteria ul {height:400px;}	
+	.drop-down-filter{width:344px;}
+	.droppk{width:256px;}
+	header .search input[type=search]:focus {width:52%;}
+	#mainsearch input[type=search]:focus {width:52%}
+	
+	.galdetail{display:block; float:none;height:250px; width:250px; background:white;margin:0 auto; overflow:hidden}
+	.galdetail img{max-width:230px; max-height:230px; margin:auto 5px;}
+	.widimg{width:250px;height:250px; text-align:center; overflow:hidden}
+	.areadescshort{float:none; width:95%}
+	.head-right{float:none; width:95%}
+	
+	.areaprice{display:block; clear:both; margin-left:10px}
+	.reviewclum{min-width:320px;max-width:520px; margin-right:10px;}
+	.numbercall{display:block; width:100%; float:none}
+	.wrap-sale{display:block; margin-top:10px; margin:auto; width:100%;}
+	.btn-buy{display:block; margin:5px auto; float:none}
+	.numbercall{display:block; float:none; background:white; text-align:center;padding:8px 0; margin:5px auto}
+	#articles{width:100%}
+}
+
+@media only screen and (max-width: 480px) {
+	.sublist li{float:left; text-align:center;width:48%; border-bottom:none; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+	.sublist li a img{float:none;margin:5px auto 15px;display:block;}
+	.sublist li a{display:block;text-align:center; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+	
+	.pricenew{display:block;}
+	.priceold{display:block}
+	
+	.mobitab{width:142px;}		
+	.laptop{width:142px;}	
+	.giadung{width:142px;}	
+	.electro{width:142px;}	
+	.office{width:142px;}	
+	.camera{width:142px;}	
+	.accessories{width:142px;}		
+	.closemenu{width:142px;}
+	
+	.criteria {left:69%;}
+	.drop-down-criteria{right:0;}
+	.drop-down-mobile{width:232px;}
+	header .search input[type=search]:focus {width:45%;}
+	#mainsearch input[type=search]:focus {width:45%}
+	
+	.galdetail{display:block; float:none;height:210px !important; width:250px; background:white;margin:0 auto; overflow:hidden}
+	.areadescshort{float:left; width:210px}
+	.head-right{float:left; width:208px}
+	
+	/*news*/
+	.newscontain li{float:none; display:block; width:100%;}
+	.newscontain li img{max-width:145px; max-height:115px; float:left; margin-right:10px;}
+	.li_img{float:left; overflow:hidden; margin:0; width:100% !important}
+}
+
+
+@media only screen and (max-width: 360px) {
+	.sublist li{float:none; text-align:left;width:100%; border-bottom:1px solid #ccc; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+	.sublist li a img{float:left; margin-right:8px}
+	.sublist li a{display:inline;text-align:left; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+	
+	.pricenew{display:block;}
+	.priceold{display:block}
+	
+	.mobitab{width:153px;}		
+	.laptop{width:153px;}	
+	.giadung{width:153px;}	
+	.electro{width:153px;}	
+	.office{width:153px;}	
+	.camera{width:153px;}	
+	.accessories{width:153px;}		
+	.closemenu{width:153px;}
+		
+	.drop-down-mobile{width:232px;}	
+	.drop-down-tablet{width:235px;}	
+	.drop-down-pk{width:247px;}
+	.criteria {left:57.5%}
+	header .search input[type=search]:focus {width:62%;}
+	#mainsearch input[type=search]:focus {width:62%}
+	.galdetail{display:block; float:none;height:210px !important; width:250px; background:white;margin:0 auto; overflow:hidden}
+	.areadescshort{float:none; width:100%}
+	.head-right{float:none; width:100%}
+	
+	/*news*/
+	.newscontain li{float:none; display:block; width:100%;}
+	.newscontain li img{max-width:145px; max-height:115px; float:left; margin-right:10px;}
+	.li_img{float:left; overflow:hidden; margin:0; width:100% !important}
+}
+
+@media only screen and (max-width: 320px) {
+	.sublist li{float:none; text-align:left;width:100%; border-bottom:1px solid #ccc;overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+	.sublist li a img{float:left; margin-right:8px}
+	.sublist li a{display:inline;text-align:left; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+	
+	.pricenew{display:block;}
+	.priceold{display:block}
+	
+	.mobitab{width:142px;}		
+	.laptop{width:142px;}	
+	.giadung{width:142px;}	
+	.electro{width:142px;}	
+	.office{width:142px;}	
+	.camera{width:142px;}	
+	.accessories{width:142px;}		
+	.closemenu{width:142px;}
+	
+	.drop-down-mobile{width:272px;}	
+	.drop-down-tablet{width:235px;}	
+	.drop-down-pk{width:247px;}
+	
+	.criteria {left:51.8%}
+	header .search input[type=search]:focus {width:56%;}
+	#mainsearch input[type=search]:focus {width:56%}
+	.areaprice{display:block; clear:both}
+	.galdetail{display:block; float:none;height:210px; width:250px; background:white;margin:0 auto; overflow:hidden}
+	.areadescshort{float:none; width:100%}
+	.head-right{float:none; width:100%}
+	
+	/*news*/
+	.newscontain li{float:none; display:block; width:100%;}
+	.newscontain li img{max-width:145px; max-height:115px; float:left; margin-right:10px;}
+	.li_img{float:left; overflow:hidden; margin:0; width:100% !important}
+}

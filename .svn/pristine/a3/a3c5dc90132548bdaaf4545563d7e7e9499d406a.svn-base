@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+  <lines name="product" descr=""><![CDATA[Sản phẩm]]></lines>
+	<lines name="news" descr=""><![CDATA[Tin tức]]></lines>
+	<lines name="stuff" descr=""><![CDATA[Rao vặt]]></lines>
+	<lines name="user" descr=""><![CDATA[Tài khoản]]></lines>
+</data>

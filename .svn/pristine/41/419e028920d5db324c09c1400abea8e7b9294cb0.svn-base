@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[PromotionExclude]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[PromotionExclude Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[PromotionExclude &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New PromotionExclude]]></lines>
+	<lines name="title_add" descr=""><![CDATA[PromotionExclude Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[PromotionExclude &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update PromotionExclude]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[PromotionExclude Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[PromotionExclude &raquo; Update]]></lines>
+
+	
+	<lines name="labelPromoid" descr=""><![CDATA[Promoid]]></lines>
+	<lines name="labelPromoeid" descr=""><![CDATA[Promoeid]]></lines>
+	
+	
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add PromotionExclude]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[PromotionExclude had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating PromotionExclude]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[PromotionExclude had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[PromotionExclude not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting PromotionExclude with  ######.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[PromotionExclude with  ###### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[OrdersDetail]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[OrdersDetail Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[OrdersDetail &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New OrdersDetail]]></lines>
+	<lines name="title_add" descr=""><![CDATA[OrdersDetail Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[OrdersDetail &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update OrdersDetail]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[OrdersDetail Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[OrdersDetail &raquo; Update]]></lines>
+
+	
+	<lines name="labelOid" descr=""><![CDATA[Order ID]]></lines>
+	<lines name="labelBid" descr=""><![CDATA[Book ID]]></lines>
+	<lines name="labelId" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Name]]></lines>
+	<lines name="labelPricesell" descr=""><![CDATA[Price Sell]]></lines>
+	<lines name="labelPricediscount" descr=""><![CDATA[Price Discount]]></lines>
+	<lines name="labelPricefinal" descr=""><![CDATA[Price Final]]></lines>
+	<lines name="labelQuantity" descr=""><![CDATA[Quantity]]></lines>
+	<lines name="labelWeight" descr=""><![CDATA[Weight]]></lines>
+	<lines name="labelSize" descr=""><![CDATA[Size]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	
+	
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add OrdersDetail]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[OrdersDetail had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating OrdersDetail]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[OrdersDetail had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[OrdersDetail not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting OrdersDetail with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[OrdersDetail with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

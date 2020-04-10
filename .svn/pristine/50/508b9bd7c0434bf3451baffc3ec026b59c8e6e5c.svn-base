@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="title" descr=""><![CDATA[Tin nhắn cá nhân]]></lines>
+	<lines name="titleReply" descr=""><![CDATA[Gởi trả lời]]></lines>
+	<lines name="titleReplyall" descr=""><![CDATA[Gởi trả lời cho tất cả]]></lines>
+	<lines name="titleForward" descr=""><![CDATA[Chuyển tiếp thư]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách tin nhắn]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="searchPlaceholder" descr=""><![CDATA[Tìm..]]></lines>
+	<lines name="createtitle" descr=""><![CDATA[Gởi tin nhắn cá nhân]]></lines>
+	<lines name="starTitle" descr=""><![CDATA[Đánh dấu]]></lines>
+	<lines name="viewDetailTitle" descr=""><![CDATA[Xem chi tiết]]></lines>
+	<lines name="selectTitle" descr=""><![CDATA[chọn tin nhắn này]]></lines>
+	<lines name="compose" descr=""><![CDATA[SOẠN TIN]]></lines>
+	<lines name="to" descr=""><![CDATA[gởi đến]]></lines>
+	<lines name="tome" descr=""><![CDATA[Tôi]]></lines>
+	<lines name="replytextText" descr=""><![CDATA[Nhấn vào đây để]]></lines>
+	<lines name="replytextReply" descr=""><![CDATA[Trả lời]]></lines>
+	<lines name="replytextReplyall" descr=""><![CDATA[Trả lời cho tất cả]]></lines>
+	<lines name="replytextOr" descr=""><![CDATA[hoặc]]></lines>
+	<lines name="replytextForward" descr=""><![CDATA[Chuyển tiếp]]></lines>
+	<lines name="quotedsenderTime" descr=""><![CDATA[Vào]]></lines>
+	<lines name="quotedsenderWrite" descr=""><![CDATA[Viết]]></lines>
+	<lines name="forwardedHead" descr=""><![CDATA[---------- Thư đã chuyển tiếp ----------]]></lines>
+	<lines name="forwardedFrom" descr=""><![CDATA[Từ]]></lines>
+	<lines name="forwardedDate" descr=""><![CDATA[Lúc]]></lines>
+	<lines name="forwardedTo" descr=""><![CDATA[Đến]]></lines>
+	<lines name="mInbox" descr=""><![CDATA[Tin nhắn]]></lines>
+	<lines name="mStarred" descr=""><![CDATA[Đánh dấu]]></lines>
+	<lines name="mSent" descr=""><![CDATA[Đã gởi]]></lines>
+	<lines name="mDraft" descr=""><![CDATA[Thư nháp]]></lines>
+	<lines name="mTrash" descr=""><![CDATA[Thùng rác]]></lines>
+	<lines name="searchmail" descr=""><![CDATA[Tìm tin]]></lines>
+	<lines name="sendto" descr=""><![CDATA[Người nhận]]></lines>
+	<lines name="subject" descr=""><![CDATA[Tiêu đề]]></lines>
+	<lines name="message" descr=""><![CDATA[Nội dung]]></lines>
+	<lines name="sendbtn" descr=""><![CDATA[Gởi]]></lines>
+	<lines name="moveToTrashTitle" descr=""><![CDATA[Di chuyển vào thùng rác]]></lines>
+	<lines name="messageempty" descr=""><![CDATA[Không tìm thấy tin nhắn nào.]]></lines>
+	<lines name="errSend" descr=""><![CDATA[Không gởi tin nhắn được vì các lỗi sau:]]></lines>
+	<lines name="errEmptyTo" descr=""><![CDATA[Bạn chưa chọn người để gởi tin nhắn]]></lines>
+	<lines name="errManyTo" descr=""><![CDATA[Bạn chọn quá nhiều người để gởi. Loại tài khoản của bạn chỉ gởi tối đa ###MAXRECIPIENT### người trong một lần.]]></lines>
+	<lines name="errMessageTooShort" descr=""><![CDATA[Nội dung tin nhắn quá ngắn. (Tối thiểu ###VALUE### ký tự)]]></lines>
+	<lines name="errMessageTooLong" descr=""><![CDATA[Nội dung tin nhắn quá dài. (Tối đa ###VALUE### ký tự)]]></lines>
+	<lines name="errSpam" descr=""><![CDATA[Bạn vừa gởi 1 tin nhắn. Hãy giờ trong giây lát.]]></lines>
+	<lines name="errAccountBlock" descr=""><![CDATA[Tài khoản của bạn bị khóa tính năng gởi tin nhắn. Hãy liên hệ ban quản trị để được hỗ trợ.]]></lines>
+	<lines name="errMessageDayLimit" descr=""><![CDATA[Hiện tại bạn chỉ còn có thể gởi ###VALUE### tin nhắn trong hôm nay. (Tài khoản của bạn chỉ có gởi tối đa ###VALUE2### tin nhắn trong một ngày)]]></lines>
+	<lines name="errRecipientLimit" descr=""><![CDATA[Bạn không thể gởi tin nhắn đến ###VALUE###.]]></lines>
+	<lines name="errSaveMessage" descr=""><![CDATA[Có lỗi khi gởi tin nhắn của bạn.]]></lines>
+	<lines name="errInvalidRecipientId" descr=""><![CDATA[Không thể gởi tin nhắn tới ###VALUE### thành viên trong số người gởi bạn đã chọn.]]></lines>
+	<lines name="bottombarTextTitle" descr=""><![CDATA[Nhấn vào đây để xem nội dung tin nhắn.]]></lines>
+	<lines name="viewallmessage" descr=""><![CDATA[&laquo; Tất cả tin nhắn]]></lines>
+	<lines name="replymessage" descr=""><![CDATA[Trả lời]]></lines>
+	<lines name="replysubmit" descr=""><![CDATA[Gởi]]></lines>
+	<lines name="errReplyAdd" descr=""><![CDATA[Có lỗi khi gởi trả lời của bạn.]]></lines>
+	<lines name="succReplyAdd" descr=""><![CDATA[Trả lời của bạn đã được gởi.]]></lines>
+	<lines name="justsendreply" descr=""><![CDATA[Vừa trả lời]]></lines>
+	<lines name="manager" descr=""><![CDATA[Tùy chọn xóa...]]></lines>
+	<lines name="deleteselected" descr=""><![CDATA[Xóa các tin đã chọn]]></lines>
+	<lines name="deleteall" descr=""><![CDATA[Xóa tin nhắn này]]></lines>
+	<lines name="deleteallandreply" descr=""><![CDATA[Xóa tin nhắn và toàn bộ trả lời]]></lines>
+	<lines name="errDeleteMessage" descr=""><![CDATA[Có lỗi khi xóa toàn bộ tin nhắn]]></lines>
+	<lines name="errToggleStarred" descr=""><![CDATA[Có lỗi khi cập nhật.]]></lines>
+	<lines name="succToggleStarred" descr=""><![CDATA[Cập nhật thành công trạng thái đánh dấu.]]></lines>
+	<lines name="errToggleTrash" descr=""><![CDATA[Có lỗi khi cập nhật.]]></lines>
+	<lines name="succToggleTrash" descr=""><![CDATA[Đã di chuyển tin nhắn bạn chọn vào thùng rác.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi khi xóa tin nhắn.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Xóa thành công.]]></lines>
+	<lines name="hasAttachmentTitle" descr=""><![CDATA[Có file đính kèm]]></lines>
+	<lines name="succSend" descr=""><![CDATA[<h2>Gởi thành công.</h2><br /><a href="###VALUE###">NHẤN VÀO ĐÂY</a> để xem tin nhắn vừa gởi.]]></lines>
+	
+	<lines name="emailSubject" descr=""><![CDATA[###VALUE### gởi cho bạn một tin nhắn.]]></lines>
+	<lines name="attachment" descr=""><![CDATA[Đính kèm file]]></lines>
+	<lines name="attachmentTitle" descr=""><![CDATA[File đính kèm]]></lines>
+	
+	<lines name="pageTitle" descr=""><![CDATA[ - Tin nhắn cá nhân]]></lines>
+	<lines name="pageKeyword" descr=""><![CDATA[hop thu, tin nhan ca nhan, private message]]></lines>
+	<lines name="pageDescription" descr=""><![CDATA[ Các tin nhắn cá nhân với các thành viên.]]></lines>
+		
+
+</data>

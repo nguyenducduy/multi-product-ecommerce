@@ -1,0 +1,257 @@
+
+
+@media screen and (max-width: 1280px) {
+    
+    ul.nav li ul li.specialclass{    width: 500px;}
+    ul.nav li ul li{left:200px !important;}
+    
+}
+
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .showhide{display:none}
+    ul.nav li ul li.specialclass{    width: 500px !important;}
+    ul.nav li ul li{left:200px !important;}
+    #tophead{ width: 980px; }
+    
+    #nav-main{width: 980px;}
+    #banner{margin:0 auto; width: 980px;}
+    
+    #nav-main .seafast{float:left; max-width:40%; height:28px; margin-top:4px; margin-left:30px;}
+     .wi_textinput {width:45% !important; border-radius:0 !important; border-left:none !important}
+ 
+    #wrapper{width:980px; margin-top:30px;}
+    
+    .wi_label{display:inline-block; margin: -8px 8px 8px;  width:165px; vertical-align:middle; font:normal 12px Arial; color:#444; text-align:right}
+    .selectfil{display:inline; width:165px;}
+    #wrapper .filter_01 .rowfil{ width:730px}
+    
+    #wrapper .filter_02{width:748px; max-width:100%;}
+    
+    #wrapper .listproduct{ width:750px;}
+    
+    .products ul li{float:left; width:166px; border-right:none;}
+    .products ul li:hover{
+        background:#f8f8f8;  
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f5f5f5));
+          background-image: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+          background-image: -o-linear-gradient(top, #ffffff, #f5f5f5);
+          background-image: linear-gradient(to bottom, #ffffff, #f5f5f5);
+         background-image: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+    }
+    .products_name ul li{ float:left; color:#6f6d6d !important; padding:0 !important; width:auto !important; border:none !important; }
+    .products_name ul li a{ font:normal 11px Arial !important;}
+    .products_name ul li:hover{background:none !important}
+    
+    .navbarprod{ width:980px;}
+    
+    .navbarprod ul{float:left; width:980px; margin-left:2px;}
+    
+    .infoprod ul li a{font:normal 11px Arial;}
+    
+    .menufeature {width:980px; float:left}
+    
+    .hightlight{float:left;width:980px; }
+    .hightlight .clum{float:left; width:30%;}
+    
+    .wrap-one{width:980px; clear:both}
+    
+    #keys{width: 960px; max-width: 96%; }
+    #footer{width: 960px;}
+    #copyright{ width: 960px; max-width: 96%; }
+    
+    .wi-inreg {width: 66%!important;}    
+    #footer .colfoot-1{    float:left; width:229px; padding-bottom:8px;}
+    #footer .colfoot-2{    float:left; width:20%; margin-left:20px;}
+    #footer .colfoot-3{    float:left; width:25%; margin-left:20px;}
+	#footer .colfoot-3 img {width: 45%;height: auto;}
+    #footer .colfoot-4{    float:right; width:25%;margin-left:10px;}
+    #footer .colfoot-4 .area{float:left; padding:2px; border-right:1px solid #ccc; font:normal 11px Arial; color:#666; text-align:center; margin-bottom:10px;}
+    #footer .colfoot-4 .area span{font:bold 11px Arial; color:#333;}
+	
+    
+    .rowsp{width:969px !important;}
+    .lileft{margin:60px auto; width:200px}
+	.lileft span{font: 14px/30px Arial;}
+    .incomp{ width:180px !important;}
+    .rownd{width:969px !important;}
+    /*.contleft{width:622px;}*/
+	.rowsp li{width: 220px;}
+	.colcont{width: 224px;}
+    .contleft_3sp{width:642px}
+    .contleft_4sp{width:664px;}
+    .contleft_5sp{width:980px;}
+    .contleft_6sp{width:980px;}
+    .col_sp{ width:176px !important}
+    
+    .contrigh{ width:345px; margin:0 auto !important; overflow:hidden; background:white}
+    .cori-3sp{width:300px;}
+    .cori-4sp{width:300px}
+    
+    .similar{float:left; width:100% ; margin:10px}
+    .similar li{float:none; list-style:none; margin:10px auto; padding:8px; }
+    .wi_li{width:280px;}
+    .wi-3sp{width:20% !important}
+    .wi-5sp{width:172px !important}
+    .wi-6sp{width:172px !important}
+    
+    .wi_li_3sp{width:197px; font:normal 11px/20px Arial !important;}
+    .wi_li_4sp{width:150px;font:normal 11px/20px Arial !important;}
+    
+    /*News*/
+    .nav-news{width:980px; margin:0 auto;}
+    .nav-news ul{float:left; width:980px; height:40px; margin:0 0 10px; }
+    .adnewsnav{width:980px !important}
+    .adnewssearch{width:980px !important}
+    #wrap-news{width:980px !important;  margin:10px auto;}
+    .news-left{float:left; width:660px !important; margin-right:20px; overflow:hidden}
+    
+    .marri{margin-right:0 !important;}
+    .news980{display:block !important; width:660px; margin-bottom:0 !important}
+        
+    .news-right{float:left; width:300px; overflow:hidden;}
+    .specialcol{display:none}
+    .othernews{display:none}
+    
+    #adnews{width:980px !important;}
+    .layeradd{left:115px !important;}
+    .addtotal{ width:660px !important; margin-right: 10px !important;}
+    .addcol{ width: 298px !important; margin: 35px 15px 20px !important;}
+    .addlist{width:460px !important; margin:0 18px !important}
+    .addleft{width:175px !important}
+    
+    .infotext{width:100% !important;}
+    .infoimg{margin-left:65px;}
+    .writepost{width:79% !important}
+
+    .dropdown {height: 28px;left:-2px; border-left: 1px solid #ccc}
+    .duy{width: 940px !important;}
+    .searchstuff{width: 44% !important;}
+	
+	.colchoi{height:0 !important}
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .showhide{display:none}
+    
+    #tophead{ width: 980px; }
+    
+    #nav-main{width: 980px;}
+    
+    #nav-main .seafast{float:left; max-width:40%; height:28px; margin-top:4px; margin-left:20px;}
+    .wi_textinput {width:175px !important; border-radius:0 !important; border-left:none !important}
+    
+    ul.nav li ul{  left:0;}
+    ul.nav li ul li.specialclass{    width: 500px !important;}
+    ul.nav li ul li{left:200px !important;}
+    
+    #banner{ width: 980px;  }
+        
+    #wrapper{width: 980px; margin-top:30px;}
+    
+    .wi_label{display:inline-block; margin: -8px 8px 8px;  width:165px; vertical-align:middle; font:normal 12px Arial; color:#444; text-align:right}
+    .selectfil{display:inline; width:165px;}
+    #wrapper .filter_01 .rowfil{ width:730px}
+    #wrapper .filter_02{width:748px; max-width:100%;}
+    
+    #wrapper .listproduct{ width:750px; max-width: 98%}
+    
+    .products ul li{float:left; width:166px; border-right:none;}
+    .products ul li:hover{
+        background:#f8f8f8;  
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f5f5f5));
+          background-image: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+          background-image: -o-linear-gradient(top, #ffffff, #f5f5f5);
+          background-image: linear-gradient(to bottom, #ffffff, #f5f5f5);
+         background-image: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+    }
+    .products_name ul li{ float:left; color:#6f6d6d !important; padding:0 !important; width:auto !important; border:none !important; }
+    .products_name ul li a{ font:normal 11px Arial !important;}
+    .products_name ul li:hover{background:none !important}
+    .navbarprod{ width:980px;}
+    
+    .navbarprod ul{float:left; width:980px; margin-left:2px;}
+    
+    .infoprod ul li a{font:normal 11px Arial;}
+    .menufeature {width:968px; float:left}
+    .hightlight{float:left;width:980px; padding:30px 0; overflow:hidden; clear:both}
+    .hightlight .clum{float:left; width:30%;}
+    
+    .wrap-one{width:980px; clear:both}
+    #keys{width: 960px; max-width: 96%; }
+    #footer{width: 960px;}
+    #copyright{ width: 960px; max-width: 96%; }
+	
+	.wi-inreg {width: 66%!important;}    
+    #footer .colfoot-1{    float:left; width:229px; padding-bottom:8px;}
+    #footer .colfoot-2{    float:left; width:20%; margin-left:20px;}
+    #footer .colfoot-3{    float:left; width:25%; margin-left:20px;}
+	#footer .colfoot-3 img {width: 45%;height: auto;}
+    #footer .colfoot-4{    float:right; width:25%;margin-left:10px;}
+    #footer .colfoot-4 .area{float:left; padding:2px; border-right:1px solid #ccc; font:normal 11px Arial; color:#666; text-align:center; margin-bottom:10px;}
+    #footer .colfoot-4 .area span{font:bold 11px Arial; color:#333;}
+    
+    .rowsp{width:969px !important;}
+    .lileft{margin:60px auto; width:200px}
+	.lileft span{font: 14px/30px Arial;}
+    .incomp{ width:180px !important;}
+    .rownd{width:969px !important;}
+    /*.contleft{width:622px;}*/
+	.rowsp li{width: 220px;}
+	.colcont{width: 224px;}
+    .contleft_3sp{width:642px}
+    .contleft_4sp{width:664px;}
+    .contleft_5sp{width:980px;}
+    .contleft_6sp{width:980px;}
+    .col_sp{ width:176px !important}
+    
+    .contrigh{ width:345px; margin:0 auto !important; overflow:hidden; background:white}
+    .cori-3sp{width:300px;}
+    .cori-4sp{width:300px}
+    
+    .similar{float:left; width:100%; margin:10px}
+    .similar li{float:none; list-style:none; margin:10px auto; padding:8px; }
+    .wi_li{width:280px;}
+    .wi-3sp{width:20% !important}
+    .wi-5sp{width:172px !important}
+    .wi-6sp{width:172px !important}
+    
+    .wi_li_3sp{width:197px; font:normal 11px/20px Arial !important;}
+    .wi_li_4sp{width:150px;font:normal 11px/20px Arial !important;}
+    
+    /*News*/
+    .nav-news{width:980px; margin:0 auto;}
+    .nav-news ul{float:left; width:980px; height:40px; margin:0 0 10px; }
+    .adnewsnav{width:980px !important}
+    .adnewssearch{width:980px !important}
+    #wrap-news{width:980px !important;  margin:10px auto;}
+    .news-left{float:left; width:660px !important; margin-right:20px; overflow:hidden}
+    
+    .marri{margin-right:0 !important;}
+    .news980{display:block !important; width:660px; margin-bottom:0 !important}
+    
+    .news-right{float:left; width:300px; overflow:hidden; }
+    
+    .specialcol{display:none}
+    .othernews{display:none}
+    
+    #adnews{ width:980px !important;}
+    .layeradd{left:115px !important;}
+    .addtotal{width:660px !important;margin-right: 10px !important;}
+    .addcol{ width: 298px !important; margin: 35px 15px 20px !important;}
+    .addlist{width:460px !important; margin:0 18px !important}
+    .addright{float:right !important}
+    .addleft{width:175px !important}
+    
+    .infotext{width:100% !important;}
+    .infoimg{margin-left:65px;}
+    .writepost{width:79% !important} 
+
+    .dropdown {height: 28px;left:-2px; border-left: 1px solid #ccc}
+
+    .duy{width: 940px !important;}
+    .searchstuff{width: 44% !important;}
+	
+	.colchoi{height:0 !important}
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="titleActivity" descr=""><![CDATA[Hoạt động]]></lines>
+	<lines name="editTitle" descr=""><![CDATA[Chỉnh sửa trạng thái]]></lines>
+	<lines name="message" descr=""><![CDATA[Nội dung]]></lines>
+	<lines name="editSubmit" descr=""><![CDATA[Lưu]]></lines>
+	<lines name="succEdit" descr=""><![CDATA[Cập nhật thành công]]></lines>
+	<lines name="errEdit" descr=""><![CDATA[Có lỗi khi cập nhật trạng thái của bạn. Hãy thử lại.]]></lines>
+	
+	<lines name="errFeednotfound" descr=""><![CDATA[Không tìm thấy Feed.]]></lines>
+	<lines name="errNotOwner" descr=""><![CDATA[Bạn không thể xoá Feed đã chọn.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Xoá thành công thông tin bạn chọn.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi khi xoá thông tin bạn chọn.]]></lines>
+	<lines name="errHideFeed" descr=""><![CDATA[Có lỗi khi xoá khỏi danh sách nhận thông báo.]]></lines>
+	<lines name="succHideFeed" descr=""><![CDATA[Thông tin của bạn đã được lưu.]]></lines>
+	<lines name="unfollow" descr=""><![CDATA[Ngưng nhận thông báo từ hoạt động này]]></lines>
+	<lines name="unfollowTitle" descr=""><![CDATA[Nhấn vào đây để không còn nhận các thông báo mới về hoạt động này trong tương lai.]]></lines>
+	
+		
+
+</data>

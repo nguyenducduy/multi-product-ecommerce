@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="editTitle" descr=""><![CDATA[Chỉnh sửa nội dung trả lời]]></lines>
+	<lines name="message" descr=""><![CDATA[Nội dung]]></lines>
+	<lines name="editSubmit" descr=""><![CDATA[Lưu]]></lines>
+	<lines name="succEdit" descr=""><![CDATA[Thông tin của bạn đã được lưu.]]></lines>
+	<lines name="errEdit" descr=""><![CDATA[Có lỗi khi lưu thông tin của bạn.]]></lines>
+	<lines name="errMessageTooShort" descr=""><![CDATA[Nội dung trả lời quá ngắn. (Tối thiểu ###VALUE### ký tự)]]></lines>
+	<lines name="errMessageTooLong" descr=""><![CDATA[Nội dung trả lời quá dài. (Tối thiểu ###VALUE### ký tự)]]></lines>
+	<lines name="errDuplicate" descr=""><![CDATA[Trả lời bạn gởi đã tồn tại]]></lines>
+	<lines name="errSpam" descr=""><![CDATA[Thông tin bạn gởi quá nhanh. Hãy chờ trong giây lát.]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Trả lời của bạn đã được thêm.]]></lines>
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi khi thêm trả lời của bạn.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Xóa thành công trả lời bạn chọn.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi khi xóa trả lời bạn chọn.]]></lines>
+	<lines name="errFeednotfound" descr=""><![CDATA[Không tìm thấy thông tin để thêm.]]></lines>
+	<lines name="errNotOwner" descr=""><![CDATA[Bạn không đủ quyền để thay đổi/xóa.]]></lines>
+	<lines name="notificationUserTitle" descr=""><![CDATA[Tới trang nhà của ]]></lines>
+	<lines name="notificationFeedDetailTitle" descr=""><![CDATA[Click để xem chi tiết]]></lines>
+	<lines name="notificationFollowText" descr=""><![CDATA[cũng gởi bình luận về]]></lines>
+	<lines name="notificationFollowLinkText" descr=""><![CDATA[hoạt động mà bạn có tham gia bình luận]]></lines>
+	<lines name="errPagePermission" descr=""><![CDATA[Bạn không đủ quyền thực hiện thao tác đã chọn.]]></lines>
+		
+
+</data>

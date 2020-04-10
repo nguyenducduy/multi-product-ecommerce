@@ -1,0 +1,154 @@
+<div class="header-row">
+    <div class="header-row-wrapper">
+        <header>
+            <h1 class="header-main" id="page-header" rel="menu_pages_list">
+                <i class="fa fa-file-text-o"></i>
+                <span class="breadcrumb"><a href="{$conf.rooturl_admin}{$controller}" title="">Pages</a> /</span>
+                About Us
+            </h1>
+            <div class="header-right pull-right">
+                <a class="btn btn-default" href="{$conf.rooturl_admin}{$controller}">Cancel</a>
+                <a class="btn btn-success" href="javascript:void(0)" onclick="$('#myform').submit();">Save</a>
+            </div>
+        </header>
+    </div>
+</div>
+
+
+<form action="" id="myform" method="post" name="myform" class="form-horizontal">
+<input type="hidden" name="ftoken" value="{$smarty.session.newsAddToken}" />
+
+    {include file="notify.tpl" notifyError=$error notifySuccess=$success notifyWarning=$warning}
+
+
+    <div class="row section">
+        <div class="col-md-3 section-summary">
+            <h1>Write your page</h1>
+            <p>Give your page a title and add your page content.</p>
+            <p><a class="plain view-in-store" href="#">View in your store <i class="fa fa-mail-forward"></i></a>
+            </p>
+        </div>
+        <div class="col-md-9 section-content">
+            <div class="col-md-12 ssb clear inner-left">
+                <label for="fgroupid">Title <span class="star_require">*</span></label>
+                <input type="text" name="ftitle" id="ftitle" placeholder="e.g. Contact us, Sizing chart, FAQs" value="" class="">
+            </div>
+
+            <div class="col-md-12 ssb clear inner-left">
+                <label for="fcontent">Content <span class="star_require">*</span></label>
+                <textarea name="fcontent" id="fcontent" class="" rows="7">
+                    {$formData.fcontent|@htmlspecialchars}
+                </textarea>
+            </div>
+        </div>
+    </div><!-- end .section -->
+
+    <div class="row section">
+        <div class="col-md-3 section-summary">
+            <h1>Search Engines</h1>
+            <p>Set up the page title, meta description and handle. These help define how this page shows up on search engines.</p>
+        </div>
+        <div class="col-md-9 section-content">
+            <div class="col-md-12 ssb clear inner-left">
+                <label for="fgroupid">Page Title &nbsp;<span class="note" > of 70 characters used</span></label>
+                <input type="text" name="fseotitle" id="fseotitle" value="" class="">
+            </div>
+
+           <div class="col-md-12 ssb clear inner-left">
+                <label for="fgroupid">Meta description &nbsp;<span class="note" > of 160 characters used</span></label>
+                <input type="text" name="fseodescription" id="fseodescription" value="" class="">
+            </div>
+
+            <div class="col-md-12 ssb clear inner-left">
+                <label for="fgroupid">Meta keyword &nbsp;<span class="note"> of 160 characters used</span></label>
+                <input type="text" name="fseokeyword" id="fseokeyword"  value="" class="">
+            </div>
+
+            <div class="col-md-12 ssb clear inner-left">
+                <label for="fslug">URL & Handle  <i class="fa fa-question-circle"></i></label>
+                <div class="input-group">
+                    <span class="input-group-addon">http://xblue.spiral.com/pages/</span>
+                    <input type="text" class="form-control" name="fslug" id="fslug" value="">
+                </div>
+            </div>
+        </div>
+    </div><!-- end .section -->
+
+     <div class="row section">
+        <div class="col-md-3 section-summary">
+            <h1>Visibility</h1>
+            <p>Control if this page can be viewed on your storefront.</p>
+        </div>
+        <div class="col-md-9 section-content">
+            <div class="col-md-12 ssb clear inner-left">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="fstatus" id="fvisible" value="option1" checked>Visible
+                    <span class="note"> (as of 2014-01-20 3:12pm)</span>
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="fstatus" id="fhidden" value="option2">
+                    Hidden
+                  </label>
+                </div>
+            </div>
+            <div class="col-md-8 ssb clear inner-left">
+                <a href="javascript:void(0)" id="setpublish" onclick="toggleHasPublishDate(this)">Set a specific publish date…</a>
+                <div id="fdatepublish-group" style="display:none">
+                    <label for="fdatepublish">Publish date  </label>
+                    <div class="col-md-4 inner-left">
+                        <input type="text" name="fdatepublish" id="fdatepublish" class="input-small" value="">
+                    </div>
+                    <div class="col-md-3 inner-left">
+                        <input type="text" name="ftimepublish" id="ftimepublish" class="input-small" value="">
+                     </div>
+                     <div class="col-md-2 inner-left">
+                        <a href="javascript:void(0)" onclick="toggleHasPublishDate(setpublish)" class="plain">Clear date…</a>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end .section -->
+
+    <div class="row section">
+        <div class="col-md-3 section-summary">
+            <h1>Template</h1>
+            <p>Select the template this page will use on your storefront.</p>
+        </div>
+        <div class="col-md-9 section-content">
+            <div class="col-md-12 ssb clear inner-left">
+                <select name="fthemes" id="fthemes">
+                    <option value="">pages</option>
+                    <option value="">pages.contact</option>
+                </select>
+            </div>
+        </div>
+    </div><!-- end .section -->
+
+    <div class="row section buttons">
+        <input type="hidden" name="fsubmit" value="1" />
+        <input type="submit" value="{$lang.default.formAddSubmit}" class="btn btn-success" />
+        <span class="pull-left">
+            <input type="submit" value="Delete this page" class="btn" /> &nbsp;&nbsp;&nbsp;
+            <span class="star_require">*</span> : {$lang.default.formRequiredLabel}
+        </span>
+    </div>
+
+</form>
+{literal}
+    <script type="text/javascript">
+        function toggleHasPublishDate(t)
+        {
+            if ($('#fdatepublish-group').css("display") == "block") {
+                $(t).show();
+                $('#fdatepublish-group').hide();
+            } else {
+                $('#fdatepublish-group').show();
+                $(t).hide();
+            }
+        }
+    </script>
+{/literal}
+

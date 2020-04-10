@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Quản lý sản phẩm giá rẻ]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách sản phẩm giá rẻ]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Sản phẩm giá rẻ &raquo; Danh sách]]></lines>
+	
+
+    <lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelProductName" descr=""><![CDATA[Nhập tên sản phẩm cần tìm]]></lines>
+    <lines name="labelListproduct" descr=""><![CDATA[Danh sách sản phẩm]]></lines>
+    <lines name="labelUpdate" descr=""><![CDATA[Cập nhật]]></lines>
+	<lines name="labelProductListChoose" descr=""><![CDATA[Danh sách sản phẩm đã chọn]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

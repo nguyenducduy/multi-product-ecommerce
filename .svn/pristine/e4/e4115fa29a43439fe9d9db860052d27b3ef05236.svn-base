@@ -1,0 +1,92 @@
+.swiper-container {margin:0 auto;position:relative;	overflow:hidden;z-index:1;
+	-webkit-backface-visibility:hidden;	-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;	-o-backface-visibility:hidden;	backface-visibility:hidden;
+	
+}
+.swiper-wrapper {position:relative;	width:100%; /*overflow:hidden;*/
+	-webkit-transition-property:-webkit-transform, left, top;
+	-webkit-transition-duration:0s;
+	-webkit-transform:translate3d(0px,0,0);
+	-webkit-transition-timing-function:ease;
+	
+	-moz-transition-property:-moz-transform, left, top;
+	-moz-transition-duration:0s;
+	-moz-transform:translate3d(0px,0,0);
+	-moz-transition-timing-function:ease;
+	
+	-o-transition-property:-o-transform, left, top;
+	-o-transition-duration:0s;
+	-o-transform:translate3d(0px,0,0);
+	-o-transition-timing-function:ease;
+	-o-transform:translate(0px,0px);
+	
+	-ms-transition-property:-ms-transform, left, top;
+	-ms-transition-duration:0s;
+	-ms-transform:translate3d(0px,0,0);
+	-ms-transition-timing-function:ease;
+	
+	transition-property:transform, left, top;
+	transition-duration:0s;
+	transform:translate3d(0px,0,0);
+	transition-timing-function:ease;
+}
+.swiper-free-mode > .swiper-wrapper {-webkit-transition-timing-function: ease-out;-moz-transition-timing-function: ease-out;-ms-transition-timing-function: ease-out;
+	-o-transition-timing-function: ease-out;transition-timing-function: ease-out; margin: 0 auto;}
+
+/* IE10 Windows Phone 8 Fixes */
+.swiper-wp8-horizontal {-ms-touch-action: pan-y;}
+.swiper-wp8-vertical {-ms-touch-action: pan-x;}
+
+/*Swipe wrapper*/
+.swiper-container, .swiper-wrapper, .swiper-slide {-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;
+	-ms-transform-style:preserve-3d;transform-style:preserve-3d;}
+.swiper-container {	-webkit-perspective:1200px;	-moz-perspective:1200px;-o-perspective:1200px;perspective:1200px;}
+.swiper-wrapper {/* Windows 8 IE 10 fix */-ms-perspective:1200px;padding:0 !important; }
+
+/*Content home*/
+
+.swiper-slide {float: left; overflow:hidden;
+	-webkit-backface-visibility: hidden;-moz-backface-visibility: hidden;-ms-backface-visibility: hidden;backface-visibility: hidden;
+    -webkit-box-reflect: below 1px -webkit-linear-gradient(bottom, rgba(0,0,0,0.5) 0px, rgba(0,0,0,0) 20px);
+}
+.thumbs-title {height:1px; background:#ccc; position:relative; margin:30px 0 15px;}
+.thumbs-title h2{background:white;font:16px Arial; padding:5px 10px 5px 5px; margin:0; position:absolute; top:-15px}
+.thumbs-cotnainer {margin-top:15px; margin-bottom:30px; /*overflow:hidden;*/}
+.thumbs-cotnainer .swiper-slide {width:140px;position:relative}
+.thumbs-cotnainer img {max-width: 100px;max-height: 100px; margin:0 auto; display:block}
+.app-title {background:white; padding:0 5px;}
+.app-title h3{ margin:0; padding:0}
+.app-title a{display:block; text-align:center; font:13px Arial; color:#00a1e6; text-decoration:none; white-space: nowrap;text-overflow:ellipsis;overflow: hidden;}
+
+.app-price-old {font:13px Arial; color:#333; text-decoration:line-through; background:white; margin-bottom:5px; text-align:center}
+.app-price-new {font:13px Arial;color:red;background:white; text-align:center}
+.banners-container {height:87px;padding:4px; background:/*white*/#005763; display:block; overflow:hidden; padding-bottom:10px;}
+.banners-container .swiper-slide {width: 225px; overflow:hidden /* 208+25*/}
+.banner {width:220px; margin-right:5px;overflow:hidden;-webkit-background-size: cover;background-size: cover;	/*box-shadow: 0px 1px 2px rgba(0,0,0,0.5);*/}
+
+.galdetail{float:left;/*display:block;*/height:210px; width:250px; background:white;margin:0 20px 0 10px; overflow:hidden}
+.galdetail img{max-width:230px; max-height:230px; margin:auto 5px;}
+.widimg{width:250px; text-align:center; overflow:hidden}
+
+/*.wraplist{width:100% !important}*/
+.listslide{width:235px !important;  float:left}
+.listslide ul{list-style:none; display:block; margin:0; padding:0; border-right:1px dashed #ccc}
+.listslide li{padding:5px 0; overflow:hidden; margin:0; position:relative; height:110px}
+.listslide li h3{font:13px Arial; color:#00a1e6; margin:0; padding:0; display:block; overflow:hidden; height:30px;}
+.listslide li a{display:inherit;font:13px Arial; color:#00a1e6; text-decoration:none; padding-right:4px; background:white}
+.listslide li a img{margin:0 5px; float:left}
+.listslide li:first-child{border-bottom:1px dashed #ccc}
+
+.priceold{display:block;font:13px Arial; color:#333; text-decoration:line-through; background:white; margin-bottom:5px; /*text-align:left*/}
+.pricenew{display:block;font:13px Arial;color:red;background:white; /*text-align:left;*/ margin:5px 0}
+
+.sublist{display:block; overflow:hidden; width:100%;}
+.sublist span{font:20px Arial; color:#00a1e6; padding:8px; display:block; margin:0 10px 0;}
+.sublist ul{margin:0; padding:0; list-style:none}
+.sublist li{float:left; text-align:center;width:24%; padding:5px 0; margin-right:5px; overflow:hidden; position:relative;/* border-bottom:1px solid #ccc*/}
+.sublist li img{max-width:120px; max-height:120px;}
+.sublist li h3{font:13px Arial; color:#00a1e6; margin:0; padding:5px 0 0; display:block}
+.sublist li h3 a img{float:left;margin:0 5px; }
+.sublist li h3 a{display:inline;font:13px Arial;text-align:center; color:#00a1e6; text-decoration:none; padding-right:4px; background:white; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+
+
+

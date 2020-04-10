@@ -1,0 +1,349 @@
+@media (min-width: 1024px) and (max-width: 1200px) {
+	.headerright{float:right; height:39px; width:340px; position:relative}
+	/*.headnewnav li a{padding:7px 22px 16px 40px !important;font:bold 12px Arial; color:#444; display:block;text-decoration:none; outline:none;}
+	.headnewnav li#loginform a.usernew-login {
+		width: 100px;
+		padding: 7px 10px 16px 25px;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}*/
+	#header{width:980px;}
+	.logo{margin-right:20px;}
+	.headsearch{width:370px; margin-top:5px;}
+	.textfieldtop{width:260px}
+	.showhide .sub-nav{display:none }
+		.showhide .menu-cover:hover .sub-nav{display:block }
+	#nav-main{width:980px}
+	.menubar{width:780px;}
+	#banner{width:980px}
+	.bn_left{float:left;}
+	.bn_btom{float:left; margin:10px 0 0}
+	.bn_right{width:348px; overflow:hidden}
+	.tagrightimg{width:190px; height:285px}
+	.tagrightimg img{width:190px; height:285px}
+	.tagrighttext{width:189px}
+	.listlogo{width:980px;}
+	.accessories{margin-right:60px;}
+	#container{width:980px}
+	.products ul li{width:164px}
+	.products ul li img{max-width:140px; max-height:140px}
+	.tagcentertext{width:342px}
+	.tagtopsale{left:0; top:22%}
+	.descenter{width:185px;}
+	.colleft{width:200px;}
+	#rowview{width:760px;}
+	#experiencehandbook{width:980px;}
+	.head-left{width:360px;}
+	.areadescshort ul{width:245px;}
+	.warranty{width:120px}
+	.iosSliderButtons .button {width: 52px;}
+	.iosSliderButtons .button .border {width: 52px}
+	.iosSliderButtons #item1 img {width:52px}
+	.iosSliderButtons .first {width:52px !important;}
+	.iosSliderButtons .selected, .iosSliderButtons .button:hover {width:52px !important;margin-top:-3px !important}
+		
+	.head-center{width:380px; margin:0 10px}
+	
+	.colorproduct{width:auto}
+	.textcolor{display:none}
+	.colorcolor{margin-left:0}
+	.pricegenuine{width:180px}
+	.pricedienmay{ width:180px}
+	.pricedienmay span{font:bold 28px Arial;}
+	.priceecono{margin-left: 50px;padding: 2px 0 0 3px;float: left;}
+	.priceaccum{width:180px}
+	.saleonline{width:120px; font-size:11px}
+	.btn-buy a{padding:8px 12px}
+	.areadescshort{margin-left:6px}
+	.auctionprice{width:45%; font-size:28px}
+	.despreorder{width:290px; line-height:normal}
+
+	.head-right{width:215px; float:right}
+	.googleplus{margin-right:0; margin-bottom:6px}
+	
+	.accessleft{width:640px;}
+	.accesslist{width:520px;}
+	.accessimg img{max-width:120px}
+	.accessproduct{padding:0}
+	.accessproduct a img{max-width:80px;}
+	.subtskt{font-size:13px}
+	#articles{width:660px}
+	.glalery_one {width:90%; margin:20px auto}
+	.glalery_one li {width: 130px;margin: 2px;}
+	.glalery_one li img {max-width: 120px;height: 120px}
+	.wrap-video{display: block; float: none; margin: 20px auto; width: 420px;}
+	.circle img{max-width:450px;}
+	
+	#promotion{width:641px; margin-right:0}
+	.lires{width:139px !important}
+	#latestnewshome{width:340px;}
+	.latesthome-list li{padding:6px 0}
+	.latesthome-1{padding:0.75em 0.4em !important;}
+	
+	.latesthome-2{padding:0.75em 0.4em !important;}
+	
+	.latesthome-3{ padding:0.75em  0.4em!important;}
+	.tabs{margin-left:0.5em;}
+	.tab .link{font:bold 12px Arial;}
+	.inputcons{width:270px}
+	.btncons{margin:3px auto 8px 220px !important;}
+	.caroufredsel_wrapper{width:640px !important}	
+	
+	.navbarprod{width:980px;}
+	#wrapdepart{float:left;width:760px}
+	.articlesseo{width:1000px;}
+	
+	#relatedarticles{width:480px;}
+	#relatedarticles li{width:230px;}
+	.sticktop{right:5px;}
+	.related ul{height:400px;}
+	/*.writepost{width:898px}
+	.questiontext{width:898px}
+	.replytext{width:830px}*/
+		
+	.rowsp{width:998px !important;}
+	.rowsp li{width:238px; height:175px}
+	.rowsp li a{font-size:12px}
+	.colcont{width:232px}
+	.compinput{margin:40px 0 0 10px; width:200px;}
+	
+	.pagecont{width:780px;}
+	.listresult{width:991px;}
+	.subNavBtn {padding: 11px 13px; font-size:13px;}
+	#keys{width:980px;}
+	#keys ul li{width:140px;}
+	
+	#brand{width:980px;}
+	.brandlist{width:760px;}
+	
+	#footer{width:980px}   
+    #footer .colfoot-1{float:left; width:229px; padding-bottom:8px;}
+    #footer .colfoot-2{float:left; width:20%; margin-left:20px;}
+    #footer .colfoot-3{float:left; width:25%; margin-left:20px;}
+	#footer .colfoot-3 img {width: 45%;height: auto;}
+    #footer .colfoot-4{float:right; width:25%;margin-left:10px;}
+    #footer .colfoot-4 .area{float:left; padding:2px; border-right:1px solid #ccc; font:normal 11px Arial; color:#666; text-align:center; margin-bottom:10px;}
+    #footer .colfoot-4 .area span{font:bold 11px Arial; color:#333;}
+	.descam{width:160px;}	
+	.wi-inreg {width: 65%!important;} 
+	
+	#copyright{ width:980px;}
+	
+	.kmsp_dienmay li img{max-width:150px;}
+	
+	.regisright{margin: 136px auto 0; width: 290px;}
+	#checkout-wrap{width:980px;}
+	#header-checkout{width:100%}
+	#summary-checkout{width:100%}
+	#summary-checkout .payment-confirm{width:36%}
+	#summary-checkout .info-confirm{width:65%}
+	.logo-co{margin-right:80px;}
+	.process-co{width:71%}
+	.Promote{width:100%}
+	.wr-login{width:44%}
+	.wr-signup{width:44%}
+	.inputacc{width:365px}
+	.input-pw{width:205px}
+	.input-signup{width:215px}
+	.show_FAQ{left:260px;}
+	.show_box{width:220px}
+	.show_FAQ .show_box i{left:54.5%;}
+	.wr-password{width:390px}
+	.wrmember{width:98%}
+	.wrsearch {width:980px;}
+	.search-left{width:200px}
+	.search-ct{width:760px}
+	.wr-profile{width:980px}
+	.Pr-center{width:490px}
+	.Pr-left{width:200px}
+	.Pr-right{float:right; width:250px}
+	.label-in{width:280px}
+	.label-tx{width:65px}
+	.Pr-right ul li .check{margin-left:4px}
+	.econo{float:none; clear:both; margin:10px 0 0 0}
+	.textecono{float:left}
+	.Pr-invoice{width:760px}
+	.Pr-favorList{width:760px}
+	.inputbrand{width:120px}
+	.tagnoelone{display:none}
+	.tagnoeltwo{display:none}
+}
+
+@media screen and (max-width: 1024px) {
+	.headerright{float:right; height:39px; width:340px; position:relative}
+	/*.headnewnav li a{padding:7px 22px 16px 40px !important;font:bold 12px Arial; color:#444; display:block;text-decoration:none; outline:none;}
+	.headnewnav li#loginform a.usernew-login {
+		width: 100px;
+		padding: 7px 10px 16px 25px;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}*/
+	/*.subnavhead{left:81%}*/
+	#header{width:980px;}
+	.logo{margin-right:20px;}
+	.headsearch{width:370px; margin-top:5px;}
+	.textfieldtop{width:260px}
+	.showhide .sub-nav{display:none}
+	.showhide .menu-cover:hover .sub-nav{display:block }
+	#nav-main{width:980px}
+	.menubar{width:780px;}
+	#banner{width:980px}
+	.bn_left{float:left;}
+	.bn_btom{float:left; margin:10px 0 0}
+	.bn_right{width:348px; overflow:hidden}
+	.tagrightimg{width:190px; height:285px}
+	.tagrightimg img{width:190px; height:285px}
+	.tagrighttext{width:189px}
+	.listlogo{width:980px;}
+	.accessories{margin-right:60px;}
+	#container{width:980px}
+	.products ul li{width:164px}
+	.products ul li img{max-width:140px; max-height:140px}
+	.tagcentertext{width:342px}
+	.tagtopsale{left:0; top:22%}
+	.descenter{width:185px;}
+	.colleft{width:200px;}
+	#rowview{width:760px;}
+	#experiencehandbook{width:980px;}
+	.head-left{width:360px;}
+	.areadescshort ul{width:245px;}
+	.warranty{width:120px}
+	.iosSliderButtons .button {width: 52px;}
+	.iosSliderButtons .button .border {width: 52px}
+	.iosSliderButtons #item1 img {width:52px}
+	.iosSliderButtons .first {width:52px !important;}
+	.iosSliderButtons .selected, .iosSliderButtons .button:hover {width:52px !important;margin-top:-3px !important}
+		
+	.head-center{width:380px; margin:0 10px}
+	
+	.colorproduct{width:auto}
+	.textcolor{display:none}
+	.colorcolor{margin-left:0}
+	.pricegenuine{width:180px}
+	.pricedienmay{ width:180px}
+	.pricedienmay span{font:bold 28px Arial;}
+	.priceecono{margin-left: 50px;padding: 2px 0 0 3px;float: left;}
+	.priceaccum{width:180px}
+	.saleonline{width:120px; font-size:11px}
+	.btn-buy a{padding:8px 12px}
+	.areadescshort{margin-left:6px}
+	.auctionprice{width:45%; font-size:28px}
+	.despreorder{width:290px; line-height:normal}
+
+	.head-right{width:215px; float:right}
+	.googleplus{margin-right:0; margin-bottom:6px}
+	
+	.accessleft{width:640px;}
+	.accesslist{width:520px;}
+	.accessimg img{max-width:120px}
+	.accessproduct{padding:0}
+	.accessproduct a img{max-width:80px;}
+	.subtskt{font-size:13px}
+	#articles{width:660px}
+	.glalery_one {width:90%; margin:20px auto}
+	.glalery_one li {width: 130px;margin: 2px;}
+	.glalery_one li img {max-width: 120px;height: 120px}
+	.wrap-video{display: block; float: none; margin: 20px auto; width: 420px;}
+	.circle img{max-width:450px;}
+	
+	#promotion{width:641px; margin-right:0}
+	.lires{width:139px !important}
+	#latestnewshome{width:340px;}
+	.latesthome-list li{padding:6px 0}
+	.latesthome-1{padding:0.75em 0.4em !important;}
+	
+	.latesthome-2{padding:0.75em 0.4em !important;}
+	
+	.latesthome-3{ padding:0.75em  0.4em!important;}
+	.tabs{margin-left:0.5em;}
+	.tab .link{font:bold 12px Arial;}
+	.inputcons{width:270px}
+	.btncons{margin:3px auto 8px 220px !important;}
+	.caroufredsel_wrapper{width:640px !important}	
+	
+	.navbarprod{width:980px;}
+	#wrapdepart{float:left;width:760px}
+	.articlesseo{width:1000px;}
+	
+	#relatedarticles{width:480px;}
+	#relatedarticles li{width:230px;}
+	.sticktop{right:5px;}
+	.related ul{height:400px;}
+	/*.writepost{width:898px}
+	.questiontext{width:898px}
+	.replytext{width:830px}*/
+		
+	.rowsp{width:998px !important;}
+	.rowsp li{width:238px; height:175px}
+	.rowsp li a{font-size:12px}
+	.colcont{width:232px}
+	.compinput{margin:40px 0 0 10px; width:200px;}
+	
+	.pagecont{width:780px;}
+	.listresult{width:991px;}
+	.subNavBtn {padding: 11px 13px; font-size:13px;}
+	#keys{width:980px;}
+	#keys ul li{width:140px;}
+	
+	#brand{width:980px;}
+	.brandlist{width:760px;}
+	
+	#footer{width:980px}   
+    #footer .colfoot-1{float:left; width:229px; padding-bottom:8px;}
+    #footer .colfoot-2{float:left; width:20%; margin-left:20px;}
+    #footer .colfoot-3{float:left; width:25%; margin-left:20px;}
+	#footer .colfoot-3 img {width: 45%;height: auto;}
+    #footer .colfoot-4{float:right; width:25%;margin-left:10px;}
+    #footer .colfoot-4 .area{float:left; padding:2px; border-right:1px solid #ccc; font:normal 11px Arial; color:#666; text-align:center; margin-bottom:10px;}
+    #footer .colfoot-4 .area span{font:bold 11px Arial; color:#333;}
+	.descam{width:160px;}	
+	.wi-inreg {width: 65%!important;} 
+	
+	#copyright{ width:980px;}
+	
+	.kmsp_dienmay li img{max-width:150px;}
+	
+	.regisright{margin: 136px auto 0; width: 290px;}
+	#checkout-wrap{width:980px;}
+	#header-checkout{width:100%}
+	#summary-checkout{width:100%}
+	#summary-checkout .payment-confirm{width:36%}
+	#summary-checkout .info-confirm{width:65%}
+	.logo-co{margin-right:80px;}
+	.process-co{width:71%}
+	.Promote{width:100%}
+	.wr-login{width:44%}
+	.wr-signup{width:44%}
+	.inputacc{width:365px}
+	.input-pw{width:205px}
+	.input-signup{width:215px}
+	.show_FAQ{left:260px;}
+	.show_box{width:220px}
+	.show_FAQ .show_box i{left:54.5%;}
+	.wr-password{width:390px}
+	.wrmember{width:98%}
+	.wrsearch {width:980px;}
+	.search-left{width:200px}
+	.search-ct{width:760px}
+	.wr-profile{width:980px}
+	.Pr-center{width:490px}
+	.Pr-left{width:200px}
+	.Pr-right{float:right; width:250px}
+	.label-in{width:280px}
+	.label-tx{width:65px}
+	.Pr-right ul li .check{margin-left:4px}
+	.econo{float:none; clear:both; margin:10px 0 0 0}
+	.textecono{float:left}
+	.Pr-invoice{width:760px}
+	.Pr-favorList{width:760px}
+	.inputbrand{width:120px}
+	.scroll-nav__item{font-size:13px;}
+	.scroll-nav__link{padding:14px 12px}
+	.scroll-nav__item.active a{font-size:13px; padding:14px 12px}
+	.tskt a{font-size:13px; right:45px}
+	.sticktskt{right:4%;}
+	.tagnoelone{display:none}
+	.tagnoeltwo{display:none}
+}

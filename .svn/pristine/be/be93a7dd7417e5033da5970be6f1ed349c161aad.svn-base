@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="title" descr=""><![CDATA[Thông tin cá nhân]]></lines>
+	<lines name="male" descr=""><![CDATA[Nam]]></lines>
+	<lines name="female" descr=""><![CDATA[Nữ]]></lines>
+	<lines name="now" descr=""><![CDATA[Hiện tại]]></lines>
+	<lines name="groupWork" descr=""><![CDATA[NGHỀ NGHIỆP]]></lines>
+	<lines name="groupEducation" descr=""><![CDATA[HỌC VẤN]]></lines>
+	<lines name="groupContact" descr=""><![CDATA[LIÊN HỆ]]></lines>
+	<lines name="groupOther" descr=""><![CDATA[THÔNG TIN KHÁC]]></lines>
+	<lines name="phone" descr=""><![CDATA[Điện thoại]]></lines>
+	<lines name="address" descr=""><![CDATA[Địa chỉ]]></lines>
+	
+	<lines name="datecreated" descr=""><![CDATA[Ngày tạo]]></lines>
+	<lines name="accountType" descr=""><![CDATA[Loại tài khoản]]></lines>
+	<lines name="accountCode" descr=""><![CDATA[Mã tài khoản]]></lines>
+		
+	<lines name="schooltypecap3" descr=""><![CDATA[PTTH]]></lines>
+	<lines name="schooltypecap2" descr=""><![CDATA[THCS]]></lines>
+	<lines name="schooltypecap1" descr=""><![CDATA[Tiểu học]]></lines>
+	<lines name="schooltypemamnon" descr=""><![CDATA[Mầm non]]></lines>
+	<lines name="schooltypeother" descr=""><![CDATA[Khác]]></lines>
+	
+	<lines name="pageTitle" descr=""><![CDATA[ - Thông tin cá nhân]]></lines>
+	<lines name="pageKeyword" descr=""><![CDATA[thong tin ca nhan, trang ca nhan, thong tin tai khoan]]></lines>
+	<lines name="pageDescription" descr=""><![CDATA[ Trang thông tin cá nhân của thành viên.]]></lines>
+
+</data>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Quản lý sản phẩm giảm giá]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách sản phẩm giảm giá]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Sản phẩm giảm giá &raquo; Danh sách]]></lines>
+	
+	<lines name="head_add" descr=""><![CDATA[Thêm sản phẩm giá sốc]]></lines>
+	<lines name="head_add_promotion" descr=""><![CDATA[Thêm Sản phẩm khuyến mãi khác]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Sửa sản phẩm giá sốc]]></lines>
+	<lines name="head_edit_promotion" descr=""><![CDATA[Sửa Sản phẩm khuyến mãi khác]]></lines>
+
+    <lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelProductName" descr=""><![CDATA[Nhập tên sản phẩm cần tìm]]></lines>
+    <lines name="labelListproduct" descr=""><![CDATA[Danh sách sản phẩm]]></lines>
+    <lines name="labelUpdate" descr=""><![CDATA[Cập nhật]]></lines>
+	<lines name="labelProductListChoose" descr=""><![CDATA[Danh sách sản phẩm đã chọn]]></lines>
+	<lines name="labelEventProductHoursList" descr=""><![CDATA[Danh sách sản phẩm giá sốc]]></lines>
+	<lines name="labelDiscountProductList" descr=""><![CDATA[Danh sách Sản phẩm khuyến mãi khác]]></lines>
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+
+    <lines name="labelID" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelDiscountName" descr=""><![CDATA[Tên giảm giá]]></lines>
+	<lines name="labelListProduct" descr=""><![CDATA[Danh sách sản phẩm / Click để thêm sản phẩm]]></lines>
+	<lines name="labelType" descr=""><![CDATA[Loại]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="errProductChoose" descr=""><![CDATA[sản phẩm đã được chọn]]></lines>
+	<lines name="errNameNotEmpty" descr=""><![CDATA[Vui lòng nhập id barcode hoặc tên để tìm kiếm]]></lines>
+	
+    <lines name="errDelete" descr=""><![CDATA[Error while deleting Discount Products with id ###id###.]]></lines>
+    <lines name="succDelete" descr=""><![CDATA[Discount Products with id ###id### had been deleted.]]></lines>
+    <lines name="bulkItemNoSelected" descr=""><![CDATA[No select item Discount Products]]></lines>
+    <lines name="bulkActionInvalidWarn" descr=""><![CDATA[Please choose action]]></lines>
+     <lines name="errDelete" descr=""><![CDATA[Error while deleting Discount Products with id ###id###.]]></lines>
+    <lines name="succDelete" descr=""><![CDATA[Discount Products with id ###id### had been deleted.]]></lines>
+
+    <lines name="succEventProductAdd" descr=""><![CDATA[Thêm thành công]]></lines>
+    <lines name="errEventProductAdd" descr=""><![CDATA[Thêm không thành công, Vui lòng thử lại]]></lines>
+
+    <lines name="succEventProductEdit" descr=""><![CDATA[Sửa thành công]]></lines>
+    <lines name="errEventProductEdit" descr=""><![CDATA[Sửa không thành công, Vui lòng thử lại]]></lines>
+
+    <lines name="succEventProductDelete" descr=""><![CDATA[Không thể xoá sản phẩm với  id ###id###.]]></lines>
+    <lines name="errEventProductDelete" descr=""><![CDATA[Đã xoá với id id ###id###]]></lines>
+ 	<lines name="eventProductImages" descr=""><![CDATA[Hình ảnh]]></lines>
+	<lines name="eventProductCurrentPrice" descr=""><![CDATA[Giá thị trường]]></lines>
+	<lines name="eventProductDiscountPrice" descr=""><![CDATA[Giá bán dienmay.com]]></lines>
+
+	<lines name="errPidRequired" descr=""><![CDATA[Nhập mã sản phẩm tương ứng]]></lines>
+	<lines name="errNameRequired" descr=""><![CDATA[Nhập tên hiển thị của sản phẩm]]></lines>
+	<lines name="errCurrentPriceRequired" descr=""><![CDATA[Vui lòng nhập giá thị trường]]></lines>
+	<lines name="errDiscountPriceRequired" descr=""><![CDATA[Vui lòng nhập giá khuyến mã]]></lines>
+	<lines name="errEventTimeRequired" descr=""><![CDATA[Vui lòng nhập Khoảng thời gian được bán]]></lines>
+	<lines name="errImagesRequired" descr=""><![CDATA[Vui lòng nhập Link images]]></lines>
+	
+	<lines name="errffullnameRequired" descr=""><![CDATA[Vui lòng nhập họ và tên]]></lines>
+	<lines name="errfemailRequired" descr=""><![CDATA[Vui lòng nhập Email]]></lines>
+	<lines name="errvalidatefemailRequired" descr=""><![CDATA[Vui lòng nhập Đúng định dạng email]]></lines>
+	<lines name="errfphoneRequired" descr=""><![CDATA[Vui lòng nhập Điện thoại]]></lines>
+
+</data>

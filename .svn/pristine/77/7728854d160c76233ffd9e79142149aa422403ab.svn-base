@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[AccessTicket]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[AccessTicket Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[AccessTicket &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New AccessTicket]]></lines>
+	<lines name="title_add" descr=""><![CDATA[AccessTicket Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[AccessTicket &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update AccessTicket]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[AccessTicket Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[AccessTicket &raquo; Update]]></lines>
+
+	<lines name="head_clone" descr=""><![CDATA[Clone New AccessTicket]]></lines>
+	<lines name="title_clone" descr=""><![CDATA[AccessTicket Information]]></lines>
+	<lines name="pageTitle_clone" descr=""><![CDATA[AccessTicket &raquo; Clone]]></lines>
+	
+	<lines name="labelUid" descr=""><![CDATA[Uid]]></lines>
+	<lines name="labelUidissue" descr=""><![CDATA[Uidissue]]></lines>
+	<lines name="labelUidmodify" descr=""><![CDATA[Uidmodify]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelTickettype" descr=""><![CDATA[Tickettype]]></lines>
+	<lines name="labelCategory" descr=""><![CDATA[Category]]></lines>
+	<lines name="labelGroupcontroller" descr=""><![CDATA[Groupcontroller]]></lines>
+	<lines name="labelController" descr=""><![CDATA[Controller]]></lines>
+	<lines name="labelAction" descr=""><![CDATA[Action]]></lines>
+	<lines name="labelSuffix" descr=""><![CDATA[Suffix]]></lines>
+	<lines name="labelFullticket" descr=""><![CDATA[Fullticket]]></lines>
+	<lines name="labelObjectid" descr=""><![CDATA[Objectid]]></lines>
+	<lines name="labelIpaddress" descr=""><![CDATA[Ipaddress]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Status]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Datecreated]]></lines>
+	<lines name="labelDatamodified" descr=""><![CDATA[Datamodified]]></lines>
+	
+	
+	<lines name="errTickettypeMustGreaterThanZero" descr=""><![CDATA[Tickettype must be greater than zero.]]></lines>
+	<lines name="errSuffixRequired" descr=""><![CDATA[Suffix is required.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add AccessTicket]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[AccessTicket had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating AccessTicket]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[AccessTicket had been updated.]]></lines>
+
+	<lines name="errClone" descr=""><![CDATA[Error while Clone AccessTicket]]></lines>
+	<lines name="succClone" descr=""><![CDATA[AccessTicket had been cloned.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[AccessTicket not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting AccessTicket with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[AccessTicket with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

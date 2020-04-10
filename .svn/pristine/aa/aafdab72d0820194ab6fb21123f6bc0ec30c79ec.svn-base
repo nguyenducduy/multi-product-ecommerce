@@ -1,0 +1,350 @@
+<div class="header-row">
+    <div class="header-row-wrapper">
+        <header>
+            <h1 class="header-main" id="page-header" rel="menu_user_list">
+                <span class="breadcrumb"><a href="{$conf.rooturl_admin}{$controller}" title="">Product</a> /</span>
+                Add Product
+            </h1>
+            <div class="header-right pull-right">
+                <a class="btn btn-default" href="{$conf.rooturl_admin}{$controller}">Cancel</a>
+                <a class="btn btn-success" href="javascript:void(0)" onclick="$('#myform').submit();">Save</a>
+            </div>
+        </header>
+    </div>
+</div>
+<form action="" id="myform" method="post" name="myform" class="form-horizontal">
+    <input type="hidden" name="ftoken" value="{$smarty.session.userAddToken}" />
+
+    {include file="notify.tpl" notifyError=$error notifySuccess=$success notifyWarning=$warning}
+    
+    <div class="row section">
+        <div class="col-md-3 section-summary">
+            <h1>Product details</h1>
+            <p>Write a name and description, and provide a type and vendor to categorize this product.</p>
+        </div>
+        <div class="col-md-9 section-content">
+            <div class="ssb clear inner-left">
+                <label for="fgroupid">Title <span class="star_require">*</span></label>
+                <input type="text" name="ftitle" id="ftitle" value="{$formData.ftitle|@htmlspecialchars}" placeholder="eg. Unicorn crest short sleeve tee">
+            </div>
+            <div class="ssb clear inner-left">
+                <label for="fdescription">Description <span class="star_require">*</span></label>
+                <textarea name="fdescription" id="fdescription" rows="3">{$formData.fdescription}</textarea>
+            </div>
+            <div class="ssb clear">
+                <div class="col-md-6 inner-left">
+                    <label for="fproducttype"> Type <span class="note">e.g. Bicycles, T-Shirts</span> <span class="star_require">*</span></label>
+                    <select id="fproducttype" name="fproducttype" class="col-md-12">
+                        <option value="">- - - -</option>
+                    </select>
+                </div>
+                <div class="col-md-6 inner-right">
+                    <label for="fproducttype"> Vendor  <span class="note">e.g. Apple, Shopify</span> <span class="star_require">*</span></label>
+                    <select id="fvid" name="fvid" class="col-md-12">
+                        <option value="">- - - -</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row section">
+        <div class="col-md-3 section-summary">
+            <h1>Inventory & variants</h1>
+            <p>Manage inventory, and configure the options for selling this product.</p>
+        </div>
+        <div class="col-md-9 section-content">
+            <div class="ssb clear">
+                <div class="col-md-6 inner-left">
+                    <label for="fprice"> Price <span class="star_require">*</span></label>
+                    <input type="text" name="fprice" id="fprice" />
+                </div>
+                <div class="col-md-6 inner-right">
+                    <label for="fcompareprice"> Compare at price <span class="star_require">*</span></label>
+                    <input type="text" name="fcompareprice" id="fcompareprice" />
+                </div>
+            </div>
+            <div class="clear">&nbsp;</div>
+            <div class="ssb clear">
+                <div class="col-md-6 inner-left">
+                    <label for="fprice"> SKU <span class="note">(Stock Keeping Unit)</span> <span class="star_require">*</span></label>
+                    <input type="text" name="fprice" id="fprice" />
+                </div>
+                <div class="col-md-6 inner-right">
+                    <label for="fcompareprice"> Barcode <span class="note">e.g. UPC, ISBN</span> <span class="star_require">*</span></label>
+                    <input type="text" name="fcompareprice" id="fcompareprice" />
+                </div>
+            </div>
+            <div class="col-md-6 inner-left clear">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="1" name="fistax" id="fistax" checked="checked"/>
+                    <strong>Charge taxes</strong>
+                  </label>
+                </div>
+            </div>
+            <div class="col-md-6 inner-left clear">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="1" name="frequiredshipping" id="frequiredshipping" checked="checked"/>
+                    <strong>Require a shipping address</strong> <span class="note">(not needed for services or digital goods)</span>
+                  </label>
+                </div>
+            </div>
+            <div class="clear">&nbsp;</div>
+            <div class="col-md-6 ssb clear inner-left box box-subdued">
+                <label for="fweight"> Weight <span class="note">(kg)</span></label>
+                <input type="text" name="fweight" id="fweight" />
+            </div>
+            <hr class="clear" />
+            <div class="col-md-6 ssb clear inner-left">
+                <label for="finventory"> Inventory policy </label>
+                <select id="finventory" name="finventory" class="col-md-12">
+                    <option value="">- - - -</option>
+                </select>
+            </div>
+            <hr class="clear" />
+            <div class="col-md-6 inner-left clear">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="1" name="fhaveoptions" id="fhaveoptions" checked="checked"/>
+                    <strong>This product has multiple options</strong> <span class="note">e.g. Multiple sizes and/or colors</span>
+                  </label>
+                </div>
+            </div>
+
+            <div class="ssb clear box box-subdued" id="multiple-options-container">
+                
+                    <table class="no-hover expanded table2" style="width: 100%;">
+                      <thead>
+                        <tr>
+                          <th class="option-name" style="width: 20%"><span>Option Name</span></th>
+                          <th class="option-values"><span>Option Values</span></th>
+                          <th class="remove" style="width: 5%">&nbsp;</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="options" data-bind-id="option.position | prepend 'option-'" id="option-1">
+                          <td valign="top">
+                            <select name="optionname[]">
+                              <optgroup label="Select an option">
+                                <option data-bind-disabled="usedOptionNames | has name" data-bind="name" disabled="">Title</option><option data-bind-disabled="usedOptionNames | has name" data-bind="name">Size</option><option data-bind-disabled="usedOptionNames | has name" data-bind="name">Color</option><option data-bind-disabled="usedOptionNames | has name" data-bind="name">Material</option><option data-bind-disabled="usedOptionNames | has name" data-bind="name">Style</option><!--batman-iterator-name="Option.defaultNames"-->
+                              </optgroup>
+                              <optgroup label="---">
+                                <option value="custom">Create a new option...</option>
+                              </optgroup>
+                            </select>
+                            <input type="text" data-addclass-error="option.errors.name.length" data-showif="option.isCustom" placeholder="e.g. Size, Color" class="st custom" data-bind="option.name" style="display: none ! important;">
+                          </td>
+                          <td valign="top" align="right">
+                            <input type="text" name="optionvalues[]" value="Default title, bla bla" data-role="tagsinput" placeholder="Add tags" id="option-values" />
+                          </td>
+                          <td class="p-none remove" valign="top" align="center">
+                            <a class="btn btn-xs btn-default remove-record-button" href="javascript:void(0);" data-rowid="rowid-1" data-removeurl="#" title="" data-original-title="Delete ?"><i class="fa fa-trash-o"></i></a>
+                          </td>
+                        </tr><!--batman-iterator-option="options.sortedBy.position"-->
+
+                        <tr id="add-option">
+                          <td data-showif="canAddOption" colspan="3" style="">
+                            <a class="btn btn-default add-option" data-event-click="addOption" href="#">Add another option</a>
+                            <span class="note sl">e.g. Color, Size, Material</span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p class="clear"></p>
+                    <div data-showif="showNewVariantsTable" class="box warning st sb clear" style="margin-bottom: 0px;">
+                      <div class="sb" data-showif="tooManyPotentialVariants" style="display: none ! important;">
+                        <strong>Warning:</strong> Products can't have more than 100 variants.
+                      </div>
+                      <input type="checkbox" id="auto-generate-variants" >
+                      <label for="auto-generate-variants" class="inline fw-normal">Automatically create <strong data-bind="'variant' | pluralize variantGenerator.optionCombinations.length">1 variant</strong> based on the options defined above.</label>
+                    </div>
+                    <p class="clear"></p>
+                    <div data-hideif="automaticallyGenerateVariants" class="ppt" id="select-variants">
+                      <h3>Select which variants will be created</h3>
+                      <table class="ppr ssb sst no-hover table2" id="product-variants" style="width: 100%">
+                        <thead>
+                          <tr>
+                            <th class="select"></th>
+                            <th><span class="options-header">Variant</span></th>
+                            <th><span>Price</span></th>
+                            <th><span>SKU <span class="note x-small inline">(Optional)</span></span></th>
+                            <th><span>Barcode <span class="note x-small inline">(Optional)</span></span></th>
+                            <th data-showif="product.inventory_management" style="display: none ! important;"><span>Inventory <span class="note x-small inline">(Optional)</span></span></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="select"><input type="checkbox" data-bind="variant.shouldGenerate" checked="checked"></td>
+                            <td data-bind="variant.titleHTML | raw"><span class="option-1">Default Title</span></td>
+                            <td><input type="text" data-bind="variant.price" class="select-all-on-focus"></td>
+                            <td><input type="text" data-bind="variant.sku" class="select-all-on-focus"></td>
+                            <td><input type="text" data-bind="variant.barcode" class="select-all-on-focus"></td>
+                            <td data-showif="product.inventory_management" style="display: none ! important;"><input type="text" data-bind="variant.inventory_quantity" class="select-all-on-focus"></td>
+                          </tr><!--batman-iterator-variant="product.variants"-->
+                        </tbody>
+                      </table>
+                    </div> <!-- /#select-variants -->
+            </div>
+        </div>
+    </div>
+
+    <div class="row section">
+        <div class="col-md-3 section-summary">
+            <h1>Images</h1>
+            <p>Upload images of this product.</p>
+        </div>
+        <div class="col-md-9 section-content">
+            <div class="ssb clear inner-left">
+                <input type="file" name="fimage" id="ftitle">
+            </div>
+        </div>
+    </div>
+
+    <div class="row section">
+        <div class="col-md-3 section-summary">
+            <h1>Collections</h1>
+            <p>Collections can be used to group products together.</p>
+            <div class="btn-group">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                Add to collections <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><input type="text" value="" placeholder="Search for collections" style="border: 0px;" /></li>
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="col-md-9 section-content">
+            <div class="ssb clear inner-left">
+                <div class="span18 section-content">
+                    <div style="display: none ! important;">
+                      <div class="blank-slate-section-tip">
+                        <i class="ico ico-20-retina ico-20-arrow sr"></i>Use the <strong>Add to collections</strong> button to add this product to a collection.
+                      </div>
+                    </div>
+
+                    <table class="product-collections table2" width="100%">
+                        <tbody><tr>
+                            <td class="col-image" width="60">
+                              <img class="thumb" data-bind-title="collection.title" data-bind-src="collection.image | image 'thumb'" data-showif="collection.hasImage" title="Frontpage" src="" style="display: none ! important;">
+                              <img class="thumb" data-bind-title="collection.title" data-bind-src="config.NO_COLLECTION_IMG_PATH" data-hideif="collection.hasImage" title="Frontpage" src="//cdn.shopify.com/s/assets/no-collection-image-53b445dfd822cff595e6dd7ea43f92f5.png" width="50">
+                            </td>
+                            <td data-bind="collection.title">Frontpage</td>
+                            <td class="col-remove">
+                              <div class="remove fr">
+                                <a class="btn btn-ico-small tooltip" data-event-click="toggleProductInCollection | withArguments collection" href="#"><span class="tooltip-container"><span class="tooltip-label">Remove</span></span><i class="ico ico-16 ico-remove"></i></a>
+                              </div>
+                            </td>
+                            </tr><tr>
+                            <td class="col-image">
+                              <img class="thumb" data-bind-title="collection.title" data-bind-src="collection.image | image 'thumb'" data-showif="collection.hasImage" title="apple" src="" style="display: none ! important;">
+                              <img class="thumb" data-bind-title="collection.title" data-bind-src="config.NO_COLLECTION_IMG_PATH" data-hideif="collection.hasImage" title="apple" src="//cdn.shopify.com/s/assets/no-collection-image-53b445dfd822cff595e6dd7ea43f92f5.png" width="50">
+                            </td>
+                            <td data-bind="collection.title">apple</td>
+                            <td class="col-remove">
+                              <div class="remove fr">
+                                <a class="btn btn-ico-small tooltip" data-event-click="toggleProductInCollection | withArguments collection" href="#"><span class="tooltip-container"><span class="tooltip-label">Remove</span></span><i class="ico ico-16 ico-remove"></i></a>
+                              </div>
+                            </td>
+                            </tr><!--batman-iterator-collection="product.customCollections"-->
+                        </tbody></table>
+
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="row section">
+        <div class="col-md-3 section-summary">
+            <h1>Tags</h1>
+            <p>Tags can be used to categorize products by properties like color, size, and material.</p>
+        </div>
+        <div class="col-md-9 section-content">
+            <input type="text" id="ftags" name="ftags" value="{$formData.ftags|@htmlspecialchars}" placeholder="Enter any number of tags separated by a comma" style="border: 0px;" />
+        </div>
+    </div>
+
+    <div class="row section">
+        <div class="col-md-3 section-summary">
+            <h1>Search Engines</h1>
+            <p>Set up the page title, meta description and handle. These help define how this product shows up on search engines.</p>
+        </div>
+        <div class="col-md-9 section-content">
+            <div class="ssb clear">
+                <label for="fpagetitle"> Page title  <span class="note">0 of 70 characters used</span></label>
+                <input type="text" id="fpagetitle" name="fpagetitle" value="{$formData.fpagetitle|@htmlspecialchars}" />
+            </div>
+            <div class="ssb clear">
+                <label for="fmetadescription"> Meta description  <span class="note">0 of 160 characters used</span></label>
+                <input type="text" id="fmetadescription" name="fmetadescription" value="{$formData.fmetadescription|@htmlspecialchars}" />
+            </div>
+           
+            <div class="ssb clear">
+                <label for="fslug"> URL & Handle</label>
+                <input type="text" id="fslug" name="fslug" value="{$formData.fslug|@htmlspecialchars}" />
+            </div>
+        </div>
+    </div>
+    <div class="row section">
+        <div class="col-md-3 section-summary">
+            <h1>Visibility</h1>
+            <p>Control if this product can be viewed on your storefront.</p>
+        </div>
+        <div class="col-md-9 section-content">
+            <div class="col-md-9 clear">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="fstatus" id="fstatus1" value="1" checked>
+                    <strong> Visible</strong> <span class="note">(as of 2014-01-21 10:43am)</span>
+                  </label>
+                </div>
+            </div>
+            <div class="col-md-9 clear">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="fstatus" id="fstatus2" value="2">
+                    <strong>  Hidden </strong>
+                  </label>
+                </div>
+            </div>
+            <p class="clear"></p>
+            <div class="ssb clear">
+                <a href="#">Set a specific publish date…</a>
+            </div>
+            <div class="ssb clear">
+                <div class="col-md-2 inner-left">
+                    <input type="text" id="fpublishdate" id="fpublishdate" />
+                </div>
+                <div class="col-md-1 inner-left note" style="width: 20px;"> at </div>
+                <div class="col-md-2 inner-left">
+                    <input type="text" id="fpublishhour" id="fpublishhour" />
+                </div>
+                <div class="col-md-3 inner-left">
+                    <a href="#">Clear date...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row section buttons">
+        <input type="hidden" name="fsubmit" value="1" />
+        <input type="submit" value="{$lang.default.formSaveSubmit}" class="btn btn-success" />
+        <span class="pull-left"><span class="star_require">*</span> : {$lang.default.formRequiredLabel}</span>
+    </div>
+
+</form>
+{literal}
+<style type="text/css">
+.bootstrap-tagsinput{width: 100%;}
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#option-values").tagsInput({width:'100%', height: '45px'});
+    $("#ftags").tagsInput({width:'100%', height: '45px'});
+});
+</script>
+{/literal}

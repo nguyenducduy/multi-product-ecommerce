@@ -1,0 +1,65 @@
+body{background: #fff;}
+#wbn29{display:block; width:100%; height:100%; overflow:hidden; background:#e10c0e; margin:10px 0;}
+.wbn29{width:1200px; max-width:100%; max-height:100%; margin:auto; display:block; overflow:hidden}
+
+#spcam29{width:1200px; max-width:100%; overflow:hidden; display:block; background:white; margin:10px auto}
+#spcam29 h3{background:#00a1e6; color:white; text-transform:uppercase; font:20px Arial; padding:18px 0; text-align:center}
+
+#spcam29 ul{margin:30px 0 0; padding:0; list-style:none; display:block}
+
+#spcam29 li{float:left; margin-left:25px; margin-bottom:25px; width:22%; height:385px; border:2px solid #00a1e6; position:relative}
+/*#spcam29 li:hover{border:2px solid #ff8400}*/
+#spcam29 li img{display:block; margin:15px auto; max-height:220px}
+#spcam29 li a{display:block; margin:8px; text-decoration:none; text-transform:uppercase; color:#333; font:bold 14px Arial;}
+
+#spcam29 li a:hover{color:#00a1e6}
+
+.trt1{display:block; border:2px solid red !important}
+
+.selling29{display:block;position:absolute; left:-2px; top:10px; background:red; color:white; font:bold 16px Arial; padding:8px 14px; border-right:3px solid #ff8400; text-transform:uppercase}
+
+.trt1:hover .buy29{display:block;cursor: pointer;}
+.buy29{display:none; position:absolute; top:40%; left:22%}
+.buy29 a{display:block; background:#ff8400; padding:12px 16px; color:white !important; font:bold 18px Arial !important; text-decoration:none; text-transform:uppercase;}
+.buy29 a:hover{background:#ff6600}
+
+.trt2{border:2px solid #848483 !important; display:block}
+.selled29{display:block;position:absolute; left:-2px; top:10px; background:#848483; color:white; font:bold 16px Arial; padding:8px 14px; border-right:3px solid #555; text-transform:uppercase}
+.trt2:hover .infoselled29{display:block; background:rgba(0,0,0,0.15)}
+.infoselled29{background:rgba(0,0,0,0); position:absolute; left:0; top:0; right:0; bottom:0; display:none}
+.infoselled29 p{font:bold 15px/22px Arial; color:#ff0; text-shadow: 0 0 1px rgba(0, 0, 0, 0.35); text-align:center; position:relative; top:50px;}
+.infoselled29 a{ position:relative; text-transform:none !important; bottom:-80px;display:block; background:#f8f400; color:#00a1e6 !important; padding:10px; text-decoration:none; text-align:center; font-weight:normal !important}
+.infoselled29 a:hover{color:#000}
+
+.price29b{display:block; padding-top:10px; margin:8px; border-top:2px solid #00a1e6; font:13px/20px Arial; color:#333; }
+.price29b strong{text-decoration:line-through }
+.price29n{display:block; margin:8px; font:13px/20px Arial; color:#333; }
+.price29n strong{color:#00a1e6; font-size:15px; font-weight:bold; padding-bottom:20px}
+.pricetrt1{color:red !important;}
+.pricetrt2{color:#848483 !important;}
+.bortop291{border-top:2px solid red !important}
+.bortop292{border-top:2px solid #848483 !important}
+.inlinepopup292{display:block; overflow:hidden;background: #fff;}
+.rowpopup292{background:#00A1E6; color: #FFFF00; font:15px Arial; margin: 2px;  overflow: hidden;  padding: 8px; text-align: center;
+text-transform: uppercase; white-space:nowrap; text-overflow:ellipsis}
+.inlinepopup292 p{font:13px Arial; color:#333; margin:0 10px 10px}
+.inlinepopup292 i{text-decoration:underline}
+.inlinepopup292{width:98%; margin:auto}
+.inlinepopup292 td{text-align:center; padding:8px}
+.inlinepopup292 td .red29{color:red}
+
+.infocusbuy29{display:block; margin:10px; overflow:hidden; border:1px solid #ccc; padding:10px;}
+.inputup29 {background:#FFFFFF; border: 2px solid #ccc; line-height: 20px; margin: 8px 0 0;  outline: medium none;  padding: 8px;width:428px;
+}
+.inputup29:focus{border: 2px solid #ff8400;}
+
+
+.btncam29{background:#ff8400; border:1px solid #ff8400; color:#FFFFFF; cursor:pointer; font-size:18px; padding: 8px 0;text-align:center; text-transform:uppercase; width:150px; display:block; margin:10px auto 0 135px;}
+
+.btncam29:hover{background:#ff6600;}
+#spcamk29{width:1200px; max-width:100%; margin:10px auto 0}
+#spcamk29 h3{background:#00a1e6; color:white; text-transform:uppercase; font:25px Arial; padding:5px 0; text-align:center}
+#wrorhter{width:1200px; max-width:100%; margin:10px auto}
+
+
+

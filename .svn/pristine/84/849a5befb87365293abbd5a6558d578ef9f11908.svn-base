@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="backtohome" descr=""><![CDATA[Về trang chủ]]></lines>
+    <lines name="findStore" descr=""><![CDATA[Tìm siêu thị]]></lines>
+    <lines name="filterproductnotfound" descr=""><![CDATA[Không tìm thấy sản phẩm theo yêu cầu của bạn]]></lines>
+    
+    
+</data>

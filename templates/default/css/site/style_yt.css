@@ -1,0 +1,205 @@
+*{margin:0; padding:0}
+
+.row_yt_top{width:100%; height:760px; margin:auto auto; background:#fff url(../../images/site/bg_row_yt.png) no-repeat left center}
+.wrap_yt{width:980px; height:760px; margin:auto; overflow:hidden; font-family:Tahoma, Geneva, sans-serif}
+.title_yt{width:562px; height:68px; margin:auto; display:block; background:url(../../images/site/bg-prg.png) no-repeat; background-position:0 0;}
+.left_yt{float:left; width:640px; overflow:hidden;}
+
+.rowgen{overflow:hidden; display:block;}
+.namepro_yt{float:left; margin-top:15px; margin-left:40px; width:319px; height:70px;background:url(../../images/site/bg-prg.png) no-repeat; background-position:0 -161px;}
+.namepro_yt_2{float:left; margin-top:26px;}
+.namepro_yt_2 a{display:block; width:273px; height:49px;background:url(../../images/site/bg-prg.png) no-repeat; background-position:0 -68px;}
+.namepro_yt_2 a:hover{background-position:0 -116px; margin-top:3px}
+
+.dn_play_yt{float:left; width:300px; margin-top:20px; margin-left:40px}
+.dn_play_yt span{font-weight:bold; font-size:16px; color:#333}
+
+.yt_dn_fa{float:left; margin-right:20px; margin-top:5px; height:40px;}
+.yt_dn_fa a{display:block;width:112px; height:38px; background:url(../../images/site/bg-prg.png) no-repeat; background-position:-273px -68px;}
+.yt_dn_fa a:hover{background-position:-273px -106px; margin-top:3px}
+
+.yt_dn_go{float:left; margin-top:5px; height:40px;}
+.yt_dn_go a{display:block;width:112px; height:38px; background:url(../../images/site/bg-prg.png) no-repeat; background-position:-385px -68px;}
+.yt_dn_go a:hover{background-position:-385px -106px; margin-top:3px}
+
+.info_user_yt{float:left; width:300px; margin-top:10px; margin-left:40px}
+.info_user_yt_1{display:block; overflow:hidden; margin-bottom:10px; font-size:14px}
+.info_user_yt_1 img{max-height:80px; max-width:80px; float:left; margin:5px 20px 0 0; background:#26c2cc}
+.info_user_yt_1 span{display:block; line-height:20px}
+.info_user_yt_1 strong{font-weight:bold; display:block}
+.shareuser_yt{display:block; overflow:hidden; font-size:14px; margin-left:-12px;}
+.btnshare_yt{float:left; overflow:hidden; margin:0 12px 5px 5px;-moz-box-shadow:-3px 3px 2px 1px rgba(0, 0, 0, 0.35);  -webkit-box-shadow:-3px 3px 2px 1px rgba(0, 0, 0, 0.35);  box-shadow:-3px 3px 2px 1px rgba(0, 0, 0, 0.35); border-radius:4px}
+.btnshare_yt a{display:block; padding:4px 8px; background:#fbe703; color:black; text-decoration:none; font:bold 14px Arial;}
+  
+.shareuser_yt span{float:left; margin:4px 0 0}
+
+.yt_social{float:left; width:230px; margin-left:50px;margin-top:20px}
+.yt_like{float:left;margin-top:5px; width:120px; height:30px}
+.yt_bt_fa{float:left; margin-left:10px}
+.yt_bt_fa a{display:block;width:30px; height:31px; background:url(../../images/site/bg-prg.png) no-repeat; background-position:-572px 0;}
+.yt_bt_go{float:left; margin-left:4px}
+.yt_bt_go a{display:block;width:30px; height:31px; background:url(../../images/site/bg-prg.png) no-repeat; background-position:-602px 0;}
+
+.box_gift_yt{display:block; overflow:hidden; position:relative; margin-top:10px;}
+.thgi_yt{position:absolute; bottom:95px; right:75px; overflow:hidden; }
+.thgi_yt a{display:block;width:180px; height:56px; background:url(../../images/site/bg-prg.png) no-repeat; background-position:-320px -161px;}
+.thgi_yt a:hover{background-position:-500px -161px;width:181px;}
+.thle_yt{position:absolute;bottom:70px; right:80px; overflow:hidden;}
+.thle_yt a{display:block; color:#333; font:16px Tahoma; text-decoration:none}
+.thle_yt a:hover{text-decoration:underline}
+
+.right_yt{float:right; width:220px; height:545px; margin-right:90px; padding:10px;-moz-box-shadow:-6px 6px 3px 1px rgba(0,0,0,0.35);
+  -webkit-box-shadow:-6px 6px 3px 1px rgba(0,0,0,0.35);  box-shadow:-6px 6px 3px 1px rgba(0,0,0,0.35); border:1px solid #c2c9ca; background:#26c2cc; position:relative; top:100px; color:white}
+.yt_1{position:absolute; top:-76px; right:0; width:75px; height:87px;background:url(../../images/site/bg-prg.png) no-repeat; background-position:-632px 0;}
+.yt_2{position:absolute; bottom:0; right:-128px; width:155px; height:108px;background:url(../../images/site/bg-prg.png) no-repeat; background-position:-705px 0;}
+
+.right_yt span{font:16px/20px Tahoma; color:white; display:block; padding:0 0 8px ; border-bottom:1px solid white; margin:0 0 8px}
+.right_yt ul{list-style:none; overflow:hidden; display:block; margin-bottom:10px}
+.right_yt li{display:block; font:12px/20px Tahoma; color:white; padding:3px 0 3px 12px; overflow:hidden}
+.right_yt li strong{float:right; font-weight:bold}
+.right_yt li a{float:right; text-decoration:underline; font:11px Arial; color:white;}
+
+.wrapyt_ask{display:block; width:900px;padding-bottom: 30px; margin:50px auto 15px; border:5px solid #26c2cc; position:relative; background:#f6f6f6}
+
+.yt_ask{position:absolute; left:5px; top:-50px; width:185px; height:70px;background:url(../../images/site/bg-prg.png) no-repeat; background-position:0 -228px;}
+.yt_ask span{display:block; margin-top:22px; margin-left:10px; text-align:center; font:bold 24px Tahoma; color:white}
+
+.yt_time{position:absolute; right:20px; top:-22px; width:160px; height:30px; padding:0 5px 8px; background:#26c2cc; border:1px solid #d4d4d4; color:white; font:bold 30px Tahoma; text-align:center}
+
+.yt_imgnext{position:absolute; right:20px; bottom:-30px; }
+.yt_imgnext a{display:block; width:155px; height:60px;background:url(../../images/site/bg-prg.png) no-repeat; background-position:-185px -228px;}
+.yt_imgnext a:hover{background-position:-340px -228px;}
+
+.orther_ask{display:block; overflow:hidden; margin:20px auto; width:520px;margin-bottom: 0px}
+.orther_ask span{text-align:center; font:bold 20px Tahoma; padding:12px; color:#333}
+.option_yt{display:block; overflow:hidden; margin:10px auto;text-align: center;}
+.label_yt{position:absolute; margin-top:-13px;}
+
+.regular-radio {display: none;}
+.regular-radio + label {-webkit-appearance: none;background-color: #fafafa;	border: 3px solid #cacece;box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);padding: 3px;	border-radius: 20px;display: inline-block;position: relative;}
+
+.regular-radio:checked + label:after {content: ' ';	width: 12px;height: 12px;border-radius: 50px;position: absolute;top: 3px;background: #99a1a7;box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);	text-shadow: 0px;left: 3px;	font-size: 32px;}
+
+.regular-radio:checked + label {background-color: #e9ecee;color: #99a1a7;border: 3px solid #adb8c0;	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);}
+
+.regular-radio + label:active, .regular-radio:checked + label:active {box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);}
+
+.big-radio + label {padding: 8px;}
+
+.big-radio:checked + label:after {width: 12px;height: 12px;	left: 2px;top: 2px;}
+
+.point_yt{display:block; overflow:hidden; width:400px; margin:40px auto 0; font:20px Tahoma; text-align:center}
+.point_yt span{display:block; line-height:20px; padding:5px;}
+.point_size{font-size:80px; color:#bc1131}
+.point_size2{font-size:26px;}
+
+.slide_img_yt{display:block; overflow:hidden; margin:15px auto; width:860px; background:#f0f0f0;height: 350px}
+.slide_img_yt img{max-width:100%;height: 100%}
+
+
+.fter_yt{display:block; margin:10px auto 0; overflow:hidden;width:980px; height:230px;background:url(../../images/site/bg-prg.png) no-repeat; background-position:0 -305px;}
+.fter_form_yt{display:block; width:325px; margin:120px auto 0; overflow:hidden}
+.fter_form_yt span{display:block; font:bold 16px/20px Tahoma; color:#333; margin-bottom:5px}
+.yt_select{border:3px solid #26c2cc; float:left; line-height:20px; padding:3px 2px; width:60px; margin-bottom:5px; outline:none}
+.yt_lfname{border:3px solid #26c2cc; float:left; line-height:16px; padding:4px 4px; width:249px; margin-left:2px; margin-bottom:5px; outline:none}
+.yt_emfone{border:3px solid #26c2cc; float:left; line-height:16px; padding:4px 4px; width:234px; outline:none}
+.yt_nhtin{border:3px solid #26c2cc; float:left; line-height:20px; padding:2px; width:77px; height:30px; background:#26c2cc; color:white; font:bold 14px Tahoma; outline:none}
+
+
+
+.pop_yt_share{display:block; width:517px; height:175px; margin:10px auto; border:5px solid #26c2cc;background:url(../../images/site/bg-prg.png) no-repeat; background-position:-833px 0; position:relative}
+.pop_yt_wrap{width:80%; display:block; margin:25px auto}
+.pop_yt_wrap span{float:left; font:bold 16px Tahoma; color:#666; margin:14px 10px 0 0}
+.pop_yt_wrap p{font:16px Tahoma; color:#666; margin-top:10px; display:block}
+
+.pop_yt_thele{display:block; border:5px solid #26c2cc; position:relative;background: #fff}
+.pop_yt_wrap_thele{display:block; padding: 10px}
+.pop_yt_wrap_thele span{float:left; font:bold 16px Tahoma; color:#666; margin:14px 10px 0 0}
+.pop_yt_wrap_thele p{font:16px Tahoma; color:#666; margin-top:10px; display:block}
+
+.close_pop_yt{display:block; position:absolute; right:-10px; top:-18px; width:22px; height:26px; background:url(../../images/site/bg-prg.png) no-repeat; background-position:-500px -68px;}
+
+.gameloading{ 
+	background:url(../../images/site/loading67.gif) no-repeat center center;
+	display: block;
+	height: 48px;
+	width: 48px;
+	width: 980px;
+	margin: 0 auto;
+}
+
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxWrapper {max-width:none;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:#000; opacity: 0.5 !important;}
+#colorbox{outline:0;}
+    #cboxContent{margin-top:32px; overflow:visible; background:transparent;}
+        .cboxIframe{background:transparent;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{ padding:1px;}
+        #cboxLoadingGraphic{}
+        #cboxLoadingOverlay{background:#AFF4F8;}
+        #cboxTitle{position:absolute; top:-22px; left:0; color:#000;}
+        #cboxCurrent{position:absolute; top:-22px; right:205px; text-indent:-9999px;}
+
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+        #cboxPrevious, #cboxNext, #cboxSlideshow {border:0; padding:0; margin:0; overflow:visible; text-indent:-9999px; width:20px; height:20px; position:absolute; top:-20px; background:url(images/controls.png) no-repeat 0 0;}
+        
+        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
+
+        #cboxPrevious{background-position:0px 0px; right:44px;}
+        #cboxPrevious:hover{background-position:0px -25px;}
+        #cboxNext{background-position:-25px 0px; right:22px;}
+        #cboxNext:hover{background-position:-25px -25px;}
+        #cboxClose{
+        display:block; position:absolute; right:0px; top:5px; width:22px; height:26px; background:url(../../images/site/bg-prg.png) no-repeat; background-position:-500px -68px;
+        
+        }
+
+        .cboxSlideshow_on #cboxPrevious, .cboxSlideshow_off #cboxPrevious{right:66px;}
+        .cboxSlideshow_on #cboxSlideshow{background-position:-75px -25px; right:44px;}
+        .cboxSlideshow_on #cboxSlideshow:hover{background-position:-100px -25px;}
+        .cboxSlideshow_off #cboxSlideshow{background-position:-100px 0px; right:44px;}
+        .cboxSlideshow_off #cboxSlideshow:hover{background-position:-75px -25px;}
+
+.titlecomment{
+font-size: 17px;
+width: 980px;
+margin: 0 auto;
+margin-top: 15px;
+}
+.fb-comments{width: 100%;
+margin: auto;
+text-align: center;
+margin-top: 5px;
+}
+
+.gamenote{
+
+width: 980px;
+margin: 0 auto;
+text-align: center;
+color: red;
+font-size: 20px;
+margin-top: 20px;
+}

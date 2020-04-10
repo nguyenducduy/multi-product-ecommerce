@@ -1,0 +1,111 @@
+<div class="header-row">
+	<div class="header-row-wrapper">
+		<header>
+			<h1 class="header-main" id="page-header" rel="menu_user_list">
+				<span class="breadcrumb"><a href="{$conf.rooturl_admin}{$controller}" title="">Discounts</a> /</span>
+				Add discount
+			</h1>
+			<div class="header-right pull-right">
+				<a class="btn btn-default" href="{$conf.rooturl_admin}{$controller}">Cancel</a>
+				<a class="btn btn-success" href="javascript:void(0)" onclick="$('#myform').submit();">Save</a>
+			</div>
+		</header>
+	</div>
+</div>
+<form action="" id="myform" method="post" name="myform" class="form-horizontal">
+	<input type="hidden" name="ftoken" value="{$smarty.session.userAddToken}" />
+
+	{include file="notify.tpl" notifyError=$error notifySuccess=$success notifyWarning=$warning}
+	
+	<div class="row section">
+		<div class="col-md-3 section-summary">
+			<h1>Discount details</h1>
+			<p>Create your discount code, and specify the usage limit.</p>
+			<div class="btn-group">
+              <button type="button" class="btn btn-default dropdown-toggle">
+                Generate code
+              </button>
+            </div>
+		</div>
+		<div class="col-md-9 section-content">
+			<div class="ssb clear inner-left">
+				<label for="fgroupid">Discount code</label>
+				<input type="text" name="fcode" id="fcode" value="{$formData.ftitle|@htmlspecialchars}" class="form-control" placeholder="">
+			</div>
+			<div class="ssb clear inner-left">
+				<label for="fdescription">How many times can this discount be used?</label>
+				<div class="col-md-2 input-group">
+		        <input type="text" class="form-control" name="fdiscount_limit" id="fdiscount_limit" value="">
+		            <span class="input-group-addon">
+		              <input type="checkbox" id="unlimited-uses" data-focus="coupon-usage-limit" class=""> No limit
+		            </span>
+		        </div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="row section">
+		<div class="col-md-3 section-summary">
+			<h1>Discount type</h1>
+			<p>Select the type of discount, and set any extra conditions.</p>
+		</div>
+		<div class="col-md-9 section-content">
+			<div class="col-md-2 inner-left">
+                <select id="coupon-type" class="form-control">
+	              <option value="fixed_amount"> VND</option>
+	              <option value="percentage">% Discount</option>
+	              <option value="shipping">Free Shipping</option>
+	            </select>
+            </div>
+            <div class="col-md-2 inner-left">
+            	<div class="col-md-12 input-group">
+              	Take 
+                <span class="input-group-addon">₫</span>
+                <input type="text" id="discount-value" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-2 inner-left">
+             off for
+              <select class="form-control">
+                <option value="">all orders</option>
+                <option value="minimum_order_amount">orders over</option>
+                <option value="custom_collection">collection</option>
+                <option value="product">specific product</option>
+                <option value="customer_saved_search">customer in group</option>
+              </select>
+        	</div>
+		</div>
+	</div>
+	
+	<div class="row section">
+		<div class="col-md-3 section-summary">
+			<h1>Date range</h1>
+			<p>Specify when this discount begins and ends.</p>
+		</div>
+		<div class="col-md-9 section-content">
+			<div class="ssb clear">
+                <div class="col-md-2 inner-left">
+                    <label for="fdiscount_begins">Discount begins</label>
+                    <input type="text" name="fdiscount_begins" id="fprice" class="form-control">
+                </div>
+                <div class="col-md-4 input-group">
+                	<label for="fdiscount_begins">Discount begins</label>
+                	<span style="display: inherit;">
+                    <input type="text" id="discount-value" class="form-control">
+                    <span class="input-group-addon">
+		              <input type="checkbox" id="unlimited-uses" class=""> No limit
+		            </span>
+		            </span>
+                </div>
+            </div>
+		</div>
+	</div>
+	
+	<div class="row section buttons">
+		<input type="hidden" name="fsubmit" value="1" />
+		<input type="submit" value="Save" class="btn btn-success" />
+		<a class="btn btn-default" href="{$conf.rooturl_admin}{$controller}">Cancel</a>
+		<span class="pull-left"><span class="star_require">*</span> : {$lang.default.formRequiredLabel}</span>
+	</div>
+
+</form>

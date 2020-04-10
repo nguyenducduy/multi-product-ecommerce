@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Nhóm thuộc tính]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách nhóm thuộc tính]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Nhóm thuộc tính danh sách &raquo; danh sách]]></lines>
+
+
+	<lines name="head_add" descr=""><![CDATA[Thêm nhóm thuộc tính]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin nhóm thuộc tính]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Nhóm thuộc tính &raquo; Thêm]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật nhóm thuộc tính]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin nhóm thuộc tính]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Nhóm thuộc tính &raquo; Cập nhật]]></lines>
+
+
+	<lines name="labelUid" descr=""><![CDATA[Userid]]></lines>
+	<lines name="labelPcid" descr=""><![CDATA[Danh mục]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Tên]]></lines>
+	<lines name="labelDisplayorder" descr=""><![CDATA[TT hiển thị]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Datecreated]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Datemodified]]></lines>
+	<lines name="labelAddAttribute" descr=""><![CDATA[Thêm t.tính]]></lines>
+	<lines name="labelGroupAttribute" descr=""><![CDATA[Nhóm thuộc tính]]></lines>
+	<lines name="labelAttribute" descr=""><![CDATA[Thuộc tính]]></lines>
+	<lines name="formUpdateSubmitGpaDisplayOrder" descr=""><![CDATA[Cập nhật thứ tự hiển thị nhóm t.tính]]></lines>
+	<lines name="formUpdateSubmitPaDisplayOrder" descr=""><![CDATA[Cập nhật thứ tự hiển thị t.tính]]></lines>
+	<lines name="formUpdateSubmitDisplayOrder" descr=""><![CDATA[Cập nhật thứ tự hiển thị tất cả]]></lines>
+	<lines name="labelPrivateGroupAttribute" descr=""><![CDATA[Tạo nhóm thuộc tính riêng cho danh mục hiện tại]]></lines>
+
+
+	<lines name="errNameRequired" descr=""><![CDATA[Vui lòng nhập tên nhóm thuộc tính.]]></lines>
+	<lines name="nextSubmit" descr=""><![CDATA[Tiếp]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi xảy ra trong quá trình thêm nhóm thuộc tính]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Nhóm thuộc tính đã được tạo.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi xảy ra trong quá trình cập nhật nhóm thuộc tính]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Nhóm thuộc tính đã được cập nhật.]]></lines>
+
+	<lines name="errUpdateGpa" descr=""><![CDATA[Có lỗi xảy ra trong quá trình cập nhật thư tự hiển thị nhóm thuộc tính]]></lines>
+	<lines name="succUpdateGpa" descr=""><![CDATA[Thứ tự hiển thị nhóm thuộc tính đã được cập nhật.]]></lines>
+
+	<lines name="errUpdatePa" descr=""><![CDATA[Có lỗi xảy ra trong quá trình cập nhật thư tự hiển thị thuộc tính]]></lines>
+	<lines name="succUpdatePa" descr=""><![CDATA[Thứ tự hiển thị thuộc tính đã được cập nhật.]]></lines>
+
+	<lines name="errUpdateDisplay" descr=""><![CDATA[Có lỗi xảy ra trong quá trình cập nhật thư tự hiển thị]]></lines>
+	<lines name="succUpdateDisplay" descr=""><![CDATA[Thứ tự hiển thị đã được cập nhật.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy nhóm thuộc tính.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi xảy ra trong quá trình xóa nhóm thuộc tính có id là ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Nhóm thuộc tính có id là ###id### đã được xóa.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy dữ liệu.]]></lines>
+	<lines name="errorAddPermission" descr=""><![CDATA[Bạn không thể tạo nhóm thuộc tính mới.]]></lines>
+	<lines name="errorEditPermission" descr=""><![CDATA[Bạn không thể cập nhật nhóm thuộc tính này.]]></lines>
+	<lines name="errorDeletePermission" descr=""><![CDATA[Bạn không thể xóa nhóm thuộc tính này.]]></lines>
+	<lines name="deleteProductGroupAttributeConfirm" descr=""><![CDATA[Bạn có muốn xóa nhóm thuộc tính này.]]></lines>
+
+	<lines name="deleteProductAttributeConfirm" descr=""><![CDATA[Bạn có muốn xóa thuộc tính này.]]></lines>
+
+
+
+</data>

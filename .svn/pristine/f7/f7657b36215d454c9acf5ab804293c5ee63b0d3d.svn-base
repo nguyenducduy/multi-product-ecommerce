@@ -1,0 +1,25 @@
+<?php
+
+namespace Controller\Admin;
+
+class Setting extends BaseController
+{
+    public function indexAction()
+    {
+
+    }
+
+    public function generalAction()
+    {
+        $contents = $this->registry->smarty->fetch($this->registry->smartyController.'general.tpl');
+
+        $this->registry->smarty->assign(array(
+                'contents' => $contents,
+                'pageTitle' => $this->registry->lang['controller']['pageTitle'],
+                'pageKeyword' => $this->registry->lang['controller']['pageKeyword'],
+                'pageDescription' => $this->registry->lang['controller']['pageDescription'],
+                ));
+
+        $this->registry->smarty->display($this->registry->smartyModule.'index.tpl');
+    }
+}

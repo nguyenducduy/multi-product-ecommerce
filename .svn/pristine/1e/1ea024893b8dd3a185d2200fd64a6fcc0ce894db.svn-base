@@ -1,0 +1,71 @@
+<?php /* Smarty version Smarty-3.0.7, created on 2014-01-17 11:37:25
+         compiled from "templates/default/_controller/admin/utility/passwordgenerator.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:159217221952d8b385a500c8-91382776%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '141f5d0ff0accd575cf12785a36aa708ce01792b' => 
+    array (
+      0 => 'templates/default/_controller/admin/utility/passwordgenerator.tpl',
+      1 => 1389015788,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '159217221952d8b385a500c8-91382776',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+)); /*/%%SmartyHeaderCode%%*/?>
+<div class="header-row">
+	<div class="header-row-wrapper">
+		<header>
+			<h1 class="header-main" id="page-header" rel="menu_codegenerator">
+				<i class="fa fa-asterisk"></i>
+				Password Generator
+			</h1>
+		</header>
+	</div>
+</div>
+
+<form method="post" action="" class="form-inline">
+
+
+	<div class="row section">
+		<div class="col-md-3 section-summary">
+			<h1>Generate Password</h1>
+			<p>Using this form to generate password (using framework Hash algorithm)</p>
+		</div>
+		<div class="col-md-9 section-content">
+			<div class="col-md-12 ssb clear">
+				<div class="col-md-6 inner-left inner-left">
+					<label for="fpassword">Password</label>
+					<div class="input-group">
+						<input type="text" name="fpassword" class="form-control" />
+						<span class="input-group-btn">
+							<input type="submit" name="fsubmit" value="Generate!" class="btn btn-success" />
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<?php if ($_smarty_tpl->getVariable('encodedPass')->value!=''){?>
+			<div class="col-md-12 clear">
+				<div class="box success">
+					Hashed Password of "<?php echo $_POST['fpassword'];?>
+" is : <br /><br />
+					<textarea readonly="readonly" style="width:90%; height:50px;"><?php echo $_smarty_tpl->getVariable('encodedPass')->value;?>
+</textarea>
+				</div>
+			</div>
+			<?php }?>
+		</div>
+
+	</div>
+</form>
+
+
+
+
+
+

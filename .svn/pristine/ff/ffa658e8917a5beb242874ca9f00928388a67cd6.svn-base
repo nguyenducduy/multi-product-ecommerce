@@ -1,0 +1,190 @@
+
+*{margin:0; padding:0;outline:none}
+img{border:0}
+.clear{clear:both}
+
+#wrap-33k{width:1200px;	margin:5px auto;font-family:Arial;padding-bottom:10px;}
+.banner33k{ margin:5 auto; width:100%; height:200px; position:relative; }
+.block-ico{ background:#FFF; border:2px solid #0f6e9a; border-bottom:none; width:210px; position:absolute;z-index:1; bottom:0; right:100px; height:40px;}
+.likefb{ float:left; margin-left:10px; margin-top:10px;}
+
+[class^="ico-"],
+[class*="ico-"] {
+  display:block;  
+  background-image: url(../../images/site/sndienmay/bg-icon-33k.png);
+  background-repeat: no-repeat;
+}
+.ico-face{background-position:0 0; width:30px;height:30px;float:left;left:100px; top:5px; position:absolute;}
+.ico-ggplus{background-position:-30px 0; width:30px;height:30px;float:left;left:135px; top:5px;position:absolute;}
+.ico-tw{background-position:-60px 0; width:30px;height:30px;float:left;left:170px; top:5px;position:absolute;}
+.ico-sold{background-position:-90px 0; width:80px;height:65px; float:left;}
+.ico-sell{background-position:-170px 0; width:80px;height:65px;float:left;position:absolute;}
+.bt_view a{ text-decoration:none;position:absolute; right:10px; bottom:10px; padding:5px 7px; background:#ff8400; border:1px solid #86cbec; color:#fff; text-transform:uppercase; font:normal 11px arial;}
+.bt_view a:hover{text-decoration:underline;}
+
+.product33k{ margin:20px auto; width:100%;}
+.header-33{ background:url(../../images/site/sndienmay/bg-bar.png) repeat-x; }
+.tt-33{ background:#fff; margin-left:20px;padding:10px;color:#eb2700; font:normal 18px arial; text-transform:uppercase;}
+
+.product33k ul { list-style:none; margin:0 auto; width:97%;}
+.product33k ul li{ float:left; width:31%; margin:0 10px; margin-top:20px; border:2px solid #d8d8d8; position:relative;}
+.product33k ul li:hover{ border:2px solid #f20000; cursor:pointer;box-shadow: 0px 3px 4px #888888;}
+
+.product33k ul li img{ height:230px; padding:10px;}
+.product33k ul li .title-pr { font:bold 15px arial; color:#333; text-align:center;  text-decoration:none;height:45px }
+.product33k ul li .title-pr a{ color:#333; text-decoration:none;}
+.product33k ul li .title-pr a:hover{ color:#00a1e5; text-decoration:none; text-align:center;}
+
+.product33k ul li .bottom-pr{ width:96%; margin:5px auto; border-top:1px solid #d8d8d8;}
+.product33k ul li .bottom-pr .price{float:left; width:54%; display:block; font:bold 18px/25px arial; color:#ff0000; padding:5px;}
+.product33k ul li .bottom-pr .price span{ font:normal 12px/20px arial; color:#333;}
+.product33k ul li .bottom-pr .price-throught{float:right; width:35%; display:block; text-align:left; font:normal 12px/20px arial; color:#333; ;
+border-left:1px solid #d8d8d8; padding:10px; margin-top:5px;}
+.product33k ul li .bottom-pr .price-throught span{font:normal 12px/20px arial; color:#333; text-decoration:line-through }
+
+.sold33 {position:absolute;  }
+.infocustom33 {background:#000;bottom: 0;display: none;left: 0;position: absolute;right: 0;top: 0; }
+.infocustom33 a {background: #F8F400;bottom: -80px;color: #00A1E6 !important;display: block;font-weight: normal !important;padding: 15px;position: relative;text-align: center;text-decoration: none;
+ text-transform: none !important; margin:8px;}
+ 
+.pro-end{
+    border: 2px solid #ddd !important;display: block;
+}
+.pro-end:hover .infocustom33 {
+    background: rgba(0, 0, 0, 0.15); display:block; top:0; left:0; position:absolute;}
+
+.other-pro{ width:100%; margin:30px auto; float:left; overflow:hidden;} 
+.other-pro ul{ width:98%; list-style:none; margin:0 auto;} 
+.other-pro ul li{ width:17%; float:left; margin:15px 10px; margin-top:15px;  border:2px solid #fff; padding:5px;height: 305px;} 
+.other-pro ul li:hover{ border:2px solid #ff0000; box-shadow: 0px 3px 3px #888888;} 
+.other-pro ul li img{ max-width: 190px;
+height: 190px;
+margin: auto;
+display: block;} 
+.other-pro ul li .name-other {
+    height: 60px;
+}
+.other-pro ul li .name-other a{ text-align:left; font:normal 12px/19px arial; width:90%; color:#333;text-decoration:none;}
+.other-pro ul li .name-other a:hover{ text-decoration:none; color:#00a1e5;}
+.other-pro ul li .bot-other{ margin:10px auto; width:98%;}
+.other-pro ul li .price33{ text-align:left; color:#ff0000; font:bold 15px arial; }
+.other-pro ul li .price-line{ float:left; color:#666; text-align:left; font:normal 11px arial; text-decoration:line-through;}
+.other-pro ul li .discount{ background:#ff0000; border-radius:2px; color:#fff; font:bold 14px arial; padding:5px 7px; float:right;}
+
+.popup-33k{width:650px;background:#fff;display:block; margin-top:0;}
+.tt-popup33 {background:#00A1E6;color: #FFF;font:bold 14px Arial; padding: 8px;text-align: left;  text-transform: uppercase; }
+.tt-popup33 img{ float:left; margin-right:3px; margin-top:-2px;}
+.tt-popup33 {background:#00A1E6;color: #FFFF00;font:bold 15px Arial;margin: 2px; overflow: hidden;padding: 8px;text-align: center; text-overflow: ellipsis; text-transform: uppercase; 
+white-space: nowrap;}
+.ct-popup33{ padding:15px;}
+.bl-33{ font:bold 13px/20px arial; text-transform:uppercase; color:#222; padding-top:10px;}
+.ct-popup33 li{float: none;list-style:square inside none; margin-left: 8px;overflow: hidden;padding: 3px 0; font:normal 12px/18px arial; color:#444; margin:5px 0; }
+
+.trt1:hover .infocustom33 {
+	background: rgba(0, 0, 0, 0.15);
+	display: block;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+.pro-end:hover .infocustom33 {
+	background: rgba(0, 0, 0, 0.15);
+	display: block;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.listproductevent > a{
+	display: block;
+	text-align: center;
+}
+ .areaprice {
+        overflow: hidden;
+        display: block;
+        border-bottom: none;
+        padding: 0;
+        background: none;
+    }
+    .pricenew {
+        bottom: 0px;
+        color: #DA0300;
+        display: block;
+        font: bold 14px/25px Arial;
+        left: 0px;
+        position: relative;
+        text-align: left;
+    }
+    .priceold {
+        bottom: 0;
+        color: #666;
+        display: block;
+        font: 12px/20px Arial;
+        left: 0;
+        position: relative;
+        text-decoration: line-through;
+    }
+    .salepercent{
+        position: relative;
+        bottom: 35px;
+    }
+    .promobtslist li{
+        width: 18% !important;
+    }
+    .promobtslist li:hover{
+        width: 17.85% !important;
+    }
+    #promo29countdownbox {
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        width: 555px;
+        margin: 0px auto;
+        overflow: hidden;
+    }#promo29main .promo29desc {
+        margin: 7px 3px;
+    }#promo29main .promo29desc div {
+        float: left;
+        font-family: Arial;
+        width: 70px;
+        margin-right: 65px;
+        font-size: 44px;
+        font-weight: bold;
+        color: #333333;
+    }
+    #promo29main .cntSeparator {
+        font-size: 54px;
+        margin: 10px 7px;
+        color: #000;
+    }
+    #promo29main h1 {
+        font-size: 2.5em;
+        margin: 20px 0px;
+        text-align: center;
+        display: block;
+        clear: both;
+    }
+    #spcam29 h3 {
+
+    margin-bottom: 20px;
+    }
+    .brand33{ width:100%; margin:15px auto; position:relative;}
+.brand33 p{ font:bold 14px/20px Arial; color:#333; text-align:left; text-transform:uppercase;}
+.brand33 .logo-list33{ width:98%; margin:10px auto; border-top:1px solid #eee;border-bottom:1px solid #eee; overflow:hidden;}
+.logo-list33 li{ float:left; margin:5px 38px 5px 0;}
+.buy33 {background:#000;bottom: 0;display: none;left: 0;position: absolute;right: 0;top: 0;  }
+.buy33 a {background: #f44f1d;bottom: 80px;color: #fff !important; display: block;font:bold 16px arial !important;padding: 10px 0;position: relative;text-align: center;text-decoration: none;
+ text-transform: uppercase !important; margin:105px; border:1px solid rgba(255, 255 ,255, 0.5) ;border-radius:3px;}
+ .act33{ float:left; width:31%; margin:0 10px; margin-top:20px; border:2px solid #d8d8d8; position:relative;}
+.act33:hover .buy33 {  background: rgba(0, 0, 0, 0.5); display:block; top:80px; bottom:200px; left:0; position:absolute; overflow:hidden}
+@media screen and (max-width: 1024px) {
+	#wrap-33k {width:980px;}
+	.banner33k{width:980px;}
+	.product33k{ width:980px;}
+	.product33k ul{width:100%; margin:20px auto;}
+	.product33k ul li { margin:10px 8px;width: 31%;}
+	.product33k ul li img{ width:200px; height:165px;}
+	.other-pro ul li{ width:200px; } 
+
+
+

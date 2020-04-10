@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Your Hard Disk]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Directory &amp; File Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[File &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Upload File to this Directory]]></lines>
+	<lines name="title_add" descr=""><![CDATA[File Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[File &raquo; Upload]]></lines>
+	<lines name="createDirectory" descr=""><![CDATA[Create New Directory]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update File Information]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[File Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[File &raquo; Update Information]]></lines>
+
+	<lines name="directoryDeleteConfirm" descr=""><![CDATA[<h3 style=color:#f00><big>Bạn thật sự muốn xóa thư mục này?</big> <br /><br />(Tất cả các thư mục con và tập tin bên trong thư mục này cũng sẽ bị xóa.)</h3> Thư mục sẽ xóa: ]]></lines>
+	
+	<lines name="fileDeleteConfirm" descr=""><![CDATA[Bạn thật sự muốn xóa tập tin này? <br /><br />Tập tin sẽ xóa: ]]></lines>
+	
+	
+	<lines name="labelUid" descr=""><![CDATA[User ID]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Name]]></lines>
+	<lines name="labelNameseo" descr=""><![CDATA[Nameseo]]></lines>
+	<lines name="labelSummary" descr=""><![CDATA[Summary]]></lines>
+	<lines name="labelFilepath" descr=""><![CDATA[Filepath]]></lines>
+	<lines name="labelExtension" descr=""><![CDATA[Extension]]></lines>
+	<lines name="labelFilesize" descr=""><![CDATA[Filesize]]></lines>
+	<lines name="labelIsdirectory" descr=""><![CDATA[Isdirectory]]></lines>
+	<lines name="labelType" descr=""><![CDATA[Type]]></lines>
+	<lines name="labelParentid" descr=""><![CDATA[Parentid]]></lines>
+	<lines name="labelIsstarred" descr=""><![CDATA[Isstarred]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Status]]></lines>
+	<lines name="labelPermission" descr=""><![CDATA[Permission]]></lines>
+	<lines name="labelCountview" descr=""><![CDATA[View]]></lines>
+	<lines name="labelCountdownload" descr=""><![CDATA[Download]]></lines>
+	<lines name="labelCountchildren" descr=""><![CDATA[Children]]></lines>
+	<lines name="labelUploadtype" descr=""><![CDATA[Uploadtype]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Created at]]></lines>
+	<lines name="labelDateuploaded" descr=""><![CDATA[Uploaded at]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Date Modified]]></lines>
+	<lines name="labelDatelastdownloaded" descr=""><![CDATA[Last downloaded]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	<lines name="rename" descr=""><![CDATA[Rename]]></lines>
+	
+	<lines name="errParentDirectoryIsNotValid" descr=""><![CDATA[Parent Directory Is Not Valid]]></lines>
+	<lines name="errParentDirectoryIsNotExisted" descr=""><![CDATA[Parent Directory Is Not Existed]]></lines>
+	<lines name="errDirectoryNameIsRequired" descr=""><![CDATA[Directory Name is required.]]></lines>
+	<lines name="errDirectoryNameIsNotValid" descr=""><![CDATA[Directory Name contains invalid characters(Allow: a-z,0-9, period(.), hyphen(-), underscore(_), percent(%), plus(+))]]></lines>
+	<lines name="errDirectoryNameExisted" descr=""><![CDATA[Directory is existed. Try another name.]]></lines>
+	<lines name="errDirectoryNameNotChange" descr=""><![CDATA[Directory Name is same with old name.]]></lines>
+	<lines name="errDirectoryAdd" descr=""><![CDATA[Error while Create new Directory.]]></lines>
+	<lines name="succDirectoryAdd" descr=""><![CDATA[Created selected directory successfully.]]></lines>
+	<lines name="errDirectoryRename" descr=""><![CDATA[Error while Rename Directory.]]></lines>
+	<lines name="succDirectoryRename" descr=""><![CDATA[Rename selected directory successfully.]]></lines>
+	<lines name="errFileRequired" descr=""><![CDATA[File Upload is required.]]></lines>
+	<lines name="errFiletypeInvalid" descr=""><![CDATA[File type is Invalid. (###VALUE### only)]]></lines>
+	<lines name="errFilesizeInvalid" descr=""><![CDATA[File size is too big. (Max: ###VALUE###MB)]]></lines>
+	
+	<lines name="errDirectoryNotFound" descr=""><![CDATA[Directory Not Found]]></lines>
+	<lines name="searchBtn" descr=""><![CDATA[Search]]></lines>
+	
+	<lines name="errAdd" descr=""><![CDATA[Error while Add File]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[File had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating File]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[File had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[File not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting File with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[File with id ###id### had been deleted.]]></lines>
+	
+	<lines name="succDeleteDirectory" descr=""><![CDATA[Xóa thành công thư mục bạn chọn]]></lines>
+	<lines name="errDeleteDirectory" descr=""><![CDATA[Có lỗi khi xóa thư mục bạn chọn.]]></lines>
+	
+	<lines name="succDeleteFile" descr=""><![CDATA[Xóa thành công tập tin bạn chọn]]></lines>
+	<lines name="errDeleteFile" descr=""><![CDATA[Có lỗi khi xóa tập tin bạn chọn.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

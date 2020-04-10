@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Feedback]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách Feedback]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Feedback &raquo; Danh sách]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Tạo Feedback mới]]></lines>
+	<lines name="head_add_section" descr=""><![CDATA[Tạo Section mới]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin Feedback]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Feedback &raquo; Tạo mới]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật Feedback]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin Feedback]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Feedback &raquo; Cập nhật]]></lines>
+	<lines name="labelSproject" descr=""><![CDATA[Project]]></lines>
+
+	
+	<lines name="labelUid" descr=""><![CDATA[Người tạo]]></lines>
+	<lines name="labelId" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelAsa" descr=""><![CDATA[Là]]></lines>
+	<lines name="labelIwant" descr=""><![CDATA[Tôi muốn]]></lines>
+	<lines name="labelSothat" descr=""><![CDATA[Để]]></lines>
+	<lines name="labelSection" descr=""><![CDATA[Section]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="labelScrumstoryid" descr=""><![CDATA[Scrumstory ID]]></lines>
+	<lines name="labelFilepath" descr=""><![CDATA[File đính kèm]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Ngày tạo]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Ngày sửa]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Từ khóa]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[-Tìm từ khóa trong -]]></lines>
+	
+	
+	<lines name="errUidRequired" descr=""><![CDATA[Người khởi tạo không xác định.]]></lines>
+	<lines name="errAsaRequired" descr=""><![CDATA[Chức vụ không được để trống.]]></lines>
+	<lines name="errIwantRequired" descr=""><![CDATA[Nội dung không được để trống.]]></lines>
+	<lines name="errDatecreatedRequired" descr=""><![CDATA[Ngày khởi tạo không xác định.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi trong quá trình thêm dữ liệu.]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Khởi tạo Feedback thành công.]]></lines>
+	<lines name="succMatch" descr=""><![CDATA[update sang story thành công.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi trong quá trình cập nhật.]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Feedback đã được cập nhật.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Chưa có Feedback nào.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi trong quá trình xóa Feedback ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Feedback với id ###id### đã được xóa.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Không có kết quả nào.]]></lines>
+	
+	
+	
+	
+</data>

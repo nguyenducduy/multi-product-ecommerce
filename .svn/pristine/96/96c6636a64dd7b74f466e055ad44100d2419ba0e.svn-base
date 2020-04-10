@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Settingentry]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Settingentry Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Settingentry &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New Settingentry]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Settingentry Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Settingentry &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update Settingentry]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Settingentry Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Settingentry &raquo; Update]]></lines>
+
+	
+	<lines name="labelUid" descr=""><![CDATA[Creator ID]]></lines>
+	<lines name="labelSgid" descr=""><![CDATA[Group ID]]></lines>
+	<lines name="labelId" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Name]]></lines>
+	<lines name="labelDescription" descr=""><![CDATA[Description]]></lines>
+	<lines name="labelIdentifier" descr=""><![CDATA[Identifier]]></lines>
+	<lines name="labelValue" descr=""><![CDATA[Value]]></lines>
+	<lines name="labelDisplayorder" descr=""><![CDATA[Display order]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Status]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Date created]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Date modified]]></lines>
+	
+	
+	<lines name="errNameRequired" descr=""><![CDATA[Name is required.]]></lines>
+	<lines name="errIdentifierRequired" descr=""><![CDATA[Identifier is required.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add Settingentry]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Settingentry had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating Settingentry]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Settingentry had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Settingentry not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting Settingentry with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Settingentry with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

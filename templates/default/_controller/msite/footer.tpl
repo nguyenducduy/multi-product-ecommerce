@@ -1,0 +1,78 @@
+ <footer>
+      <!-- menu footer -->
+        <div class="navfoot">
+            <ul>
+                <li><a href="{$registry->conf.rooturl}" title="Trang chủ">Trang chủ</a></li>
+                <li><a href="{$registry->conf.rooturl}cart/checkout" title="Giỏ hàng">Giỏ hàng <span class="numbercartnewfooter">(0)</span></a></li>
+                <li><a href="{$registry->conf.rooturl}index/menu" title="Danh mục sản phẩm">Danh mục sản phẩm</a></li>
+                <li><a href="{$conf.rooturl}account/detail" title="Tài khoản">Tài khoản</a></li>
+                <li><a href="{$conf.rooturl}account/checksaleorder" title="Kiểm tra đơn hàng">Kiểm tra đơn hàng</a></li>
+                <li><a href="{$conf.rooturl}tat-ca-khuyen-mai" title="Khuyến mãi">Khuyến mãi</a></li>
+            </ul>
+        </div>
+        <div class="footcontact">
+          <ul>
+              <li><a href="tel:+18001061" title="">Hotline: 1800 1061 <span>Gọi »</span></a></li>
+                <li class="map"><a href="{$conf.rooturl}sieuthi" title="Tìm siêu thị"><i class="icon-map"></i><span>Hệ thống 13 siêu thị</span></a></li>
+                <li class="social">
+                     <a target="_blank" href="https://www.facebook.com/dienmaycom"><i class="icon-fb"></i></a> 
+                    <a target="_blank" href="http://www.youtube.com/dienmaycom"><i class="icon-yt"></i></a> 
+                    <a target="_blank" href="https://plus.google.com/+dienmay"><i class="icon-gp"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="copyright">© 2013 dienmay.com</div>
+        <div class="desktop"><a href="javascript:void(0)" class="forcedesktop">Xem phiên bản Desktop</a></div>
+        <div class="gototop"><a href="#top">Lên đầu trang <span>▲</span></a></div>
+
+    </footer>
+
+<!-- End footer -->
+<div class="toggle" style="display:none"><a href="#top" ></a></div>
+</section>
+
+ <script  type="text/javascript" src="{$currentTemplate}mdienmay.js?ver={$setting.site.jsversion}"></script>
+    {include file="mgoogleanalytic.tpl"}
+    {include file="websocket_external.tpl"}
+    {include file="`$smartyControllerGroupContainer`../analytic.tpl"}
+</body>
+</html>
+{literal}
+<script type="text/javascript">
+    $(document).ready(function(){
+            var isShow = false;
+            var oldScroll = 0;
+            var newScoll = 0;
+            setTimeout(function(){
+                oldScroll = $(window).scrollTop();
+            }, 100);
+            $('.value').html(oldScroll);
+            $(window).scroll(function(){
+                newScroll = $(window).scrollTop();
+                if(newScroll  < oldScroll)
+                {
+                    isShow = true;
+                }
+                else
+                {
+                    isShow = false;
+                }
+                oldScroll = newScroll;
+                if(isShow){
+                    if(newScroll < 100)
+                    {
+                        $('.toggle').hide();
+                    }
+                    else
+                    {
+                        $('.toggle').show();
+                    }
+                }
+                else
+                {
+                    $('.toggle').hide();
+                }
+            });
+        });
+</script>
+{/literal}

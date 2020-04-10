@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data>
+	<lines name="head_list" descr=""><![CDATA[Quản lý phân quyền]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách phân quyền]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Phân quyền &raquo; Danh sách]]></lines>
+	<lines name="labelRoleProduct" descr=""><![CDATA[Phân quyền danh mục của sản phẩm]]></lines>
+	<lines name="labelRoleNews" descr=""><![CDATA[Phân quyền danh mục của tin tức]]></lines>
+	<lines name="labelRoleStuff" descr=""><![CDATA[Phân quyền danh mục của rao vặt]]></lines>
+	<lines name="labelHrDepartment" descr=""><![CDATA[Hệ thống phòng ban]]></lines>
+</data>

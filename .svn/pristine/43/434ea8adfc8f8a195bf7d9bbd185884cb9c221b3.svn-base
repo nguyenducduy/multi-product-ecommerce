@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[SCRUM Project]]></lines>
+    <lines name="head_list_interation" descr=""><![CDATA[SCRUM Iteration]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách kết quả]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[SCRUM Project &raquo; Danh sách]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add Project]]></lines>
+	<lines name="head_addteam" descr=""><![CDATA[List Team]]></lines>
+	<lines name="head_additeration" descr=""><![CDATA[List Iteration]]></lines>
+	<lines name="head_addstory" descr=""><![CDATA[List Story]]></lines>
+	<lines name="head_addstorycate" descr=""><![CDATA[List StoryCategory]]></lines>
+	<lines name="head_addtammember" descr=""><![CDATA[List Member]]></lines>
+	<lines name="head_additeration" descr=""><![CDATA[List Iteration]]></lines>
+	<lines name="head_addnewiteration" descr=""><![CDATA[Add Iteration]]></lines>
+	<lines name="head_addstory" descr=""><![CDATA[List Story]]></lines>
+	<lines name="head_addstoryasignee" descr=""><![CDATA[List StoryAsignee]]></lines>
+	<lines name="head_addmeeting" descr=""><![CDATA[List Meeting]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin Project]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[SCRUM Project &raquo; Thêm]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật Project]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin Project]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[SCRUM Project &raquo; Cập nhật]]></lines>
+
+	
+	<lines name="labelId" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelTeam" descr=""><![CDATA[Count Team]]></lines>
+	<lines name="labelTeammember" descr=""><![CDATA[Count Teammember]]></lines>
+	<lines name="labeliteration" descr=""><![CDATA[Count Iteration]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Status]]></lines>
+	<lines name="labelPrint" descr=""><![CDATA[Iteration Name]]></lines>
+	<lines name="labelStory" descr=""><![CDATA[Story]]></lines>
+	<lines name="labelStart" descr=""><![CDATA[Start]]></lines>
+	<lines name="labelEnd" descr=""><![CDATA[End]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Status]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Tên Project]]></lines>
+	<lines name="labelCurrentIteration" descr=""><![CDATA[Current Iteration]]></lines>
+	<lines name="labelPlaning" descr=""><![CDATA[Planing]]></lines>
+	<lines name="labelAddNewStory" descr=""><![CDATA[Add New Story]]></lines>
+	<lines name="labelBackLog" descr=""><![CDATA[Back Log]]></lines>
+	<lines name="noIteration" descr=""><![CDATA[Không có Iteration]]></lines>
+	<lines name="formPlanLabel" descr=""><![CDATA[Plan]]></lines>
+	<lines name="formChartLabel" descr=""><![CDATA[Chart]]></lines>
+
+
+
+
+
+
+
+	<lines name="formKeywordLabel" descr=""><![CDATA[Từ khóa]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Tìm trong -]]></lines>
+	
+	
+	<lines name="errNameRequired" descr=""><![CDATA[Bạn chưa nhập tên dự án]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add SCRUM Project]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[SCRUM Project had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating SCRUM Project]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[SCRUM Project had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[SCRUM Project not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting SCRUM Project with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[SCRUM Project with id ###id### had been deleted.]]></lines>
+	<lines name="succDeleteIteration" descr=""><![CDATA[SCRUM interation with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

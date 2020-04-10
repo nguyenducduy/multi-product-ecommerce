@@ -1,0 +1,27 @@
+<?php
+namespace Controller\Admin;
+
+class Template extends BaseController
+{
+
+    public function indexAction()
+    {
+        echo 'Hong co gi';
+    }
+
+    public function addproductAction()
+    {
+        $this->registry->smarty->assign(array(
+            'formData' => $formData,
+            'stat' => $stat
+        ));
+        
+        $contents = $this->registry->smarty->fetch($this->registry->smartyController . 'addproduct.tpl');
+        
+        $this->registry->smarty->assign(array(
+            'contents' => $contents,
+            'pageTitle' => $this->registry->lang['controller']['pageTitle_dashboard']
+        ));
+        $this->registry->smarty->display($this->registry->smartyModule . 'index.tpl');
+    }
+}

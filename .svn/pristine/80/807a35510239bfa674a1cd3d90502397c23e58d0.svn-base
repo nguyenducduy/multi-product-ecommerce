@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)http://dribbble.com/shots/987781-Admin-Mail/attachments/115326 -->
+<html lang="en"><script type="text/javascript" async="" src="./Dribbble - actual-pixels-admin-mail.png by Mani_files/ga.js"></script><script type="text/javascript" src="chrome-extension://kajfghlhfkcocafkcjlajldicbikpgnp/catcher.js"><!-- script injected by Request Maker --></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+<title>Dribbble - actual-pixels-admin-mail.png by Mani</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+<!-- hide css from IE6 but load for everyone else -->
+<!--[if gte IE 7]><!-->
+<link href="./Dribbble - actual-pixels-admin-mail.png by Mani_files/attachments.css" media="screen, projection" rel="stylesheet" type="text/css">
+<!-- <![endif]-->
+<style type="text/css"></style><link type="text/css" rel="stylesheet" href="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/style.css"><script type="text/javascript" charset="utf-8" src="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/page_context.js"></script></head>
+
+<body screen_capture_injected="true">
+
+<div id="wrap">
+	<div id="viewer" class="zoomed">
+		<div id="viewer-img">
+			<img alt="Actual-pixels-admin-mail" src="./Dribbble - actual-pixels-admin-mail.png by Mani_files/actual-pixels-admin-mail.png" class="zoomed">
+		</div>
+	</div> <!-- /viewer -->
+	
+	<div id="secondary" class="zoomed">
+		<div id="logo" class="group">
+			<a href="http://dribbble.com/"><img alt="Dribbble" src="./Dribbble - actual-pixels-admin-mail.png by Mani_files/logo-retina.png" width="75"></a>
+		</div>
+		
+		<div id="attachment-owner">
+			<a href="http://dribbble.com/noptar" class="url" rel="contact" title="Mani"><div data-picture="" data-alt="Mani" data-class="photo">
+	<div data-src="//dribbble.s3.amazonaws.com/users/33345/avatars/original/Untitled-2.jpg?1331377724"></div>
+	<div data-src="//dribbble.s3.amazonaws.com/users/33345/avatars/original/Untitled-2.jpg?1331377724" data-media="(min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5),
+       (min--moz-device-pixel-ratio: 1.5),
+       (-o-min-device-pixel-ratio: 3/2),
+       (min-device-pixel-ratio: 1.5),
+       (min-resolution: 1.5dppx)"></div>
+	<noscript>
+		&lt;img alt="Mani" class="photo" src="//dribbble.s3.amazonaws.com/users/33345/avatars/original/Untitled-2.jpg?1331377724" /&gt;
+	</noscript>
+</div> Mani</a>
+			<span class="meta file">actual-pixels-admin-mail.png</span>
+			<span class="meta"><span class="date">5 days ago</span></span>
+			<span class="meta"><span class="views">3053 views</span></span>
+		</div>
+		
+		<a href="http://dribbble.com/shots/987781-Admin-Mail?list=searches&tag=profile" id="back">Back to the shot</a>
+		
+		<div class="ad thedeck target group">
+	<a href="http://decknetwork.net/" class="flag">Ads via The Deck</a>
+</div>
+
+	</div><!-- /secondary -->
+</div> <!-- /wrap -->
+
+
+<script src="./Dribbble - actual-pixels-admin-mail.png by Mani_files/jquery.min.js"></script>
+<script src="./Dribbble - actual-pixels-admin-mail.png by Mani_files/jquery-ui.min.js"></script>
+
+
+<div class="thedeck loading-dock hide">
+<script>
+var $deckAdContainer = $('.ad.thedeck.target');
+if ($deckAdContainer.length) {
+	var id = "DB";
+	var scriptLink = '<script type="text/javascript" src="http://connect.decknetwork.net/deck' + id + '_js.php?' + (new Date().getTime()) + '"></' + 'script>';
+	document.write(scriptLink);
+}
+</script><script type="text/javascript" src="http://connect.decknetwork.net/deckDB_js.php?1363836436008"></script>
+
+<script>
+// Move Deck ad content from loading area to display location
+$deckAdContainer.
+	append($('.thedeck.loading-dock>a')).
+	append($('.thedeck.loading-dock>p'));
+</script>
+</div>
+
+<!-- googlytics -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24041469-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- /googlytics -->
+
+
+<script>
+$(document).ready(function() {
+	$('#viewer-img img').click(function() {
+		$(this).toggleClass('zoomed');
+		$('#viewer').toggleClass('zoomed');
+		$('#secondary').toggleClass('zoomed');
+		return false;
+	});
+});
+</script>
+
+<!-- c(~) -->
+<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "d1ros97qkrwjf5.cloudfront.net/42/eum/rum.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-1.newrelic.com","7840d0c136","108602","Jg1bREUOClsARUpHABcHUF5ECQlDFhgEQBcEAV1dUg8SREpEDVsU",0,29,new Date().getTime(),"","","","",""]);</script>
+
+<div id="window-resizer-tooltip"><a href="http://dribbble.com/shots/987781-Admin-Mail/attachments/115326#" title="Edit settings" style="background-image: url(chrome-extension://kkelicaakdanhinjdeammmilcgefonfh/images/icon_19.png);"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth"></span> x <span class="tooltipHeight" id="winHeight"></span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth"></span> x <span class="tooltipHeight" id="vpHeight"></span></div><script type="text/javascript" src="./Dribbble - actual-pixels-admin-mail.png by Mani_files/rum.js"></script><script type="text/javascript" src="./Dribbble - actual-pixels-admin-mail.png by Mani_files/7840d0c136"></script><div id="chrome_websiteIP" class="chrome_websiteIP_right">72.10.53.219</div></body></html>

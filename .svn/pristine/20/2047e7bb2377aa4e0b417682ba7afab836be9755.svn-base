@@ -1,0 +1,275 @@
+
+.bn_auction{display:block; overflow:hidden; margin:auto; position:relative}
+.bn_auction img{position:relative; max-width:100%; max-height:100%;}
+.bn_auction .row_bot_auc{position:absolute; width:100%; bottom:0; right:0; z-index:5; height:40px; background:transparent;}
+.view_auc-rules{width:100px; height:30px; margin:10px auto}
+.view_auc-rules a{display:block; background:url(../../images/auctions/bg-auction.png); background-position:0 0; width:96px; height:22px;}
+.view_auc-rules a:hover{background-position:-96px 0}
+.wrap_auc_like_social{background:rgba(0,0,0,0.3); height:40px; padding:2px;position:inherit; right:5px; top:0;}
+.auc_like_social{width:220px; height:40px; background:white;  padding:0 10px}
+.auc_float{float:left; margin:5px 3px}
+.row_auction{display:block; overflow:hidden; margin:12px auto;}
+.col_auc_1{float:left; overflow:hidden; width:885px; background:#fff; border:1px solid #ccc; border-bottom:4px solid #ccc}
+.row_auc_top{display:block; overflow:hidden; background:#f6f6f6; padding:8px; border-bottom:2px solid #383838}
+.row_auc_top .title_auc{float:left; text-transform:uppercase; font:24px Arial; color:#333; margin:10px 0 0}
+.row_auc_top .title_auc strong{color:#00a1e6}
+.row_auc_top .title_auc_2{float:left; text-transform:uppercase; font:18px Arial; color:#333; margin:0 0 2px}
+.row_auc_top .title_auc_2 strong{color:#00a1e6}
+.row_auc_top .time_auc{float:right;}
+.row_auc_top .time_auc strong{font:bold 14px Arial; color:#333; float:left; margin-top:10px; margin-right:10px}
+.row_auc_top .time_auc .realtime{float:left;}
+.row_auc_top .time_auc .realtime .rowtime{float:none;}
+.row_auc_top .time_auc .realtime .rowtime span{float:left; width:30px; text-align:center; border-radius:2px 2px 2px 2px; background:#ff9c00; color:white; padding:5px 10px; font:bold 22px Arial;}
+.row_auc_top .time_auc .realtime .rowtime strong{float:left;color:#ff9c00; padding:5px; font:bold 20px Arial; margin-top:0 }
+.row_auc_top .time_auc .realtime .rowtime b{display:block; text-align:center; width:50px}
+
+.col_auc_desc{float:left; overflow:hidden; background:#e9f6fb; width:465px; margin-left:20px}
+.col_auc_desc h1{color:#333; display:block; font:24px Arial; padding:8px}
+.col_auc_desc .area_price_auc{background:white; margin:1px; display:block; overflow:hidden}
+.col_auc_desc .area_price_auc .priceset{margin:2px; padding:8px; text-align:center; border-bottom:1px solid #ddd; display:block}
+.col_auc_desc .area_price_auc .priceset span{color:#333; margin-right:10px;font-size: 14px;}
+.col_auc_desc .area_price_auc .priceset strong{color:red; font-size:20px}
+ sub{vertical-align:bottom; font-size:18px}
+.wrap_price_auc{border: 1px dotted #ccc; border-radius: 4px; display: block; height: 52px; margin: 20px auto; padding: 1px; width: 216px;}
+.col_auc_desc .area_price_auc .price_auc{margin:2px; padding: 15px 5px; text-align:center; display:block; background:white}
+.col_auc_desc .area_price_auc .price_auc span{display:block; font:14px Arial; color:#333; text-align:left}
+.col_auc_desc .area_price_auc .price_auc strong{display:block; font:bold 30px Arial; color:red; background:#eaeaea; padding:8px; width:200px; }
+.col_auc_desc .area_price_auc .price_auc b{display:block; font:bold 18px Arial; color:#333;}
+.area_auction{display:block; overflow:hidden; background:#e9f6fb; padding:14px 0}
+.area_auction span{display:block; text-align:center; font:12px Arial; color:#333; font-style:italic}
+
+.btn-auction {border: 1px solid #bcbcbc;display:block; padding: 0; margin:10px auto 0; width:280px}
+.btn-auction a {background:#ff3c1f; border: 1px solid #fff; color: #fff; display: block; font: 24px Arial; outline: medium none; padding: 10px 72px; text-decoration: none; text-transform: none;}
+.btn-auction a:hover {background:#ec3318;}
+.icon_auc{width:30px; height:30px; background:url(../../images/auctions/bg-auction.png); background-position:0 -22px; float:left; margin-right:10px;}
+
+.col_auc_2{float:right; overflow:hidden; width:300px; background:#fff; border:1px solid #ccc; border-bottom:4px solid #ccc; border-top:0; }
+.col_auc_2 .bar_auc{display:block; overflow:hidden; padding:8px; background:#00a1e6; border-top:3px solid #fbdb36; color:white; font:bold 14px Arial;}
+.col_auc_2 .bar_auc_2{display:block; overflow:hidden; padding:8px; background:#00a1e6; border-top:3px solid #fbdb36; color:white; font:bold 18px Arial;}
+.col_auc_2 .bar_auc strong{font-size:20px;}
+.listplayer_auc{display:block; overflow:hidden;}
+.listplayer_auc ul{display:block; overflow:hidden; list-style:none}
+.listplayer_auc li{float:none; position:relative; padding:7px 12px; background:white}
+.listplayer_auc li:nth-child(2n-1){background:#e9f6fb; color: #404040;}
+.listplayer_auc li strong{font:bold 13px Arial; color:#333; display:block}
+.listplayer_auc li span{font:13px Arial; color:#333;display:block; margin-top:3px;}
+.viewall_auc{display:block; overflow:hidden; background:white; width:120px; margin:10px auto}
+.viewall_auc a{display:block; font:12px Arial; color:#00a1e6; text-decoration:underline; padding:8px 16px}
+.viewall_auc a:hover{color:#333}
+
+.list_auc_prod{display:block; overflow:hidden;}
+.list_auc_prod ul{display: block; overflow:hidden; list-style:none}
+.list_auc_prod li{float:left; position:relative; margin:12px; width:30%; height:325px; border:2px solid #fff}
+.list_auc_prod li:hover{border:2px solid #f20000; box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);}
+.list_auc_prod li img{max-height:150px; max-width:150px; display:block; margin:10px auto}
+.list_auc_prod li a{display:block; padding:5px; font:13px Arial; color:#333; text-decoration:none}
+
+.list_auc_prod li a {
+    color: #333333;
+    display: block;
+    font: 13px/20px Arial;
+    padding: 0 10px;
+    text-align: left;
+    text-decoration: none;
+}
+.list_auc_prod li a:hover {
+    color: #004B8F;
+}
+.list_auc_prod li a h4 {
+    color: #333333;
+    font: 13px/20px Arial;
+}
+.list_auc_prod li a h4:hover {
+    color: #004B8F;
+    font: 13px/20px Arial;
+}
+.list_auc_prod li:hover h4 {
+    color: #004B8F;
+}
+.position-a {
+    left: 0;
+    max-height: 40px;
+    overflow: hidden;
+    position: absolute;
+    top: 175px;
+}
+.layer_auc{position:absolute; left:0; top:0; width:60px; height:60px}
+.icon_auc_saled{width:60px; height:55px; background:url(../../images/auctions/bg-auction.png); background-position:-30px -22px; float:left}
+
+.auc_block_1{display:block; overflow:hidden; width:210px; height:87px; background:#e9f6fb; border:1px solid #6eb6d2; position:absolute; bottom:10px; left:25px}
+.auc_block_1 .row_block{display:block; font:12px Arial; color:#333; margin:5px;}
+.auc_block_1 .row_block span{float:left; margin-right:50px; margin-bottom:5px}
+.auc_block_1 .row_block strong{font-weight:bold}
+
+.auc_block_2{display: block;
+overflow: hidden;
+width: 190px;
+height: 50px;
+background: #f5f5f5;
+border: 1px solid #d8d8d8;
+position: absolute;
+bottom: 10px;
+left: 25px;
+padding: 10px;}
+.auc_block_2 .row_block_2{display:block; font:12px Arial; color:#333; margin:5px;}
+.auc_block_2 .row_block_2 span{float:left; margin-right:50px; margin-bottom:5px}
+.auc_block_2 .row_block_2 strong{font-weight:bold}
+
+
+.listpress_auc{display:block; overflow:hidden;}
+.listpress_auc ul{display:block; overflow:hidden; list-style:none}
+.listpress_auc li{float:none; position:relative; padding:8px 12px; background:white; border-bottom:1px dotted #ccc}
+.listpress_auc li:last-child{border-bottom:0}
+.listpress_auc li a{display:block; overflow:hidden; text-decoration:none; color:#333; font:13px Arial}
+.listpress_auc li a:hover{color:#004b8f}
+.listpress_auc li a strong:hover{font:bold 13px Arial; color:#333; display:block}
+.listpress_auc li span{font:11px Arial; color:#666;display:block; margin-top:3px;}
+
+.popup_auc_1{display:block; background:white; font:14px Arial; color:#333; margin:0px auto}
+
+.popup_auc_1 .titpop{background:#00a1e6; font:bold 14px Arial; text-transform:uppercase; color:white; padding:10px; position:relative; border-radius:4px 4px 0 0}
+.closepop_auc{position:absolute; top:5px; right:5px; width:25px; height:25px; background:url(../../images/auctions/bg-auction.png); background-position:-92px -25px;}
+.popup_auc_1 .cont_auc{display:block; margin:20px 20px 0px 20px; overflow:hidden}
+.popup_auc_1 .cont_auc span{display:block; padding:3px 0}
+.forminfo_auc{display:block; overflow:hidden;margin-top: 20px}
+.forminfo_auc .inpt{padding:6px 8px; line-height:20px  border:1px solid #ccc; width:280px; float:left; margin:5px}
+.forminfo_auc .inpt2{padding:6px 8px; line-height:20px; border:1px solid #ccc; width:180px; float:left; margin:5px}
+.forminfo_auc .inpt3{padding:6px 8px;  border:1px solid #ccc; width:500px; float:left; margin:5px 0}
+.forminfo_auc .alt{float:left; color:red; font-size:12px; margin:10px}
+.forminfo_auc .dgtext{font:bold 16px Arial; padding:8px 0; display:block; color:#333; text-transform:uppercase}
+.forminfo_auc .dgddd{margin:10px; float:left}
+.clik_auc{float:left; margin:10px}
+.clik_auc input[type='submit']{background:#00a1e6;display: block; padding:10px 16px; border:none;font:bold 14px Arial; color:white; text-transform:uppercase; text-decoration:none; border-radius:4px; box-shadow: -1px 2px 2px 1px rgba(0, 0, 0, 0.3)}
+.clik_auc input[type='submit']:hover{background:#0082cc}
+.forminfo_auc .tim{float:left;padding: 5px 8px 4px; margin: 5px 0 0 -5px; height:30px; background:#ff8400; color:white; text-transform:uppercase; font:14px Arial; border:1px solid #ff8400; border-radius:0 4px 4px 0 }
+.forminfo_auc .tim:hover{background:#ff9900 ;border:1px solid #ff9900}
+
+.listallplayer_auc{display:block; overflow:hidden;}
+.listallplayer_auc ul{display:block; overflow:hidden; list-style:none}
+.listallplayer_auc li{float:none; display:block; overflow:hidden; position:relative; padding:5px; background:white}
+.listallplayer_auc li:nth-child(2n-1){background:#eeeeee; color: #404040;}
+.listallplayer_auc li strong{font:bold 13px Arial; color:#333;float:left; padding-top:3px}
+.listallplayer_auc li span{font:13px Arial; color:#333;float:right; margin-top:3px;}
+
+@media only screen and (max-width: 1024px) {
+	.col_auc_1{width:745px}
+	.row_auc_top .title_auc{font-size:22px}
+	.col_auc_desc{width:365px}
+	.col_auc_2{width:220px}
+	.list_auc_prod li{width:220px}
+	.auc_block_1{left:4px}
+	.auc_block_2{left:4px}
+}
+.notify-bar{padding:10px;border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px;}
+.notify-bar-success{background:#eaffa5;color:#6c8c00;}
+.notify-bar-error{background:#ffcfce;color:#9e3737;}
+.notify-bar-warning{background:#ffeeb1;color:#e37b00;}
+.notify-bar-info{background:#d6e2ff;color:#577bd1;}
+.notify-bar-icon{float:left;width:35px;}
+.notify-bar-icon img{width:24px; height:24px;}
+.notify-bar-text{padding:0 20px 0 35px; font-size:14px;line-height:1.5;}
+.notify-bar-text-sep{border-top:1px solid #eee;margin:10px 0;}
+.notify-bar-button{float:right;width:15px;text-align:right;}
+.notify-bar-text p{
+    margin: 0;
+}
+.pagination {
+    margin-top: 10px;
+clear: both;
+text-align: right;
+font-size: 12px;
+line-height: 2.3;
+}
+.pagination a.current {
+background: #08c;
+color: #fff;
+}
+.pagination a {
+margin: 0 5px 0 0;
+padding: 5px 10px;
+color: #000;
+font-style: normal;
+border-radius: 2px;
+-webkit-border-radius: 2px;
+background: #f1f1f1;
+}
+
+.commentadd {
+color: #333;
+font: 12px/20px Arial;
+margin-top: 10px;
+overflow: hidden;
+width: 73.5%;
+}
+.writecom {
+overflow: hidden;
+background: #f4f4f4;
+margin-top: 10px;
+padding: 10px;
+width: auto;
+}
+.writecom img {
+float: left;
+padding-left: 0;
+width: 110px !important;
+height: auto;
+}
+.writepost {
+float: left;
+margin-bottom: 0;
+width: 97% !important;
+height: 100px;
+}
+.btn-blues {
+float: right;
+margin-top: 10px;
+padding: 4px 14px;
+color: #fff;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+background: #00a1e6;
+border-radius: 4px;
+text-decoration: none;
+font: 14px/18px Arial;
+}
+.postguide {
+color: #444;
+float: right;
+font: 12px Arial;
+width: 36%;
+padding: 8px;
+background: white;
+border-radius: 4px;
+border: 1px solid #ddd;
+}
+.sortnav .reselect{
+    display: none;
+}
+.writecom img{
+    margin-top: 0 !important;
+}
+.listcomment a img{
+    width: 60px !important;
+    margin-right: 25px !important;
+
+}
+.listcomment a{
+        font-size: 13px !important;
+        text-transform: capitalize;
+}
+.listcomment p{
+    font-size: 14px !important;
+    margin-top: 5px;
+}
+#container {
+    margin: -9px auto auto auto !important;
+}
+#container p{
+    font-size: 13px;
+    line-height: 20px;
+}
+.titlename{
+    font-size: 18px;
+}
+#comments {
+    margin-top: 25px;
+}

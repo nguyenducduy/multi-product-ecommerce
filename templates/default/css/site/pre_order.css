@@ -1,0 +1,160 @@
+
+.pre_center{float:left; overflow:hidden; background:#fff; margin:0 15px; width:550px}
+.des_pre{display:block; overflow:hidden; background:#6aaa16; margin:5px; box-shadow:0 2px 8px rgba(0,0,0,0.3);}
+
+.des_pre h1{font:29px Arial; color:white; margin:10px; padding:0 0 10px; display:block; text-transform:uppercase; border-bottom:1px solid #97c45c}
+.des_pre h1 strong{font-weight:bold}
+.area_pre{display:block; color:white; font:14px Arial; margin:0 10px; overflow:hidden}
+.pre_price{float:left; width:50%;}
+.pre_price strong{font-weight:bold; float:left; margin:14px 0 0}
+.pre_price .pricepre{float:left; margin-left:10px; background:#6aaa16; border:1px dashed #97c45c; border-radius:4px 4px 4px 4px; padding:1px}
+.pre_price .pricepre span{background:white; color:red; font:bold 30px Arial; padding:3px 12px; border-radius:4px 4px 4px 4px; display:block}
+.pre_price .pricepre span sub{vertical-align:text-bottom; font-size:20px; font-weight:bold}
+
+.pre-statistic{float:right; width:50%}
+.pre-statistic span{display:block; padding:2px 0}
+.pre-statistic .fbcm{display:block; padding:6px 0}
+.pre-statistic .cellsmall{float:left; font-weight:bold; overflow:hidden}
+.pre-statistic .cellcomm{float:right; font-weight:bold !important; cursor:pointer}
+.pre-statistic .cellcomm a{display:block; text-decoration:none; color:white;font-size: 14px !important;font-weight: bold;text-decoration: none;}
+.pre-statistic .cellcomm a:hover{text-decoration:underline}
+
+.bar_pre_center{display:block; margin:10px 10px 0; overflow:hidden; background:#f0f0f0; border-top:3px solid #fc3449; border-radius:6px 6px 0 0; padding:10px}
+.bar_pre_center .titinfo{float:left; width:50%; text-transform:uppercase; color:#333; font:bold 15px Arial;}
+
+.icongiftpre{background: url(../../images/site/bg_pre_order.png) no-repeat; background-position:0 0; width:20px; height:20px; float:left; margin:-2px 3px 0 0;}
+.iconlistpre{background: url(../../images/site/bg_pre_order.png) no-repeat; background-position:-20px 0; width:20px; height:20px; float:left; margin-right:5px}
+.iconcheckpre{background: url(../../images/site/bg_pre_order.png) no-repeat; background-position:-40px 0; width:20px; height:20px; float:left; margin-right:5px}
+
+.giftpromo_pre{display:block; overflow:hidden; background:white; padding:10px}
+.infogift_pre{float:left; width:47%; overflow:hidden; margin-right:10px; line-height:22px; font-size:13px}
+.infogift_pre span{font-weight:bold; display:block; padding:5px 0; font-size:14px; color:#333}
+
+.infodesc_pre{float:left; width:50%; overflow:hidden;border-left:1px solid #999; font-size:13px; }
+.infodesc_pre ul { overflow:hidden; display: block;}
+.infodesc_pre li {
+    float: none;
+    list-style: square inside none;
+    margin-left: 8px;
+    overflow: hidden;
+    padding: 3px 0;
+}
+.infodesc_pre li a {
+    color: #00A1E6;
+    display: block;
+    font: 13px Arial;
+    /*margin-left: 70px;*/
+    float: right;
+    outline: medium none;
+    text-decoration: none;
+}
+.infodesc_pre li a:hover {
+    color: #333333;
+}
+.infodesc_pre li:last-child {
+    list-style: none outside none;
+}
+.area_time_pre{display:block; margin-top:15px; border-top:1px solid #e0e0e0; border-bottom:1px solid #e0e0e0; background:#f8f8f8; padding:10px}
+.area_time_pre .date_pre{display:block; padding:0 0 6px 0; color:#333; font:14px Arial; overflow:hidden}
+.area_time_pre .date_pre strong{font-weight:bold; color:red; font-size:18px}
+.pre_countdown{float:left; width:48%; overflow:hidden}
+.pre_countdown span{float:left; margin-top:16px;}
+.pre_countdown .timedown{float:left; margin:-10px 0 0}
+.btn-pre {
+    border: 1px solid #BCBCBC;
+	float:right;
+    padding: 0;
+}
+.btn-pre a {
+    background: none repeat scroll 0 0 #FF3C1F;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    display: block;
+    font:bold 22px Arial;
+    outline: medium none;
+    padding: 10px 8px 5px 10px;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+.btn-pre a:hover {
+    background: none repeat scroll 0 0 #EC3318;
+}
+
+.des_right{float:left; width:220px; overflow:hidden}
+.bar_list_pre {
+    background:#00A1E6;
+    border-top: 3px solid #FBDB36;
+    color: #FFFFFF;
+    display: block;
+    font: 13px Arial;
+    overflow: hidden;
+    padding: 8px;
+}
+.list_pre {border:1px solid #ccc; border-top:0; border-bottom:3px solid #ccc;
+    display: block;
+    overflow: hidden;
+}
+.list_pre ul {margin-top:4px; display: block; list-style: none outside none; overflow: hidden;}
+.list_pre li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: none;
+    padding: 4px 12px;
+    position: relative;
+}
+.list_pre li:nth-child(2n-1) {
+    background: none repeat scroll 0 0 #E9F6FB;
+    color: #404040;
+}
+.list_pre li strong {
+    color: #333333;
+    display: block;
+    font: bold 13px Arial;
+}
+.list_pre li span {
+    color: #999;
+    display: block;
+    font: 13px Arial;
+    margin-top: 3px;
+}
+.viewall_pre {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: block;
+    margin: 8px auto;
+    overflow: hidden;
+    width: 120px;
+}
+.viewall_pre a {
+    color: #00A1E6;
+    display: block;
+    font: 12px Arial;
+    padding: 8px 16px;
+    text-decoration: underline;
+}
+.viewall_pre a:hover {
+    color: #333333;
+}
+.policy_pre{display:block; overflow:hidden; border:1px dashed #00a1e6; border-radius:8px 8px 8px 8px; padding:1px; margin-top:14px}
+.policy_pre ul{display:block; overflow:hidden; background:#00a1e6; padding:8px; border-radius:8px 8px 8px 8px;}
+.policy_pre li{float:none; padding:6px 0; font:bold 14px Arial; color:white; text-transform:uppercase}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+	.pre_center{width:590px}
+	.des_right{width:100%; margin-top:15px}
+	.list_pre{float:left; width:75%}
+	.list_pre li{float:left; width:31.3%; padding:1%; border-bottom:1px solid #ccc}
+	.policy_pre{float:right; width:220px; margin-top:0;}
+	.viewall_pre{float:right}
+}
+
+@media only screen and (max-width: 1024px) {
+	.pre_center{width:590px}
+	.des_right{width:100%; margin-top:15px}
+	.list_pre{float:left; width:75%}
+	.list_pre li{float:left; width:31.3%; padding:1%; border-bottom:1px solid #ccc}
+	.policy_pre{float:right; width:220px; margin-top:0;}
+	.viewall_pre{float:right}
+}
+.timedown{float:none;}
+.timedown span{float:left; width:20px;text-align:center; border-radius:2px 2px 2px 2px; background:#ff9c00; color:white; padding:4px 8px; font:bold 20px Arial;}
+.timedown strong{float:left;color:#ff9c00; padding:0px 5px; font:bold 13px Arial; margin-top:20px;}
+.timedown b{display: block;width: 38px;margin-top: 36px;text-align: center;padding-top: 16px;}

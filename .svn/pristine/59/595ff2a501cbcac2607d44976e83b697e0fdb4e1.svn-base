@@ -1,0 +1,14 @@
+[plugobrowser]
+upload_dir = "../../../../uploads/pimages"
+img_wrap_before = 
+img_wrap_after = 
+img_rel = "shadowbox"
+dimensions = "150x150|Thumb~~250x250|Small Image~~800x600|Lightbox Image"
+default_image_action = "2"
+forbidden_extensions = "php,exe,php5,php4,htaccess,bat"
+link_props_pattern = "[FILE_PROPERTIES]"
+forbidden_extensions_permanent = "php,php3,php4,php5,htaccess,exe,bat"
+date_format = "j.n.Y"
+datetime_format = "j.n.Y, H:i:s"
+timezone = "Bangkok, Hanoi, Jakarta|Asia/Krasnoyarsk"
+upload_dir_abs = "/Library/WebServer/Documents/www/dienmay/uploads/pimages/"

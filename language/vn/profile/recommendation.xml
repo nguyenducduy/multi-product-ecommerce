@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="titleMutualbook" descr=""><![CDATA[Thành viên có chung sách]]></lines>
+	<lines name="titleMutualfriend" descr=""><![CDATA[Thành viên có chung bạn]]></lines>
+	<lines name="titleSamebook" descr=""><![CDATA[Các sách chung]]></lines>
+	<lines name="titleSamefriend" descr=""><![CDATA[Danh sách bạn bè chung]]></lines>
+	<lines name="empty" descr=""><![CDATA[Chưa có thành viên nào.]]></lines>
+	<lines name="mutualbookTitle" descr=""><![CDATA[Có sách chung]]></lines>
+	<lines name="mutualfriendTitle" descr=""><![CDATA[Có bạn bè chung]]></lines>
+	<lines name="sameHavePrefix" descr=""><![CDATA[có]]></lines>
+	<lines name="samebookLabel" descr=""><![CDATA[sách chung.]]></lines>
+	<lines name="samefriendLabel" descr=""><![CDATA[bạn chung.]]></lines>
+	<lines name="hideBtn" descr=""><![CDATA[Ẩn]]></lines>
+	<lines name="hideBtnTitle" descr=""><![CDATA[Không hiển thị thành viên này trong danh sách đề xuất kết bạn.]]></lines>
+	<lines name="requestBtn" descr=""><![CDATA[Kết bạn]]></lines>
+	<lines name="requestBtnTitle" descr=""><![CDATA[Gởi yêu cầu kết bạn đến thành viên này.]]></lines>
+	<lines name="succHide" descr=""><![CDATA[Thông tin của bạn đã được lưu]]></lines>
+	<lines name="errHide" descr=""><![CDATA[Có lỗi khi lưu thông tin của bạn]]></lines>
+	<lines name="mutualbookdetail" descr=""><![CDATA[Sách chung với ]]></lines>
+	<lines name="mutualfrienddetail" descr=""><![CDATA[Bạn bè chung với ]]></lines>
+	
+	<lines name="pageTitleMutualbook" descr=""><![CDATA[ - Thành viên có sách chung]]></lines>
+	<lines name="pageKeywordMutualbook" descr=""><![CDATA[thành viên có sách chung, sach chung, mutual book]]></lines>
+	<lines name="pageDescriptionMutualbook" descr=""><![CDATA[ danh sách thành viên có sách chung.]]></lines>
+	
+	<lines name="pageTitleMutualfriend" descr=""><![CDATA[ - Thành viên có bạn bè chung]]></lines>
+	<lines name="pageKeywordMutualfriend" descr=""><![CDATA[thành viên có bạn bè chung, ban chung, mutual friend]]></lines>
+	<lines name="pageDescriptionMutualfriend" descr=""><![CDATA[ danh sách thành viên có bạn bè chung.]]></lines>
+</data>

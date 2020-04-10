@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="empty" descr=""><![CDATA[Chưa có bình luận nào]]></lines>
+	<lines name="notfound" descr=""><![CDATA[Không tìm thấy bình luận]]></lines>
+	<lines name="blognotfound" descr=""><![CDATA[Không tìm thấy blog]]></lines>
+	<lines name="remove" descr=""><![CDATA[Xoá]]></lines>
+	<lines name="abuse" descr=""><![CDATA[Báo nội dung xấu]]></lines>
+	<lines name="abuseTitle" descr=""><![CDATA[Thông báo cho ban quản trị vì bình luận có nội dung không tốt]]></lines>
+	<lines name="reply" descr=""><![CDATA[Trả lời]]></lines>
+	
+	
+	<lines name="errMessageTooShort" descr=""><![CDATA[Nội dung lời bình quá ngắn. (Tối thiểu ###VALUE### ký tự)]]></lines>
+	<lines name="errMessageTooLong" descr=""><![CDATA[Nội dung lời bình quá dài. (Tối đa ###VALUE### ký tự)]]></lines>
+	<lines name="errDuplicate" descr=""><![CDATA[Thông tin bạn gởi bị trùng nội dung]]></lines>
+	<lines name="errSpam" descr=""><![CDATA[Thông tin bạn gởi quá nhanh. Hãy chờ trong giây lát.]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Lời bình của bạn đã được thêm.]]></lines>
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi khi thêm lời bình của bạn.]]></lines>
+	<lines name="succRemove" descr=""><![CDATA[Đã xoá lời bình của bạn.]]></lines>
+	<lines name="errRemove" descr=""><![CDATA[Có lỗi khi xoá lời bình của bạn.]]></lines>
+	
+		
+</data>

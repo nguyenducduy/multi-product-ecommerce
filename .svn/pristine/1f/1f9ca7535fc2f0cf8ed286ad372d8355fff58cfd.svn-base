@@ -1,0 +1,73 @@
+@media screen and (min-width:1240px) {
+#contouter, #cwrp, #de, #dmain, #hdr, .dw 
+{
+width: 1230px;
+}
+#results, #contentResults, .cw
+{
+width: 1041px;
+padding: 0px;
+}
+#midRail,#rpane , #Headserp, .con, .Spellhdr
+{
+width: 717px;
+}
+
+#contnr,#wraplogoform
+{
+width: 1230px;
+}
+#leftqn ,#rightqn {
+width: 37%;
+}
+#rightqn {
+float:left;
+}
+.qn
+{
+width:355px;
+}
+#rightRail
+{
+margin-left: 12px;
+padding-left:0px;
+}
+#nfotr {
+width: 100%;
+}
+#nfotr .brftr
+{
+width: auto;
+}
+.ptn {
+padding-right: 20px;
+}
+#sftr {
+width: 1245px;
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/wide_footer.png") no-repeat scroll -6px -1px transparent;
+left: -623px;
+}
+.nbox .hd
+{
+color: #333;
+font-family: arial;
+font-size: 14px;
+font-weight: bold;
+}
+._vtad_flt
+{
+position: relative;
+right: 195px;
+}
+._vtad_related{
+width:300px;
+}
+#top{
+	width:470px;
+  border-bottom: 1px solid #E4E4E4;
+    border-top: 1px solid #E4E4E4;
+}
+.pb7, .pb2 {
+   border-top: medium none !important;
+}
+}

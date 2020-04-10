@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[ScrumTeamMember]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[ScrumTeamMember Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[ScrumTeamMember &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add Member]]></lines>
+    <lines name="head_addteam" descr=""><![CDATA[List Team]]></lines>
+    <lines name="head_additeration" descr=""><![CDATA[List Iteration]]></lines>
+    <lines name="head_addstory" descr=""><![CDATA[List Story]]></lines>
+    <lines name="head_addstorycate" descr=""><![CDATA[List StoryCategory]]></lines>
+    <lines name="head_addproject" descr=""><![CDATA[List Project]]></lines>
+    <lines name="head_additeration" descr=""><![CDATA[List Iteration]]></lines>
+    <lines name="head_addstory" descr=""><![CDATA[List Story]]></lines>
+    <lines name="head_addstorycategory" descr=""><![CDATA[List StoryCategory]]></lines>
+    <lines name="head_addstoryasignee" descr=""><![CDATA[List StoryAsignee]]></lines>
+	<lines name="title_add" descr=""><![CDATA[ScrumTeamMember Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[ScrumTeamMember &raquo; Add]]></lines>
+    <lines name="head_addmeeting" descr=""><![CDATA[List Meeting]]></lines>
+	<lines name="head_edit" descr=""><![CDATA[Update ScrumTeamMember]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[ScrumTeamMember Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[ScrumTeamMember &raquo; Update]]></lines>
+
+	
+	<lines name="labelSpid" descr=""><![CDATA[Project ID]]></lines>
+	<lines name="labelStid" descr=""><![CDATA[Team ID]]></lines>
+	<lines name="labelUid" descr=""><![CDATA[Member]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelRole" descr=""><![CDATA[Role]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Datecreated]]></lines>
+	<lines name="labelchooseprojectfirst" descr=""><![CDATA[Vui lòng chọn project trước sau đó chọn team]]></lines>
+	
+	
+	<lines name="errSpidMustGreaterThanZero" descr=""><![CDATA[Project ID must be greater than zero.]]></lines>
+	<lines name="errStidMustGreaterThanZero" descr=""><![CDATA[Team ID must be greater than zero.]]></lines>
+	<lines name="errUidMustGreaterThanZero" descr=""><![CDATA[Member ID must be greater than zero.]]></lines>
+	<lines name="errRoleidMustGreaterThanZero" descr=""><![CDATA[Role ID must be greater than zero.]]></lines>
+	<lines name="errExistUid" descr=""><![CDATA[user đã cấp quyền trong project]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add ScrumTeamMember]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[ScrumTeamMember had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating ScrumTeamMember]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[ScrumTeamMember had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[ScrumTeamMember not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting ScrumTeamMember with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[ScrumTeamMember with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

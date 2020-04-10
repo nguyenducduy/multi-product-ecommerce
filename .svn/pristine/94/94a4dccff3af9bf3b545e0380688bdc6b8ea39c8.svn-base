@@ -1,0 +1,186 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Siêu thị điện máy dienmay.com</title>
+<meta name="keywords" content="mua dien thoai, mua laptop, tivi gia re, may lanh gia re, dien thoai gia re, laptop gia re" />
+<meta name="description" content="Siêu thị điện máy dienmay.com - Hệ thống siêu thị điện máy chuyên cung cấp các sản phẩm điện thoại, laptop, điện tử, gia dụng, điện máy chính hãng giá rẻ" />
+<meta name="robots" content="noindex, nofollow"/>
+<link type="text/css" rel="stylesheet" href="http://s.tgdt.vn/templates/default/dienmay.css?ver=212-02112012" media="screen" />
+ <!-- <link type="text/css" rel="stylesheet" href="http://s.tgdt.vn/templates/default/min/?g=css&ver=212-02112012" media="screen" />--> 
+
+<script  type="text/javascript" src="http://s.tgdt.vn/templates/default/js/jquery.js"></script>
+
+<script type="text/javascript">
+		var rooturl = "http://dienmay.com/";
+		var rooturl_profile = "http://dienmay.com/profile/";
+		var pathImage360 = "";
+		var numImage360 = "";
+		var imageDir = "http://s.tgdt.vn/templates/default/images/";
+</script>
+</head>
+
+<body>
+<div id="header">
+<div class="rowheader">
+    	<ul>
+        	<li><a href="#">Hỏi đáp - hỗ trợ khách hàng</a> |</li>
+            <li><a href="http://dienmay.com/account/checksaleorder">Kiểm tra đơn hàng</a> |</li>
+            <li><a href="#">Tài khoản cá nhân</a> |</li>
+            <li><a href="http://dienmay.com/thanh-vien/dang-ky">Đăng ký</a> |</li>
+            <li><a href="http://dienmay.com/login">Đăng nhập</a></li>
+        </ul>
+    </div>
+	<h1 class="logo"><a href="http://dienmay.com/" title="Siêu thị điện máy dienmay.com"><img src="http://s.tgdt.vn/templates/default/images/site/logo-dien-may.png" width="200" height="63" alt="Siêu thị điện máy dienmay.com - Mua bán điện thoại, laptop, tivi, điện lạnh, điện tử, đồ gia dụng, điện máy chính hãng giá rẻ" /></a></h1>
+	<div class="headsearch">
+	  <div class="topinput">
+	        <form action="http://dienmay.com/search" method="get" id="searchtopform">
+	        	<!-- <input type="hidden" name="c" value="0" /> -->
+	        	<input class="textfieldtop" name="q" id="fsitebooksearchtext" type="text" value="" placeholder="Nhập từ khóa cần tìm" onkeypress="doSitebooksearchtextpress(event)" />
+	        	<input class="btnsearch go" type="submit" value="Tìm kiếm" />
+	        </form>
+	    </div>
+	    <div class="keysearch"><span>Tìm nhiều nhất:</span> 
+	    			         <a href="http://dienmay.com/tivi/led-samsung-ua32f4000">Tivi samsung 32F4000</a>, <a href="http://dienmay.com/dien-thoai-di-dong/nokia-lumia-920">Lumia 920</a>, <a href="http://dienmay.com/dien-thoai-di-dong/samsung-galaxy-s4-i9500">Galaxy s4</a>, <a href="http://dienmay.com/dien-thoai-di-dong/mobell-paladin">Mobell Paladin</a>, <a href="http://dienmay.com/dien-thoai-di-dong/gionee-e3">Gionee E3</a>, <a href="http://dienmay.com/dien-thoai-di-dong/samsung-galaxy-note-2-n7100">Galaxy Note 2</a>...
+		    	    </div>
+	</div>
+  <div class="headerright">
+  	<div class="headnewnav">
+    	
+    </div>
+    <!-- hotline -->
+    <div class="hotlinehead"><strong>Hotline:</strong> <span>1900 1883</span></div>
+    <div style="clear:both"></div>
+  </div>
+</div>
+
+<div id="container" >
+    <div class="listproduct" style="padding:30px 0px 50px 0px;">
+	    
+
+<div class="notify-bar notify-bar-warning">
+	<div class="notify-bar-icon"><img src="http://s.tgdt.vn/templates/default/images/notify/warning.png" alt="warning" /></div>
+	<div class="notify-bar-button"><a href="javascript:void(0);" onclick="javascript:$(this).parent().parent().fadeOut();" title="close"><img src="http://s.tgdt.vn/templates/default/images/notify/close-btn.png" border="0" alt="close" /></a></div>
+	<div class="notify-bar-text">
+					<p>Có lỗi khi truy cập trang web. <a href="javascript:void(0)" onclick="document.location.reload();">Thử lại.</a></p>
+			</div>
+</div>
+
+
+        
+        <div class="notfound_requesturl"> <span></span></div>
+	    
+	    <div style="padding:20px; line-height:2;">
+        <h2 style="padding-bottom:0; margin-bottom:0;"><em>Tại sao có lỗi khi truy cập ?</em></h2>
+        <p>&raquo; Hiện có quá nhiều thành viên truy cập.</p>
+        <p>&raquo; Đường truyền Internet của bạn không ổn định.</p>
+        <p>&raquo; Hãy nhấn nút <a href="javascript:void(0)" onclick="document.location.reload();">THỬ LẠI</a> để tải lại trang này.</p>
+                </div>
+    </div>
+</div>
+	
+<div id="back-top" style="display: block;"><a href="#top"><span></span><strong>Lên đầu trang</strong></a></div>
+
+
+<div class="hide" style="display:none;">
+	<span id="internaltopbar_editurl"></span>
+	<span id="internaltopbar_refreshurl"></span>
+	<span id="internaltopbar_reporturl"></span>
+	<span id="internaltopbar_reporttype">notfound</span>
+	<span id="internaltopbar_objectid">0</span>
+</div>
+
+    <script type="text/javascript" src="http://s.tgdt.vn/templates/default/dienmay.js?ver=178-02112012"></script>
+    <!-- <script  type="text/javascript" src="http://s.tgdt.vn/templates/default/min/?g=jquerymin&ver=178-02112012"></script> -->
+
+    <script type="text/javascript">
+
+    var rooturl_indexajax = "http://dienmay.com/index/indexajax";
+    var currentTemplate = "http://s.tgdt.vn/templates/default/";
+    
+	function addsub()
+	{
+		$("#btndk").html('Đang Lưu');
+		var email = $('#appendedInputButton').val();
+		if(email!='')
+		{
+			$.ajax({
+				type : "POST",
+				data : {action:"addsub",femail:email},
+				url : rooturl_indexajax,
+				dataType: "html",
+				success: function(data){
+					if(data=='ok')
+						$("#btndk").html('Thành công');
+					if(data=='ext')
+					{
+						$("#btndk").html('Đã đăng kí');
+						$('#appendedInputButton').attr('style','border-color: red');
+						setTimeout(function(){
+							$("#btndk").html('Đăng kí');
+						}, 5000);
+					}
+					if(data=='err')
+					{
+						$("#btndk").html('Email sai');
+						$('#appendedInputButton').attr('style','border-color: red');
+						setTimeout(function(){
+							$("#btndk").html('Đăng kí');
+						}, 5000);
+					}
+				}
+			});
+		}
+		else
+		{
+			$("#btndk").html('Đăng kí');
+			$('#appendedInputButton').attr('style','border-color: red');
+		}
+	}
+	$('#appendedInputButton').click(function(){
+		$('#appendedInputButton').attr('style','');
+	});
+	
+    </script>
+    
+
+
+    
+
+<script type="text/javascript">
+  
+  var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-38936689-1']);
+	_gaq.push(['_setDomainName', 'dienmay.com']);
+	_gaq.push(['_trackPageview']);
+
+
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+
+
+        <!-- Google Code for Remarketing tag -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1003365737;
+var google_conversion_label = "HfFXCN_e6wQQ6cq43gM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1003365737/?value=0&amp;label=HfFXCN_e6wQQ6cq43gM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript></body>
+</html>

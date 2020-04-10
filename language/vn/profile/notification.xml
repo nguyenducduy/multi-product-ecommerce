@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	
+	<lines name="title" descr=""><![CDATA[Các thông báo của bạn]]></lines>
+	<lines name="titleMobile" descr=""><![CDATA[Thông báo mới]]></lines>
+	<lines name="empty" descr=""><![CDATA[Chưa có thông báo nào]]></lines>
+	<lines name="dategroupToday" descr=""><![CDATA[Hôm nay]]></lines>
+	<lines name="dategroupYesterday" descr=""><![CDATA[Hôm qua]]></lines>
+	
+	<lines name="notificationUserTitle" descr=""><![CDATA[Tới trang nhà của ]]></lines>
+	<lines name="notificationFeedDetailTitle" descr=""><![CDATA[Click để xem chi tiết]]></lines>
+	<lines name="notificationCommentText" descr=""><![CDATA[gởi bình luận về]]></lines>
+	<lines name="notificationCommentLinkText" descr=""><![CDATA[hoạt động của bạn.]]></lines>
+	<lines name="notificationCommentLinkTextSummary" descr=""><![CDATA[hoạt động ]]></lines>
+	<lines name="notificationCommentLinkTextSummarySuffix" descr=""><![CDATA[ của bạn.]]></lines>
+	<lines name="notificationFollowText" descr=""><![CDATA[cũng gởi bình luận về]]></lines>
+	<lines name="notificationFollowLinkText" descr=""><![CDATA[hoạt động mà bạn có bình luận.]]></lines>
+	<lines name="notificationFollowLinkTextSummary" descr=""><![CDATA[hoạt động ]]></lines>
+	<lines name="notificationFollowLinkTextSummarySuffix" descr=""><![CDATA[ mà bạn có bình luận.]]></lines>
+	<lines name="notificationStatusAddText" descr=""><![CDATA[viết lên]]></lines>
+	<lines name="notificationStatusAddLinkText" descr=""><![CDATA[trang nhà của bạn.]]></lines>
+	<lines name="notificationFriendAcceptLinkText" descr=""><![CDATA[đã Follow bạn.]]></lines>
+	
+	<lines name="notificationBlogDetailTitle" descr=""><![CDATA[Nhấn vào để xem nội dung bài viết]]></lines>
+	<lines name="notificationBlogCommentAction" descr=""><![CDATA[gởi]]></lines>
+	<lines name="notificationBlogCommentNoun" descr=""><![CDATA[bình luận]]></lines>
+	<lines name="notificationBlogCommentText" descr=""><![CDATA[vào blog]]></lines>
+	
+	<lines name="notificationFeedlikeText" descr=""><![CDATA[đã thích]]></lines>
+	<lines name="notificationFeedlikeLinkText" descr=""><![CDATA[hoạt động của bạn]]></lines>
+	<lines name="notificationFeedlikeLinkTextSummary" descr=""><![CDATA[hoạt động ]]></lines>
+	<lines name="notificationFeedlikeLinkTextSummarySuffix" descr=""><![CDATA[ của bạn.]]></lines>
+	
+	<lines name="notificationFeedLikeFollowText" descr=""><![CDATA[cũng thích]]></lines>
+	<lines name="notificationFeedLikeFollowLinkText" descr=""><![CDATA[hoạt động mà bạn đã thích]]></lines>
+	<lines name="notificationFeedLikeFollowLinkTextSummary" descr=""><![CDATA[hoạt động ]]></lines>
+	<lines name="notificationFeedLikeFollowLinkTextSummarySuffix" descr=""><![CDATA[ mà bạn đã thích.]]></lines>
+	
+	<lines name="notificationFeedLikeCommentFollowText" descr=""><![CDATA[đã thích]]></lines>
+	<lines name="notificationFeedLikeCommentFollowLinkText" descr=""><![CDATA[hoạt động mà bạn có bình luận.]]></lines>
+	<lines name="notificationFeedLikeCommentFollowLinkTextSummary" descr=""><![CDATA[hoạt động ]]></lines>
+	<lines name="notificationFeedLikeCommentFollowLinkTextSummarySuffix" descr=""><![CDATA[ mà bạn có bình luận.]]></lines>
+	
+	<lines name="notificationFeedCommentLikeFollowText" descr=""><![CDATA[bình luận về]]></lines>
+	<lines name="notificationFeedCommentLikeFollowLinkText" descr=""><![CDATA[hoạt động mà bạn đã thích.]]></lines>
+	<lines name="notificationFeedCommentLikeFollowLinkTextSummary" descr=""><![CDATA[hoạt động ]]></lines>
+	<lines name="notificationFeedCommentLikeFollowLinkTextSummarySuffix" descr=""><![CDATA[ mà bạn đã thích.]]></lines>
+	
+	<lines name="notificationBlogCommentFollowAction" descr=""><![CDATA[gởi bình luận mới cho blog]]></lines>
+	
+	<lines name="notificationMentionStatus" descr=""><![CDATA[đã nhắc đến bạn trong trạng thái của mình.]]></lines>
+	<lines name="notificationMentionStatusLink" descr=""><![CDATA[đã nhắc đến bạn trong một liên kết của mình.]]></lines>
+	<lines name="notificationMentionFeedComment" descr=""><![CDATA[đã nhắc đến bạn trong một trả lời của mình.]]></lines>
+	
+	<lines name="pageTitle" descr=""><![CDATA[ - Thông báo]]></lines>
+	<lines name="pageKeyword" descr=""><![CDATA[thong bao, notification, thông báo]]></lines>
+	<lines name="pageDescription" descr=""><![CDATA[ Các thông báo của thành viên.]]></lines>
+		
+
+</data>

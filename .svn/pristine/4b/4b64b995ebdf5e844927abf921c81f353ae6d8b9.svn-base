@@ -1,0 +1,97 @@
+#msgwrapper{margin:0px;}
+
+#msgtopbutton{padding-top:10px;border-bottom:1px solid #eee;  height:30px;}
+#msgnewbutton{float:right; text-decoration:none; color:#fff;}
+#msgmanager{text-decoration:none; float:right; padding:5px 10px 0 0;}
+#msgbackall{float:left; padding-top:5px; text-decoration:none;}
+#msgcreateform{padding:10px 0;border-bottom:1px solid #eee;  }
+#msgcreateform .myformwide{margin:0;}
+#msgempty{text-align:center; padding:40px; font-size:16px;  line-height:1.7;}
+#msglist{width:100%; border-collapse:collapse;}
+#msglist tr{border-bottom:1px solid #eee; cursor:pointer;}
+#msglist tr:hover{background:#f0f0f0;}
+#msglist td{padding:10px 0;}
+#msglist .msgavatar{width:60px}
+#msglist .msgavatar img{width:50px; height:50px;}
+#msglist .msgsummary{width:500px;}
+#msglist .msgmore{width: 100px; color:#aaa; text-align:right;}
+#msglist .msgactor{color:#06f;padding-bottom:5px; font-size:14px;}
+#msglist .msgsumtext{font-size:12px; color:#555;}
+#msglist .msgunread{color:#000;}
+#msglist .msgicon{width:60px; text-align:center;}
+
+#msgcontactautocomplete{float:left; display:block; width:420px; padding:0 0 10px 10px;}
+
+#msgdetail{}
+.msgitem{clear:both;padding:10px 0; border-bottom:1px solid #ddd; min-height:50px;}
+.msgdelete{float:left;width:40px; padding:20px 0 0 10px; text-align:left; display:none;}
+.msgavatar{width:60px; float:left;}
+.msgavatar img{border-width:0; width:50px;}
+.msgtext{margin-left:60px; margin-right:100px;}
+.msgfullname{padding-bottom:5px;}
+.msgfullname a{font-weight:bold; font-size:14px; text-decoration:none;}
+.msgfullname a:hover{text-decoration:underline;}
+.msgtext p{font-size:12px; line-height:1.6;}
+.msgtime{float:right; width:90px; color:#555;}
+
+#msgreplyform{padding:10px 0; background:#eee; border-top:1px solid #ccc; margin-bottom:20px;}
+#msgreplyform label{display:block; float:left; width: 40px; padding:0 10px; font-size:11px;}
+#msgreplyform textarea{float:left; height:24px; width:400px;}
+#msgreplyform input{margin-left:10px; padding:0px 20px; height:28px; cursor:pointer; background:#09F; font-weight:bold; color:#fff; border:1px solid #888}
+#msgreplyform input:hover{background:#F90}
+
+#msgdeleteform{display:none;padding:10px 0; background:#FFCEC6; border-top:1px solid #FF9D9D; margin-bottom:20px;}
+#msgdeleteform input{padding:5px 15px; margin-left:10px; font-weight:bold; border:1px solid #930; background:#E10000; color:#fff; cursor:pointer;}
+#msgdeleteform input.deleteall{ border:1px solid #000; background:#AD1605;}
+#msgdeleteform input:hover{background:#F90}
+
+/*form send*/
+#messagesendsuccess{margin: 150px 10px; font-size:14px; text-align:center;}
+#messagesenderror{}
+#messagesenderror_content{border:1px solid #FAA; background:#FFE4DD; padding:10px; margin-bottom:20px; }
+#messagesenderror_content h2{padding:0 0 10px 0; margin:0; border-bottom:1px solid #ccc;}
+#messagesenderror_content ul{}
+#messagesenderror_content ul li{padding:5px 0;}
+
+
+/* FCBKCOMPLETE START */
+
+/* TextboxList sample CSS */
+ul.holder { background:#fff; margin: 0; border: 1px solid #AACFE4; overflow: hidden; height: auto !important; height: 1%; padding: 4px 5px 0; }
+*:first-child+html ul.holder { padding-bottom: 2px; } * html ul.holder { padding-bottom: 2px; } /* ie7 and below */
+ul.holder li { float: left; list-style-type: none; margin: 0 5px 4px 0; white-space:nowrap;}
+ul.holder li.bit-box, ul.holder li.bit-input input { font: 11px "Lucida Grande", "Verdana"; }
+ul.holder li.bit-box { -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; border: 1px solid #CAD8F3; background: #DEE7F8; padding: 1px 5px 2px; }
+ul.holder li.bit-box-focus { border-color: #598BEC; background: #598BEC; color: #fff; }
+ul.holder li.bit-input input { width: auto; overflow:visible; margin: 0; border: 0px; outline: 0; padding: 3px 0px 2px; } /* no left/right padding here please */
+ul.holder li.bit-input input.smallinput { width: 20px; }
+
+/* Facebook demo CSS */      
+ul.holder { width: 400px; }
+ul.holder { margin: 0 !important }
+ul.holder li.bit-box, #apple-list ul.holder li.bit-box { padding-right: 15px; position: relative; z-index:1000;}
+#apple-list ul.holder li.bit-input { margin: 0; }
+#apple-list ul.holder li.bit-input input.smallinput { width: 5px; }
+ul.holder li.bit-hover { background: #BBCEF1; border: 1px solid #6D95E0; }
+ul.holder li.bit-box-focus { border-color: #598BEC; background: #598BEC; color: #fff; }
+ul.holder li.bit-box a.closebutton { position: absolute; right: 4px; top: 5px; display: block; width: 7px; height: 7px; font-size: 1px; background: url('../../images/fcbkcompleteclose.gif'); }
+ul.holder li.bit-box a.closebutton:hover { background-position: 7px; }
+ul.holder li.bit-box-focus a.closebutton, ul.holder li.bit-box-focus a.closebutton:hover { background-position: bottom; }
+
+/* Autocompleter */
+
+.facebook-auto { display: none; position: absolute; width: 412px; background: #eee; z-index:1001; 
+-moz-box-shadow: 0px 1px 4px #aaa;-webkit-box-shadow: 0px 1px 4px #aaa;box-shadow: 0px 1px 4px #aaa; }
+.facebook-auto .default { padding: 5px 7px; border: 1px solid #ccc; border-width: 0 1px 1px;font-family:"Lucida Grande","Verdana"; font-size:11px; }
+.facebook-auto ul { display: none; margin: 0; padding: 0; overflow: auto; position:absolute; z-index:9999;
+-moz-box-shadow: 0px 1px 4px #aaa;-webkit-box-shadow: 0px 1px 4px #aaa;box-shadow: 0px 1px 4px #aaa;}
+.facebook-auto ul li { padding: 5px 12px; z-index: 1000; cursor: pointer; margin: 0; list-style-type: none; border: 1px solid #ccc; border-width: 0 1px 1px; font: 11px "Lucida Grande", "Verdana"; background-color: #eee }
+.facebook-auto ul li em { font-weight: bold; font-style: normal; background: #ccc; }
+.facebook-auto ul li.auto-focus { background: #4173CC; color: #fff; }
+.facebook-auto ul li.auto-focus em { background: none; }
+.deleted { background-color:#4173CC !important; color:#ffffff !important;}
+.hidden { display:none;}
+.facebook-auto ul li img{width:24px; padding-right:5px; vertical-align:middle;}
+
+#demo ul.holder li.bit-input input { padding: 2px 0 1px; border: 1px solid #999; }
+.ie6fix {height:1px;width:1px; position:absolute;top:0px;left:0px;z-index:1;}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Quản lý tài khoản siêu thị]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách tài khoản]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Quản lý tài khoản siêu thị &raquo; Danh sách]]></lines>
+
+
+	<lines name="head_add" descr=""><![CDATA[Thêm tài khoản mới]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin tài khoản]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Quản lý tài khoản siêu thị &raquo; Thêm]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật tài khoản]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin tài khoản]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Quản lý tài khoản siêu thị &raquo; Cập nhật]]></lines>
+
+
+	<lines name="labelUid" descr=""><![CDATA[Tài khoản]]></lines>
+	<lines name="labelSid" descr=""><![CDATA[Siêu thị]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelRole" descr=""><![CDATA[Nhóm]]></lines>
+	<lines name="labelCreatorid" descr=""><![CDATA[Người tạo]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Datecreated]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Datemodified]]></lines>
+
+
+	<lines name="errSidMustGreaterThanZero" descr=""><![CDATA[Vui lòng chọn siêu thị.]]></lines>
+	<lines name="errRoleMustGreaterThanZero" descr=""><![CDATA[Vui lòng chọn nhóm cho tài khoản.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi xảy ra trong quá trình thêm tài khoản mới]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Tài khoản được tạo thành công.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lổi xảy trong quá trình cập nhật tài khoản]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Tài khoản được cập nhật thành công.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy thấy thông tin tài khoản.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lổi xảy ra khi xóa tài khoản có id là ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Tài khoản có id là ###id## là được xóa.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy thông tin tài khoản.]]></lines>
+	<lines name="errUserExist" descr=""><![CDATA[Tài khoản này đã được phân quyền.]]></lines>
+
+
+
+
+</data>

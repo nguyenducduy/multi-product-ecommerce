@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="title" descr=""><![CDATA[dienmay.com]]></lines>
+	<lines name="typeLabel" descr=""><![CDATA[Enter the information]]></lines>
+	<lines name="help" descr=""><![CDATA[Chọn hình thức đăng nhập bên dưới]]></lines>
+	<lines name="email" descr=""><![CDATA[Email]]></lines>
+	<lines name="password" descr=""><![CDATA[Mật khẩu]]></lines>
+	<lines name="rememberme" descr=""><![CDATA[&nbsp;Ghi nhớ đăng nhập]]></lines>
+	<lines name="remembermeTip" descr=""><![CDATA[This function lets you automatically log in every time the website. Should use this function to your home computer.]]></lines>
+	<lines name="submitLabel" descr=""><![CDATA[Đăng nhập]]></lines>
+	<lines name="loginWithTgdd" descr=""><![CDATA[Đăng nhập bằng tài khoản Báo cáo nội bộ]]></lines>
+	
+	<lines name="forgotpass" descr=""><![CDATA[Quên mật khẩu?]]></lines>
+	<lines name="errAccountInvalid" descr=""><![CDATA[Thông tin không đúng. Hãy thử lại]]></lines>
+	<lines name="warnRefer" descr=""><![CDATA[Bạn phải đăng nhập trước khi thực hiện chức năng đã chọn.]]></lines>
+	
+	<lines name="errEmailNotValid" descr=""><![CDATA[Địa chỉ email không hợp lệ.]]></lines>
+	<lines name="errEmailExisted" descr=""><![CDATA[Địa chỉ email này đã có người sử dụng.]]></lines>
+	<lines name="errEmailMatch" descr=""><![CDATA[Địa chỉ email nhập không giống nhau. Hãy kiểm tra lại.]]></lines>
+	<lines name="errPhoneExisted" descr=""><![CDATA[Số điện thoại  này đã có người sử dụng.]]></lines>
+	<lines name="errPasswordLength" descr=""><![CDATA[Chiều dài mật khẩu không hợp lệ (tối thiểu 6 ký tự).]]></lines>
+	<lines name="errPasswordMatch" descr=""><![CDATA[Hai ô mật khẩu nhập không trùng nhau. Hãy kiểm tra lại.]]></lines>
+	<lines name="errPasswordInvalidWeak" descr=""><![CDATA[Mật khẩu của bạn không hợp lệ vì quá dễ nhớ và dễ bị khai thác. Hãy chọn mật khẩu khác khó nhớ hơn. Hệ thống sẽ mã hóa mật khẩu của bạn trước khi lưu trữ nên sẽ không ai lấy được mật khẩu của bạn.]]></lines>
+	<lines name="errPhoneInvalid" descr=""><![CDATA[Bạn chưa nhập số điện thoại]]></lines>
+	<lines name="errInitEmployee" descr=""><![CDATA[Có lỗi khi lưu thông tin của bạn. Hãy thử lại.]]></lines>
+	
+	<lines name="pageTitle" descr=""><![CDATA[Login]]></lines>
+	<lines name="pageKeyword" descr=""><![CDATA[logged in, login, log in, sign in, sign up, registration, dangnhap, log, dangnhap, Create an account, register]]></lines>
+	<lines name="pageDescription" descr=""><![CDATA[Login to the system. You can log in using your Facebook, Yahoo Mail, gmai. Login to use fully functional website.]]></lines>
+
+</data>

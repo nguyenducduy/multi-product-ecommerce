@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Feedback Section]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách Feedback Section]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[FeedbackSection &raquo; Danh sách]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Tạo Feedback Section mới]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin Feedback Section]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[FeedbackSection &raquo; Tạo mới]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật Feedback Section]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin Feedback Section]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[FeedbackSection &raquo; Cập nhật]]></lines>
+
+	
+	<lines name="labelUid" descr=""><![CDATA[Uid]]></lines>
+	<lines name="labelId" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Tên Section]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Ngày tạo]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Ngày sửa]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Từ khóa]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Tìm từ khóa trong -]]></lines>
+	
+	
+	
+	<lines name="errNameRequired" descr=""><![CDATA[Tên Section không được để trống.]]></lines>
+	<lines name="errDatecreatedMustGreaterThanZero" descr=""><![CDATA[Ngày tạo không xác định.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi trong quá trình tạo Feedback Section]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Tạo Feedback Section mới thành công.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi trong quá trình cập nhật Feedback Section]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Feedback Section đã được cập nhật.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Hiện chưa có Feedback Section nào.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Lỗi trong quá trình xóa Feedback Section ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Feedback Section với id ###id### đã được xóa.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Không có kết quả nào được tìm thấy.]]></lines>
+	
+	
+	
+	
+</data>

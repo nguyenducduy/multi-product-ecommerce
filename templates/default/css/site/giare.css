@@ -1,0 +1,253 @@
+
+*{margin:0; padding:0}
+ul,ol{display:block; list-style:none}
+.clr{clear:both}
+img{border:0}
+
+body{background:#fedc01 url(../../images/site/bg_all.jpg) repeat-x; font:normal 12px/18px Arial; color:#333}
+
+/*pop-up*/
+
+.pop_up_tham_gia { 
+    background-color:#fff;
+    border-radius:15px;
+    color:#000;
+    display:none; 
+    padding:20px;
+    min-width:400px;
+    /*min-height: 180px;*/
+	font:normal 14px Arial; color:#333
+}
+
+.pop_up_mua_ngay { 
+    background-color:#fff;
+    border-radius:15px;
+    color:#000;
+    display:none; 
+    padding:20px;
+    width:760px;
+	font:normal 14px Arial; color:#333
+}
+
+.pop_up_field_mua_ngay {
+	display:none;
+}
+
+.pop_up_doi_ngay { 
+    background-color:#fff;
+    border-radius:15px;
+    color:#000;
+    display:none; 
+    padding:20px;
+    min-width:400px;
+	font:normal 14px Arial; color:#333
+}
+
+.pop_up_the_le { 
+    background-color:#fff;
+    border-radius:15px;
+    color:#000;
+    display:none; 
+    padding:20px;
+    min-width:400px;
+	width:800px;
+	font:normal 14px/22px Arial; color:#333
+}
+
+.pop_up_huong_dan { 
+    background-color:#fff;
+    border-radius:15px;
+    color:#000;
+    display:none; 
+    padding:20px;
+    min-width:400px;
+	width:800px;
+	font:normal 14px Arial; color:#333
+}
+
+.pop_up_co_cau { 
+    background-color:#fff;
+    border-radius:15px;
+    color:#000;
+    display:none; 
+    padding:20px;
+    min-width:400px;
+	width:800px;
+	font:normal 14px Arial; color:#333
+}
+
+.pop_up_cau_hoi { 
+    background-color:#fff;
+    border-radius:15px;
+    color:#000;
+    display:none; 
+    padding:20px;
+    min-width:400px;
+	width:800px;
+	font:normal 14px/22px Arial; color:#333
+}
+
+.list_danh_sach{display:none; width:100%; overflow:hidden; padding:10px; font:normal 13px Arial; color:#333; border-top:2px solid #00a1e6}
+
+
+.b-close{ 
+	 background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 33px 33px 33px 33px;
+    color: red;
+    cursor: pointer;
+    font: 24px Arial;
+    height: 33px;
+    position: absolute;
+    right: -2px;
+    text-align: center;
+    top: -10px;
+    width: 33px;
+}
+
+.font24{font:normal 24px Arial; color:#00a1e6}
+.font12{font:normal 12px Arial; color:#00a1e6; text-decoration:none}
+.font12:hover{color:#333;}
+.font14{font:normal 14px Arial; color:#00a1e6;}
+
+.share_link{ outline:none;border: 0 none; color: #00A1E6; min-width: 250px;text-align: left;}
+
+
+/*pop-up*/
+
+#wrap_game1900{width:980px; margin:auto; overflow:hidden}
+.banner{position:relative;height: 180px;overflow: hidden;}
+.banner #leftbanner{float: left;width: 648px;}
+.banner #rightbanner{float: right;width: 330px;background: #00A1E6;color: #fff;height: 180px;margin-left: 2px;}
+.banner #rightbanner h4{clear: both; font-size: 20px; text-align: center;font-weight: 700;margin-top: 5px;padding:0px;}
+.banner #rightbanner p{clear: both; font-size: 14px; padding:5px 0;margin: 0px;}
+.banner #rightbanner p strong{color: #ff0;font-size: 20px;}
+.logo{position:absolute; top:0; left:0}
+
+
+#game_content{width:100%; overflow:hidden; margin:20px auto}
+
+#general{float:left; width:200px; overflow:hidden}
+
+#general_nav{display:block; list-style:none; margin:0; /*border-radius:10px;*/ overflow:hidden}
+#general_nav li{float:none; display:block; line-height:20px; position:relative}
+#general_nav li a{display:block; padding:18px 8px; font:normal 13px Arial; color:#00a1e6; text-align:left; text-decoration:none; /*border-bottom: 1px solid #fff;*/
+ background:#fafafa; text-transform:uppercase;}
+
+#general_nav li a:hover{color:#00a1e6; background:#dce9e6;}
+
+.icon_1{background:#ff0;border-radius: 35px 35px 35px 35px;color:#00a1e6; font: bold 20px Times New Roman; height: 30px; padding-top: 5px;position: absolute;
+    left: 5px;text-align: center;top: 8px;width: 35px;
+}
+
+.icon_2{position:absolute; top:8px; left:15px; width:35px; height:30px; padding-top:5px; border-radius:35px 35px 35px 35px; text-align:center;
+font: bold 20px Times New Roman; color:#fff; background:#00a1e6;
+}
+
+
+#banner_other{width:200px; margin:10px auto;}
+
+#game_right{float:right; width:760px; overflow:hidden}
+
+.form-info{width:100%; display:block; overflow:hidden; }
+.formfield{width:740px; padding:10px; margin-bottom:12px; overflow:hidden; font:normal 14px/18px Arial; color:#333;background:#FAFAFA; border-radius: 10px 10px 10px 10px;}
+.formtitle{font:normal 16px/18px Arial; color:#ff0; text-align:center; float:none; clear:both; display:block; margin-bottom:6px; padding-top:6px; height:25px; background:#00a1e6; border-radius:4px;}
+.formtitle2{font:normal 14px/18px Arial; color:#00a1e6; text-align:left; float:left; clear:both; display:block; margin-top:2px; width:360px;}
+
+.propnput{outline:none;width:240px!important; /*line-height:20px; */padding:5px 8px!important; margin:0 0 3px!important ; border-radius:4px; border:1px solid #ccc; color:#777; font:normal 12px Arial; margin-top: 7px !important}
+.propnput:focus{border:1px solid #00a1e6}
+
+.propnput2{outline:none;width:95px; line-height:20px; padding:5px 8px;/* margin:8px 0;*/ border-radius:4px; border:1px solid #ccc; color:#777; font:normal 12px Arial; margin-top: 12px !important}
+.propnput2:focus{border:1px solid #00a1e6}
+
+.note{font:normal 11px/16px Arial; color:#888; font-style:italic; margin-top:3px;}
+.notered{color: red !important; float: left !important; font-size: 12px !important; margin-right: 8px; margin-bottom:0 !important; text-align: left !important;}
+
+.btngame{ outline:none;cursor:pointer;padding:6px 8px; margin-top:5px; text-align:center; float:right; background:#00a1e8; font:bold 14px Arial; color:#ff0; border-radius:4px 4px 4px 4px; border:none}
+.btngame:hover{background:#09C; color:#fff}
+
+.infouser{width:100%; margin-bottom:12px; overflow:hidden; font:normal 14px/18px Arial; color:#333; background:white; border-radius:10px 10px 10px 10px}
+
+.infouser_1{float:left;/* width:370px;*/height:45px; margin:10px 5px 0; font-size:13px;line-height:20px;text-align:center;}
+.infouser_1 span{color:#00a1e6;}
+
+.infouser_2{padding:4px 10px;line-height:20px;float: right;}
+.infouser_2 img{margin-right: 2px;border: none;}
+.infouser_2 a, span{margin-left: 10px;margin-top:7px;display: inline-block;text-decoration: none;color:#fff;}
+/*.socialicon{border-radius: 10px;-o-border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}*/
+/*products*/
+.products_name{ width:745px !important; height:30px; padding-top:5px; padding-left:15px; background:#00a1e6; color:#ff0; font:bold 10px/26px Arial; border-radius: 30px 30px 30px 30px;}
+
+.products{width:100%; display:block; overflow:hidden;margin-bottom: 5px;}
+.products ul{ display:block; margin-top:10px; overflow:hidden;/* margin-bottom:-30px !important;*/}
+.products ul li{float:left; width:169px; border-right:1px dotted #ccc; position:relative; padding:0 10px 10px; margin:0 0 10px; background:white}
+.products ul li span{font:normal 11px/18px Arial; color:#444; background:url(images/giare/arow-list.jpg) no-repeat left center; 
+display:block; padding-left:10px;}
+
+.products ul li img{margin:20px auto; display:block; max-width:120px; height:auto}
+.products ul li a{font:normal 14px/18px Arial; color:#0072c1; text-decoration:none; text-align:center;}
+.products ul li a.title{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.products ul li a:hover{text-decoration:underline}
+
+.priceold{font:normal 14px/20px Arial; color:#333; text-decoration:line-through; display:block; text-align:center;margin:2px}
+.priceoldnoshow{font:normal 14px/20px Arial; color:#333; display:block; text-align:center;margin:2px}
+.pricenew{font:bold 17px/25px Arial; color:#da0300; display:block; text-align:center; margin:2px}
+.special{position:absolute; top:-20px; right:0; width:35px; height:35px; margin:0 !important}
+
+.buy-now {
+    display:block;
+    font:bold 14px Arial !important;
+    text-transform:uppercase;
+    text-shadow:1px 1px 0 #006dc5 !important;
+    padding: .4em 0.6em ;
+	color: #fff !important;
+	border:1px solid #0090cd;
+	border-radius:4px;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset, 0 1px 2px rgba(0, 0, 0, 0.5);
+	background-color: #00a1e5;
+    background-image: -moz-linear-gradient(top, #00a1e5, #0086be);
+    background-image: -ms-linear-gradient(top, #00a1e5, #0086be);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00a1e5), to(##0086be));
+    background-image: -webkit-linear-gradient(top, #00a1e5, #0086be);
+    background-image: -o-linear-gradient(top, #00a1e5, #0086be);
+    background-image: linear-gradient(top, #00a1e5, #0086be);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00a1e5', endColorstr='#0086be', GradientType=0);
+    filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+.buy-now:hover {background: #079eed; text-decoration:none !important; color:#ff0 !important}
+
+.products ul li:hover .Kmai{display:block}
+.Kmai{
+	display:none;
+	position:absolute;
+	top:45%; left:0;
+	font:normal 14px Arial;
+	padding:6px ;
+	color: #ff0;
+	background:#00a1e6;
+	width:178px;
+}
+
+
+/*chang check*/
+
+#changecheck{width:100%; overflow:hidden; background:white; border-radius:10px 10px 10px 10px} 
+#change{float:left; width:240px; padding:10px 4px; overflow:hidden; margin-right:10px}
+#changnote{float:left; width:225px; overflow:hidden; margin-right:10px; padding:10px 4px; font-size:13px}
+#check{float:left; width:240px; overflow:hidden; margin-right:10px}
+.checktitle{background:#00A1E6;color: #FFFF00;font: bold 14px Arial; margin-bottom: 10px; margin-left: 10px; padding: 6px; text-align: center;width: 205px;
+border-radius:4px 4px 4px 4px;}
+.listuser{clear: both; display: block; float: none; text-align: center;}
+.listuser a{font:normal 13px Arial; color:#00a1e6; text-decoration:none;line-height: 30px;}
+.listuser a:hover{text-decoration:underline}
+
+#foot_game1900{display:block; padding:10px; background:#00a1e6; font:normal 12px/18px Arial; color:white; text-align:center}
+.products_name h1{float: left; width: 85%;}
+.products_name p#facebooklike{
+    float: right;
+    width: 12%;
+    margin-top: -4px;
+}
+#comments .width-writecom{width: 42%!important;}
+#comments .titlename{margin-bottom: -10px!important;}
+#introductionpage a{color: #0072C1;text-decoration: none;}

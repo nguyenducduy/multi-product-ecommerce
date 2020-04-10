@@ -1,0 +1,79 @@
+.ac_results {
+	padding: 0px;
+	border: 6px solid #005cbe;
+	background-color: #ffffff;
+	overflow: hidden;
+	z-index: 9999;
+    margin-top:3px;
+    border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 0px 0px;
+	cursor: default;
+	display: block;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font: menu;
+	font-size: 11px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 16px;
+    font-family:Arial, Helvetica, San-serif;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white url('../images/ajax_indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #fff;
+}
+
+.ac_even {
+	background-color: #f0f0f0;
+}
+
+.ac_over {
+	background-color: #58a3f0;
+	color: #eee;
+}
+
+.ac_over .sitesearch-autocomplete-text{color:#fff;}
+
+
+
+/* DASHBOARD TOP SEARCH AUTOCOMPLETE */
+.sitesearch-autocomplete{clear:both;min-height:48px;}
+.sitesearch-autocomplete-controller{clear:both;height:25px;}
+.sitesearch-autocomplete-user{clear:both;height:45px;}
+.sitesearch-autocomplete-seperator{clear:both;background:#ccc;border-top:1px solid #ddd;}
+.sitesearch-autocomplete-image{float:left;}
+.sitesearch-autocomplete-image img.product{width:40px; height:40px; padding:4px; padding-right:10px;}
+.sitesearch-autocomplete-image img.controller{width:40px; height:40px; padding:4px; padding-right:10px;}
+.sitesearch-autocomplete-image img.avatar{width:40px; height:40px; padding:4px; padding-right:10px;}
+.sitesearch-autocomplete-user .sprep{margin-top:7px;}
+.sitesearch-autocomplete-text{font-weight:normal;color:#06f; padding-top:5px;}
+.sitesearch-autocomplete-text strong{font-style:italic;}
+.sitesearch-autocomplete-textsep{font-weight:bold;color:#fff; padding:3px;}
+.sitesearch-autocompelte-author{color:#ccc;}

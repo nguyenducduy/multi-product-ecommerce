@@ -1,0 +1,45 @@
+.installment{position:relative; margin:10px auto; width:900px;  padding:2px 2px 15px; overflow:hidden; border-radius:6px; font:normal 13px/20px Arial; color:#333;background: #fff;}
+
+.installment p{ position:relative; padding:8px; border-bottom:1px solid #ccc; font:bold 14px Arial; color:#444; text-transform:uppercase}
+.installeft{float:left; width:520px; margin-right:30px; overflow:hidden; font-size:13px; margin:8px}
+.installeft span{font:bold 14px/20px Arial; color:#333; text-transform:uppercase; display:block;}
+.installment label{display:inline-block; width:115px; margin-left:0;text-align: right; margin-right:8px; font-size:13px;}
+.wi-ins01{width:85px; display:inline; margin-right:10px;}
+.wi-ins02{width:255px !important;/*width:323px !important;*/}
+.wi-ins03{width:115px !important;/*width:165px !important;*/}
+.wi-ins04{margin-left:127px; margin-right:10px; line-height:20px;}
+.wi-ins05{width:356px !important; margin-top:10px}
+.wi-ins06{width:130px !important;}
+.wi-ins07{width:125px !important; margin:10px auto 10px 215px; padding:8px}
+.wi-ins08{margin-left:140px; margin-right:10px; line-height:20px;}
+
+.installright{float:left; width:350px; overflow:hidden; margin-top:10px;}
+
+.installrightsp{overflow:hidden; clear:both}
+.installrightsp img{display:inline; vertical-align:text-top; float:left; max-width:200px; max-height:200px}
+.installrightsp span{font:bold 13px/20px Arial; color:#00a1e4}
+.installrightsp .priceins{font:bold 14px Arial; color:red; }
+
+.infoonemonth{margin-top:10px; overflow:hidden}
+.infoonemonth span{font:bold 14px/20px Arial; color:#333; text-transform:uppercase; display:block;}
+.infoonemonth a{font:normal 13px/20px Arial !important; color:#0082cc; text-decoration:none}
+.infoonemonth a:hover{text-decoration:underline}
+
+.infopay{overflow:hidden; background:#FFFDD4; margin:10px 0; padding:10px;}
+.infopay .do{font:bold 13px/20px Arial; color:red; display:inline; text-transform:none}
+ .datepicker { top: 0; left: 0; padding: 4px; margin-top: 1px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; /*.dow { border-top: 1px solid #ddd !important; }*/ } .datepicker:before { content: ''; display: inline-block; border-left: 7px solid transparent; border-right: 7px solid transparent; border-bottom: 7px solid #ccc; border-bottom-color: rgba(0, 0, 0, 0.2); position: absolute; top: -7px; left: 6px; } .datepicker:after { content: ''; display: inline-block; border-left: 6px solid transparent; border-right: 6px solid transparent; border-bottom: 6px solid #ffffff; position: absolute; top: -6px; left: 7px; } .datepicker > div { display: none; } .datepicker table { width: 100%; margin: 0; } .datepicker td, .datepicker th { text-align: center; width: 20px; height: 20px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; } .datepicker td.day:hover { background: #eeeeee; cursor: pointer; } .datepicker td.old, .datepicker td.new { color: #999999; } .datepicker td.active, .datepicker td.active:hover { background-color: #006dcc; background-image: -moz-linear-gradient(top, #0088cc, #0044cc); background-image: -ms-linear-gradient(top, #0088cc, #0044cc); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc)); background-image: -webkit-linear-gradient(top, #0088cc, #0044cc); background-image: -o-linear-gradient(top, #0088cc, #0044cc); background-image: linear-gradient(top, #0088cc, #0044cc); background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0044cc', GradientType=0); border-color: #0044cc #0044cc #002a80; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); color: #fff; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); } .datepicker td.active:hover, .datepicker td.active:hover:hover, .datepicker td.active:active, .datepicker td.active:hover:active, .datepicker td.active.active, .datepicker td.active:hover.active, .datepicker td.active.disabled, .datepicker td.active:hover.disabled, .datepicker td.active[disabled], .datepicker td.active:hover[disabled] { background-color: #0044cc; } .datepicker td.active:active, .datepicker td.active:hover:active, .datepicker td.active.active, .datepicker td.active:hover.active { background-color: #003399 \9; } .datepicker td span { display: block; width: 47px; height: 54px; line-height: 54px; float: left; margin: 2px; cursor: pointer; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; } .datepicker td span:hover { background: #eeeeee; } .datepicker td span.active { background-color: #006dcc; background-image: -moz-linear-gradient(top, #0088cc, #0044cc); background-image: -ms-linear-gradient(top, #0088cc, #0044cc); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc)); background-image: -webkit-linear-gradient(top, #0088cc, #0044cc); background-image: -o-linear-gradient(top, #0088cc, #0044cc); background-image: linear-gradient(top, #0088cc, #0044cc); background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0044cc', GradientType=0); border-color: #0044cc #0044cc #002a80; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); color: #fff; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); } .datepicker td span.active:hover, .datepicker td span.active:active, .datepicker td span.active.active, .datepicker td span.active.disabled, .datepicker td span.active[disabled] { background-color: #0044cc; } .datepicker td span.active:active, .datepicker td span.active.active { background-color: #003399 \9; } .datepicker td span.old { color: #999999; } .datepicker th.switch { width: 145px; } .datepicker th.next, .datepicker th.prev { font-size: 19.5px; } .datepicker thead tr:first-child th { cursor: pointer; } .datepicker thead tr:first-child th:hover { background: #eeeeee; } .input-append.date .add-on i, .input-prepend.date .add-on i { display: block; cursor: pointer; width: 16px; height: 16px; }
+ .dropdown-menu{background-clip: padding-box;
+background-color: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 6px 6px 6px 6px;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+display: none;
+float: left;
+left: 0;
+list-style: none outside none;
+margin: 2px 0 0;
+min-width: 160px;
+padding: 5px 0;
+position: absolute;
+top: 100%;
+z-index: 1000;}

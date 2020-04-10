@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="sameHavePrefix" descr=""><![CDATA[có]]></lines>
+	<lines name="samefriendLabel" descr=""><![CDATA[bạn chung.]]></lines>
+	<lines name="mutualfrienddetail" descr=""><![CDATA[Bạn bè chung với ]]></lines>
+	<lines name="friendrequest" descr=""><![CDATA[Kết bạn]]></lines>
+	<lines name="friendrequestTitle" descr=""><![CDATA[Gởi lời mời kết bạn đến]]></lines>
+	<lines name="newmessage" descr=""><![CDATA[Nhắn tin]]></lines>
+	
+</data>

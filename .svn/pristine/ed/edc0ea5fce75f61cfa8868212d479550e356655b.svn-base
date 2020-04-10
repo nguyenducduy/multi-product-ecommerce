@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[CV Tuyển dụng]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách CV]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[CV Tuyển dụng &raquo; Danh sách]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Thêm CV Tuyển dụng]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin CV]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[CV Tuyển dụng &raquo; Thêm]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật CV Tuyển dụng]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin CV]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[CV Tuyển dụng &raquo; Update]]></lines>
+
+	
+	<lines name="labelJid" descr=""><![CDATA[Công việc]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelTitle" descr=""><![CDATA[Tiêu đề]]></lines>
+	<lines name="labelFile" descr=""><![CDATA[File]]></lines>
+	<lines name="labelFirstname" descr=""><![CDATA[Họ]]></lines>
+	<lines name="labelLastname" descr=""><![CDATA[Tên]]></lines>
+	<lines name="labelFirstnameLastname" descr=""><![CDATA[Họ và Tên]]></lines>
+	<lines name="labelBirthday" descr=""><![CDATA[Ngày sinh]]></lines>
+	<lines name="labelEmail" descr=""><![CDATA[Email]]></lines>
+	<lines name="labelPhone" descr=""><![CDATA[Điện thoại]]></lines>
+	<lines name="labelModeratorid" descr=""><![CDATA[Người duyệt]]></lines>
+	<lines name="labelIpaddress" descr=""><![CDATA[Ipaddress]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="labelDateInterview" descr=""><![CDATA[Ngày hẹn phỏng vấn]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Ngày tạo]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Ngày cập nhật]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	
+	
+	<lines name="errJidMustGreaterThanZero" descr=""><![CDATA[Vui lòng chọn công việc để nộp hồ sơ.]]></lines>
+	<lines name="errTitleRequired" descr=""><![CDATA[Vui lòng nhập tiêu đề.]]></lines>
+	<lines name="errFirstnameRequired" descr=""><![CDATA[Vui lòng nhập họ.]]></lines>
+	<lines name="errLastnameRequired" descr=""><![CDATA[Vui lòng nhập tên.]]></lines>
+	<lines name="errBirthdayRequired" descr=""><![CDATA[Vui lòng nhập ngày sinh.]]></lines>
+	<lines name="errEmailInvalidEmail" descr=""><![CDATA[Email không hợp lệ.]]></lines>
+	<lines name="errPhoneRequired" descr=""><![CDATA[Vui lòng nhập số điện thoại.]]></lines>	
+	<lines name="errFileType" descr=""><![CDATA[File upload không hợp lệ]]></lines>
+	<lines name="errFileSize" descr=""><![CDATA[Kích thước file upload không hợp lệ]]></lines>
+	<lines name="errFileEmpty" descr=""><![CDATA[Vui lòng chọn file để upload.]]></lines>
+	<lines name="errBirthdayValid" descr=""><![CDATA[Ngày sinh không hợp lệ.]]></lines>
+	<lines name="errInterviewdayValid" descr=""><![CDATA[Ngày phỏng vấn không hợp lệ.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi xảy ra trong quá trình tạo mới CV]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[CV đã được tạo thành công.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi xảy ra trong quá trìn cập nhật CV]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[CV đã được cập nhật thành công.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy CV.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi xảy ra trong quá trinh xóa CV có id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[CV có id là ###id### đã được xóa.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy dữ liệu.]]></lines>
+	
+	
+	
+	
+</data>

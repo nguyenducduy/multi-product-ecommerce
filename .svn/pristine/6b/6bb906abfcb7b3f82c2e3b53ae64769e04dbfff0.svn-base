@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data>
+	<lines name="labelAccount" descr=""><![CDATA[Tài khoản]]></lines>
+	<lines name="errUserEmpty" descr=""><![CDATA[Vui lòng nhập user]]></lines>
+	<lines name="succAddUser" descr=""><![CDATA[Thêm user thành công]]></lines>
+	<lines name="errAddUser" descr=""><![CDATA[Thêm user không thành công]]></lines>
+	<lines name="errUserExist" descr=""><![CDATA[User có id là ###ID### đã tồn tại]]></lines>
+</data>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Advertisement (Ads) Zone]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách Zone]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Advertisement (Ads) Zone &raquo; Liệt kê]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Tạo Zone mới]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin của Zone]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Advertisement (Ads) Zone &raquo; Thêm]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật Zone]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin của Zone]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Advertisement (Ads) Zone &raquo; Cập nhật]]></lines>
+
+	
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Tên]]></lines>
+	<lines name="labelSummary" descr=""><![CDATA[Mô tả]]></lines>
+	<lines name="labelSite" descr=""><![CDATA[Site]]></lines>
+	<lines name="labelManagerid" descr=""><![CDATA[Quản lý]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Từ khóa]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Tìm trong -]]></lines>
+	
+	
+	<lines name="errNameRequired" descr=""><![CDATA[Bạn chưa nhập tên của Zone.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi khi thêm Zone mới]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Zone đã được tạo thành công]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi khi cập nhật thông tin của Zone]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Advertisement (Ads) Zone had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy Zone]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi khi xóa Zone với id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Xóa thành công Zone với id ###id###.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy]]></lines>
+	
+	
+	
+	
+</data>

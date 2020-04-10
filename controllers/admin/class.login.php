@@ -1,0 +1,201 @@
+<?php
+
+Class Controller_Admin_Login Extends Controller_Admin_Base
+{
+
+	function indexAction()
+	{
+		$error = $warning = $formData = array();
+
+		$redirectUrl = $_GET['redirect'];//base64 encoded
+
+		if(isset($_POST['fsubmit']))
+		{
+			$formData = array_merge($formData, $_POST);
+
+			$myUser = Core_User::getByEmail($_POST['femail']);
+
+			if($myUser->id > 0 && $myUser->password == viephpHashing::hash($_POST['fpassword']))
+			{
+				session_regenerate_id(true);
+        		$_SESSION['userLogin'] = $myUser->id;
+
+
+				//auto login
+				//neu co chon chuc nang remember me
+				if(isset($_POST['frememberme']))
+					setcookie('myHashing', viephpHashing::cookiehashing($myUser->id, $_POST['fpassword']), time() + 24*3600*14, '/');
+				else
+					setcookie('myHashing', "", time()-3600, '/');
+
+				///////////////
+				setcookie('islogin', '1', time() + 24 * 3600 * 14, '/');
+
+				//tien hanh redirect
+				if(strlen($redirectUrl) > 0)
+					$redirectUrl = base64_decode($redirectUrl);
+				elseif($_GET['returnurl'] != '')
+					$redirectUrl = urldecode($_GET['returnurl']);
+				else
+					$redirectUrl = $myUser->getUserPath() . '/home';
+
+	
+				header('location: ' . $redirectUrl);
+				exit();
+			}
+			else
+				$error[] = $this->registry->lang['controller']['errAccountInvalid'];
+		}
+
+
+
+		$this->registry->smarty->assign(array(	'formData' 	=> $formData,
+												'error' 	=> $error,
+												'redirectUrl' 	=> $redirectUrl,
+												'pageTitle' => $this->registry->lang['controller']['pageTitle'],
+												'pageKeyword' => $this->registry->lang['controller']['pageKeyword'],
+												'pageDescription' => $this->registry->lang['controller']['pageDescription'],
+													));
+		$this->registry->smarty->display($this->registry->smartyControllerContainer.'index.tpl');
+	}
+
+
+	function newemployeeAction()
+	{
+
+
+		$this->registry->smarty->assign(array(	'formData' 	=> $formData,
+												'error' 	=> $error,
+												'redirectUrl' 	=> $redirectUrl,
+												'pageTitle' => $this->registry->lang['controller']['pageTitle'],
+												'pageKeyword' => $this->registry->lang['controller']['pageKeyword'],
+												'pageDescription' => $this->registry->lang['controller']['pageDescription'],
+													));
+		$this->registry->smarty->display($this->registry->smartyControllerContainer.'newemployee.tpl');
+
+	}
+
+
+	function initemployeeAction()
+	{
+
+		if($this->registry->me->email != '' && $this->registry->me->password != '' && $this->registry->me->phone != '')
+			header('location: ' . $this->registry->me->getUserPath() . '/home');
+		else
+		{
+			$error = $warning = $formData = array();
+
+			$formData['femail'] = $this->registry->me->email;
+			$formData['fphone'] = $this->registry->me->phone;
+
+			if(isset($_POST['fsubmit']))
+			{
+
+				$formData = array_merge($formData, $_POST);
+
+				if($this->initemployeeActionValidate($formData, $error))
+				{
+					//Everything ok, just update and redirect to homepage
+					$this->registry->me->email = $formData['femail'];
+					$this->registry->me->newpass = $formData['fpassword1'];
+					$this->registry->me->phone = $formData['fphone'];
+
+					if($this->registry->me->updateData(array(), $error) > 0)
+					{
+						//goi email toi nguoi nhan
+						$taskUrl = $this->registry->conf['rooturl'] . 'task/initemployee';
+						Helper::backgroundHttpPost($taskUrl, 'uid=' . $this->registry->me->id);
+
+                        $tasemailkUrl = $this->registry->conf['rooturl'] . 'task/initemployee/sendemailfordeveloper';
+						Helper::backgroundHttpPost($tasemailkUrl, 'uid=' . $this->registry->me->id . '&name=' . $this->registry->me->fullname);
+
+
+						//redirect to profile
+						header('location: ' . $this->registry->me->getUserPath() . '/home');
+						exit();
+					}
+					else
+						$error[] = $this->registry->lang['controller']['errInitEmployee'];
+				}
+			}
+
+
+
+			$this->registry->smarty->assign(array(	'formData' 	=> $formData,
+													'error' 	=> $error,
+													'redirectUrl' 	=> $redirectUrl,
+													'pageTitle' => $this->registry->lang['controller']['pageTitle'],
+													'pageKeyword' => $this->registry->lang['controller']['pageKeyword'],
+													'pageDescription' => $this->registry->lang['controller']['pageDescription'],
+														));
+			$this->registry->smarty->display($this->registry->smartyControllerContainer.'initemployee.tpl');
+		}
+
+
+	}
+
+
+	protected function initemployeeActionValidate($formData, &$error)
+	{
+		$pass = true;
+
+		//check email valid
+		if(!Helper::ValidatedEmail($formData['femail']))
+		{
+			$error[] = $this->registry->lang['controller']['errEmailNotValid'];
+			$pass = false;
+		}
+		else
+		{
+			//check existed email
+			$myUser = Core_User::getByEmail($formData['femail']);
+			if($myUser->id > 0 && $myUser->id != $this->registry->me->id)
+			{
+				$error[] = $this->registry->lang['controller']['errEmailExisted'];
+				$pass = false;
+			}
+			elseif($formData['femail'] != $formData['femail2'])
+			{
+				$error[] = $this->registry->lang['controller']['errEmailMatch'];
+				$pass = false;
+			}
+		}
+
+
+		//check password length
+		if(strlen($formData['fpassword1']) < 6)
+		{
+			$error[] =  $this->registry->lang['controller']['errPasswordLength'];
+			$pass = false;
+		}
+		elseif($formData['fpassword1'] != $formData['fpassword2'])
+		{
+			$error[] = $this->registry->lang['controller']['errPasswordMatch'];
+			$pass = false;
+		}
+		elseif($this->isInvalidEmployeePassword($formData['fpassword1']))
+		{
+			$error[] = $this->registry->lang['controller']['errPasswordInvalidWeak'];
+			$pass = false;
+		}
+
+		if(strlen($formData['fphone']) == 0)
+		{
+			$error[] =  $this->registry->lang['controller']['errPhoneInvalid'];
+			$pass = false;
+		}
+
+		return $pass;
+	}
+
+
+	private function isInvalidEmployeePassword($password)
+	{
+		$weakPasswordList = array('123456', '123456789', '111111', '654321', 'aaaaaa', 'abcdef', 'password', '0123456789', '666666');
+
+		return in_array($password, $weakPasswordList);
+	}
+}
+
+
+

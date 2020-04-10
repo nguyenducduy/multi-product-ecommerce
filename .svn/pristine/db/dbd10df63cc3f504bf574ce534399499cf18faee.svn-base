@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Danh mục]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Danh mục tuyển dụng &raquo; Danh sách]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Tạo danh mục tuyển dụng mới]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin danh mục tuyển dụng]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Danh mục tuyển dụng &raquo; Tạo mới]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật danh mục]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin danh mục]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Danh mục tuyển dụng &raquo; Cập nhật]]></lines>
+
+	
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelImage" descr=""><![CDATA[Hình đại diện]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Tên danh mục]]></lines>
+	<lines name="labelSlug" descr=""><![CDATA[Slug]]></lines>
+	<lines name="labelSummary" descr=""><![CDATA[Sơ lược nội dung]]></lines>
+	<lines name="labelSeotitle" descr=""><![CDATA[SEO Title]]></lines>
+	<lines name="labelSeokeyword" descr=""><![CDATA[SEO Keyword]]></lines>
+	<lines name="labelSeodescription" descr=""><![CDATA[SEO Description]]></lines>
+
+	<lines name="labelParentid" descr=""><![CDATA[Danh mục cha]]></lines>
+	<lines name="labelCountitem" descr=""><![CDATA[Số bài viết]]></lines>
+	<lines name="labelDisplayorder" descr=""><![CDATA[Thứ tự hiển thị]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Ngày tạo]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Ngày cập nhật]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Từ khóa]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Tìm từ khóa trong -]]></lines>
+	
+	
+	<lines name="errNameRequired" descr=""><![CDATA[Tên danh mục không được để trống.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi khi tạo danh mục tuyển dụng mới.]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Danh mục tuyển dụng mới đã được khởi tạo thành công.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi khi cập nhật danh mục tuyển dụng]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Danh mục tuyển dụng đã được cập nhật thành công.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Jobcategory not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi khi xóa danh mục tuyển dụng với ID ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Danh mục tuyển dụng với ID ###id### đã được xóa thành công.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

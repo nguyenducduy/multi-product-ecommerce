@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Danh mục]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách danh mục]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Danh mục &raquo; Danh sách]]></lines>
+
+
+	<lines name="head_add" descr=""><![CDATA[Thêm danh mục]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin danh mục]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Danh mục &raquo; Thêm]]></lines>
+	<lines name="pageTitle_addrole" descr=""><![CDATA[Danh mục &raquo; Thêm phân quyền]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật danh mục]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin danh mục]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Danh mục &raquo; Cập nhật]]></lines>
+
+
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelImage" descr=""><![CDATA[Hình ảnh]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Tên]]></lines>
+	<lines name="labelDisplayname" descr=""><![CDATA[Tên hiển thị]]></lines>
+	<lines name="labelSlugText" descr=""><![CDATA[Slug]]></lines>
+	<lines name="labelSummary" descr=""><![CDATA[Tổng quan]]></lines>
+	<lines name="labelBlockHomepageHorizon" descr=""><![CDATA[Block html homepage ngang]]></lines>
+	<lines name="labelBlockHomepageVertical" descr=""><![CDATA[Block html homepage dọc]]></lines>
+	<lines name="labelBlockCategory" descr=""><![CDATA[Block html category]]></lines>
+	<lines name="labelSeotitle" descr=""><![CDATA[SEO Title]]></lines>
+	<lines name="labelSeokeyword" descr=""><![CDATA[SEO Keyword]]></lines>
+	<lines name="labelSeodescription" descr=""><![CDATA[SEO Description]]></lines>
+	<lines name="labelParentid" descr=""><![CDATA[Danh mục cha]]></lines>
+	<lines name="labelItemdisplayorder" descr=""><![CDATA[Thứ tự hiển thị sản phẩm trong danh mục]]></lines>
+	<lines name="labelCountitem" descr=""><![CDATA[Số lượng sản phẩm]]></lines>
+	<lines name="labelDisplayorder" descr=""><![CDATA[TT hiển thị]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Datecreated]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Datemodified]]></lines>
+	<lines name="labelCategoryPermission" descr=""><![CDATA[Phân quyền danh mục]]></lines>
+	<lines name="labelProductAttribute" descr=""><![CDATA[Thuộc tính]]></lines>
+	<lines name="labelFilterManager" descr=""><![CDATA[Quản lý Filter của sản phẩm]]></lines>
+	<lines name="labelProductAttributeManager" descr=""><![CDATA[Quản lý thuộc tính của sản phẩm]]></lines>
+	<lines name="labelFilterList" descr=""><![CDATA[Filter thuộc tính]]></lines>
+	<lines name="head_filter" descr=""><![CDATA[Danh sách filter]]></lines>
+	<lines name="head_segment" descr=""><![CDATA[Phân khúc giá]]></lines>
+	<lines name="labelSegmentList" descr=""><![CDATA[Danh sách phân khúc giá]]></lines>
+	<lines name="labelSegmentName" descr=""><![CDATA[Tên]]></lines>
+	<lines name="labelSegmentFrom" descr=""><![CDATA[Từ giá]]></lines>
+	<lines name="labelSegmentTo" descr=""><![CDATA[Đến giá]]></lines>
+	<lines name="labelPrivateSegment" descr=""><![CDATA[Tạo phân khúc giá riêng]]></lines>
+	<lines name="labelAttribute" descr=""><![CDATA[Thuộc tính]]></lines>
+	<lines name="labelDisplay" descr=""><![CDATA[Hiển thị]]></lines>
+	<lines name="labelValue" descr=""><![CDATA[Giá trị]]></lines>
+	<lines name="labelDisplayorder" descr=""><![CDATA[TT hiển thị]]></lines>
+	<lines name="labelPosition" descr=""><![CDATA[Vị trí]]></lines>
+	<lines name="labelPriceSegment" descr=""><![CDATA[Quản lý phân khúc giá]]></lines>
+	<lines name="errorValueEmpty" descr=""><![CDATA[Thuộc tính này chưa có giá trị, vui lòng chọn thuộc tính khác.]]></lines>
+	<lines name="labelCurrency" descr=""><![CDATA[&#272;]]></lines>
+	<lines name="head_list_role" descr=""><![CDATA[Phân quyền danh mục sản phẩm]]></lines>
+	<lines name="head_add_role" descr=""><![CDATA[Thêm phân quyền]]></lines>
+	<lines name="head_edit_role" descr=""><![CDATA[Cập nhật phân quyền]]></lines>
+	<lines name="title_list_role" descr=""><![CDATA[Danh sách phân quyền danh mục sản phẩm]]></lines>
+	<lines name="labelVendor" descr=""><![CDATA[Đối tác]]></lines>
+	<lines name="labelGroupAttribute" descr=""><![CDATA[Quyền của nhóm thuộc tính]]></lines>
+	<lines name="labelProduct" descr=""><![CDATA[Quyền của sản phẩm]]></lines>
+	<lines name="labelProductCategory" descr=""><![CDATA[Danh mục sản phẩm]]></lines>
+	<lines name="labelAccount" descr=""><![CDATA[Tài khoản]]></lines>
+	<lines name="labelSale" descr=""><![CDATA[Phân quyền sale]]></lines>
+	<lines name="labelMod" descr=""><![CDATA[Tạo phân quyền]]></lines>
+	<lines name="labelPromotion" descr=""><![CDATA[Thêm Promotion]]></lines>
+	<lines name="labelPage" descr=""><![CDATA[Quyền của page]]></lines>
+	<lines name="labelSlug" descr=""><![CDATA[Quyền của slug]]></lines>
+	<lines name="errNoAttribute" descr=""><![CDATA[Danh mục này hiện thời chưa có thuộc tính.]]></lines>
+
+	<lines name="labelView" descr=""><![CDATA[Xem]]></lines>
+	<lines name="labelChange" descr=""><![CDATA[Thay đổi]]></lines>
+	<lines name="labelDelete" descr=""><![CDATA[Xóa]]></lines>
+	<lines name="labelGroup" descr=""><![CDATA[Nhóm]]></lines>
+
+	<lines name="errNameRequired" descr=""><![CDATA[Vui lòng nhập tên danh mục.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi xảy ra khi tạo danh mục mục mới]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Danh mục đã được tạo.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi xảy ra khi cập nhạt danh mục]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Danh mục đã được cập nhật.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy danh mục.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi xảy ra trong khi xóa danh mục với id là ###id###.]]></lines>
+
+	<lines name="succUpdateFilter" descr=""><![CDATA[Cập nhật filter thuộc tính thành công.]]></lines>
+	<lines name="errUpdateFilter" descr=""><![CDATA[Cập nhật filter thuộc không tính thành công.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy dữ liệu.]]></lines>
+	<lines name="errorAddPermission" descr=""><![CDATA[Bạn không thể tạo danh mục mới.]]></lines>
+	<lines name="errorEditPermission" descr=""><![CDATA[Bạn không thể cập nhật danh mục này.]]></lines>
+	<lines name="errorDeletePermission" descr=""><![CDATA[Bạn không thể xóa danh mục này.]]></lines>
+	<lines name="errorSegmentPermission" descr=""><![CDATA[Bạn không thể xét phân khúc giá cho danh mục này.]]></lines>
+	<lines name="errorFilterPermission" descr=""><![CDATA[Bạn không thể filter thuộc tính cho danh mục này.]]></lines>
+
+	<lines name="succUpdateSegment" descr=""><![CDATA[Cập nhật phân khúc giá thành công.]]></lines>
+	<lines name="errUpdateSegment" descr=""><![CDATA[Cập nhật phân khúc giá không thành công.]]></lines>
+	<lines name="errSegment" descr=""><![CDATA[Vui lòng nhập thông tin phân khúc giá.]]></lines>
+
+	<lines name="errRole" descr=""><![CDATA[Vui lòng chọn danh mục để phân quyền.]]></lines>
+	<lines name="errRoleFull" descr=""><![CDATA[Danh mục được phân quyền phải có quyền xem hoặc thay đỏi.]]></lines>
+	<lines name="errRoleUser" descr=""><![CDATA[Vui lòng nhập mã tài khoản.]]></lines>
+	<lines name="errRoleCategoryExist" descr=""><![CDATA[Danh mục ###pcid### đã được phân quyền cho tài khoản này.]]></lines>
+	<lines name="succAddRole" descr=""><![CDATA[Phân quyền danh mục đã được tạo.]]></lines>
+	<lines name="errAddRole" descr=""><![CDATA[Có lỗi xảy ra trong quá trình tạo phân quyền danh mục.]]></lines>
+	<lines name="errorAccess" descr=""><![CDATA[Bạn không thể truy cập vào trang này.]]></lines>
+	<lines name="succUpdateRole" descr=""><![CDATA[Cập nhật phân quyền thành công.]]></lines>
+	<lines name="errUpdateRole" descr=""><![CDATA[Có lỗi xảy ra trong quá trình cập nhật phân quyền.]]></lines>
+	<lines name="labelCreatorid" descr=""><![CDATA[Người tạo]]></lines>
+	<lines name="succDeleteRole" descr=""><![CDATA[Phân quyền cho danh mục ###name### đã được xóa]]></lines>
+	<lines name="errDeleteRole" descr=""><![CDATA[Phân quyền cho danh mục ###name### không thể xóa]]></lines>
+	<lines name="errRoleCategoryDelegate" descr=""><![CDATA[Bạn không thể phân quyền cho danh mục ###name###]]></lines>
+	<lines name="errParentRequired" descr=""><![CDATA[Vui lòng chọn danh mục cha]]></lines>
+	<lines name="errstartUser" descr=""><![CDATA[Bạn chưa thuộc phòng ban nào nên không thể thực hiện chứ năng này.]]></lines>
+	<lines name="errendUser" descr=""><![CDATA[Tài khoản ###name### hiện tại không thuộc phòng ban của bạn.]]></lines>
+	<lines name="errendUserPiority" descr=""><![CDATA[Chức vụ của bạn không thể phân quyền cho tài khoản ###name###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Danh mục có id là ###id### đã được xóa.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi xảy ra khi xóa danh mục có id là ###id### .]]></lines>
+	<lines name="errCategoryProductValid" descr=""><![CDATA[Danh mục sản phẩm không hợp lệ .]]></lines>
+	<lines name="errCategoryNewsValid" descr=""><![CDATA[Danh mục tin tức không hợp lệ .]]></lines>
+
+	<lines name="succRoleDelete" descr=""><![CDATA[Phân quyền danh mục có id là ###id### đã được xóa.]]></lines>
+	<lines name="errRoleDelete" descr=""><![CDATA[Có lỗi xảy ra khi xóa phân quyền  danh mục có id là ###id### .]]></lines>
+	<lines name="errAccessPermission" descr=""><![CDATA[Bạn không thể truy nhập chức năng này.]]></lines>
+	<lines name="succVendorList" descr=""><![CDATA[Cập nhật filter nhà sản xuất thành công.]]></lines>
+	<lines name="errVendorList" descr=""><![CDATA[Cập nhật filter nhà sản xuất không thành công.]]></lines>
+
+	<lines name="succWeightList" descr=""><![CDATA[Cập nhật trọng số thành công.]]></lines>
+	<lines name="errWeightList" descr=""><![CDATA[Cập nhật trọng số không thành công.]]></lines>
+
+</data>

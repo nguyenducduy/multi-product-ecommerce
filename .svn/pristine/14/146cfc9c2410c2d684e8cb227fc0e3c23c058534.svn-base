@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="title" descr=""><![CDATA[Danh sách bạn bè]]></lines>
+	<lines name="titleRequest" descr=""><![CDATA[Lời mời kết bạn]]></lines>
+	<lines name="titleSearch" descr=""><![CDATA[Kết quả tìm bạn với từ ]]></lines>
+	<lines name="delete" descr=""><![CDATA[Xoá]]></lines>
+	<lines name="deleteTitle" descr=""><![CDATA[Xoá khỏi danh sách bạn]]></lines>
+	<lines name="empty" descr=""><![CDATA[Chưa có bạn nào]]></lines>
+	<lines name="emptyRequest" descr=""><![CDATA[Chưa có lời mời kết bạn nào]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Xoá thành công]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi khi xoá bạn bè]]></lines>
+	<lines name="errMaxFriendQuotaExceed" descr=""><![CDATA[Danh sách bạn bè đã đầy. Bạn chỉ có thể có tối đa ###VALUE### bạn]]></lines>
+	<lines name="errMaxFriendQuotaExceedRequestor" descr=""><![CDATA[Danh sách bạn bè của ###VALUE### đã đầy. (Chỉ có thể có tối đa ###VALUE2### bạn)]]></lines>
+	<lines name="errFriendNotFound" descr=""><![CDATA[Không tìm thấy thành viên]]></lines>
+	<lines name="errRequestNotFound" descr=""><![CDATA[Không tìm thấy yêu cầu kết bạn]]></lines>
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi khi đồng ý kết bạn.]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Kết bạn thành công]]></lines>
+	<lines name="request" descr=""><![CDATA[Kết bạn]]></lines>
+	<lines name="requestTitle" descr=""><![CDATA[Gởi lời mời kết bạn]]></lines>
+	<lines name="errAlreadyFriend" descr=""><![CDATA[###VALUE### đang là bạn của bạn]]></lines>
+	<lines name="errFriendYourself" descr=""><![CDATA[Bạn không thể kết bạn với chính mình]]></lines>
+	<lines name="errRequestAlready" descr=""><![CDATA[Bạn đã gởi lời mời kết bạn với ###VALUE### rồi.]]></lines>
+	<lines name="succRequest" descr=""><![CDATA[Lời mời kết bạn với ###VALUE### được gởi thành công]]></lines>
+	<lines name="errRequest" descr=""><![CDATA[Có lỗi khi gởi lời mời kết bạn tới ###VALUE###]]></lines>
+	<lines name="accept" descr=""><![CDATA[Đồng ý]]></lines>
+	<lines name="acceptTitle" descr=""><![CDATA[Đồng ý kết bạn]]></lines>
+	<lines name="deny" descr=""><![CDATA[Từ chối]]></lines>
+	<lines name="denyTitle" descr=""><![CDATA[Từ chối lời mời kết bạn này]]></lines>
+	<lines name="succDeleteRequest" descr=""><![CDATA[Xoá thành công lời mời kết bạn]]></lines>
+	<lines name="errDeleteRequest" descr=""><![CDATA[Có lỗi khi xoá lời mời kết bạn]]></lines>
+	<lines name="submitsearch" descr=""><![CDATA[Tìm bạn]]></lines>
+	<lines name="returnToFriendlist" descr=""><![CDATA[Trở về danh sách bạn bè]]></lines>
+	
+	<lines name="sendmessage" descr=""><![CDATA[Nhắn tin]]></lines>
+	<lines name="sendmessageinfo" descr=""><![CDATA[Chọn người mà bạn muốn gởi tin nhắn cá nhân.]]></lines>
+		
+	<lines name="pageTitle" descr=""><![CDATA[ | Danh sách bạn bè]]></lines>
+	<lines name="pageKeyword" descr=""><![CDATA[ban be, friend, friendlist, friend list, bạn bè, danh sách bạn, danh sách bạn bè]]></lines>
+	<lines name="pageDescription" descr=""><![CDATA[Danh sách bạn bè của thành viên.]]></lines>
+	
+	<lines name="pageTitleSearch" descr=""><![CDATA[ | Tìm bạn với tên ]]></lines>
+	<lines name="pageKeywordSearch" descr=""><![CDATA[ban be, friend, tim ban, tim kiem ban be, tim kiem, tìm kiếm, tìm bạn, friendlist, friend list, bạn bè, danh sách bạn, danh sách bạn bè]]></lines>
+	<lines name="pageDescriptionSearch" descr=""><![CDATA[Tìm kiếm bạn bè theo tên trong danh sách bạn.]]></lines>
+	
+	<lines name="pageTitleRequest" descr=""><![CDATA[ | Lời mời kết bạn]]></lines>
+	<lines name="pageKeywordRequest" descr=""><![CDATA[ban be, loi moi ket ban, de nghi ket ban, request, friend request.]]></lines>
+	<lines name="pageDescriptionRequest" descr=""><![CDATA[Lời mời kết bạn tới thành viên]]></lines>
+
+</data>

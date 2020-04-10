@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="title" descr=""><![CDATA[Bình luận sách]]></lines>
+	<lines name="empty" descr=""><![CDATA[Chưa có bình luận nào]]></lines>
+	<lines name="notfound" descr=""><![CDATA[Không tìm thấy bình luận cần chỉnh sửa.]]></lines>
+	<lines name="reviewRemove" descr=""><![CDATA[Xoá]]></lines>
+	<lines name="reviewRemoveTitle" descr=""><![CDATA[Click vào đây để xoá bình luận này]]></lines>
+	<lines name="reviewAbuse" descr=""><![CDATA[Báo xấu]]></lines>
+	<lines name="reviewAbuseTitle" descr=""><![CDATA[Thông báo lời bình nội dung không tốt]]></lines>
+	
+	<lines name="replySubmit" descr=""><![CDATA[Gởi]]></lines>
+	<lines name="replyPlaceholder" descr=""><![CDATA[Nhập trả lời của bạn...]]></lines>
+	
+	<lines name="errMessageTooShort" descr=""><![CDATA[Nội dung lời bình quá ngắn. (Tối thiểu ###VALUE### ký tự)]]></lines>
+	<lines name="errMessageTooLong" descr=""><![CDATA[Nội dung lời bình quá dài. (Tối đa ###VALUE### ký tự)]]></lines>
+	<lines name="errDuplicate" descr=""><![CDATA[Thông tin bạn gởi bị trùng nội dung]]></lines>
+	<lines name="errSpam" descr=""><![CDATA[Thông tin bạn gởi quá nhanh. Hãy chờ trong giây lát.]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Lời bình của bạn đã được thêm.]]></lines>
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi khi thêm lời bình của bạn.]]></lines>
+	<lines name="succEdit" descr=""><![CDATA[Cập nhật thành công lời bình của bạn.]]></lines>
+	<lines name="errEdit" descr=""><![CDATA[Có lỗi khi cập nhật lời bình của bạn.]]></lines>
+	<lines name="succRemove" descr=""><![CDATA[Đã xoá lời bình của bạn.]]></lines>
+	<lines name="errRemove" descr=""><![CDATA[Có lỗi khi xoá lời bình của bạn.]]></lines>
+	<lines name="reviewToBook" descr=""><![CDATA[Gởi bình luận cho sách]]></lines>
+	<lines name="editreviewToBook" descr=""><![CDATA[Cập nhật bình luận cho sách]]></lines>
+	<lines name="reviewMessage" descr=""><![CDATA[Lời bình]]></lines>
+	<lines name="reviewSubmit" descr=""><![CDATA[Gởi bình luận]]></lines>
+	<lines name="editSubmit" descr=""><![CDATA[Cập nhật]]></lines>
+	<lines name="edit" descr=""><![CDATA[Chỉnh sửa]]></lines>
+	<lines name="reply" descr=""><![CDATA[Trả lời]]></lines>
+	<lines name="like" descr=""><![CDATA[Thích]]></lines>
+	<lines name="notifyBadstring" descr=""><![CDATA[Bình luận của bạn cho sách <em>"###VALUE###"</em> cần duyệt trước khi hiển thị ra ngoài.]]></lines>
+	<lines name="reviewHelp" descr=""><![CDATA[Có thể bạn đã đọc qua này, hãy chia sẻ cùng mọi người cảm nhận của bạn.]]></lines>
+	<lines name="typeometerTitle" descr=""><![CDATA[Bình luận của bạn càng dài thì bạn càng nhận được nhiều REP. Bạn có thể dùng REP để đổi XU và mua sắm trên Reader.]]></lines>
+	
+	<lines name="reviewFromBook" descr=""><![CDATA[Bình luận cho sách]]></lines>
+	<lines name="reviewAdd" descr=""><![CDATA[Viết bình luận]]></lines>
+	<lines name="sampleList" descr=""><![CDATA[Trích đoạn]]></lines>
+	<lines name="ownerList" descr=""><![CDATA[Thành viên có sách này]]></lines>
+	
+	<lines name="xubonusTitle" descr=""><![CDATA[Bình luận này được thưởng tiền vào tài khoản.]]></lines>
+	
+	<lines name="pageTitle" descr=""><![CDATA[Bình luận sách mới nhất]]></lines>
+	<lines name="pageTitleDetail" descr=""><![CDATA[Bình luận sách]]></lines>
+	<lines name="pageKeyword" descr=""><![CDATA[binh luan, review, book review, binh luan, bình luận, reviews, bình luận sách, review sách, lời bình, lời bình cho sách, lời bình của thành viên.]]></lines>
+	<lines name="pageDescription" descr=""><![CDATA[Các bình luận sách mới nhất.]]></lines>
+
+</data>

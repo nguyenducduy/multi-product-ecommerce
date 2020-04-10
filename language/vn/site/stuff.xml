@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="errTitleRequired" descr=""><![CDATA[Tiêu đề không được để trống.]]></lines>
+	<lines name="errPriceRequired" descr=""><![CDATA[Giá sản phẩm không được để trống.]]></lines>
+	<lines name="errContentRequired" descr=""><![CDATA[Nội dung không được để trống.]]></lines>
+	<lines name="errCategoryRequired" descr=""><![CDATA[Danh mục không được để trống.]]></lines>
+	<lines name="errRegionRequired" descr=""><![CDATA[Tỉnh thành không được để trống.]]></lines>
+	<lines name="errTitleLimited" descr=""><![CDATA[Tiêu đề không quá 150 ký tự.]]></lines>
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi trong quá trình nhập dữ liệu.]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Đăng tin thành công.]]></lines>
+	<lines name="errSecurityCode" descr=""><![CDATA[Mã an toàn không chính xác..]]></lines>
+    <lines name="errPriceIsInt" descr=""><![CDATA[Giá sản phẩm phải là số.]]></lines>
+    <lines name="seotitlestuff" descr=""><![CDATA[Rao vặt]]></lines>
+    <lines name="seodescriptionstuff" descr=""><![CDATA[Rao vặt]]></lines>
+	<lines name="seokeywordstuff" descr=""><![CDATA[Rao vặt]]></lines>
+
+</data>

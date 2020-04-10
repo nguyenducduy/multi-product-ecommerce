@@ -1,0 +1,24 @@
+<?php
+namespace Controller\Admin;
+
+class Blog extends BaseController
+{
+
+    public function indexAction()
+    {}
+
+    public function addAction()
+    {
+        $this->registry->smarty->assign(array(
+            'formData' => $formData
+        ));
+        
+        $contents = $this->registry->smarty->fetch($this->registry->smartyController . 'add.tpl');
+        
+        $this->registry->smarty->assign(array(
+            'contents' => $contents,
+            'pageTitle' => $this->registry->lang['controller']['pageTitle_dashboard']
+        ));
+        $this->registry->smarty->display($this->registry->smartyModule . 'index.tpl');
+    }
+}

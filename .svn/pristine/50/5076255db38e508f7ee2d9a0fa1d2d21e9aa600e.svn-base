@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Tỉnh/Thành phố]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Tỉnh/Thành phố &raquo; Danh sách]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Thêm]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Tỉnh/Thành phố &raquo; Thêm]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Tỉnh/Thành phố &raquo; Cập nhật]]></lines>
+
+	
+	<lines name="labelId" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Tên]]></lines>
+    <lines name="labelSlug" descr=""><![CDATA[Slug]]></lines>
+	<lines name="labelDisplayorder" descr=""><![CDATA[Thứ tự hiển thị]]></lines>
+	<lines name="labelParentid" descr=""><![CDATA[Tỉnh/Thành phố]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[CÓ lỗi khi thêm thông tin]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Tạo thông tin thành công.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi khi cập nhật thông tin.]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Cập nhật thành công.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy thông tin.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi khi xóa record có ID ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Record với id ###id### đã được xóa.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy thông tin]]></lines>
+	
+	
+	
+	
+</data>

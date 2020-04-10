@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Đối tác]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách đối tác]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Đối tác &raquo; Danh sách]]></lines>
+
+
+	<lines name="head_add" descr=""><![CDATA[Thêm đối tác]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin đối tác]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Đối tác &raquo; Thêm]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật đối tác]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin đối tác]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Đối tác &raquo; Cập nhật]]></lines>
+
+
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelImage" descr=""><![CDATA[Hình ảnh]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Tên]]></lines>
+	<lines name="labelContent" descr=""><![CDATA[Nội dung]]></lines>
+	<lines name="labelSlug" descr=""><![CDATA[Slug]]></lines>
+	<lines name="labelInsurance" descr=""><![CDATA[Điểm bảo hành]]></lines>
+    <lines name="labelSeotitle" descr=""><![CDATA[SEO Title]]></lines>
+    <lines name="labelSeokeyword" descr=""><![CDATA[SEO Keyword]]></lines>
+    <lines name="labelSeodescription" descr=""><![CDATA[SEO Description]]></lines>
+	<lines name="labelCountproduct" descr=""><![CDATA[SL sản phẩm]]></lines>
+	<lines name="labelDisplayorder" descr=""><![CDATA[TT hiển thị]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="labelType" descr=""><![CDATA[Loại]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Datecreated]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Datemodified]]></lines>
+
+
+	<lines name="errNameRequired" descr=""><![CDATA[Vui lòng nhập tên.]]></lines>
+	<lines name="errContentRequired" descr=""><![CDATA[Vui lòng nhập nội dung.]]></lines>
+	<lines name="errSlugRequired" descr=""><![CDATA[Vui lòng nhập slug.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi trong khi thêm đối tác mới.]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Đối tác đã được tạo.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi trong khi cập nhật đối tác]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Đối tác đã được cập nhật.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy đối tác.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi trong khi xóa đối tác có id là ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Đối tác có id là ###id### đã bị xóa.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy dữ liệu.]]></lines>
+
+
+
+
+</data>

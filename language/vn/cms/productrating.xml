@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[ProductRating]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[ProductRating Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[ProductRating &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New ProductRating]]></lines>
+	<lines name="title_add" descr=""><![CDATA[ProductRating Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[ProductRating &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update ProductRating]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[ProductRating Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[ProductRating &raquo; Update]]></lines>
+
+	
+	<lines name="labelReviewid" descr=""><![CDATA[Reviewid]]></lines>
+	<lines name="labelUid" descr=""><![CDATA[Uid]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelObjectid" descr=""><![CDATA[Objectid]]></lines>
+	<lines name="labelFullname" descr=""><![CDATA[Fullname]]></lines>
+	<lines name="labelEmail" descr=""><![CDATA[Email]]></lines>
+	<lines name="labelValue" descr=""><![CDATA[Value]]></lines>
+	<lines name="labelIpaddress" descr=""><![CDATA[Ipaddress]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Status]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Datecreated]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Datemodified]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	
+	
+	<lines name="errReviewidMustGreaterThanZero" descr=""><![CDATA[Reviewid must be greater than zero.]]></lines>
+	<lines name="errUidMustGreaterThanZero" descr=""><![CDATA[Uid must be greater than zero.]]></lines>
+	<lines name="errObjectidMustGreaterThanZero" descr=""><![CDATA[Objectid must be greater than zero.]]></lines>
+	<lines name="errFullnameRequired" descr=""><![CDATA[Fullname is required.]]></lines>
+	<lines name="errEmailInvalidEmail" descr=""><![CDATA[Email is not valid format.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add ProductRating]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[ProductRating had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating ProductRating]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[ProductRating had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[ProductRating not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting ProductRating with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[ProductRating with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

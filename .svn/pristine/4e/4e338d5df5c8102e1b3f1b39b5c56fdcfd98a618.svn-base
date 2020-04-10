@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+		<lines name="head_list" descr=""><![CDATA[Quản lý Contact]]></lines>
+		<lines name="intro_list" descr=""><![CDATA[Chức năng quản lý các Contact trong website.]]></lines>
+		<lines name="title_list" descr=""><![CDATA[Danh sách Contact]]></lines>
+		<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+		<lines name="pageTitle_list" descr=""><![CDATA[Contact &raquo; Danh sách Contact]]></lines>
+	
+		<lines name="head_edit" descr=""><![CDATA[Cập nhật Contact]]></lines>
+		<lines name="title_edit" descr=""><![CDATA[Thông tin chi tiết]]></lines>
+		<lines name="pageTitle_edit" descr=""><![CDATA[Contact &raquo; Cập nhật Contact]]></lines>
+
+		
+		<lines name="formKeywordLabel" descr=""><![CDATA[Từ khóa]]></lines>
+		<lines name="formKeywordInUsernameLabel" descr=""><![CDATA[Trong Username người gởi]]></lines>
+		<lines name="formKeywordInFullnameLabel" descr=""><![CDATA[Trong tên]]></lines>
+		<lines name="formKeywordInEmailLabel" descr=""><![CDATA[Trong email]]></lines>
+		<lines name="formKeywordInPhoneLabel" descr=""><![CDATA[Trong phone]]></lines>
+		<lines name="formKeywordInMessageLabel" descr=""><![CDATA[Trong nội dung]]></lines>
+		<lines name="formKeywordInIpAddressLabel" descr=""><![CDATA[Trong IP Address]]></lines>
+		<lines name="formKeywordInNoteLabel" descr=""><![CDATA[Trong ghi chú admin]]></lines>
+		<lines name="formUsernameLabel" descr=""><![CDATA[Username]]></lines>
+		<lines name="formFullnameLabel" descr=""><![CDATA[Fullname]]></lines>
+		<lines name="formEmailLabel" descr=""><![CDATA[Email]]></lines>
+		<lines name="formPhoneLabel" descr=""><![CDATA[Phone]]></lines>
+		<lines name="formReasonLabel" descr=""><![CDATA[Lý do]]></lines>
+		<lines name="formMessageLabel" descr=""><![CDATA[Nội dung]]></lines>
+		<lines name="formIpAddressLabel" descr=""><![CDATA[IP Address]]></lines>
+		<lines name="formStatusLabel" descr=""><![CDATA[Status]]></lines>
+		<lines name="formNoteLabel" descr=""><![CDATA[Ghi chú]]></lines>
+		<lines name="formDateCreatedLabel" descr=""><![CDATA[Ngày tạo]]></lines>
+		<lines name="errFormTokenInvalid" descr=""><![CDATA[Có lỗi khi gởi dữ liệu. Hãy thử lại.]]></lines>     
+		<lines name="reasonGeneral" descr=""><![CDATA[Thông tin chung]]></lines>
+		<lines name="reasonAds" descr=""><![CDATA[Liên hệ quảng cáo]]></lines>
+		<lines name="reasonIdea" descr=""><![CDATA[Góp ý xây dựng website]]></lines>
+		<lines name="reasonSupport" descr=""><![CDATA[Hỗ trợ khách hàng]]></lines>
+		
+		
+		
+
+		<lines name="errFormTokenInvalid" descr=""><![CDATA[Có lỗi khi gởi dữ liệu. Hãy thử lại.]]></lines>     
+
+		<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy Contact đã chọn.]]></lines>
+		<lines name="errDelete" descr=""><![CDATA[Có lỗi khi xóa Contact có ID <strong>###id###</strong>.]]></lines>
+		<lines name="succDelete" descr=""><![CDATA[Xóa thành công Contact có ID <strong>###id###</strong>.]]></lines>
+		<lines name="errUpdate" descr=""><![CDATA[Có lỗi khi cập nhật thông tin Contact]]></lines>
+		<lines name="succUpdate" descr=""><![CDATA[Cập nhật Contact với id <strong>###id###</strong> thành công.]]></lines>
+
+	
+	
+	
+</data>

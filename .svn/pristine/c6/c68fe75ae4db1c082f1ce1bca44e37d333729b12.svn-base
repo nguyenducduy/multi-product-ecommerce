@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data>
+	<lines name="head_list" descr=""><![CDATA[Chi tiết giá của sản phẩm ###PRODUCT_NAME###]]></lines>
+	<lines name="labelStoreName" descr=""><![CDATA[Tên siêu thị]]></lines>
+	<lines name="labelQuantity" descr=""><![CDATA[Giá]]></lines>
+	<lines name="errBarcodeExist" descr=""><![CDATA[Barcode của sản phẩm không tồn tại]]></lines>
+	<lines name="errExist" descr=""><![CDATA[Giá của sản phẩm này không tồn tại trên ERP]]></lines>
+	<lines name="labelPid" descr=""><![CDATA[Mã sản phẩm]]></lines>
+	<lines name="labelUid" descr=""><![CDATA[Tài khoản]]></lines>
+	<lines name="labelEid" descr=""><![CDATA[Đối thủ]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelUrl" descr=""><![CDATA[Url]]></lines>
+	<lines name="labelRegion" descr=""><![CDATA[Khu vực]]></lines>
+	<lines name="labelPrice" descr=""><![CDATA[Giá bằng tay]]></lines>
+	<lines name="labelPriceauto" descr=""><![CDATA[Giá Auto]]></lines>
+	<lines name="labelNote" descr=""><![CDATA[Ghi chú]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+
+	<lines name="labelName" descr=""><![CDATA[Tên chi nhánh]]></lines>
+	<lines name="labelWebsite" descr=""><![CDATA[Website]]></lines>
+	<lines name="labelRegion" descr=""><![CDATA[Thành phố]]></lines>
+
+	<lines name="labelPriceStored" descr=""><![CDATA[Giá theo siêu thị]]></lines>
+	<lines name="labelPriceOutputtyped" descr=""><![CDATA[Hình thức xuất]]></lines>
+	<lines name="labelPriceArea" descr=""><![CDATA[Giá theo khu vực]]></lines>
+	<lines name="labelAssignt" descr=""><![CDATA[Giá đối thủ]]></lines>
+	<lines name="labelUpdatePrice" descr=""><![CDATA[Cập nhật giá từ ERP]]></lines>
+	<lines name="datesync" descr=""><![CDATA[Ngày cập nhật]]></lines>
+
+	<lines name="warnNotChange" descr=""><![CDATA[Giá từ ERP không thay đổi]]></lines>
+	<lines name="succSync" descr=""><![CDATA[Cập nhật giá từ ERP thành công]]></lines>
+	<lines name="errSync" descr=""><![CDATA[Có lỗi trong quá trình cập nhật giá từ ERP không thay đổi]]></lines>
+	<lines name="lableName" descr=""><![CDATA[Tên đối thủ.]]></lines>
+	<lines name="lableImage" descr=""><![CDATA[Image.]]></lines>
+	<lines name="lablePromotionInfo" descr=""><![CDATA[Thông tin khuyến mãi.]]></lines>
+	<lines name="lablePricePromotion" descr=""><![CDATA[Giá bán.]]></lines>
+	<lines name="labelRegion" descr=""><![CDATA[Tỉnh thành.]]></lines>
+	<lines name="lableType" descr=""><![CDATA[Hình thức thêm giá đối thủ.]]></lines>
+	<lines name="labelRootPrice" descr=""><![CDATA[Giá Gốc]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi xảy ra trong quá trình xóa giá đối thủ có id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Giá đối thủ có id ###id### đã được xóa.]]></lines>
+	<lines name="lableProductname" descr=""><![CDATA[Tên sản phẩm của đối thủ]]></lines>
+	<lines name="labelDescription" descr=""><![CDATA[Mô tả]]></lines>
+	<lines name="labelInfo" descr=""><![CDATA[Thông tin]]></lines>
+	
+</data>

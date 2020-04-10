@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[ScrumIteration]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[ScrumIteration Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[ScrumIteration &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New ScrumIteration]]></lines>
+    <lines name="head_addteam" descr=""><![CDATA[Thêm Team]]></lines>
+    <lines name="head_additeration" descr=""><![CDATA[Thêm Iteration]]></lines>
+    <lines name="head_addstory" descr=""><![CDATA[Thêm Story]]></lines>
+    <lines name="head_addstorycate" descr=""><![CDATA[Thêm StoryCategory]]></lines>
+    <lines name="head_addtammember" descr=""><![CDATA[Thêm Team member]]></lines>
+    <lines name="head_addproject" descr=""><![CDATA[Thêm Project]]></lines>
+    <lines name="head_addstory" descr=""><![CDATA[Thêm Story]]></lines>
+    <lines name="head_addstorycategory" descr=""><![CDATA[Thêm Story Category]]></lines>
+	<lines name="title_add" descr=""><![CDATA[ScrumIteration Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[ScrumIteration &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update ScrumIteration]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[ScrumIteration Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[ScrumIteration &raquo; Update]]></lines>
+
+	
+	<lines name="labelSpid" descr=""><![CDATA[Project Name]]></lines>
+	<lines name="labelStid" descr=""><![CDATA[Team Name]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Name]]></lines>
+	<lines name="labelNote" descr=""><![CDATA[Note]]></lines>
+	<lines name="labelDatestarted" descr=""><![CDATA[Datestarted]]></lines>
+	<lines name="labelDateended" descr=""><![CDATA[Dateended]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Datecreated]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Datemodified]]></lines>
+	<lines name="labelProject" descr=""><![CDATA[Project]]></lines>
+	<lines name="labelTeam" descr=""><![CDATA[Team]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	
+	
+	
+	<lines name="errSpidMustGreaterThanZero" descr=""><![CDATA[Project ID must be greater than zero.]]></lines>
+	<lines name="errStidMustGreaterThanZero" descr=""><![CDATA[Team ID must be greater than zero.]]></lines>
+	<lines name="errNameRequired" descr=""><![CDATA[Name is required.]]></lines>
+	<lines name="errfdatestartedRequired" descr=""><![CDATA[Date start is required.]]></lines>
+	<lines name="errfdateendedRequired" descr=""><![CDATA[Date end is required.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add ScrumIteration]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[ScrumIteration had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating ScrumIteration]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[ScrumIteration had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[ScrumIteration not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting ScrumIteration with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[ScrumIteration with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

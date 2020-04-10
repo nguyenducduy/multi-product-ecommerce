@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Đối thủ]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách đối thủ]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Đối thủ &raquo; Danh sách]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Thêm thông tin đối thủ]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin đối thủ]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Đối thủ &raquo; Thêm]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật thông tin đối thủ]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin đối thủ]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Đối thủ &raquo; Cập nhật]]></lines>
+
+	
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Tên]]></lines>
+	<lines name="labelWebsite" descr=""><![CDATA[Website]]></lines>
+	<lines name="labelDisplayorder" descr=""><![CDATA[Thứ tự hiển thị]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Datecreated]]></lines>
+	<lines name="labelDateupdated" descr=""><![CDATA[Dateupdated]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	
+	
+	<lines name="errNameRequired" descr=""><![CDATA[Vui lòng nhập tên của đối thủ.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi xảy ra trong quá trình thêm thông tin đối thủ]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Thông tin đối thủ đã được thêm thành công.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi xảy ra trong quá trình cập nhật thông tin đối thủ]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Thông tin đối thủ đã đuợc cập nhật.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy dữ liệu.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi xảy ra trong quá trình xoá thông tin đối thủ có id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Thông tin đối thủ id ###id###  đã đuợc xoá.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy dữ liệu.]]></lines>
+	
+	
+	
+	
+</data>

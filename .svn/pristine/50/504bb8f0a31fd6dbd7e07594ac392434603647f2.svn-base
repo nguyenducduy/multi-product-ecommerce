@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[LastVisit]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[LastVisit Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[LastVisit &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New LastVisit]]></lines>
+	<lines name="title_add" descr=""><![CDATA[LastVisit Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[LastVisit &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update LastVisit]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[LastVisit Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[LastVisit &raquo; Update]]></lines>
+
+	
+	<lines name="labelUid" descr=""><![CDATA[Uid]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelTitle" descr=""><![CDATA[Title]]></lines>
+	<lines name="labelUrl" descr=""><![CDATA[Url]]></lines>
+	<lines name="labelColor" descr=""><![CDATA[Color]]></lines>
+	<lines name="labelDatelastvisited" descr=""><![CDATA[Datelastvisited]]></lines>
+	
+	
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add LastVisit]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[LastVisit had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating LastVisit]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[LastVisit had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[LastVisit not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting LastVisit with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[LastVisit with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

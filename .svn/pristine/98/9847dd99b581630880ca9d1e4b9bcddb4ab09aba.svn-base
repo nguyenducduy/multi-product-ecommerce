@@ -1,0 +1,108 @@
+<div class="header-row">
+	<div class="header-row-wrapper">
+		<header>
+			<h1 class="header-main" id="page-header" rel="menu_user_list">
+				<span class="breadcrumb"><a href="{$conf.rooturl_admin}{$controller}" title="">Blog Posts</a> /</span>
+				Add blog post
+			</h1>
+			<div class="header-right pull-right">
+				<a class="btn btn-default" href="{$conf.rooturl_admin}{$controller}">Cancel</a>
+				<a class="btn btn-success" href="javascript:void(0)" onclick="$('#myform').submit();">Save</a>
+			</div>
+		</header>
+	</div>
+</div>
+<form action="" id="myform" method="post" name="myform" class="form-horizontal">
+	<input type="hidden" name="ftoken" value="{$smarty.session.userAddToken}" />
+
+	{include file="notify.tpl" notifyError=$error notifySuccess=$success notifyWarning=$warning}
+	
+	<div class="row section">
+		<div class="col-md-3 section-summary">
+			<h1>Write your blog post</h1>
+			<p>Give your blog post a title and add your content.</p>
+		</div>
+		<div class="col-md-9 section-content">
+			<div class="ssb clear inner-left">
+				<label for="fgroupid">Title</label>
+				<input type="text" name="ftitle" id="ftitle" value="{$formData.ftitle|@htmlspecialchars}" class="form-control" placeholder="e.g. Blog about your latest products or deals">
+			</div>
+			<div class="ssb clear inner-left">
+				<label for="fdescription">Content</label>
+				<textarea class="form-control" name="fdescription" id="fdescription" rows="3">{$formData.fdescription}</textarea>
+			</div>
+			<div class="ssb clear">
+				<div class="col-md-6 inner-left">
+					<label for="fproducttype"> Author</label>
+					<select id="fproducttype" name="fproducttype" class="col-md-12">
+						<option value="">- - - -</option>
+					</select>
+				</div>
+				<div class="col-md-6 inner-right">
+					<label for="fproducttype"> Blog</label>
+					<select id="fvid" name="fvid" class="col-md-12">
+						<option value="">- - - -</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row section">
+		<div class="col-md-3 section-summary">
+			<h1>Tags</h1>
+			<p>Tags can be used to categorize your blog posts.</p>
+		</div>
+		<div class="col-md-9 section-content">
+			<div class="ssb clear">
+				<div class="ssb clear inner-left">
+					<input type="text" name="ftag" id="ftag" value="{$formData.ftag|@htmlspecialchars}" class="form-control" placeholder="Enter any number of tags separated by a comma">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row section">
+		<div class="col-md-3 section-summary">
+			<h1>Search Engines</h1>
+			<p>Set up the page title and meta description. These help define how this blog post shows up on search engines.</p>
+		</div>
+		<div class="col-md-9 section-content">
+			<div class="ssb clear inner-left">
+				<label for="fgroupid">Page title <span class="note">0 of 70 characters used</span></label>
+				<input type="text" name="fpagetitle" id="fpagetitle" value="{$formData.fpagetitle|@htmlspecialchars}" class="form-control">
+			</div>
+			<div class="ssb clear inner-left">
+				<label for="fgroupid">Meta description <span class="note">0 of 160 characters used</span></label>
+				<input type="text" name="fmetadescription" id="fmetadescription" value="{$formData.fmetadescription|@htmlspecialchars}" class="form-control">
+			</div>
+		</div>
+	</div>
+	
+	<div class="row section">
+		<div class="col-md-3 section-summary">
+			<h1>Visibility</h1>
+			<p>Control if this blog post can be viewed on your storefront.</p>
+		</div>
+		<div class="col-md-9 section-content">
+			<div class="radio">
+				<input id="ispublished-visible" type="radio" value="true">
+			    <label for="ispublished-visible" class="inline fw-normal">Visible
+			       <span class="note">(as of <span data-bind="object.published_at | date 'YYYY-MM-DD h:mma'">2014-01-20 2:03am EST</span>)</span>
+			    </label>
+			</div>
+		     <div class="radio">
+			      <input id="ispublished-hidden" type="radio" value="false">
+			      <label for="ispublished-hidden" class="inline fw-normal">Hidden
+			        <span class="note" style="display: none !important;">(will become visible on <span data-bind="object.publish_on | date 'YYYY-MM-DD h:mma'"></span>)</span>
+			      </label>
+		    </div>
+		</div>
+	</div>
+
+	<div class="row section buttons">
+		<input type="hidden" name="fsubmit" value="1" />
+		<input type="submit" value="Save" class="btn btn-success" />
+		<span class="pull-left"><span class="star_require">*</span> : {$lang.default.formRequiredLabel}</span>
+	</div>
+
+</form>

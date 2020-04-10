@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="heading" descr=""><![CDATA[Mạng xã hội sách Việt Nam]]></lines>
+	<lines name="tagline" descr=""><![CDATA[Cơ hội chưa từng có để kết nối với hàng ngàn người yêu sách tại Việt Nam. Cùng chia sẻ trải nghiệm thú vị về sách của bạn với mọi người.]]></lines>
+	<lines name="start" descr=""><![CDATA[Xem thêm &raquo;]]></lines>
+	<lines name="subtitle" descr=""><![CDATA[Lúc này tại Reader.vn]]></lines>
+	<lines name="title" descr=""><![CDATA[Viết 1 bình luận, tặng 2000₫]]></lines>
+	<lines name="moreText" descr=""><![CDATA[Đối với mỗi sách bạn viết bình luận hơn 500 ký tự và được duyệt sẽ tặng cho bạn 2,000đ vào tài khoản trên Reader.vn. Bạn có thể dùng số tiền này để mua hơn 2,000 đầu sách đang được bán bởi <a href="http://reader.vn/store" title="Vào Reader Store">Reader Store</a>.]]></lines>
+	<lines name="yourxu" descr=""><![CDATA[Bạn đang có:]]></lines>
+	<lines name="recentlist" descr=""><![CDATA[Bạn vừa xem]]></lines>
+	
+	<lines name="titleFeatured" descr=""><![CDATA[SÁCH NỔI BẬT]]></lines>
+	<lines name="titleBestseller" descr=""><![CDATA[BESTSELLER CỦA THÁNG]]></lines>
+	
+	<lines name="titleNewpublish" descr=""><![CDATA[Sách mới xuất bản]]></lines>
+	<lines name="titleMostviewToday" descr=""><![CDATA[Nổi bật trong ngày]]></lines>
+	<lines name="titleMostviewThisweek" descr=""><![CDATA[Xem nhiều nhất trong tuần]]></lines>
+	<lines name="titleLatestReview" descr=""><![CDATA[Bình luận mới nhất]]></lines>
+	<lines name="titleLatestQuote" descr=""><![CDATA[Trích dẫn mới nhất]]></lines>
+	<lines name="titleCategory" descr=""><![CDATA[Danh mục sách]]></lines>
+	<lines name="titleNewMember" descr=""><![CDATA[Thành viên mới]]></lines>
+	<lines name="titleArticle" descr=""><![CDATA[Văn hóa đọc]]></lines>
+	<lines name="titleHotStore" descr=""><![CDATA[Nổi bật trên STORE]]></lines>
+	<lines name="titleNewShelf" descr=""><![CDATA[Tủ sách tạo bởi thành viên]]></lines>
+	<lines name="notExistAccount" descr=""><![CDATA[Vui lòng kiểm tra lại thông tin , Tài khoản không tồn tại]]></lines>
+	
+	<lines name="errAccountInvalid" descr=""><![CDATA[Thông tin tài khoản không đúng.]]></lines>
+	<lines name="gotoStore" descr=""><![CDATA[Vào Reader Store &raquo;]]></lines>
+</data>

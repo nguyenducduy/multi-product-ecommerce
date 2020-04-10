@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Giftorderproduct]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Giftorderproduct Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Giftorderproduct &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New Giftorderproduct]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Giftorderproduct Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Giftorderproduct &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update Giftorderproduct]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Giftorderproduct Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Giftorderproduct &raquo; Update]]></lines>
+
+	
+	<lines name="labelGoid" descr=""><![CDATA[Giá từ]]></lines>
+	<lines name="labelId" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelProductid" descr=""><![CDATA[Mã sản phẩm]]></lines>
+	<lines name="labelQuantity" descr=""><![CDATA[Số lượng]]></lines>
+	<lines name="labelInstock" descr=""><![CDATA[Số lượng còn lại]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Tình trạng]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Ngày tạo]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Ngày cập nhật]]></lines>
+	
+	
+	<lines name="errProductidRequired" descr=""><![CDATA[Productid is required.]]></lines>
+	<lines name="errQuantityMustGreaterThanZero" descr=""><![CDATA[Quantity must be greater than zero.]]></lines>
+	<lines name="errInstockMustGreaterThanZero" descr=""><![CDATA[Instock must be greater than zero.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add Giftorderproduct]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Giftorderproduct had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating Giftorderproduct]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Giftorderproduct had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Giftorderproduct not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting Giftorderproduct with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Giftorderproduct with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

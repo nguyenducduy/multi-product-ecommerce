@@ -1,0 +1,31 @@
+<?php /* Smarty version Smarty-3.0.7, created on 2014-01-20 10:35:02
+         compiled from "templates/default/_controller/admin/header_leftmenu.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:147378021852dc99668e4500-51034374%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '7a19a734325cb597baf677168d73cadb2402d6bd' => 
+    array (
+      0 => 'templates/default/_controller/admin/header_leftmenu.tpl',
+      1 => 1389061279,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '147378021852dc99668e4500-51034374',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+)); /*/%%SmartyHeaderCode%%*/?>
+<div id="navbar">
+    <div class="well sidebar-nav">
+		<h2>ADMINISTRATOR</h2>
+        <ul class="nav nav-list">
+			<li id="menu_codegenerator"><a class="sidebar-link" href="<?php echo $_smarty_tpl->getVariable('conf')->value['rooturl_admin'];?>
+codegenerator"><i class="fa fa-magic"></i> Code Generator</a></li>
+			<li id="menu_user_list"><a class="sidebar-link" href="<?php echo $_smarty_tpl->getVariable('conf')->value['rooturl_admin'];?>
+user"><i class="fa fa-users"></i> Users</a></li>
+
+        </ul>
+      </div><!--/.well -->
+</div><!--/span-->

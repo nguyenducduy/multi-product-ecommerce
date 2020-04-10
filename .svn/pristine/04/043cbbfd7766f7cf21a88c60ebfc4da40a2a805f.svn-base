@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	
+	<lines name="errMessageTooShort" descr=""><![CDATA[Nội dung quá ngắn. (Tối thiểu ###VALUE### ký tự)]]></lines>
+	<lines name="errMessageTooLong" descr=""><![CDATA[Nội dung quá dài. (Tối đa ###VALUE### ký tự)]]></lines>
+	<lines name="errLinkTitleTooShort" descr=""><![CDATA[Tiêu đề Link quá ngắn. (Tối thiểu ###VALUE### ký tự)]]></lines>
+	<lines name="errLinkTitleTooLong" descr=""><![CDATA[Tiêu đề Link quá dài. (Tối đa ###VALUE### ký tự)]]></lines>
+	<lines name="errLinkDescriptionTooLong" descr=""><![CDATA[Giới thiệu Link quá dài. (Tối đa ###VALUE### ký tự)]]></lines>
+	<lines name="errLinkInvalid" descr=""><![CDATA[Đường dẫn không hợp lệ (Định dạng: http://...)]]></lines>
+	<lines name="errLinkImageInvalid" descr=""><![CDATA[Hình ảnh không hợp lệ]]></lines>
+	<lines name="errDuplicate" descr=""><![CDATA[Thông tin bạn gởi đã lưu.]]></lines>
+	<lines name="errPagePermission" descr=""><![CDATA[Bạn không có quyền viết lên trang nhà của Page.]]></lines>
+	<lines name="errPagePermissionLink" descr=""><![CDATA[Bạn không có quyền gởi liên kết lên trang nhà của Page.]]></lines>
+	<lines name="errSpam" descr=""><![CDATA[Thông tin bạn gởi quá nhanh. Hãy chờ trong giây lát.]]></lines>
+	<lines name="errTaggedBookRequired" descr=""><![CDATA[Bạn chưa tag sách để lưu thông tin của mình]]></lines>
+	<lines name="errTaggedBookNotFound" descr=""><![CDATA[Sách bạn tag không tồn tại.]]></lines>
+	
+	<lines name="errReviewMessageTooShort" descr=""><![CDATA[Nội dung lời bình quá ngắn. (Tối thiểu ###VALUE### ký tự)]]></lines>
+	<lines name="errReviewMessageTooLong" descr=""><![CDATA[Nội dung lời bình quá dài. (Tối đa ###VALUE### ký tự)]]></lines>
+	<lines name="notifyBadstring" descr=""><![CDATA[Bình luận của bạn cho sách <em>"###VALUE###"</em> cần duyệt trước khi hiển thị ra ngoài.]]></lines>
+	<lines name="errQuoteMessageTooShort" descr=""><![CDATA[Nội dung trích dẫn quá ngắn. (Tối thiểu ###VALUE### ký tự)]]></lines>
+	<lines name="errQuoteMessageTooLong" descr=""><![CDATA[Nội dung trích dẫn quá dài. (Tối đa ###VALUE### ký tự)]]></lines>
+	
+	
+	
+	<lines name="succAdd" descr=""><![CDATA[Thông tin của bạn đã được thêm.]]></lines>
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi khi thêm thông tin của bạn.]]></lines>
+
+</data>

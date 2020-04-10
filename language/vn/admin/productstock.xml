@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data>
+	<lines name="head_list" descr=""><![CDATA[Số lượng hàng tồn của sản phẩm ###PRODUCT_NAME###]]></lines>
+	<lines name="labelStoreName" descr=""><![CDATA[Tên siêu thị]]></lines>
+	<lines name="labelQuantity" descr=""><![CDATA[Số lượng]]></lines>
+	<lines name="errBarcodeExit" descr=""><![CDATA[Sản phẩm này chưa có barcode]]></lines>
+	<lines name="errExist" descr=""><![CDATA[SỐ lượng tồn kho của sản phẩm này không tồn tại trên ERP.]]></lines>
+	<lines name="datesync" descr=""><![CDATA[Ngày cập nhật]]></lines>
+    
+    
+    <lines name="warnNotChange" descr=""><![CDATA[Số lượng tồn kho từ ERP không thay đổi]]></lines>
+    <lines name="succSync" descr=""><![CDATA[Cập nhật số lượng tồn kho từ ERP thành công]]></lines>
+    <lines name="errSync" descr=""><![CDATA[Có lỗi trong quá trình cập nhật số lượng tồn kho từ ERP không thay đổi]]></lines>
+</data>

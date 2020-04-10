@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+		<lines name="head_list" descr=""><![CDATA[Quản lý Tài khoản]]></lines>
+		<lines name="intro_list" descr=""><![CDATA[Chức năng quản lý các loại trong website.]]></lines>
+		<lines name="title_list" descr=""><![CDATA[Danh sách Tài khoản]]></lines>
+		<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+		<lines name="pageTitle_list" descr=""><![CDATA[Tài khoản &raquo; Danh sách Tài khoản]]></lines>
+	
+		<lines name="head_add" descr=""><![CDATA[Thêm Tài khoản mới]]></lines>
+		<lines name="title_add" descr=""><![CDATA[Thông tin chi tiết]]></lines>
+		<lines name="pageTitle_add" descr=""><![CDATA[Tài khoản &raquo; Thêm Tài khoản mới]]></lines>
+	
+		<lines name="head_edit" descr=""><![CDATA[Cập nhật thông tin Tài khoản]]></lines>
+		<lines name="title_edit" descr=""><![CDATA[Thông tin chi tiết]]></lines>
+		<lines name="pageTitle_edit" descr=""><![CDATA[Tài khoản &raquo; Cập nhật thông tin Tài khoản]]></lines>
+
+
+		<lines name="formKeywordLabel" descr=""><![CDATA[Từ khóa]]></lines>
+		<lines name="formKeywordInEmailLabel" descr=""><![CDATA[Trong Email]]></lines>
+		<lines name="formKeywordInFullnameLabel" descr=""><![CDATA[Trong Họ Tên]]></lines>
+		<lines name="formImageLabel" descr=""><![CDATA[Hình đại diện]]></lines>
+		<lines name="formImageDeleteLabel" descr=""><![CDATA[Xóa hình này]]></lines>
+		<lines name="formDateCreatedLabel" descr=""><![CDATA[Ngày tạo]]></lines>
+		
+		<lines name="errEmailInvalid" descr=""><![CDATA[Email is invalid]]></lines>
+		<lines name="errEmailExisted" descr=""><![CDATA[Email is already used]]></lines>
+		<lines name="errPasswordRequired" descr=""><![CDATA[Password is required]]></lines>
+		<lines name="errPasswordRetype" descr=""><![CDATA[Password is not match]]></lines>
+		<lines name="errFullnameRequired" descr=""><![CDATA[Fullname is required]]></lines>
+		<lines name="errGenderInvalid" descr=""><![CDATA[Gender is invalid]]></lines>
+		<lines name="errGroupInvalid" descr=""><![CDATA[Group is invalid]]></lines>
+		
+		<lines name="errAdd" descr=""><![CDATA[Có lỗi khi thêm Tài khoản mới]]></lines>
+		<lines name="succAdd" descr=""><![CDATA[Tạo Tài khoản với email <strong>###email###</strong> thành công.]]></lines>
+		<lines name="errEdit" descr=""><![CDATA[Có lỗi khi cập nhật thông tin Tài khoản]]></lines>
+		<lines name="succEdit" descr=""><![CDATA[Cập nhật Tài khoản với email <strong>###email###</strong> thành công.]]></lines>
+		
+		<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy Tài khoản đã chọn.]]></lines>
+		<lines name="errDelete" descr=""><![CDATA[Có lỗi khi xóa Tài khoản với username <strong>###email###</strong>.]]></lines>
+		<lines name="succDelete" descr=""><![CDATA[Xóa thành công Tài khoản có username <strong>###email###</strong>.]]></lines>
+	
+	
+		<lines name="errResetpass" descr=""><![CDATA[Có lỗi khi reset password.]]></lines>
+		<lines name="errResetpassSendMail" descr=""><![CDATA[Reset password thành công nhưng có lỗi khi gởi mail New pasword cho email <strong>###email###</strong>.]]></lines>
+		<lines name="succResetpass" descr=""><![CDATA[Reset password thành công. Password đã được gởi tới địa chỉ email <strong>###email###</strong>.]]></lines>
+	
+	
+</data>

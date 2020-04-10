@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+		<lines name="head_list" descr=""><![CDATA[Quản lý Customer (From CRM)]]></lines>
+		<lines name="intro_list" descr=""><![CDATA[Chức năng quản lý User trong website.]]></lines>
+		<lines name="title_list" descr=""><![CDATA[Customer]]></lines>
+		<lines name="title_list2" descr=""><![CDATA[Company]]></lines>
+		<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+		<lines name="pageTitle_list" descr=""><![CDATA[Customer &raquo; Danh sách customer]]></lines>
+	
+		<lines name="head_add" descr=""><![CDATA[Thêm Customer mới]]></lines>
+		<lines name="head_detail_suppport" descr=""><![CDATA[Lịch sử phản ánh - hỗ trợ]]></lines>
+		<lines name="head_detail" descr=""><![CDATA[Chi tiết thông tin khách hàng]]></lines>
+		<lines name="title_add" descr=""><![CDATA[Thông tin chi tiết]]></lines>
+		<lines name="pageTitle_add" descr=""><![CDATA[Add Customer &raquo; Thêm Customer mới]]></lines>
+		<lines name="pageTitle_detail" descr=""><![CDATA[Detail customer]]></lines>
+		<lines name="pageTitle_saledetail" descr=""><![CDATA[Detail Saleorder]]></lines>
+	
+		<lines name="head_edit" descr=""><![CDATA[Cập nhật thông tin Customer]]></lines>
+		<lines name="title_edit" descr=""><![CDATA[Thông tin chi tiết]]></lines>
+		<lines name="pageTitle_edit" descr=""><![CDATA[Edit Customer &raquo; Cập nhật thông tin Customer]]></lines>
+
+
+		<lines name="formKeywordLabel" descr=""><![CDATA[Từ khóa]]></lines>
+		<lines name="formKeywordInScreennameLabel" descr=""><![CDATA[Trong Screenname]]></lines>
+		<lines name="formKeywordInEmailLabel" descr=""><![CDATA[Trong Email]]></lines>
+		<lines name="formKeywordInFullnameLabel" descr=""><![CDATA[Trong Họ Tên]]></lines>
+		<lines name="formImageLabel" descr=""><![CDATA[Hình đại diện]]></lines>
+		<lines name="formImageDeleteLabel" descr=""><![CDATA[Xóa hình này]]></lines>
+		<lines name="formDateCreatedLabel" descr=""><![CDATA[Ngày tạo]]></lines>
+		
+		<lines name="errEmailInvalid" descr=""><![CDATA[Vui lòng nhập email ]]></lines>
+		<lines name="errEmailExisted" descr=""><![CDATA[Email đã tồn tại]]></lines>
+		<lines name="errffname" descr=""><![CDATA[Vui lòng nhập Họ]]></lines>
+		<lines name="errflname" descr=""><![CDATA[Vui lòng nhập tên]]></lines>
+		<lines name="errfgender" descr=""><![CDATA[Vui lòng nhập giới tính]]></lines>
+		<lines name="errfbirthday" descr=""><![CDATA[Vui lòng nhập ngày sinh]]></lines>
+		<lines name="errfcity" descr=""><![CDATA[Vui lòng nhập thành phố]]></lines>
+		<lines name="errfdistrict" descr=""><![CDATA[Vui lòng nhập quận]]></lines>
+		<lines name="errfaddress" descr=""><![CDATA[Vui lòng nhập địa chỉ]]></lines>
+		<lines name="errfpersonal" descr=""><![CDATA[Vui lòng nhập chứng nhân dân]]></lines>
+		<lines name="errfpersonal" descr=""><![CDATA[Vui lòng nhập chứng nhân dân]]></lines>
+		<lines name="errfmainmobile" descr=""><![CDATA[Vui lòng nhập số điện thoại]]></lines>
+		<lines name="errfnummainmobile" descr=""><![CDATA[Số điện thoại phải là số]]></lines>
+		<lines name="errftaxno" descr=""><![CDATA[Vui lòng nhập số thuế]]></lines>
+		<lines name="errfpassword" descr=""><![CDATA[Vui lòng nhập mật khẩu]]></lines>
+		<lines name="errmobileExisted" descr=""><![CDATA[Số điện thoại đã tồn tại]]></lines>
+
+		<lines name="errAdd" descr=""><![CDATA[Có lỗi khi thêm User mới]]></lines>
+		<lines name="succAdd" descr=""><![CDATA[Tạo Customer thành công.]]></lines>
+		<lines name="errEdit" descr=""><![CDATA[Có lỗi khi cập nhật thông tin User]]></lines>
+		<lines name="succEdit" descr=""><![CDATA[Cập nhật User thành công.]]></lines>
+		
+		<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy User đã chọn.]]></lines>
+		<lines name="errDelete" descr=""><![CDATA[Có lỗi khi xóa User với username <strong>###email###</strong>.]]></lines>
+		<lines name="succDelete" descr=""><![CDATA[Xóa thành công User có username <strong>###email###</strong>.]]></lines>
+	
+	
+		<lines name="errResetpass" descr=""><![CDATA[Có lỗi khi reset password.]]></lines>
+		<lines name="errResetpassSendMail" descr=""><![CDATA[Reset password thành công nhưng có lỗi khi gởi mail New pasword cho email <strong>###email###</strong>.]]></lines>
+		<lines name="succResetpass" descr=""><![CDATA[Reset password thành công. Password đã được gởi tới địa chỉ email <strong>###email###</strong>.]]></lines>
+		
+
+
+
+
+
+
+                                                                  
+		<lines name ="lbrid" descr=""><![CDATA[Mã khách hàng]]></lines>
+		<lines name ="lbrname" descr=""><![CDATA[Tên khách hàng]]></lines>
+		<lines name ="lbrphone" descr=""><![CDATA[Số điện thoại]]></lines>
+		<lines name ="lbremail" descr=""><![CDATA[Email]]></lines>
+		<lines name ="lbrlevel" descr=""><![CDATA[Cấp độ]]></lines>
+		<lines name ="lbrtype" descr=""><![CDATA[Loại khách hàng]]></lines>
+		<lines name ="lbrcmnd" descr=""><![CDATA[Chứng minh nhân dân]]></lines>
+
+		<lines name ="lbyid" descr=""><![CDATA[Mã Công ty]]></lines>
+		<lines name ="lbyphone" descr=""><![CDATA[Số điện thoại]]></lines>
+		<lines name ="lbyemail" descr=""><![CDATA[Email]]></lines>
+		<lines name ="lbytax" descr=""><![CDATA[Mã số thuế]]></lines>
+		<lines name ="lbyname" descr=""><![CDATA[Tên công ty]]></lines>
+		
+		<lines name ="lbsaleorderid" descr=""><![CDATA[Mã đơn hàng]]></lines>
+		<lines name ="lbsaleorderproductname" descr=""><![CDATA[Tên sản phẩm]]></lines>
+		<lines name ="lbsaleorderquantity" descr=""><![CDATA[Số lượng]]></lines>
+		<lines name ="lbsaleorderprice" descr=""><![CDATA[Giá]]></lines>
+		<lines name ="lbsaleorderdatecreat" descr=""><![CDATA[Ngày giao dịch]]></lines>
+
+
+
+
+		<lines name ="lbFirstname" descr=""><![CDATA[Họ khách hàng]]></lines>
+		<lines name ="lbLastname" descr=""><![CDATA[Tên khách hàng]]></lines>
+		<lines name ="lbGender" descr=""><![CDATA[Giới tính]]></lines>
+		<lines name ="lbBirthday" descr=""><![CDATA[Ngày sinh]]></lines>
+		<lines name ="lbCity" descr=""><![CDATA[Thành phố]]></lines>
+		<lines name ="lbdistrict" descr=""><![CDATA[Quận]]></lines>
+		<lines name ="lbaddress" descr=""><![CDATA[Địa chỉ]]></lines>
+		<lines name ="lbpersonalID" descr=""><![CDATA[Chứng minh nhân dân]]></lines>
+		<lines name ="lbmainMobile" descr=""><![CDATA[Số điện thoại chính]]></lines>
+		<lines name ="lbsubMobile" descr=""><![CDATA[Số điện thoại phụ]]></lines>
+		<lines name ="lbmainEmail" descr=""><![CDATA[Email chính]]></lines>
+		<lines name ="lbsubEmail" descr=""><![CDATA[Email phụ]]></lines>
+		<lines name ="lbtaxNo" descr=""><![CDATA[Mã số thuế]]></lines>
+		<lines name ="lbpassword" descr=""><![CDATA[Mật mã]]></lines>
+
+
+        <lines name ="lbCompanyName" descr=""><![CDATA[Tên công ty]]></lines>
+        <lines name ="lbCompanyAddress" descr=""><![CDATA[Địa chỉ công ty]]></lines>
+        <lines name ="lbCompanyTaxNo" descr=""><![CDATA[Mã số thuế công ty]]></lines>
+        <lines name ="lbCompanyMobile" descr=""><![CDATA[Điện thoại công ty]]></lines>
+        <lines name ="lbfcpassword" descr=""><![CDATA[Mật mã]]></lines>
+        <lines name ="lbCustomerFullName" descr=""><![CDATA[Tên khách hàng]]></lines>
+        <lines name ="lbCustomerEmail" descr=""><![CDATA[Email khách hàng]]></lines>
+        <lines name ="lbCustomerMobile" descr=""><![CDATA[Điện thoại khách hàng]]></lines>
+        <lines name ="lboaddress" descr=""><![CDATA[Địa chỉ khác]]></lines>
+
+
+
+
+        <lines name ="head_detail" descr=""><![CDATA[Thông tin chi tiết khách hàng]]></lines>
+        <lines name ="lbdfullname" descr=""><![CDATA[Họ tên ]]></lines>
+        <lines name ="lbdempty" descr=""><![CDATA[Chưa cập nhật]]></lines>
+        <lines name ="lbmale" descr=""><![CDATA[Nam]]></lines>
+        <lines name ="lbfemale" descr=""><![CDATA[Nữ]]></lines>
+        <lines name ="lbrcountorder" descr=""><![CDATA[Số đơn hàng đã mua]]></lines>
+        <lines name ="head_detail_saleorder" descr=""><![CDATA[Lịch sử giao dịch]]></lines>
+        <lines name ="head_detail_sms" descr=""><![CDATA[SMS]]></lines>
+        <lines name ="head_detail_email" descr=""><![CDATA[EMAIL]]></lines>
+        
+        <lines name ="lbticketid" descr=""><![CDATA[Mã phiếu hổ trợ]]></lines>
+        <lines name ="lbtopicname" descr=""><![CDATA[Tên phiếu]]></lines>
+        <lines name ="lbcutomernote" descr=""><![CDATA[Ghi chú của khách hàng]]></lines>
+        <lines name ="lbupdateusernote" descr=""><![CDATA[Ghi chú của nhân viên]]></lines>
+		
+
+		<lines name ="lbEMAILID" descr=""><![CDATA[ID]]></lines>
+        <lines name ="lbEMAILSUBJECT" descr=""><![CDATA[Tiêu đề mail]]></lines>
+        <lines name ="lbEMAILCONTENT" descr=""><![CDATA[Nội dung mail]]></lines>
+        <lines name ="lbCUSTOMERNAME" descr=""><![CDATA[Tên khách gửi]]></lines>
+        <lines name ="lbCUSTOMEREMAIL" descr=""><![CDATA[Email khách gửi]]></lines>
+        <lines name ="lbCUSTOMERMOBILE" descr=""><![CDATA[Điện thoại khách gửi]]></lines>
+
+        <lines name ="lbSMSLOGID" descr=""><![CDATA[SMS ID]]></lines>
+        <lines name ="lbPHONENUMBER" descr=""><![CDATA[Số điện thoại gửi]]></lines>
+        <lines name ="lbSMSCONTENT" descr=""><![CDATA[Nội dung SMS]]></lines>
+        <lines name ="lbnote" descr=""><![CDATA[Ghi chú]]></lines>
+        <lines name ="lbordertype" descr=""><![CDATA[Kiểu đơn hàng]]></lines>
+
+
+
+	
+</data>

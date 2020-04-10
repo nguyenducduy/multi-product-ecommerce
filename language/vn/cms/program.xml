@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Program]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Program Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Program &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New Program]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Program Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Program &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update Program]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Program Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Program &raquo; Update]]></lines>
+
+	
+	<lines name="labelUid" descr=""><![CDATA[Uid]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Tên chương trình]]></lines>
+	<lines name="labelDescription" descr=""><![CDATA[Mô tả]]></lines>
+	<lines name="labelStorelist" descr=""><![CDATA[Tên siêu thị]]></lines>
+	<lines name="labelStore" descr=""><![CDATA[Siêu thị]]></lines>
+	<lines name="labelExecutetime" descr=""><![CDATA[Time thực hiện]]></lines>
+	<lines name="labelStartdate" descr=""><![CDATA[Time kết thúc]]></lines>
+	<lines name="labelDateend" descr=""><![CDATA[Deadline triển khai]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	
+	<lines name="labelPoid" descr=""><![CDATA[Vật phẩm]]></lines>
+	<lines name="labelPid" descr=""><![CDATA[Tên chương trình]]></lines>
+	<lines name="labelSid" descr=""><![CDATA[Siêu thị]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelImageguide" descr=""><![CDATA[Hình ảnh hướng dẫn]]></lines>
+	<lines name="labelImagesexecute" descr=""><![CDATA[Hình ảnh triển khai]]></lines>
+	<lines name="labelNoteguide" descr=""><![CDATA[Ghi chú hướng dẫn]]></lines>
+	<lines name="labelNote" descr=""><![CDATA[Ghi chú]]></lines>
+	<lines name="labelNoteexecute" descr=""><![CDATA[Ghi chú triển khai]]></lines>
+	<lines name="labelIsapprove" descr=""><![CDATA[Duyệt]]></lines>
+	<lines name="labelApprovenote" descr=""><![CDATA[Ghi chú duyệt]]></lines>
+	
+	<lines name="labelReportbutton" descr=""><![CDATA[Report]]></lines>
+	<lines name="labelExecutebutton" descr=""><![CDATA[Hình triển khai]]></lines>
+	<lines name="labelUpdateExecutebutton" descr=""><![CDATA[Cập nhật hình triển khai]]></lines>
+	<lines name="labelStoreExecute" descr=""><![CDATA[Siêu thị triển khai]]></lines>
+
+	<lines name="errorrequireinput" descr=""><![CDATA[###name### không được trống.]]></lines>
+	<lines name="errFiletypeInvalid" descr=""><![CDATA[Không đúng đuôi hình (jpg, gif, png).]]></lines>
+	<lines name="errFilesizeInvalid" descr=""><![CDATA[Kích thước hình phải nhỏ hơn hoặc bằng ###VALUE###.]]></lines>
+	
+	<lines name="errNameRequired" descr=""><![CDATA[Tên chương trình không được trống.]]></lines>
+	<lines name="errDescriptionRequired" descr=""><![CDATA[Mô tả không được trống.]]></lines>
+	<lines name="errStorelistRequired" descr=""><![CDATA[Tên siêu thị không được trống.]]></lines>
+	<lines name="errExecutetimeMustGreaterThanZero" descr=""><![CDATA[Time thực hiện must be greater than zero.]]></lines>
+	<lines name="errStartdateRequired" descr=""><![CDATA[Time kết thúc không được trống.]]></lines>
+	<lines name="errDateendRequired" descr=""><![CDATA[Deadline triển khai không được trống.]]></lines>
+	<lines name="errImageGuideRequired" descr=""><![CDATA[Hình ảnh hướng dẫn không được trống.]]></lines>
+	
+	
+	<lines name="errAdd" descr=""><![CDATA[Error while Add Program]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Program had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating Program]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Program had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Program not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting Program with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Program with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[ForecastUservalueHistory]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[ForecastUservalueHistory Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[ForecastUservalueHistory &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New ForecastUservalueHistory]]></lines>
+	<lines name="title_add" descr=""><![CDATA[ForecastUservalueHistory Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[ForecastUservalueHistory &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update ForecastUservalueHistory]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[ForecastUservalueHistory Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[ForecastUservalueHistory &raquo; Update]]></lines>
+
+	
+	<lines name="labelUid" descr=""><![CDATA[Uid]]></lines>
+	<lines name="labelFuid" descr=""><![CDATA[Fuid]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelOldvalue" descr=""><![CDATA[Oldvalue]]></lines>
+	<lines name="labelNewvalue" descr=""><![CDATA[Newvalue]]></lines>
+	<lines name="labelEdituserid" descr=""><![CDATA[Edituserid]]></lines>
+	<lines name="labelSessionid" descr=""><![CDATA[Sessionid]]></lines>
+	<lines name="labelIpaddress" descr=""><![CDATA[Ipaddress]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Datecreated]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Datemodified]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	
+	
+	<lines name="errUidMustGreaterThanZero" descr=""><![CDATA[Uid must be greater than zero.]]></lines>
+	<lines name="errFuidMustGreaterThanZero" descr=""><![CDATA[Fuid must be greater than zero.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add ForecastUservalueHistory]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[ForecastUservalueHistory had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating ForecastUservalueHistory]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[ForecastUservalueHistory had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[ForecastUservalueHistory not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting ForecastUservalueHistory with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[ForecastUservalueHistory with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

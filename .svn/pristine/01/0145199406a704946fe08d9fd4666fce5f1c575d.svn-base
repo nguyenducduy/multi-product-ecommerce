@@ -1,0 +1,29 @@
+<?php /* Smarty version Smarty-3.0.7, created on 2014-01-20 10:35:02
+         compiled from "templates/default/_controller/admin/footer.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:63926050452dc99668f3ff9-77892953%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '4c4171979ceefa0c51aa913462ac0377bc29e137' => 
+    array (
+      0 => 'templates/default/_controller/admin/footer.tpl',
+      1 => 1389083714,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '63926050452dc99668f3ff9-77892953',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+)); /*/%%SmartyHeaderCode%%*/?>
+			</div><!--/span-->
+	      </div><!--/row-->
+
+	    </div><!--/.fluid-container-->
+
+        <?php $_template = new Smarty_Internal_Template("googleanalytic.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
+ echo $_template->getRenderedTemplate();?><?php unset($_template);?>
+	</body>
+
+</html>

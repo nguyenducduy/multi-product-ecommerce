@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="subjectBuyer" descr=""><![CDATA[Đặt hàng thành công - Đơn hàng ####VALUE###]]></lines>
+	<lines name="subjectBuyerCompletedEstimate" descr=""><![CDATA[Đơn hàng ####VALUE### đã chuyển sang bộ phận giao hàng]]></lines>
+	<lines name="subjectAdmin" descr=""><![CDATA[[NEW ORDER] ####VALUE###, Trị giá: ###VALUE2###đ - (###VALUE3###)]]></lines>
+	<lines name="subjectAdminCompletedEstimate" descr=""><![CDATA[[UPDATE ESTIMATE] ####VALUE###, Trị giá: ###VALUE2###đ - (###VALUE3###)]]></lines>
+	
+	<lines name="status" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="printHeading" descr=""><![CDATA[Thông tin đơn hàng]]></lines>
+	<lines name="printDateLabel" descr=""><![CDATA[Ngày in]]></lines>
+	<lines name="printOrderOnLabel" descr=""><![CDATA[Ngày đặt hàng]]></lines>
+	<lines name="datecompletedestimate" descr=""><![CDATA[Ngày nhận hàng dự kiến]]></lines>
+	<lines name="dateshipping" descr=""><![CDATA[Ngày gởi hàng]]></lines>
+	<lines name="trackingcode" descr=""><![CDATA[Mã Tracking đơn hàng]]></lines>
+	<lines name="trackingcodeview" descr=""><![CDATA[Theo dõi]]></lines>
+	<lines name="trackingcodeviewTitle" descr=""><![CDATA[Xem vị trí hiện tại của đơn hàng]]></lines>
+	<lines name="shippingInfo" descr=""><![CDATA[Thông tin người mua]]></lines>
+	<lines name="note" descr=""><![CDATA[Ghi chú]]></lines>
+	<lines name="printPaymentDetail" descr=""><![CDATA[Sách đặt mua]]></lines>
+	<lines name="phone" descr=""><![CDATA[Điện thoại]]></lines>
+	<lines name="email" descr=""><![CDATA[Email]]></lines>
+	<lines name="address" descr=""><![CDATA[Địa chỉ]]></lines>
+	<lines name="paymenttype" descr=""><![CDATA[Phương thức thanh toán]]></lines>
+	<lines name="shippingtype" descr=""><![CDATA[Dịch vụ gởi hàng]]></lines>
+	<lines name="COD" descr=""><![CDATA[Giao hàng, gởi tiền]]></lines>
+	<lines name="PAYMENT_ONLINEBANKING" descr=""><![CDATA[Thanh toán trước, gởi hàng sau]]></lines>
+	<lines name="INSHORE" descr=""><![CDATA[Giao hàng nội thành TP.HCM]]></lines>
+	<lines name="OFFSHORE" descr=""><![CDATA[Giao hàng bằng đường bưu điện đến các vùng khác nội thành TP.HCM.]]></lines>
+	<lines name="PENDING" descr=""><![CDATA[Chờ xử lý]]></lines>
+	<lines name="STARTED" descr=""><![CDATA[Đã tiếp nhận đơn hàng]]></lines>
+	<lines name="CONTACTED" descr=""><![CDATA[Đã liên hệ xác nhận đơn hàng]]></lines>
+	<lines name="PACKED" descr=""><![CDATA[Đã đóng gói]]></lines>
+	<lines name="SHIPPED" descr=""><![CDATA[Đã gởi hàng]]></lines>
+	<lines name="TRAVELLING" descr=""><![CDATA[Hàng đang trên đường gởi đi]]></lines>
+	<lines name="COMPLETED" descr=""><![CDATA[Hoàn tất]]></lines>
+	<lines name="CANCELED" descr=""><![CDATA[Bị hủy]]></lines>
+	<lines name="CANCELED_FROMMERGE" descr=""><![CDATA[Bị hủy do tạo đơn hàng gộp mới]]></lines>
+	<lines name="RETURN_PENDING" descr=""><![CDATA[Chờ phản hồi trả hàng]]></lines>
+	<lines name="RETURN_COMPLETED" descr=""><![CDATA[Hoàn tất trả hàng]]></lines>
+	<lines name="RETURN_DENY" descr=""><![CDATA[Từ chối trả hàng]]></lines>
+	
+	<lines name="cartitemImage" descr=""><![CDATA[Hình]]></lines>
+	<lines name="cartitemTitle" descr=""><![CDATA[Tựa sách]]></lines>
+	<lines name="cartitemPrice" descr=""><![CDATA[Giá bán]]></lines>
+	<lines name="cartitemQuantity" descr=""><![CDATA[Số lượng]]></lines>
+	<lines name="cartitemSubtotal" descr=""><![CDATA[Thành tiền]]></lines>
+	<lines name="priceship" descr=""><![CDATA[Phí vận chuyển]]></lines>
+	<lines name="pricefinal" descr=""><![CDATA[Tổng số tiền phải thanh toán]]></lines>
+	<lines name="pricefinalshort" descr=""><![CDATA[Tổng tiền]]></lines>
+	<lines name="pricediscount" descr=""><![CDATA[Khuyến mãi]]></lines>
+	<lines name="pricediscountxu" descr=""><![CDATA[Trừ tiền tài khoản Reader.vn]]></lines>
+	<lines name="pricefinalFree" descr=""><![CDATA[MIỄN PHÍ]]></lines>
+	
+
+</data>

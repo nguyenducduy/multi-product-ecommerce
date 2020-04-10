@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Bình luận giá rẻ]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách bình luận giá rẻ]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Bình luận giá rẻ &raquo; Danh sách]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Thêm bình luận giá rẻ]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin bình luận giá rẻ]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Bình luận giá rẻ &raquo; Thêm]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật thông tin bình luận giá rẻ]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin bình luận giá rẻ]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Bình luận giá rẻ  &raquo; Cập nhật]]></lines>
+
+	
+	<lines name="labelUid" descr=""><![CDATA[Người đăng]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelObjectid" descr=""><![CDATA[Objectid]]></lines>
+	<lines name="labelFullname" descr=""><![CDATA[Tên]]></lines>
+	<lines name="labelEmail" descr=""><![CDATA[Email]]></lines>
+	<lines name="labelText" descr=""><![CDATA[Nội dung]]></lines>
+	<lines name="labelIpaddress" descr=""><![CDATA[Ipaddress]]></lines>
+	<lines name="labelModeratorid" descr=""><![CDATA[Người duyệt]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="labelCountthumbup" descr=""><![CDATA[Thích]]></lines>
+	<lines name="labelCountthumbdown" descr=""><![CDATA[Không thích]]></lines>
+	<lines name="labelCountreply" descr=""><![CDATA[Số lượng relpy]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Ngày đăng]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Datemodified]]></lines>
+	<lines name="labelDatemoderated" descr=""><![CDATA[Datemoderated]]></lines>
+	<lines name="labelParentid" descr=""><![CDATA[Reply]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	<lines name="labelModeratorReview" descr=""><![CDATA[Bình luận sản phẩm chờ kiểm duyệt]]></lines>
+	<lines name="bulkActionSuccessLabel" descr=""><![CDATA[Duyệt tin]]></lines>
+	<lines name="bulkActionPendingLabel" descr=""><![CDATA[Pending]]></lines>
+	<lines name="bulkActionSpamLabel" descr=""><![CDATA[Spam]]></lines>
+	
+	
+	<lines name="errUidMustGreaterThanZero" descr=""><![CDATA[Uid must be greater than zero.]]></lines>
+	<lines name="errObjectidMustGreaterThanZero" descr=""><![CDATA[Vui lòng chọn danh mục sản phẩm.]]></lines>
+	<lines name="errFullnameRequired" descr=""><![CDATA[Vui lòng nhập tên.]]></lines>
+	<lines name="errEmailInvalidEmail" descr=""><![CDATA[Đại chỉ email không hợp lệ.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi xảy ra trong quá trình thêm bình luận mới cho sản phẩm]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Bình luận cho sản phẩm đã được thêm.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi xảy ra trong quá trình cập nhật bình luận của sản phẩm]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Bình luận cho sản phẩm đã được cập nhật thành công.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy bình luận cho sản phẩm.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi xảy ra trong quá trình xóa bình luận có id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Bình luận sản phẩm có id ###id### đã được xóa.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy dữ liệu.]]></lines>
+	<lines name="errReply" descr=""><![CDATA[Có lỗi xảy ra trong quá trình reply bình luận sản phẩm.]]></lines>
+	<lines name="errContentEmpty" descr=""><![CDATA[Vui lòng nhập nội dung reply.]]></lines>
+	<lines name="succReply" descr=""><![CDATA[Reply được tạo thành công.]]></lines>
+	
+	
+	
+	
+</data>

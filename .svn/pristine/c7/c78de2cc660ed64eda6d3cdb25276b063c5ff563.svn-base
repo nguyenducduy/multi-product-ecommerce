@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="title" descr=""><![CDATA[THÔNG TIN MUA HÀNG]]></lines>
+	<lines name="titleCheckout" descr=""><![CDATA[Đặt hàng]]></lines>
+	<lines name="titleRegister" descr=""><![CDATA[Đăng ký thành viên]]></lines>
+	<lines name="registerHelp" descr=""><![CDATA[Nếu bạn chưa có tài khoản thì khi hoàn tất, hệ thống sẽ tạo 1 tài khoản với email và mật khẩu bên dưới cho bạn để truy cập vào hệ thống và theo dõi đơn hàng cũng như các hoạt động trên Reader.vn]]></lines>
+	<lines name="titlePayment" descr=""><![CDATA[Hình thức thanh toán]]></lines>
+	<lines name="titleShipping" descr=""><![CDATA[Phương thức vận chuyển]]></lines>
+	<lines name="titleShippingHelpAddress" descr=""><![CDATA[Địa chỉ nhận hàng:]]></lines>
+	<lines name="titleShippingHelp" descr=""><![CDATA[Dựa vào địa chỉ nhận hàng của bạn mà hệ thống có phương thức vận chuyển và giá cả như sau:]]></lines>
+	<lines name="titleCoupon" descr=""><![CDATA[Giảm giá &amp; Coupon]]></lines>
+	<lines name="titleReview" descr=""><![CDATA[CHI TIẾT ĐƠN HÀNG]]></lines>
+	<lines name="titleReviewHelp" descr=""><![CDATA[Bạn kiểm tra lại tên người nhận, email, số điện thoại, địa chỉ nơi nhận và các ghi chú. Ngoài ra, chú ý đến phương thức thanh toán, khuyến mãi và tổng số tiền mà bạn phải trả khi đặt hàng...]]></lines>
+	<lines name="titleReviewInfo" descr=""><![CDATA[KIỂM TRA ĐƠN ĐẶT HÀNG]]></lines>
+	<lines name="yourcartHeading" descr=""><![CDATA[Tóm tắt đơn hàng]]></lines>
+	<lines name="billingHeading" descr=""><![CDATA[Thông tin người mua]]></lines>
+	
+	<lines name="required" descr=""><![CDATA[Ô bắt buộc nhập]]></lines>
+	<lines name="fullname" descr=""><![CDATA[Họ tên người mua]]></lines>
+	<lines name="email" descr=""><![CDATA[Email liên hệ]]></lines>
+	<lines name="phone" descr=""><![CDATA[Số điện thoại]]></lines>
+	<lines name="address" descr=""><![CDATA[Địa chỉ nhận hàng]]></lines>
+	<lines name="region" descr=""><![CDATA[Tỉnh/Thành Phố]]></lines>
+	<lines name="regionDefault" descr=""><![CDATA[- Tỉnh/Thành phố]]></lines>
+	<lines name="subregion" descr=""><![CDATA[Quận/Huyện]]></lines>
+	<lines name="subregiondefault" descr=""><![CDATA[- Hãy chọn tỉnh/thành phố -]]></lines>
+	<lines name="shipping" descr=""><![CDATA[Dịch vụ giao hàng]]></lines>
+	<lines name="payment" descr=""><![CDATA[Cách thanh toán]]></lines>
+	<lines name="note" descr=""><![CDATA[Ghi chú]]></lines>
+	<lines name="notePlaceholder" descr=""><![CDATA[Các chỉ dẫn về địa chỉ, thời gian giao nhận hàng để chúng tôi dễ dàng liên hệ và giao sách.]]></lines>
+	<lines name="noteempty" descr=""><![CDATA[[Bạn không có ghi chú, chỉ dẫn cho đơn hàng này.]]]></lines>
+	<lines name="submitLabel" descr=""><![CDATA[TIẾP TỤC &raquo;]]></lines>
+	<lines name="submitfinish" descr=""><![CDATA[ĐẶT HÀNG]]></lines>
+	<lines name="password" descr=""><![CDATA[Mật khẩu]]></lines>
+	<lines name="password2" descr=""><![CDATA[Nhập lại mật khẩu]]></lines>
+	<lines name="priceship" descr=""><![CDATA[Phí vận chuyển]]></lines>
+	<lines name="pricefinal" descr=""><![CDATA[Tổng số tiền phải thanh toán]]></lines>
+	<lines name="apply" descr=""><![CDATA[Áp dụng]]></lines>
+	<lines name="dateorder" descr=""><![CDATA[Ngày đặt hàng]]></lines>
+	<lines name="errFullnameRequired" descr=""><![CDATA[Bạn chưa nhập tên người mua hàng]]></lines>
+	<lines name="errEmailNotValid" descr=""><![CDATA[Địa chỉ email không hợp lệ]]></lines>
+	<lines name="errPhoneRequired" descr=""><![CDATA[Bạn chưa nhập số điện thoại liên hệ]]></lines>
+	<lines name="errAddressRequired" descr=""><![CDATA[Bạn chưa nhập địa chỉ nhận hàng]]></lines>
+	<lines name="errRegionRequired" descr=""><![CDATA[Bạn chưa chọn Tỉnh/Thành phố]]></lines>
+	<lines name="errSubregionRequired" descr=""><![CDATA[Bạn chưa chọn Quận/Huyện]]></lines>
+	<lines name="errEmailExisted" descr=""><![CDATA[Địa chỉ Email này đã có người đăng ký trên Reader.vn. Nếu bạn đã đăng ký trước đây mà quên mật khẩu có thể <a href="http://reader.vn/forgotpass">click vào đây</a> để sử dụng tính năng khôi phục mật khẩu.]]></lines>
+	<lines name="errPasswordLength" descr=""><![CDATA[Mật khẩu quá ngắn (tối đa 6 ký tự)]]></lines>
+	<lines name="errPasswordMatch" descr=""><![CDATA[Mật khẩu nhập không giống nhau. Hãy kiểm tra lại.]]></lines>
+	<lines name="errXuNotEnough" descr=""><![CDATA[Bạn không đủ tiền trong tài khoản]]></lines>
+	<lines name="errXuTooMuch" descr=""><![CDATA[Bạn nhập quá nhiều tiền để thanh toán cho đơn hàng này.]]></lines>
+	<lines name="pricediscount" descr=""><![CDATA[Khuyến mãi]]></lines>
+	<lines name="pricediscountxu" descr=""><![CDATA[Trừ tiền tài khoản Reader.vn]]></lines>
+	<lines name="errCouponcodeRequired" descr=""><![CDATA[Mã Coupon không hợp lệ.]]></lines>
+	<lines name="errCouponNotFound" descr=""><![CDATA[Mã Coupon không hợp lệ hoặc đã hết hạn.]]></lines>
+	<lines name="pricefinalFree" descr=""><![CDATA[MIỄN PHÍ]]></lines>
+	
+	
+	<lines name="paymentCod" descr=""><![CDATA[Giao hàng, đưa tiền.&nbsp;]]></lines>
+	<lines name="paymentCodMore" descr=""><![CDATA[Nhân viên giao hàng sẽ gặp bạn để đưa hàng đồng thời thu tiền trực tiếp từ bạn.]]></lines>
+	<lines name="paymentBank" descr=""><![CDATA[Chuyển tiền trước, nhận hàng sau.&nbsp;]]></lines>
+	<lines name="paymentBankMore" descr=""><![CDATA[Sau khi hoàn tất 5 bước đặt hàng thì sẽ có người hướng dẫn bạn chuyển tiền để thanh toán đơn hàng.]]></lines>
+	
+	<lines name="shippingNormalMore" descr=""><![CDATA[Thời gian giao hàng tính theo giờ hành chính.]]></lines>
+	<lines name="discountCoupon" descr=""><![CDATA[Sử dụng mã Coupon giảm giá]]></lines>
+	<lines name="discountCouponMore" descr=""><![CDATA[Nhập mã khuyến mãi (Coupon) để giảm giá cho đơn hàng này.]]></lines>
+	<lines name="isUseXu" descr=""><![CDATA[Sử dụng tiền có sẵn trong tài khoản Reader.vn.]]></lines>
+	<lines name="isUseXuHelp" descr=""><![CDATA[Nhập số tiền mà bạn muốn trừ từ tài khoản Reader.vn của bạn (Bạn đang có ]]></lines>
+	
+	
+	<lines name="shipdetailOptionFree" descr=""><![CDATA[Miễn phí giao hàng]]></lines>
+	<lines name="shipdetailOptionRegion" descr=""><![CDATA[Giao hàng bằng đường bưu điện tới một địa chỉ tại ]]></lines>
+	<lines name="shipdetailOptionRegionShort" descr=""><![CDATA[Giao hàng bằng đường bưu điện.]]></lines>
+	<lines name="shipdetailOptionSubregion" descr=""><![CDATA[Giao hàng bằng đường bưu điện tới một địa chỉ tại ]]></lines>
+	<lines name="shipdetailOptionSubregionShort" descr=""><![CDATA[Giao hàng bằng đường bưu điện.]]></lines>
+	<lines name="shipdetailOptionSubregionInshore" descr=""><![CDATA[Giao hàng trong nội thành đến ]]></lines>
+	<lines name="shipdetailOptionSubregionInshoreShort" descr=""><![CDATA[Giao hàng trong nội thành TP.HCM.]]></lines>
+	<lines name="shiptimeInshore" descr=""><![CDATA[ (Thời gian từ 1 - 3 ngày)]]></lines>
+	<lines name="shiptimeOffshore" descr=""><![CDATA[ (Thời gian từ 3 - 7 ngày)]]></lines>
+	<lines name="shippricelabel" descr=""><![CDATA[Chi phí giao hàng]]></lines>
+
+	<lines name="cartitemImage" descr=""><![CDATA[Hình]]></lines>
+	<lines name="cartitemTitle" descr=""><![CDATA[Tựa sách]]></lines>
+	<lines name="cartitemPrice" descr=""><![CDATA[Giá bán]]></lines>
+	<lines name="cartitemQuantity" descr=""><![CDATA[Số lượng]]></lines>
+	<lines name="cartitemSubtotal" descr=""><![CDATA[Thành tiền]]></lines>
+	
+	<lines name="progressCart" descr=""><![CDATA[Giỏ hàng]]></lines>
+	<lines name="progressBilling" descr=""><![CDATA[Thông tin]]></lines>
+	<lines name="progressPayment" descr=""><![CDATA[Vận chuyển]]></lines>
+	<lines name="progressReview" descr=""><![CDATA[Xem lại]]></lines>
+	<lines name="progressFinish" descr=""><![CDATA[Hoàn tất]]></lines>
+	
+	
+	<lines name="errAddCreateXu" descr=""><![CDATA[Có lỗi khi trừ tiền trong tài khoản của bạn trong khi đặt hàng. Hãy thử lại.]]></lines>
+	<lines name="errAddCreateDetail" descr=""><![CDATA[Có lỗi khi thêm đơn hàng của bạn. Hãy thử lại.]]></lines>
+	<lines name="thankyouTitle" descr=""><![CDATA[Cảm ơn bạn, ]]></lines>
+	<lines name="thankyouText" descr=""><![CDATA[Đơn hàng của bạn đã được đặt thành công. Chúng tôi sẽ liên hệ để xác nhận và hoàn tất đơn hàng. Đơn hàng của bạn có mã là #]]></lines>
+	<lines name="thankyouText2" descr=""><![CDATA[Hệ thống đã gởi một email chứa thông tin đơn hàng để bạn theo dõi hoặc bạn có thể nhấn vào liên kết bên dưới để xem chi tiết đơn hàng mà mình vừa đặt.]]></lines>
+	<lines name="vieworderdetail" descr=""><![CDATA[Xem chi tiết đơn hàng #]]></lines>
+	<lines name="viewallorder" descr=""><![CDATA[Hoặc xem tất cả đơn hàng của bạn &raquo;]]></lines>
+	
+	<lines name="pageTitle" descr=""><![CDATA[Thanh toán giỏ hàng]]></lines>
+	<lines name="pageKeyword" descr=""><![CDATA[Thanh toan, checkout]]></lines>
+	<lines name="pageDescription" descr=""><![CDATA[Thanh toán đơn hàng mà bạn đã đặt.]]></lines>
+
+</data>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Thống kê sản phẩm]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Thống kê sản phẩm]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Thống kê sản phẩm &raquo; Thống kê]]></lines>
+
+	<lines name="productreport" descr=""><![CDATA[Thống kê sản phẩm]]></lines>
+</data>

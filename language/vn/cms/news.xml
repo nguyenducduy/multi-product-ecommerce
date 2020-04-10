@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Tin tức]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Tin tức &raquo; Danh sách]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Tạo tin mới]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin tin tức]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Tin tức &raquo; Tạo mới]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật tin tức]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin tin tức]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Tin tức &raquo; Cập nhật]]></lines>
+
+	
+	<lines name="labelUid" descr=""><![CDATA[Người tạo]]></lines>
+	<lines name="labelNcid" descr=""><![CDATA[Danh mục]]></lines>
+	<lines name="labelId" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelImage" descr=""><![CDATA[Hình]]></lines>
+	<lines name="labelTitle" descr=""><![CDATA[Tiêu đề]]></lines>
+	<lines name="labelSlug" descr=""><![CDATA[Slug]]></lines>
+	<lines name="labelContent" descr=""><![CDATA[Nội dung]]></lines>
+	<lines name="labelSource" descr=""><![CDATA[Nguồn]]></lines>
+	<lines name="labelSeotitle" descr=""><![CDATA[Page title]]></lines>
+	<lines name="labelSeokeyword" descr=""><![CDATA[Meta keyword]]></lines>
+    <lines name="labelSeodescription" descr=""><![CDATA[Meta description]]></lines>
+	<lines name="labelMetaRobot" descr=""><![CDATA[Meta robots]]></lines>
+	<lines name="labelCountview" descr=""><![CDATA[Xem]]></lines>
+	<lines name="labelCountreview" descr=""><![CDATA[Bình luận]]></lines>
+	<lines name="labelDisplayorder" descr=""><![CDATA[Thứ tự hiển thị]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="labelIpaddress" descr=""><![CDATA[Địa chỉ IP]]></lines>  
+	<lines name="labelDatecreated" descr=""><![CDATA[Ngày tạo]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Ngày sửa]]></lines>
+    <lines name="formKeywordLabel" descr=""><![CDATA[Từ khóa]]></lines>
+    <lines name="formKeywordInLabel" descr=""><![CDATA[- Tìm từ khóa trong -]]></lines>
+	
+	
+	<lines name="errNcidRequired" descr=""><![CDATA[Danh mục tin không được để trống.]]></lines>
+    <lines name="errTitleRequired" descr=""><![CDATA[Tiêu đề không được để trống.]]></lines>
+	<lines name="errMetaDescriptionRequired" descr=""><![CDATA[Meta Description không được để trống.]]></lines>
+	<lines name="errContentRequired" descr=""><![CDATA[Nội dung không được để trống.]]></lines>
+	<lines name="errStatusRequired" descr=""><![CDATA[Trạng thái chưa chọn.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add News]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[News had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating News]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[News had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[News not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting News with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Các tin có ID ###id### đã được xóa.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	<lines name="errorAddPermission" descr=""><![CDATA[Bạn không có quyền tạo tin mới bên ngoài danh mục được phân quyền.]]></lines>
+	<lines name="errorEditPermission" descr=""><![CDATA[Bạn không có quyền cập nhật tin.]]></lines>
+	<lines name="errorDeletePermission" descr=""><![CDATA[Bạn không có quyền xóa tin.]]></lines>
+	
+	
+	
+</data>

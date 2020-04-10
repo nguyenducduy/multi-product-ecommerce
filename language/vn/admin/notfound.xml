@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+		
+	<lines name="headline" descr=""><![CDATA[Tại sao không tìm thấy ?]]></lines>
+	<lines name="text1" descr=""><![CDATA[&raquo; Trang bạn xem không tồn tại.]]></lines>
+	<lines name="text2" descr=""><![CDATA[&raquo; Đường dẫn trang web (URL) không đúng.]]></lines>
+	<lines name="text3" descr=""><![CDATA[&raquo; Nội dung, thông tin này đã bị xóa.]]></lines>
+	<lines name="text4" descr=""><![CDATA[&raquo; Nội dung này không hợp lệ và ban quản trị đã xóa.]]></lines>
+
+</data>

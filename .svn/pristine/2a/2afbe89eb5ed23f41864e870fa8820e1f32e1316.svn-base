@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Quản lý sản phẩm giảm giá]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách sản phẩm giảm giá]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Sản phẩm giảm giá &raquo; Danh sách]]></lines>
+	
+	 <lines name="head_add" descr=""><![CDATA[Add New Discount Product]]></lines>
+    <lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelProductName" descr=""><![CDATA[Nhập tên sản phẩm cần tìm]]></lines>
+    <lines name="labelListproduct" descr=""><![CDATA[Danh sách sản phẩm]]></lines>
+    <lines name="labelUpdate" descr=""><![CDATA[Cập nhật]]></lines>
+	<lines name="labelProductListChoose" descr=""><![CDATA[Danh sách sản phẩm đã chọn]]></lines>
+	<lines name="labelDiscountProductList" descr=""><![CDATA[Danh sách loại giảm giá]]></lines>
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+
+    <lines name="labelID" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelDiscountName" descr=""><![CDATA[Tên giảm giá]]></lines>
+	<lines name="labelListProduct" descr=""><![CDATA[Danh sách sản phẩm / Click để thêm sản phẩm]]></lines>
+	<lines name="labelType" descr=""><![CDATA[Loại]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="errProductChoose" descr=""><![CDATA[sản phẩm đã được chọn]]></lines>
+	<lines name="errNameNotEmpty" descr=""><![CDATA[Vui lòng nhập id barcode hoặc tên để tìm kiếm]]></lines>
+	
+    <lines name="errDelete" descr=""><![CDATA[Error while deleting Discount Products with id ###id###.]]></lines>
+    <lines name="succDelete" descr=""><![CDATA[Discount Products with id ###id### had been deleted.]]></lines>
+    <lines name="bulkItemNoSelected" descr=""><![CDATA[No select item Discount Products]]></lines>
+    <lines name="bulkActionInvalidWarn" descr=""><![CDATA[Please choose action]]></lines>
+     <lines name="errDelete" descr=""><![CDATA[Error while deleting Discount Products with id ###id###.]]></lines>
+    <lines name="succDelete" descr=""><![CDATA[Discount Products with id ###id### had been deleted.]]></lines>
+    <lines name="bulkItemChangeOrderSuccess" descr=""><![CDATA[Lưu thứ tự thành công]]></lines>
+    
+	
+</data>

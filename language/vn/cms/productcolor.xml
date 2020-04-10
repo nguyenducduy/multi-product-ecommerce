@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Màu sản phẩm]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách màu sản phẩm]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Màu sản phẩm &raquo; Danh sách]]></lines>
+
+
+	<lines name="head_add" descr=""><![CDATA[Thêm màu sản phẩm]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin màu sản phẩm]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Màu sản phẩm &raquo; Thêm]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật màu sản phẩm]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin màu sản phẩm]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Màu sản phẩm &raquo; Cập nhật]]></lines>
+
+
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Tên màu]]></lines>
+	<lines name="labelCode" descr=""><![CDATA[Chọn màu]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Ngày tạo]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Ngày cập nhật]]></lines>
+
+
+	<lines name="errNameRequired" descr=""><![CDATA[Tên màu không được rỗng.]]></lines>
+	<lines name="errCodeRequired" descr=""><![CDATA[Vui lòng chọn mã màu.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi xảy ra trong quá trình thêm màu sản phẩm]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Màu sản phẩm được tạo thành công.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi xảy ra trong quá trình cập nhật màu sản phẩm]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Màu sản phẩm được cập nhật thành công.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Màu sản phẩm không tìm thấy.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi xảy ra khi xóa màu sản phẩm có id là ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Màu sản phẩm có id là ###id### đã được xóa.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy dữ liệu.]]></lines>
+
+
+
+
+</data>

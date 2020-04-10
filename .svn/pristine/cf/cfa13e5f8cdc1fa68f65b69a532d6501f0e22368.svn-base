@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	
+	<lines name="errAlreadyLike" descr=""><![CDATA[Bạn đã thích hoạt động này rồi]]></lines>
+	<lines name="errSpam" descr=""><![CDATA[Thông tin bạn gởi quá nhanh. Hãy chờ trong giây lát.]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Thông tin của bạn đã được lưu.]]></lines>
+	<lines name="succLiketext" descr=""><![CDATA[Bạn đã thích.]]></lines>
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi khi thêm thông tin của bạn.]]></lines>
+	<lines name="errFeednotfound" descr=""><![CDATA[Không tìm thấy thông tin để thêm.]]></lines>
+	<lines name="feedlikeTitle" descr=""><![CDATA[Danh sách thành viên]]></lines>
+	<lines name="errPagePermission" descr=""><![CDATA[Bạn không đủ quyền thực hiện thao tác đã chọn]]></lines>	
+		
+
+</data>

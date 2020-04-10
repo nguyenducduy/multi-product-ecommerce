@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="title" descr=""><![CDATA[Đăng nhập]]></lines>
+	<lines name="typeLabel" descr=""><![CDATA[Nhập thông tin]]></lines>
+	<lines name="help" descr=""><![CDATA[Nhập đầy đủ các thông tin bên dưới để đăng nhập]]></lines>
+	<lines name="email" descr=""><![CDATA[Email]]></lines>
+	<lines name="password" descr=""><![CDATA[Mật khẩu]]></lines>
+	<lines name="rememberme" descr=""><![CDATA[&nbsp;Ghi nhớ đăng nhập]]></lines>
+	<lines name="remembermeTip" descr=""><![CDATA[Chức năng này giúp bạn tự động đăng nhập mỗi khi vào website. Nên sử dụng chức năng này cho máy tính ở nhà.]]></lines>
+	<lines name="submitLabel" descr=""><![CDATA[Đăng nhập]]></lines>
+	<lines name="succRegister" descr=""><![CDATA[Đăng ký tài khoản thành công. Đăng nhập để tiếp tục.]]></lines>
+	<lines name="succActivate" descr=""><![CDATA[Tài khoản của bạn đã được kích hoạt thành công.]]></lines>
+	<lines name="succResetpass" descr=""><![CDATA[Mật khẩu của bạn đã được cập nhật.]]></lines>
+	<lines name="loginmore" descr=""><![CDATA[Chưa có tài khoản? Hãy chọn để đăng nhập bằng tài khoản]]></lines>
+	<lines name="loginFacebookTitle" descr=""><![CDATA[Đăng nhập bằng Facebook]]></lines>
+	<lines name="loginYahooTitle" descr=""><![CDATA[Đăng nhập bằng tài khoản Yahoo Mail]]></lines>
+	<lines name="loginGoogleTitle" descr=""><![CDATA[Đăng nhập bằng tài khoản Gmail]]></lines>
+	<lines name="notExistAccount" descr=""><![CDATA[Thông tin đăng nhập không chính xác, vui lòng xác nhận lại]]></lines>
+	<lines name="Passnotmatch" descr=""><![CDATA[Mật khẩu không chính xác, vui lòng xác nhận lại]]></lines>
+	<lines name="errEmptyInfo" descr=""><![CDATA[Thông tin đăng nhập không đầy đủ, vui lòng xác nhận lại]]></lines>
+	<lines name="errlenghpass" descr=""><![CDATA[Password phải dài hơn 6 kí tự]]></lines>
+	<lines name="erraccept" descr=""><![CDATA[Bạn phải đồng ý với các điều khoản về sử dụng thông tin của dienmay.com]]></lines>
+
+    <!--err from crm-->
+    <lines name="errCrm[-2]" descr=""><![CDATA[Số điện thoại không đúng định dạng]]></lines>
+    <lines name="errCrm[-1]" descr=""><![CDATA[Email không đúng định dạng]]></lines>
+    <lines name="errCrm[-4]" descr=""><![CDATA[Email Đã được đăng kí]]></lines>
+    <lines name="errCrm[-3]" descr=""><![CDATA[Số điện thoại Đã được đăng kí]]></lines>
+
+
+	<lines name="validemail" descr=""><![CDATA[Email không tồn tại, vui lòng xác nhận lại ]]></lines>
+	<lines name="validmobile" descr=""><![CDATA[Số điện thoại không chính xác, vui lòng xác nhận lại]]></lines>
+
+	<lines name="errAccountInvalid" descr=""><![CDATA[Thông tin tài khoản không đúng.]]></lines>
+	<lines name="warnRefer" descr=""><![CDATA[Bạn phải đăng nhập trước khi thực hiện chức năng vừa chọn.]]></lines>
+	
+	
+	<lines name="pageTitle" descr=""><![CDATA[Đăng nhập]]></lines>
+	<lines name="pageKeyword" descr=""><![CDATA[đăng nhập, login, log in, sign in, sign up, đăng ký, đăngnhập, dang nhap, dangnhap, dang ky thanh vien, dang ky]]></lines>
+	<lines name="pageDescription" descr=""><![CDATA[Đăng nhập vào hệ thống. Bạn có thể đăng nhập bằng tài khoản Facebook, Yahoo Mail, Gmai. Đăng nhập để sử dụng đầy đủ chức năng trên website.]]></lines>
+
+</data>

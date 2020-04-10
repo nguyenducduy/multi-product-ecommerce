@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="title_list" descr=""><![CDATA[Nộp hồ sơ việc làm]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Nộp hồ sơ việc làm]]></lines>
+	<lines name="errJidMustGreaterThanZero" descr=""><![CDATA[Vui lòng chọn công việc để nộp hồ sơ.]]></lines>
+	<lines name="errTitleRequired" descr=""><![CDATA[Vui lòng nhập tiêu đề.]]></lines>
+	<lines name="errFirstnameRequired" descr=""><![CDATA[Vui lòng nhập họ.]]></lines>
+	<lines name="errLastnameRequired" descr=""><![CDATA[Vui lòng nhập tên.]]></lines>
+	<lines name="errBirthdayRequired" descr=""><![CDATA[Vui lòng nhập ngày sinh.]]></lines>
+	<lines name="errEmailInvalidEmail" descr=""><![CDATA[Email không hợp lệ.]]></lines>
+	<lines name="errPhoneRequired" descr=""><![CDATA[Vui lòng nhập số điện thoại.]]></lines>
+	<lines name="errSecurityCode" descr=""><![CDATA[Mã an toàn không đúng. Xin vui lòng nhập lại]]></lines>
+	<lines name="errFileType" descr=""><![CDATA[File upload không hợp lệ]]></lines>
+	<lines name="errFileSize" descr=""><![CDATA[Kích thước file upload không hợp lệ]]></lines>
+	<lines name="errFileEmpty" descr=""><![CDATA[Vui lòng chọn file để upload.]]></lines>
+	<lines name="errBirthdayValid" descr=""><![CDATA[Ngày sinh không hợp lệ.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi xảy ra trong quá trình nộp hồ sơ.]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Hồ sơ của bạn đã được gửi thành công.]]></lines>
+</data>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[LotteCode]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[LotteCode Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[LotteCode &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New LotteCode]]></lines>
+	<lines name="title_add" descr=""><![CDATA[LotteCode Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[LotteCode &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update LotteCode]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[LotteCode Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[LotteCode &raquo; Update]]></lines>
+
+	
+	<lines name="labelLeid" descr=""><![CDATA[Leid]]></lines>
+	<lines name="labelLmid" descr=""><![CDATA[Lmid]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelType" descr=""><![CDATA[Type]]></lines>
+	<lines name="labelCode" descr=""><![CDATA[Code]]></lines>
+	<lines name="labelErpsaleorderid" descr=""><![CDATA[Erpsaleorderid]]></lines>
+	<lines name="labelReferer" descr=""><![CDATA[Referer]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Status]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Datecreated]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	
+	
+	<lines name="errLmidRequired" descr=""><![CDATA[Lmid is required.]]></lines>
+	<lines name="errTypeRequired" descr=""><![CDATA[Type is required.]]></lines>
+	<lines name="errCodeRequired" descr=""><![CDATA[Code is required.]]></lines>
+	<lines name="errErpsaleorderidRequired" descr=""><![CDATA[Erpsaleorderid is required.]]></lines>
+	<lines name="errRefererRequired" descr=""><![CDATA[Referer is required.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add LotteCode]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[LotteCode had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating LotteCode]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[LotteCode had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[LotteCode not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting LotteCode with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[LotteCode with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

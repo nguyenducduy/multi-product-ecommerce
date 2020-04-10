@@ -1,0 +1,181 @@
+<?php
+/**
+ * Groups configuration for default Minify implementation
+ * @package Minify
+ */
+
+/**
+ * You may wish to use the Minify URI Builder app to suggest
+ * changes. http://yourdomain/min/builder/
+ **/
+
+return array(
+    'jspop' => array(
+        '../js/site/popup.js',
+        ),
+	'js' => array(
+        '../js/site/bjqs-1.3.js',
+        '../js/admin/jquery.cookie.js',
+        '../js/site/jquery.jeditable.js',
+        '../js/site/jquery.nav.js',
+        '../js/site/jquery.jcarousel.min.js',
+        '../js/site/jquery.reel.js',
+        '../js/site/jquery.iosslider.min.js',
+        '../js/site/idangerous.swiper-2.1.min.js',
+        '../js/site/app.js',
+        '../js/site/customsite.js',
+        '../js/site/menu-aim.js',
+        // '../js/admin/bootstrap-datepicker.js',
+        // '../js/admin/bottombar.js',
+				// '../js/admin/tinycon.min.js',
+        '../js/site/main.js',
+        '../js/site/popup.js',
+        '../js/admin/jquery.autocomplete.pack.js',
+        '../js/site/jquery.carouFredSel.js',        
+        '../js/site/jquery.lockfixed.js',
+        '../js/site/popup-external.js',
+        '../js/site/slide-detail.js',
+        '../js/site/jquery.alerts.js',
+        '../js/site/giare.js',
+        '../js/site/new.js',
+        // '../js/site/jquery.scrollTo.js',
+        // '../js/admin/jquery.limit-1.2.source.js',
+        '../js/site/vtip-min.js',
+        '../js/site/carousel.js',
+        '../js/site/cloudzoom.min.js',
+        '../js/site/spritespin.js',
+        '../js/site/jquery.scrollNav.js',
+        '../js/site/sticky.js',
+        '../js/site/accordion.js',
+        '../js/site/360image.js',
+        '../js/site/jquery.countdown.js',
+        '../js/site/jquery.tipsy.js',
+
+        '../js/admin/shadowbox.js',//dat sau cung
+		),
+   'jsadmin' => array(
+		'../js/admin/jquery.hoverintent.js',
+		'../js/admin/jquery.jcarousel.min.js',
+		'../js/admin/jquery.tipsy.js',
+		'../js/admin/jquery.tipsy.hovercard.js',
+		'../js/admin/jquery.cookie.js',
+		'../js/admin/jquery.gritter.js',
+		'../js/admin/jquery.autoresize.js',
+		'../js/admin/jquery.autocomplete.pack.js',
+		'../js/admin/common.js',
+		'../js/admin/main.js',
+		'../js/admin/admin.js',
+		'../js/admin/bottombar.js',
+		'../js/admin/jquery.inview.min.js',
+		'../js/admin/jquery.rating.pack.js',
+		'../js/admin/underscore.js',
+		'../js/admin/jquery.events.input.js',
+		'../js/admin/jquery.elastic.js',
+		'../js/admin/jquery.mentionsInput.min.js',
+		'../js/admin/tinycon.min.js',
+		'../js/admin/jquery.animate-colors-min.js',
+		'../js/admin/bootbox.min.js',
+		'../js/admin/jquery.jOrgChart.js',
+		'../js/admin/jquery.fcbkcomplete.js',
+		'../js/admin/message.js',
+		'../js/admin/bootstrap-datepicker.js',
+		'../js/admin/jquery.jeditable.js',
+		'../js/admin/jquery.uploadifive.js',
+		'../js/admin/select2.min.js',
+		'../js/admin/jquery.tagsinput.min.js',
+		'../js/admin/jquery.limit-1.2.source.js',
+        '../js/admin/textext.js',     
+        '../js/admin/bootstrap-colorpalette.js',   
+        '../js/admin/bootstrap-timepicker.min.js',  
+		'../js/admin/shadowbox.js',//dat sau cung
+		),
+    'jquery' => array(
+		'../js/jquery.js',
+		),
+	'jquerymin' => array(
+		'../js/jquery.min.js',
+		),
+	'css' => array(       
+
+        '../css/site/nav_left.css',        
+		'../css/site/products.css',
+		'../css/site/mainstyle.css',
+        '../css/site/adnews.css',
+		'../css/site/installment.css',
+		'../css/site/profiles.css',
+
+        '../css/site/jquery.autocomplete.css',
+        '../css/site/news.css',
+        '../css/site/new.css',
+        '../css/site/bjqs.css',
+		'../css/site/btsstyle.css',
+		'../css/site/vtip.css',
+		'../css/site/global.css',
+		'../css/site/productcontent.css',
+		'../css/site/checkout.css',
+		'../css/site/css-p3.css',
+		'../css/site/tipsy.css',
+  		'../css/site/idangerous.swiper.css',
+		'../css/site/responsive.css',
+		'../css/site/pre_order.css',
+		'../css/site/style_yt.css',
+        ),
+	'cssadmin' => array(
+		'../css/admin/mystyle.css',
+		'../css/admin/tipsy.css',
+		'../css/admin/tipsy.hovercard.css',
+		'../css/admin/jquery.gritter.css',
+		'../css/admin/jquery.autocomplete.css',
+		'../css/admin/jquery.rating.css',
+		'../css/admin/jquery.mentionsInput.css',
+		'../css/admin/jquery.jOrgChart.css',
+		'../css/admin/message.css',
+		'../css/admin/datepicker.css',
+		'../css/admin/google-bootstrap.css',
+		'../css/admin/uploadifive.css',
+		'../css/admin/mainstyle.css',
+		'../css/admin/select2.css',	
+		'../css/admin/bootstrap-colorpalette.css',	
+		'../css/admin/shadowbox.css',
+		'../css/admin/jquery.tagsinput.css',
+		'../css/admin/bootstrap-timepicker.min.css',
+		),
+	'cssadminchart' => array(
+		'../css/admin/nvd3/nv.d3.css',
+		),
+	'cssadminresponsive' => array(
+		'../css/admin/mystyle-responsive.css',
+		),
+		
+	// VERSION MOBILE
+	 'mcss' =>array(
+	  '../css/msite/mobilestyle.css',
+	  '../css/msite/mobileresponsive.css',       
+	  '../css/msite/responmobile.css',
+	  '../css/msite/newsmobile.css',
+	  '../css/msite/css-p3.css',
+	  '../css/msite/pre_order.css',
+	  '../css/admin/shadowbox.css',
+	 ),
+	 'mjs'=>array(
+	  '../js/msite/accortion.js',
+	  '../js/msite/base.js',
+	  '../js/msite/countdown.js',
+	  '../js/msite/main.js',
+	  '../js/msite/mobile.js',
+	  '../js/msite/appstore.js',
+	  // '../js/msite/idangerous.swiper-2.0.min.js',
+	  // '../js/msite/idangerous.swiper.3dflow-2.0.js',
+	  '../js/msite/popup-external.js',
+	  '../js/msite/respond.min.js',
+	  '../js/admin/jquery.cookie.js',
+	  '../js/admin/bootstrap-datepicker.js',
+	  '../js/admin/bottombar.js',
+	  '../js/admin/tinycon.min.js',
+	  '../js/admin/jquery.autocomplete.pack.js',
+	  '../js/admin/jquery.limit-1.2.source.js',
+	  
+	 
+	  '../js/admin/shadowbox.js',//dat sau cung
+	 )
+);

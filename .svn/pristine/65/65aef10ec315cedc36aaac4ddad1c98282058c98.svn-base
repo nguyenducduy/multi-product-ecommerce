@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[ArchivedorderDetail]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[ArchivedorderDetail Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[ArchivedorderDetail &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New ArchivedorderDetail]]></lines>
+	<lines name="title_add" descr=""><![CDATA[ArchivedorderDetail Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[ArchivedorderDetail &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update ArchivedorderDetail]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[ArchivedorderDetail Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[ArchivedorderDetail &raquo; Update]]></lines>
+
+	
+	<lines name="labelPid" descr=""><![CDATA[Pid]]></lines>
+	<lines name="labelOorderid" descr=""><![CDATA[Oorderid]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelSaleorderid" descr=""><![CDATA[Saleorderid]]></lines>
+	<lines name="labelProductid" descr=""><![CDATA[Productid]]></lines>
+	<lines name="labelQuantity" descr=""><![CDATA[Quantity]]></lines>
+	<lines name="labelSaleprice" descr=""><![CDATA[Saleprice]]></lines>
+	<lines name="labelOutputtypeid" descr=""><![CDATA[Outputtypeid]]></lines>
+	<lines name="labelVat" descr=""><![CDATA[Vat]]></lines>
+	<lines name="labelSalepriceerp" descr=""><![CDATA[Salepriceerp]]></lines>
+	<lines name="labelEndwarrantytime" descr=""><![CDATA[Endwarrantytime]]></lines>
+	<lines name="labelIspromotionautoadd" descr=""><![CDATA[Ispromotionautoadd]]></lines>
+	<lines name="labelPromotionid" descr=""><![CDATA[Promotionid]]></lines>
+	<lines name="labelPromotionlistgroupid" descr=""><![CDATA[Promotionlistgroupid]]></lines>
+	<lines name="labelApplyproductid" descr=""><![CDATA[Applyproductid]]></lines>
+	<lines name="labelReplicationstoreid" descr=""><![CDATA[Replicationstoreid]]></lines>
+	<lines name="labelAdjustpricetypeid" descr=""><![CDATA[Adjustpricetypeid]]></lines>
+	<lines name="labelAdjustprice" descr=""><![CDATA[Adjustprice]]></lines>
+	<lines name="labelAdjustpricecontent" descr=""><![CDATA[Adjustpricecontent]]></lines>
+	<lines name="labelDiscountcode" descr=""><![CDATA[Discountcode]]></lines>
+	<lines name="labelAdjustpriceuser" descr=""><![CDATA[Adjustpriceuser]]></lines>
+	<lines name="labelVatpercent" descr=""><![CDATA[Vatpercent]]></lines>
+	<lines name="labelRetailprice" descr=""><![CDATA[Retailprice]]></lines>
+	<lines name="labelInputvoucherdetailid" descr=""><![CDATA[Inputvoucherdetailid]]></lines>
+	<lines name="labelBuyinputvoucherid" descr=""><![CDATA[Buyinputvoucherid]]></lines>
+	<lines name="labelInputvoucherdate" descr=""><![CDATA[Inputvoucherdate]]></lines>
+	<lines name="labelIsnew" descr=""><![CDATA[Isnew]]></lines>
+	<lines name="labelIsshowproduct" descr=""><![CDATA[Isshowproduct]]></lines>
+	<lines name="labelCostprice" descr=""><![CDATA[Costprice]]></lines>
+	<lines name="labelProductsaleskitid" descr=""><![CDATA[Productsaleskitid]]></lines>
+	<lines name="labelRefproductid" descr=""><![CDATA[Refproductid]]></lines>
+	<lines name="labelProductcomboid" descr=""><![CDATA[Productcomboid]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	
+	
+	<lines name="errSaleorderidRequired" descr=""><![CDATA[Saleorderid is required.]]></lines>
+	<lines name="errProductidRequired" descr=""><![CDATA[Productid is required.]]></lines>
+	<lines name="errQuantityRequired" descr=""><![CDATA[Quantity is required.]]></lines>
+	<lines name="errSalepriceRequired" descr=""><![CDATA[Saleprice is required.]]></lines>
+	<lines name="errOutputtypeidRequired" descr=""><![CDATA[Outputtypeid is required.]]></lines>
+	<lines name="errVatRequired" descr=""><![CDATA[Vat is required.]]></lines>
+	<lines name="errSalepriceerpRequired" descr=""><![CDATA[Salepriceerp is required.]]></lines>
+	<lines name="errEndwarrantytimeRequired" descr=""><![CDATA[Endwarrantytime is required.]]></lines>
+	<lines name="errIspromotionautoaddRequired" descr=""><![CDATA[Ispromotionautoadd is required.]]></lines>
+	<lines name="errPromotionidRequired" descr=""><![CDATA[Promotionid is required.]]></lines>
+	<lines name="errPromotionlistgroupidRequired" descr=""><![CDATA[Promotionlistgroupid is required.]]></lines>
+	<lines name="errApplyproductidRequired" descr=""><![CDATA[Applyproductid is required.]]></lines>
+	<lines name="errReplicationstoreidRequired" descr=""><![CDATA[Replicationstoreid is required.]]></lines>
+	<lines name="errAdjustpricetypeidRequired" descr=""><![CDATA[Adjustpricetypeid is required.]]></lines>
+	<lines name="errAdjustpriceRequired" descr=""><![CDATA[Adjustprice is required.]]></lines>
+	<lines name="errAdjustpricecontentRequired" descr=""><![CDATA[Adjustpricecontent is required.]]></lines>
+	<lines name="errDiscountcodeRequired" descr=""><![CDATA[Discountcode is required.]]></lines>
+	<lines name="errAdjustpriceuserRequired" descr=""><![CDATA[Adjustpriceuser is required.]]></lines>
+	<lines name="errVatpercentRequired" descr=""><![CDATA[Vatpercent is required.]]></lines>
+	<lines name="errRetailpriceRequired" descr=""><![CDATA[Retailprice is required.]]></lines>
+	<lines name="errInputvoucherdetailidRequired" descr=""><![CDATA[Inputvoucherdetailid is required.]]></lines>
+	<lines name="errBuyinputvoucheridRequired" descr=""><![CDATA[Buyinputvoucherid is required.]]></lines>
+	<lines name="errInputvoucherdateRequired" descr=""><![CDATA[Inputvoucherdate is required.]]></lines>
+	<lines name="errIsnewRequired" descr=""><![CDATA[Isnew is required.]]></lines>
+	<lines name="errIsshowproductRequired" descr=""><![CDATA[Isshowproduct is required.]]></lines>
+	<lines name="errCostpriceRequired" descr=""><![CDATA[Costprice is required.]]></lines>
+	<lines name="errProductsaleskitidRequired" descr=""><![CDATA[Productsaleskitid is required.]]></lines>
+	<lines name="errRefproductidRequired" descr=""><![CDATA[Refproductid is required.]]></lines>
+	<lines name="errProductcomboidRequired" descr=""><![CDATA[Productcomboid is required.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add ArchivedorderDetail]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[ArchivedorderDetail had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating ArchivedorderDetail]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[ArchivedorderDetail had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[ArchivedorderDetail not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting ArchivedorderDetail with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[ArchivedorderDetail with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

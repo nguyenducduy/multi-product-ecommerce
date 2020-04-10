@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_lists" descr=""><![CDATA[Cập nhật thông tin ###COLUMN_NAME### của sản phẩm ###PRODUCT_NAME###]]></lines>
+	<lines name="head_list" descr=""><![CDATA[Cập nhật gallery của sản phẩm ###PRODUCT_NAME###]]></lines>
+	<lines name="errProductId" descr=""><![CDATA[Mã sản phẩm không hợp lệ.]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Cập nhật thông tin thành công.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Cập nhật thông tin không thành công.]]></lines>
+	<lines name="labelAvatar" descr=""><![CDATA[Ảnh đại diện]]></lines>
+	<lines name="labelGallery" descr=""><![CDATA[Gallery & Video]]></lines>
+	<lines name="labelImage360" descr=""><![CDATA[Ảnh 360]]></lines>
+	<lines name="labelVideo" descr=""><![CDATA[Video]]></lines>
+	<lines name="color" descr=""><![CDATA[Màu sản phẩm]]></lines>
+    <lines name="colorTitle" descr=""><![CDATA[Danh sách màu sản phẩm]]></lines>
+    <lines name="labelEdit" descr=""><![CDATA[Chi tiết]]></lines>
+	<lines name="labelDelete" descr=""><![CDATA[Xóa]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi trong khi cập nhật media của sản phẩm]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Media của sản phẩm đã được cập nhật.]]></lines>
+	<lines name="labelAddColor" descr=""><![CDATA[Thêm màu sản phẩm.]]></lines>
+	<lines name="deleteMediaConfirm" descr=""><![CDATA[Bạn có muốn xóa dòng này không ?]]></lines>
+	<lines name="labelDefaultColor" descr=""><![CDATA[Màu mặc định]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thất sản phẩm.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi trong khi xóa sản phẩm với id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Sản phẩm có id là ###id### đã dược xóa.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy dữ liệu.]]></lines>
+	<lines name="errorAddPermission" descr=""><![CDATA[Bạn không thể tạo mới sản phẩm.]]></lines>
+	<lines name="errorEditPermission" descr=""><![CDATA[Bạn không thể cập nhật sản phẩm này.]]></lines>
+	<lines name="errorDeletePermission" descr=""><![CDATA[Bạn không thể xóa sản phẩm này.]]></lines>
+	<lines name="errorClonePermission" descr=""><![CDATA[Bạn không thể clone sản phẩm này.]]></lines>
+	<lines name="labelNext" descr=""><![CDATA[Tiếp theo]]></lines>
+
+	<lines name="errFileType" descr=""><![CDATA[File upload không hợp lệ.]]></lines>
+	<lines name="errFileMediaType" descr=""><![CDATA[File Media upload không hợp lệ.]]></lines>
+	<lines name="errFile360Type" descr=""><![CDATA[File 360 upload không hợp lệ.]]></lines>
+</data>

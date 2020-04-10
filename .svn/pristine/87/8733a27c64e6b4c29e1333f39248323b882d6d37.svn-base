@@ -1,0 +1,82 @@
+.ac_results {
+	padding: 0;
+	border: 1px solid #ccc;
+	background-color: #ffffff;
+	overflow: hidden;
+	z-index: 9999;
+    margin-top:3px; margin-left:-7px;
+    border-radius: 4px 4px 8px 8px;
+    /*border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    -webkit-border-bottom-right-radius: 8px;*/
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 0px 0px;
+	cursor: default;
+	display: block;
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+	font: bold 12px/18px Arial;
+	color: #EE3B3B;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	/*font: menu;*/
+	/*font-size: 11px;*/
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	/*line-height: 16px;*/
+   /* font-family:Arial, Helvetica, San-serif;*/
+	
+}
+
+.ac_loading {
+	background: white url('../../images/ajax_indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #fff;
+}
+
+.ac_even {
+	background-color: #fff;
+}
+
+.ac_over {
+	background-color: #dcf5ff; cursor:pointer !important ;}
+
+.ac_over .sitesearch-autocomplete-text{color:#004b8f; font: bold 12px Arial;}
+
+
+
+/* DASHBOARD TOP SEARCH AUTOCOMPLETE */
+.sitesearch-autocomplete{clear:both;min-height:48px;}
+.sitesearch-autocomplete-controller{clear:both;height:25px;}
+.sitesearch-autocomplete-user{clear:both;height:45px;}
+.sitesearch-autocomplete-seperator{clear:both;background:#ccc;border-top:1px solid #ddd;}
+.sitesearch-autocomplete-image{float:left;}
+.sitesearch-autocomplete-image img.product{max-width:60px; height:auto; padding:4px; padding-right:10px;}
+.sitesearch-autocomplete-image img.controller{width:40px; height:40px; padding:4px; padding-right:10px;}
+.sitesearch-autocomplete-image img.avatar{width:40px; height:40px; padding:4px; padding-right:10px;}
+.sitesearch-autocomplete-user .sprep{margin-top:7px;}
+.sitesearch-autocomplete-text{font:bold 12px Arial !important;color:#004b8f; padding-top:5px;}
+.sitesearch-autocomplete-text strong{/*font-style:italic;*/}
+.sitesearch-autocomplete-textsep{/*font-weight:bold;*/font:bold 12px Arial;color:#ff0; padding:5px; background: #00a1e6}
+.sitesearch-autocompelte-author{color:#ccc;}

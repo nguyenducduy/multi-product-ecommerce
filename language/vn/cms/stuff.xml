@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Tin rao vặt]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách tin rao vặt]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Tin rao vặt &raquo; Danh sách]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Tạo tin rao vặt mới]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin tin rao vặt]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Tin rao vặt &raquo; Tạo mới]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật tin rao vặt]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin tin rao vặt]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Tin rao vặt &raquo; Cập nhật]]></lines>
+
+	
+	<lines name="labelUid" descr=""><![CDATA[Người tạo]]></lines>
+	
+	<lines name="labelScid" descr=""><![CDATA[Danh mục]]></lines>
+	<lines name="labelId" descr=""><![CDATA[ID]]></lines>
+	
+	<lines name="labelIssms" descr=""><![CDATA[Gửi bằng SMS]]></lines>
+	<lines name="labelIsvip" descr=""><![CDATA[Là tin VIP]]></lines>
+	<lines name="labelImage" descr=""><![CDATA[Hình đại diện]]></lines>
+	<lines name="labelTitle" descr=""><![CDATA[Tiêu đề]]></lines>
+	<lines name="labelSlug" descr=""><![CDATA[Slug]]></lines>
+	<lines name="labelContent" descr=""><![CDATA[Nội dung]]></lines>
+	<lines name="labelPrice" descr=""><![CDATA[Giá]]></lines>
+	<lines name="labelContactname" descr=""><![CDATA[Người đăng]]></lines>
+	<lines name="labelContactemail" descr=""><![CDATA[Email]]></lines>
+	<lines name="labelContactphone" descr=""><![CDATA[Số điện thoại]]></lines>
+	<lines name="labelSeotitle" descr=""><![CDATA[Seo title]]></lines>
+	<lines name="labelSeokeyword" descr=""><![CDATA[Seo keyword]]></lines>
+	<lines name="labelSeodescription" descr=""><![CDATA[Seo description]]></lines>
+	<lines name="labelRegionid" descr=""><![CDATA[Tỉnh/Thành]]></lines>
+	<lines name="labelDistrictid" descr=""><![CDATA[Quận/Huyện]]></lines>
+	<lines name="labelCountview" descr=""><![CDATA[Số lẩn xem]]></lines>
+	<lines name="labelCountreview" descr=""><![CDATA[Số lượng review]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="labelIpaddress" descr=""><![CDATA[Địa chỉ IP]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Ngày tạo]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Ngày sửa]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Từ khóa]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Tìm từ khóa trong -]]></lines>
+	
+	
+	<lines name="errUidRequired" descr=""><![CDATA[Người tạo không xác định.]]></lines>
+	<lines name="errScidRequired" descr=""><![CDATA[Danh mục không được để trống.]]></lines>
+	<lines name="errTitleRequired" descr=""><![CDATA[Tiêu đề không được để trống.]]></lines>
+	<lines name="errRegionRequired" descr=""><![CDATA[Chưa chọn tỉnh thành.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi trong quá trình tạo tin rao vặt.]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Tin rao vặt đã được tạo thành công.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi trong quá trình cập nhật.]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Tin rao vặt đã được cập nhật thành công.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Hiện chưa có tin rao vặt nào.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi trong quá trình xóa tin rao vặt ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Tin rao vặt với id ###id### đã được xóa thành công.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+
+	<lines name="errorEditPermission" descr=""><![CDATA[Bạn không có quyền cập nhật tin.]]></lines>
+	<lines name="errorDeletePermission" descr=""><![CDATA[Bạn không quyền xóa tin.]]></lines>
+	
+	
+	
+</data>

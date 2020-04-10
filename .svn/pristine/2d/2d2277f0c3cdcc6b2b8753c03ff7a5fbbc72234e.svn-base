@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="title" descr=""><![CDATA[Đăng ký thành viên]]></lines>
+	
+	<lines name="help" descr=""><![CDATA[Bạn cần phải điền đầy đủ thông tin bên dưới để hoàn tất đăng ký.]]></lines>
+	<lines name="password" descr=""><![CDATA[Mật khẩu]]></lines>
+	<lines name="passwordHelp" descr=""><![CDATA[Từ 6 - 30 ký tự]]></lines>
+	<lines name="passwordconfirm" descr=""><![CDATA[Nhập lại Mật khẩu]]></lines>
+	<lines name="passwordconfirmHelp" descr=""><![CDATA[Trùng với Password ở trên]]></lines>
+	<lines name="email" descr=""><![CDATA[Email]]></lines>
+	<lines name="emailHelp" descr=""><![CDATA[Dùng để đăng nhập, không hiện ra ngoài]]></lines>
+	<lines name="fullname" descr=""><![CDATA[Họ và Tên]]></lines>
+	<lines name="fullnameHelp" descr=""><![CDATA[Được dùng để hiển thị]]></lines>
+	<lines name="securityCode" descr=""><![CDATA[Mã an toàn]]></lines>
+	<lines name="securityCodeTip" descr=""><![CDATA[Nhập các ký tự trong hình bên dưới]]></lines>
+	<lines name="refreshImage" descr=""><![CDATA[Hiện mã khác]]></lines>
+	<lines name="favShelf" descr=""><![CDATA[Thể loại sách bạn thích:]]></lines>
+	<lines name="agreement" descr=""><![CDATA[Tôi đồng ý với <a href="http://reader.vn/tos.php" target="_blank" title="Xem điều lệ tham gia ở cửa sổ mới">điều lệ tham gia</a> của website]]></lines>
+	<lines name="loginhelp" descr=""><![CDATA[Bạn lười đăng ký?]]></lines>
+	<lines name="loginhelplink" descr=""><![CDATA[Nhấn vào đây nếu bạn có tài khoản Facebook, Yahoo hoặc Gmail.]]></lines>
+	<lines name="loginhelplinkTitle" descr=""><![CDATA[Đăng nhập bằng tài khoản Facebook, Yahoo hoặc Gmail]]></lines>
+	<lines name="submitLabel" descr=""><![CDATA[Đăng ký]]></lines>
+	<lines name="errRegister" descr=""><![CDATA[Có lỗi trong quá trình tạo tài khoản. Hãy thử lại sau.]]></lines>
+	<lines name="errSpam" descr=""><![CDATA[Spam detection. Hãy chờ trong giây lát và thử lại.]]></lines>
+	<lines name="errEmailNotValid" descr=""><![CDATA[Địa chỉ email không hợp lệ.]]></lines>
+	<lines name="errPhoneNotValid" descr=""><![CDATA[Số điện thoại không hợp lệ.]]></lines>
+	<lines name="errEmailExisted" descr=""><![CDATA[Địa chỉ email này đã có người sử dụng.]]></lines>
+	<lines name="errPhoneExisted" descr=""><![CDATA[Số điện thoại  này đã có người sử dụng.]]></lines>
+	<lines name="errFullnameRequired" descr=""><![CDATA[Họ tên phải có tối thiểu 6 ký tự.]]></lines>
+	<lines name="errPasswordLength" descr=""><![CDATA[Chiều dài mật khẩu không hợp lệ (tối thiểu 6 ký tự).]]></lines>
+	<lines name="errPasswordMatch" descr=""><![CDATA[Hai ô mật khẩu nhập không trùng nhau. Hãy kiểm tra lại.]]></lines>
+	<lines name="errTos" descr=""><![CDATA[Bạn phải đồng ý với điều lệ tham gia để tiếp tục]]></lines>
+	<lines name="errCategoryValue" descr=""><![CDATA[Thông tin tủ sách yêu thích không hợp lệ]]></lines>
+	<lines name="errSecurityCode" descr=""><![CDATA[Mã an toàn nhập không đúng.]]></lines>
+	<lines name="registerSuccess" descr=""><![CDATA[Đăng kí thành công.]]></lines>
+	<lines name="errEmptyInfo" descr=""><![CDATA[Vui lòng điền đầy đủ thông tin.]]></lines>
+	
+	
+	
+	<lines name="pageTitle" descr=""><![CDATA[Đăng ký thành viên]]></lines>
+	<lines name="pageKeyword" descr=""><![CDATA[register, registration, dang ky, đăng ký, dangky, đăngký, tài khoản, đăng ký tài khoản, tạo tài khoản, tạo, signup, sign up, thành viên, đăng ký thành viên, tạo thành viên, ghi danh]]></lines>
+	<lines name="pageDescription" descr=""><![CDATA[Đăng ký thành viên tại website để kết bạn, giao lưu với những người yêu đọc sách khác. Thành viên sẽ có trang cá nhân, có thể gởi bình luận, tạo trích dẫn sách và tạo các tủ sách cá nhân.]]></lines>
+
+</data>

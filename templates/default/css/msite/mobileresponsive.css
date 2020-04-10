@@ -1,0 +1,132 @@
+
+@media screen and (max-width: 640px) {
+	.userinput{width:89%;}
+	.textinput{width:82%}
+	.dropcate li{width:33%;}
+	/*.catelist li{width:33%}*/
+	.pricesale{width:46%;}
+	.descimg{width: 50%;}
+	.video {width: 45%;}
+	.persale{right:15px}
+	.navfoot li a{padding:10px}
+}
+@media screen and (max-width: 600px) {
+	.userinput{width:88.3%;}
+	.dropcate li{width:33%;}
+}
+
+
+@media screen and (max-width: 560px) {
+	.userinput{width:87.3%;}
+	.wrapuser li{width:50%; border-right:0}
+	.wrapuser li a{border-top:1px solid white; border-right:1px solid #fff}
+	.dropcate li{width:50%;}
+	.catelist li{width:100%; height:auto}
+	.catelist li img{max-width:120px;float:left; margin-right:10px}
+	.catelist li a{text-align:left}
+	.catelist li a h3{height:32px; overflow:hidden}
+	.taggift{top:62px}
+	.taghot{top:62px;}
+	.tagnew{top:62px;}
+	.tagdeal{top:62px;}
+	.tagpreorder{top:55px; right:50px}
+	.tagsapve{top:55px; right:50px}
+	.tagtheend{top:55px; right:50px}
+	.tagbestprice{top:55px; right:50px}
+	.tagtopsale{top:55px; right:50px;}
+	.persale{bottom:50px; right:50px;}	
+	.wrapgallery{width:100%; float:none; margin:10px 0; padding:10px 0; border-bottom:1px solid #ccc}
+	.gallery{width:80%}
+	.pricesale{width:100%}
+	.video{width:94%}
+	.descimg{width:100%}
+	.articles img{max-width:250px;}
+	.listcart{float:none; width:100%}
+	.infopay{float:none; width:100%}
+	.profileinput{width:60%}
+	.profileselect{width:62.2%}
+	.dealtime{width:60%;}
+	.navfoot li{width:49.2%}
+	.footcontact li{width:95%; margin:0 5px;}
+	.footcontact li.map{width:50%}
+	.footcontact li.map a{padding:5px 0}
+	.footcontact li.social{width:40%;}
+	.footcontact li.social a{padding:5px 0}
+	.catelist li a .price1{
+		padding-left: 0 !important;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.userinput{width:86.7%;}
+	.dropcate li{width:50%;}
+	.catelist li a .price1{
+		padding-left: 0 !important;
+	}
+	.notify-bar-text{
+		width: 275px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.userinput{width:82.5%;}
+	/*.textinput{width:85%}*/
+	.catelist li a .price1{
+		padding-left: 0 !important;
+	}
+	.notify-bar-text{
+		width: 275px;
+	}
+	
+}
+
+@media screen and (max-width: 360px) {
+	.userinput{width:80.5%;}
+	.textinput{width:78%}
+	.btnsearch{width:12%}
+	.taggift{top:62px}
+	.taghot{top:62px;}
+	.tagnew{top:62px;}
+	.tagdeal{top:62px;}
+	.tagpreorder{top:55px; right:1px}
+	.tagsapve{top:55px; right:1px}
+	.tagtheend{top:55px; right:1px}
+	.tagbestprice{top:55px; right:11px}
+	.tagtopsale{top:55px; right:1px;}
+	.btnsort{color: #00A1E6; left:1%;}
+	/*.catelist li{width:100%; height:auto}*/
+	.profileinput{width:55%}
+	.profileselect{width:58.2%}
+	.footcontact li.map{width:58%}
+	.footcontact li.map a{font-size:12px}	
+	.footcontact li{margin-right:0}
+	.footcontact li.social{width:37%}
+	.footcontact li.social a {padding: 5px 0; margin-left:3px;}
+	.notify-bar-text{
+		width: 230px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.userinput{width:77.8%;} 
+	.textinput{width:73.5%}
+	.btnsearch{width:15%}
+	.menuhome li a{font-size:12px}
+	.subcate a h2{font-size:11px; font-weight:normal;}
+	.notify-bar-text{
+		width: 225px;
+	}
+	/*.persale{bottom:12px; right:86px;}*/
+}
+
+@media screen and (max-width: 270px) {
+	.tagpreorder{top:80px; right:35px}
+	.tagsapve{top:80px; right:35px}
+	.tagtheend{top:80px; right:35px}
+	.tagbestprice{top:80px; right:35px}
+	.tagtopsale{top:80px; right:35px;}
+	.notify-bar-text{
+		width: 285px;
+	}
+	/*.persale{bottom:12px; right:86px;}*/
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="succLogin" descr=""><![CDATA[Đăng nhập thành công.]]></lines>
+	<lines name="errLogin" descr=""><![CDATA[Tài khoản không đúng. Hãy thử lại.]]></lines>
+</data>

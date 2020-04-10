@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+		<lines name="head_list" descr=""><![CDATA[Quản lý Newsletter Unscriber]]></lines>
+		<lines name="intro_list" descr=""><![CDATA[Chức năng quản lý Newsletter Unscriber trong website.]]></lines>
+		<lines name="title_list" descr=""><![CDATA[Danh sách Newsletter Unscriber]]></lines>
+		<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+		<lines name="pageTitle_list" descr=""><![CDATA[Newsletter Unscriber &raquo; Danh sách Newsletter Unscriber]]></lines>
+	
+		<lines name="head_add" descr=""><![CDATA[Thêm Newsletter Unscriber mới]]></lines>
+		<lines name="title_add" descr=""><![CDATA[Thông tin chi tiết]]></lines>
+		<lines name="pageTitle_add" descr=""><![CDATA[Newsletter Unscriber &raquo; Thêm Newsletter Unscriber mới]]></lines>
+	
+		<lines name="head_edit" descr=""><![CDATA[Cập nhật thông tin Newsletter Unscriber]]></lines>
+		<lines name="title_edit" descr=""><![CDATA[Thông tin chi tiết]]></lines>
+		<lines name="pageTitle_edit" descr=""><![CDATA[Newsletter Unscriber &raquo; Cập nhật thông tin Newsletter Unscriber]]></lines>
+
+
+		<lines name="formKeywordLabel" descr=""><![CDATA[Từ khóa]]></lines>
+		<lines name="formKeywordInEmailLabel" descr=""><![CDATA[Trong Email]]></lines>
+		<lines name="formDateCreatedLabel" descr=""><![CDATA[Ngày tạo]]></lines>
+		
+		<lines name="errNameRequired" descr=""><![CDATA[Name is required]]></lines>
+
+		<lines name="errAdd" descr=""><![CDATA[Có lỗi khi thêm Newsletter Unscriber mới]]></lines>
+		<lines name="succAdd" descr=""><![CDATA[Tạo Newsletter Unscriber thành công.]]></lines>
+		<lines name="errEdit" descr=""><![CDATA[Có lỗi khi cập nhật thông tin Newsletter Unscriber]]></lines>
+		<lines name="succEdit" descr=""><![CDATA[Cập nhật Newsletter Unscriber thành công.]]></lines>
+		
+		<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy Newsletter Unscriber đã chọn.]]></lines>
+		<lines name="errDelete" descr=""><![CDATA[Có lỗi khi xóa Newsletter Unscriber .]]></lines>
+		<lines name="succDelete" descr=""><![CDATA[Xóa thành công Newsletter Unscriber .]]></lines>
+	
+	
+	
+</data>

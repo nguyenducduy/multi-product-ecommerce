@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="title" descr=""><![CDATA[Các hoạt động mới]]></lines>
+	<lines name="feedempty" descr=""><![CDATA[Chưa có hoạt động nào.]]></lines>
+
+	<lines name="titleLastvisit" descr=""><![CDATA[TRUY CẬP GẦN ĐÂY]]></lines>
+	<lines name="titleDashboardSummary" descr=""><![CDATA[DASHBOARD]]></lines>
+		
+	<lines name="pageTitle" descr=""><![CDATA[ - Trang nhà]]></lines>
+	<lines name="pageKeyword" descr=""><![CDATA[trang nhà]]></lines>
+	<lines name="pageDescription" descr=""><![CDATA[ trang nhà của thành viên.]]></lines>
+
+</data>

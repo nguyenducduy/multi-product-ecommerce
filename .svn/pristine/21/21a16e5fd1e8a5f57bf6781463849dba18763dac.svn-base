@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[AccessTicketType]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[AccessTicketType Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[AccessTicketType &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New AccessTicketType]]></lines>
+	<lines name="title_add" descr=""><![CDATA[AccessTicketType Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[AccessTicketType &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update AccessTicketType]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[AccessTicketType Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[AccessTicketType &raquo; Update]]></lines>
+
+	
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelGroupcontroller" descr=""><![CDATA[Groupcontroller]]></lines>
+	<lines name="labelController" descr=""><![CDATA[Controller]]></lines>
+	<lines name="labelAction" descr=""><![CDATA[Action]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Name]]></lines>
+	<lines name="labelDescription" descr=""><![CDATA[Description]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Status]]></lines>
+	<lines name="labelIpaddress" descr=""><![CDATA[Ipaddress]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Datecreated]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Datemodified]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	
+	
+	<lines name="errGroupcontrollerRequired" descr=""><![CDATA[Groupcontroller is required.]]></lines>
+	<lines name="errControllerRequired" descr=""><![CDATA[Controller is required.]]></lines>
+	<lines name="errActionRequired" descr=""><![CDATA[Action is required.]]></lines>
+	<lines name="errNameRequired" descr=""><![CDATA[Name is required.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add AccessTicketType]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[AccessTicketType had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating AccessTicketType]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[AccessTicketType had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[AccessTicketType not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting AccessTicketType with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[AccessTicketType with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

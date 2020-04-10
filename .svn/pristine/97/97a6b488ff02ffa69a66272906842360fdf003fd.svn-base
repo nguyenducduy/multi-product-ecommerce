@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Chức danh]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách chức danh]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Chức danh &raquo; Danh sách]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Thêm chức danh mới]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Chức danh &raquo; Thêm]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật chức danh]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin chức danh]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Chức danh &raquo; Cập nhật]]></lines>
+
+	
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Tên gọi]]></lines>
+	<lines name="labelDepartmentid" descr=""><![CDATA[Department ID]]></lines>
+	<lines name="labelPriority" descr=""><![CDATA[Độ ưu tiên]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Từ khóa]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Tìm trong -]]></lines>
+	
+	
+
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi khi thêm chức danh mới]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Thêm chức danh thành công]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi khi cập nhật chức danh.]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Cập nhật chức danh thành công.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy thông tin bạn chọn.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi khi xóa chức danh với ID ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Chức danh với ID ###id### đã được xóa.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy thông tin]]></lines>
+	
+	
+	
+	
+</data>

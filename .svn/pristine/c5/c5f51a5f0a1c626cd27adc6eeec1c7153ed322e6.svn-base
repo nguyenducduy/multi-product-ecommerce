@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[ApiPartnerSale]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[ApiPartnerSale Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[ApiPartnerSale &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New ApiPartnerSale]]></lines>
+	<lines name="title_add" descr=""><![CDATA[ApiPartnerSale Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[ApiPartnerSale &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update ApiPartnerSale]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[ApiPartnerSale Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[ApiPartnerSale &raquo; Update]]></lines>
+
+	
+	<lines name="labelApid" descr=""><![CDATA[Partner]]></lines>
+	<lines name="labelUid" descr=""><![CDATA[Uid]]></lines>
+	<lines name="labelPid" descr=""><![CDATA[ProductId]]></lines>
+	<lines name="labelPbarcode" descr=""><![CDATA[Barcode]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelDiscountvalue" descr=""><![CDATA[Discountvalue]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Status]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Datecreated]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Datemodified]]></lines>
+	<lines name="labelDateimport" descr=""><![CDATA[Dateimport]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	
+	
+	<lines name="errApidMustGreaterThanZero" descr=""><![CDATA[Apid must be greater than zero.]]></lines>
+	<lines name="errUidMustGreaterThanZero" descr=""><![CDATA[Uid must be greater than zero.]]></lines>
+	<lines name="errPidMustGreaterThanZero" descr=""><![CDATA[Pid must be greater than zero.]]></lines>
+	<lines name="errPbarcodeRequired" descr=""><![CDATA[Barcode is required.]]></lines>
+	<lines name="errStatusMustGreaterThanZero" descr=""><![CDATA[Status must be greater than zero.]]></lines>
+	<lines name="errBarcodeIsExist" descr=""><![CDATA[Barcode is exist.]]></lines>
+	<lines name="errBarcodeNotValid" descr=""><![CDATA[Barcode is not valid or not exist in system.]]></lines>
+	<lines name="errDiscountValueDataType" descr=""><![CDATA[Discount value must be numberic.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add ApiPartnerSale]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[ApiPartnerSale had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating ApiPartnerSale]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[ApiPartnerSale had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[ApiPartnerSale not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting ApiPartnerSale with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[ApiPartnerSale with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

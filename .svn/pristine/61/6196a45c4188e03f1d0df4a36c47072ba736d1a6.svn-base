@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Scrum Story]]></lines>
+	<lines name="head_detail" descr=""><![CDATA[Chi tiết Scrum Story]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Scrum Story Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[ScrumStory &raquo; Listing]]></lines>
+	<lines name="head_comment" descr=""><![CDATA[Bình luận]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add ScrumStory]]></lines>
+    <lines name="head_addteam" descr=""><![CDATA[List Team]]></lines>
+    <lines name="head_additeration" descr=""><![CDATA[List Iteration]]></lines>
+    <lines name="head_addmember" descr=""><![CDATA[List Member]]></lines>
+    <lines name="head_addstorycate" descr=""><![CDATA[List StoryCategory]]></lines>
+    <lines name="head_addproject" descr=""><![CDATA[List Project]]></lines>
+    <lines name="head_additeration" descr=""><![CDATA[List Iteration]]></lines>
+	<lines name="title_add" descr=""><![CDATA[ScrumStory Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[ScrumStory &raquo; Add]]></lines>
+    <lines name="head_addstoryasignee" descr=""><![CDATA[List StoryAsignee]]></lines>
+    <lines name="head_addmeeting" descr=""><![CDATA[List Meeting]]></lines>
+	<lines name="head_edit" descr=""><![CDATA[Update ScrumStory]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[ScrumStory Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[ScrumStory &raquo; Update]]></lines>
+
+	
+	<lines name="labelSpid" descr=""><![CDATA[Project]]></lines>    
+	<lines name="labelSiid" descr=""><![CDATA[Sprint]]></lines>
+	<lines name="labelId" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelAsa" descr=""><![CDATA[As a]]></lines>
+    <lines name="labelStory" descr=""><![CDATA[Story]]></lines>
+	<lines name="labelIwant" descr=""><![CDATA[I want]]></lines>
+	<lines name="labelSothat" descr=""><![CDATA[So That]]></lines>
+	<lines name="labelTag" descr=""><![CDATA[Tag]]></lines>
+	<lines name="labelPoint" descr=""><![CDATA[Point]]></lines>
+	<lines name="labelCategoryid" descr=""><![CDATA[Category]]></lines>
+    <lines name="labelAssignee" descr=""><![CDATA[Assignee]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Status]]></lines>
+	<lines name="labelPriority" descr=""><![CDATA[Priority]]></lines>
+	<lines name="labelDisplayorder" descr=""><![CDATA[Display order]]></lines>
+	<lines name="labelDatecompleted" descr=""><![CDATA[Date completed]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Date created]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Date modified]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+    
+    <lines name="labelToDoStory" descr=""><![CDATA[Pending Story]]></lines>
+    <lines name="labelDoingStory" descr=""><![CDATA[Doing Story]]></lines>
+    <lines name="labelReviewingStory" descr=""><![CDATA[Reviewing Story]]></lines>
+    <lines name="labelDoneStory" descr=""><![CDATA[Done Story]]></lines>
+    
+    <lines name="labeLowPriority" descr=""><![CDATA[Low]]></lines>
+    <lines name="labelMediumPriority" descr=""><![CDATA[Medium]]></lines>
+    <lines name="labelHighPriority" descr=""><![CDATA[High]]></lines>
+    <lines name="labelHotPriority" descr=""><![CDATA[Hot]]></lines>
+    <lines name="lbdempty" descr=""><![CDATA[Chưa cập nhật]]></lines>
+	
+	
+	<lines name="errSpidMustGreaterThanZero" descr=""><![CDATA[Sprint must be greater than zero.]]></lines>
+	<lines name="errSiidMustGreaterThanZero" descr=""><![CDATA[Iteration must be a number.]]></lines>
+	<lines name="errAsaRequired" descr=""><![CDATA[Asa is required.]]></lines>
+	<lines name="errIwantRequired" descr=""><![CDATA[Iwant is required.]]></lines>
+	<lines name="errSothatRequired" descr=""><![CDATA[So that is required.]]></lines>
+	<lines name="errTagRequired" descr=""><![CDATA[Tag is required.]]></lines>
+	<lines name="errPointRequired" descr=""><![CDATA[Point is required.]]></lines>
+	<lines name="errCategoryidMustGreaterThanZero" descr=""><![CDATA[Category must be number.]]></lines>
+	<lines name="errDisplayorderMustGreaterThanZero" descr=""><![CDATA[Display order must be greater than zero.]]></lines>
+	<lines name="errDatecompletedMustGreaterThanZero" descr=""><![CDATA[Date completed must be greater than zero.]]></lines>
+	<lines name="errDatecreatedMustGreaterThanZero" descr=""><![CDATA[Date created must be greater than zero.]]></lines>
+	<lines name="errDatemodifiedMustGreaterThanZero" descr=""><![CDATA[Date modified must be greater than zero.]]></lines>
+	<lines name="errdatecompletedRequired" descr=""><![CDATA[Date completed is required.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add ScrumStory]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[ScrumStory had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating ScrumStory]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[ScrumStory had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[ScrumStory not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting ScrumStory with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[ScrumStory with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

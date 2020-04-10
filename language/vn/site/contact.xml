@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="title" descr=""><![CDATA[Góp ý &amp; Liên hệ]]></lines>
+	<lines name="required" descr=""><![CDATA[Ô bắt buộc nhập]]></lines>
+	<lines name="fullname" descr=""><![CDATA[Tên của bạn]]></lines>
+	<lines name="email" descr=""><![CDATA[Email]]></lines>
+	<lines name="message" descr=""><![CDATA[Nội dung]]></lines>
+	<lines name="securityCode" descr=""><![CDATA[Mã an toàn]]></lines>
+	<lines name="securityCodeTip" descr=""><![CDATA[Nhập các ký tự trong hình bên dưới.]]></lines>
+	<lines name="refreshImage" descr=""><![CDATA[Hiện mã khác]]></lines>
+	<lines name="submitLabel" descr=""><![CDATA[Gởi]]></lines>
+	<lines name="succContact" descr=""><![CDATA[Thông tin liên hệ của bạn đã được gởi. Chúng tôi sẽ liên hệ với bạn sớm nếu cần thiết. Cảm ơn bạn nhiều.]]></lines>
+	<lines name="errContact" descr=""><![CDATA[Có lỗi khi gởi thông tin của bạn. Hãy thử lại.]]></lines>
+	<lines name="errSpam" descr=""><![CDATA[Spam detection. Hãy chờ trong giây lát và thử lại.]]></lines>
+	<lines name="errEmailNotValid" descr=""><![CDATA[Địa chỉ email không hợp lệ.]]></lines>
+	<lines name="errFullnameNotValid" descr=""><![CDATA[Bạn cần nhập tên của mình.]]></lines>
+	<lines name="errSecurityCode" descr=""><![CDATA[Mã an toàn nhập không đúng.]]></lines>
+	<lines name="titleInformation" descr=""><![CDATA[Thông tin liên hệ]]></lines>
+	<lines name="warnNotBookstore" descr=""><![CDATA[Reader.vn không phải là web bán sách, các bạn đừng liên hệ để mua sách. Nếu có thông tin khác cần trao đổi hãy liên hệ.]]></lines>
+	
+	
+	
+	<lines name="pageTitle" descr=""><![CDATA[Góp ý - Liên hệ]]></lines>
+	<lines name="pageKeyword" descr=""><![CDATA[Góp ý, liên hệ, contact us, contact, feedback, website, contact website, đóng góp ý kiến, liên hệ site, liên hệ website, thông tin liên hệ, liên hệ]]></lines>
+	<lines name="pageDescription" descr=""><![CDATA[Gởi thông tin góp ý, liên hệ đến ban quản trị website. Các yêu cầu, gợi ý hợp tác, tạo tài khoản VIP, cửa hàng, nhà sách trên hệ thống website.]]></lines>
+
+</data>

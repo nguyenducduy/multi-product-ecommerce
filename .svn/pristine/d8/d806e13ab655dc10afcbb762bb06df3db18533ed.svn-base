@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Crazydeal]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Crazydeal Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Crazydeal &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New Crazydeal]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Crazydeal Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Crazydeal &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update Crazydeal]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Crazydeal Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Crazydeal &raquo; Update]]></lines>
+
+	
+	<lines name="labelUid" descr=""><![CDATA[UserID]]></lines>
+	<lines name="labelPid" descr=""><![CDATA[ProductID]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Name]]></lines>
+	<lines name="labelImage" descr=""><![CDATA[Image]]></lines>
+	<lines name="labelDescription" descr=""><![CDATA[Description]]></lines>
+	<lines name="labelStarttime" descr=""><![CDATA[Starttime]]></lines>
+	<lines name="labelExpiretime" descr=""><![CDATA[Expiretime]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Status]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Datecreated]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Datemodified]]></lines>
+	
+	
+	<lines name="errPidRequired" descr=""><![CDATA[ProductID is required.]]></lines>
+	<lines name="errNameRequired" descr=""><![CDATA[Name is required.]]></lines>
+	<lines name="errImageRequired" descr=""><![CDATA[Image is required.]]></lines>
+	<lines name="errStarttimeRequired" descr=""><![CDATA[Starttime is required.]]></lines>
+	<lines name="errExpiretimeRequired" descr=""><![CDATA[Expiretime is required.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add Crazydeal]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Crazydeal had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating Crazydeal]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Crazydeal had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Crazydeal not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting Crazydeal with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Crazydeal with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	<lines name="errPid" descr=""><![CDATA[Mã sản phẩm không tồn tại]]></lines>
+	
+	<lines name="errFileRequired" descr=""><![CDATA[File Upload is required.]]></lines>
+	<lines name="errFiletypeInvalid" descr=""><![CDATA[File type is Invalid. (JPG, PNG, GIF only)]]></lines>
+    <lines name="errFilesizeInvalid" descr=""><![CDATA[File size is too big. (Max: ###VALUE###MB)]]></lines>
+	
+</data>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+  <lines name="totalArchivedOrder" descr=""><![CDATA[Số lượng đơn hàng]]></lines>
+  <lines name="totalArchivedOrderAmount" descr=""><![CDATA[Tổng giá trị đơn hàng]]></lines>
+  <lines name="totalAccount" descr=""><![CDATA[Khách hàng]]></lines>
+  <lines name="totalAccountOnline" descr=""><![CDATA[Đang đăng nhập]]></lines>
+  <lines name="totalProductView" descr=""><![CDATA[Lượt xem sản phẩm]]></lines>
+  <lines name="totalNewsView" descr=""><![CDATA[Lượt xem tin tức]]></lines>
+  <lines name="totalPageView" descr=""><![CDATA[Lượt xem Page]]></lines>
+  <lines name="totalStuff" descr=""><![CDATA[Tổng số rao vặt]]></lines>
+  <lines name="totalStuffView" descr=""><![CDATA[Lượt xem rao vặt]]></lines>
+  <lines name="totalAdsClick" descr=""><![CDATA[Lượt click quảng cáo]]></lines>
+</data>

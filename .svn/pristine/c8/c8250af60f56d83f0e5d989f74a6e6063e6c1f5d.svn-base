@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>	
+	<lines name="head_add" descr=""><![CDATA[Tạo nhóm]]></lines>
+
+	<lines name="errGroupnameRequired" descr=""><![CDATA[Bạn chưa nhập tên nhóm]]></lines>
+	
+	<lines name="labelName" descr=""><![CDATA[Tên nhóm]]></lines>
+	<lines name="labelDescription" descr=""><![CDATA[Giới thiệu nhóm]]></lines>
+	
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi khi tạo nhóm]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Tạo nhóm thành công. Đang chuyển trang...]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi khi cập nhật thông tin cho nhóm.]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Cập nhật thành công.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy nhóm.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi khi xóa nhóm bạn chọn.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Xóa thành công nhóm bạn chọn.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy thông tin.]]></lines>
+	
+	
+	
+	
+</data>

@@ -1,0 +1,4410 @@
+
+<!--lazyload enable for serp page alone-->
+<!--for GSL format LD v3-->
+<script type="text/javascript">
+var _adBlockStatus = 'false';
+var daisyPageName = "dcss";
+appCoreUserid = "";
+appCoreUsername = "";
+gslFormatV3 = '';
+dictionaryConsolidatedCookieList=new Array('dTlb','fC','rh','translangpair','regHP','dyn','freqcp','adblk');
+dictionaryConsolidatedCookieName='dcc';
+isSerpRedesign=false;
+</script>
+.lunatext, .lunatext *, .lunatext a {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 13px;
+color: #333333;
+line-height: 1.25em;
+margin: 0;
+padding: 0;
+}
+.lunatext a {
+text-decoration:underline;
+}
+.lunatext a:hover {
+color:#0050BB;
+}
+.lunatext a:visited {
+color:#663399;
+}
+.lunatext p {
+margin:0 0 1em;
+}
+.lunatext ol {
+margin-left:2em;
+}
+.lunatext ol ol {
+margin-bottom:0;
+}
+.lunatext ul, .lunatext ol {
+font-size:0.925em;
+margin-bottom:1.5em;
+padding-left:0.75em;
+}
+.lunatext ul li {
+background:transparent url(http://cache.lexico.com/g/d/bullet_gray.gif) no-repeat scroll 0 0.5em;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin-bottom:0.33em;
+padding-left:8px;
+}
+.lunatext ul ul, .lunatext ul ol, .lunatext ol ul, .lunatext ol ol {
+font-size:1em;
+}
+.lunatext blockquote {
+background:#EFEFEF none repeat scroll 0 50%;
+border:1px solid #DCDCDC;
+margin:1em 0;
+padding:1em;
+text-align:left;
+}
+/* END OF NONE NEED STUFF FOR LUNA */
+/* luna HTML project styles */
+div.luna-Ent, div.luna-Pronkey {
+background-color: #FFF;
+color: #333333;
+display: block;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 1em;
+padding-bottom:5px;
+}
+div.dndata {
+padding-left: 37px;
+}
+.tail, .body {
+margin-bottom: 0em;
+margin-left: 0em;
+margin-right: 0;
+margin-top: 0em;
+color: #333333;
+}
+.tail {
+padding-top: 20px;
+}
+h2.me {
+font-family: "Arial Unicode MS", Arial, Helvetica, sans-serif;
+font-size: 18px;
+display: inline;
+color: #000000;
+}
+.luna-Img {
+vertical-align: text-top;
+}
+.luna-Ent a:link, .luna-Pronkey a:link, .luna-Ent a:visited, .luna-Pronkey a:visited, .x {
+color: #333333;
+text-decoration: underline;
+}
+.luna-Ent a:hover, .luna-Pronkey a:hover {
+color: #0055BB;
+text-decoration: underline;
+}
+.pg {
+font-weight: bold;
+color: #333333;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+display: inline;
+font-style: italic;
+font-size: 13px;
+padding-right: 3px;
+}
+.rom-inline {
+color: #333333;
+display: inline;
+font-style: normal;
+font-weight: normal;
+}
+.labset {
+color: #333333;
+display: inline;
+font-style: normal;
+}
+.secondary-bf {
+font-size: 13px;
+color: #333333;
+display: inline;
+font-weight: bold;
+}
+.body .rom-inline {
+display: inline;
+font-style: normal;
+font-weight: normal;
+}
+.body .pg {
+color: #333333;
+font-style: italic;
+}
+.body .sectionlabel {
+color: #333333;
+font-style: italic;
+display: block;
+padding-top: 15px;
+}
+.body .secondary-bf {
+color: #333333
+}
+table.luna-Ent {
+font-size: 13px;
+background-color: #FFF;
+color: #333333;
+display: block;
+padding-bottom: 0;
+width: 100%;
+}
+table.luna-Ent td {
+text-align: left;
+vertical-align: top;
+}
+table.luna-Ent td.dn {
+width: 1.5em;
+}
+table.luna-Ent td span.labset {
+color: #333333
+}
+td span.secondary-bf {
+color: #333333
+}
+.show_ipapr .pron {
+font-size: 1.1em;
+color: #333333;
+font-family: "Arial Unicode MS", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+display: inline;
+}
+.show_rhpr .pron {
+font-size: 13px;
+color: #333333;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+display: inline;
+}
+.show_spellpr .pron {
+font-size: 13px;
+color: #333333;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+display: inline;
+}
+.pronlink {
+font-size: 13px;
+color: #333333;
+cursor: pointer;
+text-decoration: underline;
+}
+.pronset {
+color: #333333;
+}
+.pronset iframe{
+position : relative;
+top: 4px;
+left: 5px;
+}
+.pronset div{
+padding-bottom: 4px;
+}
+.me {
+display: inline;
+font-weight: bold;
+}
+.homno {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+display: inline;
+color: #333333;
+vertical-align: top;
+}
+.dnindex {
+font-weight: bold;
+color: #7B7B7B;
+display:block;
+float:left;
+width:28px;
+}
+.luna-Nested {
+position:relative;
+}
+.luna-Nested .dndata {
+padding-left: 30px;
+}
+.luna-Nested span {
+_left:-28px;
+}
+.dn {
+color: #333333;
+display: inline;
+}
+.ital-inline {
+display: inline;
+font-style: italic;
+font-family: Georgia, Verdana, Arial, Helvetica, sans-serif; /*georgia for example sent. */
+}
+.sc {
+display: inline;
+font-variant: small-caps;
+}
+.tail .rom-inline {
+color: #333333;
+display: inline;
+font-style: normal;
+font-weight: normal;
+}
+.prondelim {
+color: #333333;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.sectionLabel {
+font-weight: bold;
+color: #333333;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+display: inline;
+font-style: italic;
+}
+.shape {
+display: inline;
+/* font-family: Helvetica, Arial, sans-serif;*/
+}
+sub {
+position: relative;
+}
+table.luna-Pronkey {
+display: block;
+width: 100%;
+}
+table.luna-Pronkey td {
+white-space: nowrap;
+}
+table.luna-Pronkey td.pr {
+width: 3.5em;
+}
+caption.luna-Pronkey {
+display: inline;
+font-weight: bold;
+text-align: left;
+}
+div.luna-Pronkey .info {
+display: block;
+font-size: .9em;
+}
+.indefinitionword {
+font-size: 13px;
+color: #000000;
+display: inline;
+font-weight: bold;
+}
+span.x sup {
+font-size: .75em;
+}
+.ety .ital-inline {
+font-family: "Arial Unicode MS", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+hr.ety {
+display: none;
+}
+.boldface {
+font-weight: 700;
+}
+.lightface {
+font-weight: 100;
+}
+/*
+STYLE ADDED: 12.02.2008
+*/
+.tail .sectionLabel {
+color: #333333;
+}
+.roset, .roset span.secondary-bf, .roset span.pg, .secondary-bf span {
+color: #333333;
+}
+/*
+STYLE ADDED: 01.26.2009
+*/
+.rn {
+color: #000000;
+}
+/* STYLE ADDED: 02.04.2008 */
+sup,
+sub {
+height: 0;
+line-height: 1;
+_vertical-align: bottom;
+vertical-align: baseline;
+position: relative;
+}
+sup {
+bottom: 1ex;
+font-size: .75em;
+}
+sub {
+top: .5ex;
+font-size: .75em;
+}
+div.pbk {
+padding-top: 15px;
+}
+table.luna-Ent .secondary-bf{
+font-style: normal;
+}
+/* GLOBAL_N.CSS STYLES START */
+html{color:#000;background:#F5F4F4;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+body{height: 100%;font-family: Arial;background:#F5F4F4;text-align:center;}
+/**
+Header Styles .
+Most of the elements inside the header are absolute positioned so that we can move the elements without affecting other things
+Please maintain the DOM order so that it is easy to find out the styles . If over riding is instituted using the order please specify so
+*/
+/*wrapper*/
+#wrp{
+text-align: center;
+background:url("http://static.sfdict.com/dictionary/homepage/images/dic_serp_bg.png") repeat-x scroll 0 0 #F2F2F2;
+}
+/*shadow*/
+#wrp #sh{
+background:url("http://static.sfdict.com/dictionary/homepage/images/tp.png") no-repeat scroll 100% 0 transparent;
+height:26px;
+position:absolute;
+right:0;
+top:0;
+width:857px;
+}
+/* Header and content wrapper have the same width so that we can have the them center aligned , the center aligning is done using the two properties
+1) In IE -> Text align center and width
+2) In Firefox and other browsers -> margin:auto
+*/
+#hdr,#cwrp{
+position: relative;
+width: 1000px;
+margin: auto;
+background:white;
+}
+#hdr span, #hdr a, #hdr div{font-family:Helvetica,Arial;
+font-weight: bold;
+}
+/*header top nav elements */
+#tpnv{
+position: absolute;
+right: 0px;
+top:5px;
+}
+#tpnv a,#hdr #tpnv span{
+color: #ffffff;
+text-decoration: none;
+font-size: 12px;
+position: static;
+}
+#tpnv a+a{
+border-left: 1px solid;
+padding-left:5px;
+}
+#fvlp {
+border-left:none;
+}
+.favL {
+padding-left: 13px;
+}
+/* The anchor surrounding the logo image */
+#hdr .diclogo{
+left:0;
+top:19px;
+position:absolute;
+}
+#hdr form{
+height: 48px;
+width: 478px;
+position: absolute;
+text-align: left;
+left: 211px;
+top: 22px;
+}
+#hdr input{
+position: relative;
+top: 10px;
+font:21px arial;
+color:#000000;
+width: 350px;
+height: 28px;
+outline: none;
+border: 0;
+}
+.area-holder{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat scroll -321px -225px transparent;
+padding: 0 16px;
+margin: 0 12px 0 0;
+width: 365px;
+height: 49px;
+}
+#hdr button{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat scroll -717px -225px transparent;
+width: 66px;
+height: 48px;
+border: none;
+position: absolute;
+right: 6px;
+top: 0px;
+cursor:pointer;
+}
+#hdr span{
+position: absolute;
+right:111px;
+top: 35px;
+font-weight: bold;
+font-size: 12px;
+color: #6699CC;
+}
+/*content wrapper styles */
+#contouter{
+width:1011px;
+margin:auto;
+background:transparent url("http://static.sfdict.com/dictionary/homepage/images/hp_bg.png") repeat-y scroll 0 0;
+position:relative;
+top:-54px;
+z-index:100;
+}
+#cwrp .nbl{
+border-left:none;
+padding-left: 0;
+}
+#cwrp .nbr{
+border-right:none;
+}
+#dmain{
+top:0;
+width:auto;
+background-color:#ffffff;
+}
+/*main navigation tabs*/
+#hlin{
+width:100%;
+height:28px;
+background: none repeat scroll 0 0 #E4E4E4;
+}
+#hlin a{
+float:left;
+color: #333333;
+font: normal 17px/17px arial;
+padding: 6px 3px 5px;
+text-decoration: none;
+height:17px;
+position:relative;
+border-left:1px solid #D0CFCF;;
+position:relative;
+}
+#hlin a:hover{
+background:none repeat scroll 0 0 #EFEFEF;
+}
+#hlin a.sel{background:#ffffff;color: #333333;font-weight:bold;}
+.hnew{
+display: inline-block;
+height: 10px;
+width: 22px;
+}
+.bnew{ background: url("http://static.sfdict.com/dictionary/homepage/images/sh_a.png") no-repeat scroll -407px -110px transparent;
+display: inline-block;
+height: 7px;
+width: 21px;
+position:relative;
+left:-3px;
+top:-10px;
+*top:-14px;
+}
+/*sub navigation tabs*/
+#de{
+margin:0 auto;
+text-align: left;
+background-color:#ffffff;
+}
+#snv{
+position:relative;
+height:28px;
+padding:0 0 0 11px;
+display:inline-block;
+}
+#snv a{
+font:13px/13px arial;
+color:#666666;
+text-decoration:none;
+padding:0 17px;
+margin:8px 0 8px;
+border-right:1px solid #666666;
+border-left:1px solid #d9d9d9;
+float:left;
+}
+/*Inner content wrappers*/
+#icw{
+border-top:4px solid #dad9d9;
+display:inline-block;
+}
+/* footer styles*/
+#fotr{
+width:1020px;
+height:38px;
+background: url("http://static.sfdict.com/dictionary/homepage/images/sh_a.png") no-repeat scroll -11px -374px #FFFFFF;
+margin:auto;
+position:relative;
+top:-54px;
+padding:0;
+}
+#nfotr{width:980px;padding-top:80px;margin-bottom: -5px;display:inline-block;}
+#nfr{
+height:35px;
+background-color: #FFFFFF;
+margin:auto;
+position:relative;
+padding:0;
+}
+.od{
+float:right;
+}
+.brli a,.od a{
+margin-right:9px;
+text-decoration:none;
+font:12px/12px arial;
+color:#666666;
+}
+.brd{
+padding:10px 0;
+border-top: 1px solid #D6D6D6;
+}
+.od a{
+margin-right:0;
+}
+.specdict{
+border-right: 1px solid #666666;
+padding-right:5px;
+padding-left:5px;
+}
+.abbre{
+padding-left:5px;
+}
+.spdict{
+padding-right:2px;
+padding-left:3px;
+}
+.brw{
+font:bold 12px/12px arial;
+color:#666666;
+padding-bottom:5px;
+}
+#nn{
+margin:0;
+padding:0;
+}
+.ptn a,.ptn, #nfr a, #nfr .bllt{
+margin-right: 0;
+padding: 0 5px ;
+color: #666666;
+font: 12px/12px arial;
+text-decoration:none;
+font-weight:normal;
+top:12px;
+}
+.ptn a+a, #nfr a+a{
+border-left: 1px solid #666666;
+}
+.ptn{
+text-align:right;
+padding-right:0;
+margin-top:3px;
+font-weight:bold;
+}
+.brftr .npr,#fotr .npr{
+padding-right:0;
+}
+.auth{
+padding:0 0 8px 15px;
+font:bold 14px arial;
+color:#CCCCCC;
+}
+.brftr{
+clear:both;
+float:none;
+width:auto;
+padding:0 0 2px 0;
+position:relative;
+text-align:left;
+display:block;
+}
+#nfotr .brftr{
+width: 942px;
+margin-left: 16px;
+padding-bottom: 10px;
+border-bottom: 1px solid #E4E4E4;
+}
+.bllt{
+color: #FFFFFF;
+font: 12px arial;
+left: 30px;
+top: 15px;
+position: absolute;
+}
+#nfr .bllt{left:16px;padding:0;}
+.blf a{
+color: #FFFFFF;
+font: 12px/12px arial;
+text-decoration:none;
+padding:0px 5px;
+}
+.blf a+a{
+border-left:1px solid white;
+}
+.blf{
+position:absolute;
+right:30px;
+top:16px;
+font: 12px/12px arial;
+}
+#nfr .blf{right:16px;padding:0;top:13px;}
+.fdic,.fask{
+display: inline-block;
+position: absolute;
+z-index: 20000;
+top:5px;
+}
+.fdic{background-position: -577px -292px;height: 24px;width: 105px;}
+.fask{
+left:110px;
+height:19px;
+width:24px;
+top:8px;
+background-position: -696px -296px;
+}
+.er{
+position:relative;
+padding:10px 0 5px 0;
+border-top:1px solid #D6D6D6;
+}
+/* GLOBAL_N.CSS STYLES END */
+html
+{color:#000;
+background:#FFF}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td
+{margin:0;
+padding:0}
+table
+{border-collapse:collapse;
+border-spacing:0}
+fieldset, img
+{border:0}
+address, caption, cite, code, dfn, em, strong, th, var, optgroup
+{font-style:inherit;
+font-weight:inherit}
+del, ins
+{text-decoration:none}
+li
+{list-style:none}
+caption, th
+{text-align:left}
+h1, h2, h3, h4, h5, h6
+{font-size:100%;
+font-weight:normal}
+q:before, q:after
+{content:''}
+abbr, acronym
+{border:0;
+font-variant:normal}
+sup
+{vertical-align:baseline}
+sub
+{vertical-align:baseline}
+legend
+{color:#000}
+input, button, textarea, select, optgroup, option
+{font-family:inherit;
+font-size:inherit;
+font-style:inherit;
+font-weight:inherit}
+select, input, button, textarea, button
+{font:99% arial,helvetica,clean,sans-serif}
+table
+{font-size:inherit;
+font:100%}
+body
+{text-align:center}
+.seperator
+{
+width:1px;float:left;height:24px;background-color:#c3c3c3;
+}
+html{
+overflow-x:scroll;
+}
+#dmain {
+position:relative;
+top:0px;
+left:0;
+width:980px;
+text-align:left;
+display:inline-block;
+/**top:12px;*/
+margin-top:15px;
+background-color:#ffffff;
+}
+#de {
+background-color: #FFFFFF;
+text-align: left;
+width: 980px;
+margin: 0;
+}
+.ns_limg {
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -157px -116px transparent;
+height: 43px;
+position: relative;
+top: 7px;
+width: 180px;
+left:1px;
+}
+#lr .lmore {
+font-family:arial;
+font-size:1em;
+cursor:pointer;
+}
+#lr a.theColor:hover {
+text-decoration:none;
+}
+#narrowMore a.theColor:hover {
+text-decoration:underline;
+}
+a.lmore:hover {
+text-decoration:underline;
+}
+#lr .nearByCurr {
+font-family:verdana;
+font-weight:bold;
+font-size:1.1em;
+color:#575757;
+}
+#lr a.nearByCurr:hover {
+Text-decoration:underline;
+}
+#lr .eD {
+font: 13px/18px arial;
+}
+.flav .rey,.fla .rey{
+font-family: arial;
+font-size: 13px;
+*line-height:1.45em;
+padding-left:7px;
+padding-top:3px;
+}
+.shd_hdr {
+background-repeat:repeat-x;
+width:100%;
+}
+#dict_header_content {
+width:1100px;
+}
+.askpadding {
+margin-top:-10px;
+text-align:left;
+padding-left:105px;
+}
+#channelTitle
+{
+/*padding-left:90px;*/
+padding-left:3px;
+padding-right:16px;
+text-align:right;
+width:210px;
+}
+.sep_top {
+padding-top:7px;
+position : relative;
+border-top: 1px solid #E4E4E4;
+}
+a{
+color:#255F9A;
+text-decoration:none;
+}
+#rpane
+{
+float:left;
+width:100%;
+}
+.Headserp {
+color:#666666;
+font-family:Arial;
+font-size:18px;
+margin-top:10px;
+width:470px;
+border-top:none;
+display:inline-block;
+position: relative;
+padding-bottom: 5px;
+}
+.qautia{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat -91px -84px;
+display:inline-block;
+float:right;
+height:43px;
+width:50px;
+padding:7px;
+position:relative;
+left:6px;
+}
+.sprite {
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat -88px -140px;
+display: inline-block;
+width: 60px;
+height: 60px;
+}
+a.cite:hover {
+color:#0050BB;
+font-family:verdana;
+font-size:0.8em;
+}
+#sidebar .ad {width: 160px; margin-right: auto; }
+#sidebar .ad-home {width: 300px; margin-right: auto; text-align: center; font-size: 0.75em; letter-spacing: 0.2em; text-transform: uppercase;}
+.ad-home {width: 728px; margin-right: auto; text-align: center; font-size: 0.30em; letter-spacing: 0.2em; text-transform: uppercase;}
+/***************LINK TO STYLE-START*********************/
+#link_to_div{
+position:relative;
+display:inline;
+left:0px;
+top:0px;
+padding-left:1px;
+padding-right:1px;
+}
+#link_to_style{
+color:#7b7b7b;
+font-family:Arial;
+font-size:11px;
+text-decoration:underline;
+cursor:pointer;
+}
+#link_to_style:hover{
+color:#0055bb;
+cursor:pointer;
+}
+.Lis{
+font-family:verdana;
+font-size:13px;
+color:#333333;
+text-decoration:underline;
+position:relative;
+top:1px;
+left:3px;
+}
+.LImg{
+height:16px;
+width:16px;
+left:0px;
+position:relative;
+overflow:hidden;
+background-repeat:no-repeat;
+display:inline;
+float:left;
+}
+.Lsentnce,#webres,#imgres{
+display:none;
+}
+.AU {
+text-decoration:underline;
+}
+/* v2.1 styles */
+.pt10 {padding-top:10px;}
+.pt12 {padding-top:12px;}
+#dict_hdr
+{
+background-repeat: repeat;
+border-bottom:1px solid #4F4F4F;
+height:22px;
+cursor: default; /* prevent cursor from jumping between text, pointer and default */
+position:absolute;
+top:0;
+left:0;
+width: 100%;
+min-width:1000px;
+}
+.sep{
+float:left;height:22px;border-left:1px solid #4F4F4F;
+}
+.sepl{
+float:left;height:22px;border-left:1px solid #4F4F4F;border-right:1px solid #FFFFFF;
+}
+.hdr{
+font-family:arial;
+font-size:13px;
+color:#333333;
+text-align:center;
+padding:4px 15px 0;
+height:19px;
+}
+#hdr form{
+left:194px;
+}
+#lr .hd {
+color:#000000;
+font-family:georgia;
+font-size:18px;
+}
+#lr .sp {
+width:180px;
+height:1px;
+float:right;
+}
+.rcr, .rcr a {
+font-family:arial;
+font-size:11px;
+color:#7B7B7B;
+padding-top:3px;
+padding-bottom:13px;
+}
+.rcr a {
+font-size:1em;
+text-decoration:underline;
+}
+.rcr a:hover {
+color:#0050BB;
+}
+#bs {
+padding-bottom:20px;
+padding-top:23px;
+}
+#bs .askSearchfont {
+border:solid 1px #666666;
+font-family:Verdana;
+font-size:14pt;
+color:#333333;
+}
+.sepTop{
+border-top: solid 1px #b6d0dd;
+padding-top:11px;
+padding-bottom:14px;
+position : relative;
+}
+#bk{
+background-position:-132px -38px;
+background-image:url(http://static.sfdict.com/en/i/dictionary/dictionary_search_sprite.png);
+top:39px;
+height:10px;
+left:45px;
+overflow:hidden;
+position:absolute;
+width:6px;
+z-index:5;
+}
+#ftr_links {
+padding-bottom:10px;
+}
+#results{
+float:right;
+width:801px;
+}
+.ftr{
+float:left;
+padding-left:20px;
+width:780px;
+}
+.about{
+display: inline;
+float: left;
+margin:-3px 5px 0 -14px ;
+_position:relative;
+}
+.about a{
+display: block; width: 87px; height: 20px;
+}
+.folus{
+width:180px;
+padding-top:1px;
+*padding-top:2px;
+float:right;
+font:11px Arial;
+color:#464646;
+position:relative;
+}
+.fb,.tw,.fb:visited,.tw:visited,.fb:active,.tw:active{
+font:11px Arial;
+color:#464646;
+text-decoration:none;
+float:right;
+}
+.fb:hover,.tw:hover{
+text-decoration:underline;
+}
+.dicTl{
+color:#000000;
+font-family:Arial;
+font-size:18px;
+padding-bottom:4px;
+*padding-bottom:0px;
+}
+.rhs {float:right;padding-top:4px ;color:#333333;}
+#abvFold {
+clear:both;
+}
+.RCN_lt {
+float:left;
+margin:0px;
+padding:0px;
+}
+.RCN_rt {
+float:right;
+margin:0px;
+padding:0px;
+}
+.RCN_lt li, .RCN_rt li {
+background:transparent url(http://static.sfdict.com/en/i/dictionary/bullet_gray_sqr.gif) no-repeat scroll 10px 11px;
+}
+.wrd {
+list-style-type:none;
+width:138px;
+text-align:left;
+padding-left:10px;
+}
+.wpN a{
+font-family:Verdana;
+font-size:12px;
+color:#404040;
+line-height:22px;
+}
+.twpB {
+padding-left:7px;
+}
+.twpC {
+display:inline-block;
+border-left:1px solid #E3E3E3;
+border-right:1px solid #E3E3E3;
+padding-top:3px;
+position:relative;
+height:47px;
+width:298px;
+}
+.wpN {
+margin-top:15px;
+*margin-top:40px;
+margin-bottom:15px;
+position:relative;
+border-bottom:1px solid #E3E3E3;
+}
+.wpH {
+height:28px;
+width:300px;
+background:transparent url(http://static.sfdict.com/en/i/dictionary/v2_1/todays_word_picks/tWP_new.png) no-repeat scroll 0 0;
+}
+.twpL {
+width:5px;
+height:4px;
+position:absolute;
+left:1px;
+*left:0px;
+bottom:-1px;
+background-color:white;
+z-index:1;
+}
+.twpR {
+width:5px;
+height:4px;
+position:absolute;
+right:1px;
+*right:0px;
+bottom:-1px;
+background-color:white;
+z-index:1;
+}
+.twpL {
+background:url('http://static.sfdict.com/en/i/dictionary/v2_1/todays_word_picks/left_corner_inactive.png') no-repeat 0 0;
+background-color:white;
+}
+.twpR {
+background:url('http://static.sfdict.com/en/i/dictionary/v2_1/todays_word_picks/right_corner_inactive.png') no-repeat 0 0;
+background-color:white;
+}
+.adsdbg{
+position:absolute;
+top:auto;
+background-color:#A9A9A9;
+text-align:left;
+border:1px dashed #000000;
+font:small verdana;
+}
+.dbghdr{
+text-align:center;
+font-weight:bold;
+}
+.ptrFtr{
+position:relative;
+display:inline-block;
+width:794px;
+padding-bottom:30px;
+top:-4px;
+}
+.ptnr {
+color:#464646;
+font-family:Arial;
+font-size:11px;
+text-decoration: none;
+float:left;
+}
+.ptLink{
+position:relative;
+left:-2px;
+line-height:12px;
+}
+.ptLink a{
+color:#464646;
+font-family:Arial;
+font-size:11px;
+display:inline-block;
+padding:0 7px;
+border-right:1px solid #B5B5B5;
+border-left:1px solid #777777;
+}
+.ptLink a:hover{
+text-decoration:underline;
+}
+#fl{
+border-left:none;
+}
+#ll{
+border-right:none;
+}
+.header_item a, a:visited
+{
+color:#333333;
+text-decoration:none;
+}
+#q {
+border:solid 1px black;
+width:382px;
+margin:0pt;
+border-right-width:0px;
+border-right-style:none;
+border-right-color:#ffffff;
+font-family:arial;
+font-size:16pt;
+height:25px;
+}
+#contentResults {
+width:781px;
+float:left;
+padding-top:15px;
+*padding-top:8px;
+padding-left:10px;
+padding-right:12px;
+}
+#lr .sep {
+width:160px;
+height:1px;
+}
+#lr .head_prius {
+color:#0055BB;
+font-family:georgia;
+font-size:17px;
+position:relative;
+top:6px;
+}
+#prius {
+padding:16px 14px 11px;
+width:173px;
+}
+#lr .lmore {
+font-family:arial;
+font-size:1em;
+cursor:pointer;
+}
+#lr .powered {
+padding-top:6px;
+padding-bottom:3px;
+padding-left:2px;
+color:#B1B1B1;
+font-family:arial;
+font-size:0.8em;
+line-height:0.8em;
+}
+#lr .entryDiv {
+padding-top:5px;
+padding-left:2px;
+line-height:1.3;
+}
+#lr .entry {
+font-family:verdana;
+font-size:1em;
+color:#575757;
+}
+#lr a.entry:hover {
+color:#0050BB;
+}
+#lr a.theColor:hover {
+text-decoration:none;
+}
+#narrowMore a.theColor:hover {
+text-decoration:underline;
+}
+a.lmore:hover {
+text-decoration:underline;
+}
+#lr .nearByCurr {
+font-family:verdana;
+font-weight:bold;
+font-size:1.1em;
+}
+#lr a.nearByCurr:hover {
+Text-decoration:underline;
+}
+.shd_hdr {
+background-repeat:repeat-x;
+width:100%;
+}
+#dict_header_content {
+width:1100px;
+}
+.askpadding {
+margin-top:-10px;
+text-align:left;
+padding-left:105px;
+}
+a{
+color:#255F9A;
+text-decoration:none;
+}
+hr {
+width: 100%;
+display:inline-block;
+}
+.logo
+{
+margin-right:10px;
+}
+.lhdiv
+{
+width:214px;
+float:left;
+position:relative;
+}
+.rh
+{
+float:right;
+}
+.rhMargin
+{
+float:right;
+}
+#rpane
+{
+float:left;
+width:100%;
+}
+.anotherword{
+font-family:verdana;
+font-size:12px;
+color:#666666;
+padding-bottom:14px;
+}
+.anchanotherword{
+font-family:verdana;
+font-size:12px;
+}
+.query_h1{
+color:#000000;
+font-size:23pt;
+font-family:Times New Roman;
+display:inline;
+font-weight:500;
+}
+.dicColor { color:#0050BB; }
+a.dicColor { color:#0050BB; }
+a.dicColor:hover { color:#0050BB; }
+a.dicColor:visited { color:#0050BB; }
+.L21 {
+font-size:11px ;
+color: #464646;
+text-decoration: none;
+font-family:Arial;
+}
+.L21:visited {
+color: #464646;
+}
+.L21:hover {
+text-decoration: underline;
+}
+#copyright
+{
+margin-top:-14px;
+font-size:11px ;
+color: #767676;
+font-family:Arial;
+}
+.about{
+background: transparent url('http://static.sfdict.com/en/i/dictionary/footer/footer_logo.png') no-repeat scroll 0 0;
+_background:none;
+filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.sfdict.com/en/i/dictionary/footer/footer_logo.png',sizingMethod='crop')";
+display: inline;
+float: left;
+margin:-3px 5px 0 -15px;
+_position:relative;
+}
+.about a{
+display: block; width: 87px; height: 20px;
+}
+/*footer follow us styles*/
+.folus .fb{
+background: transparent url('http://static.sfdict.com/en/i/dictionary/footer/fb.png') no-repeat scroll 0 0;
+height:14px;
+padding:1px 0 0 18px;
+}
+.folus .tw{
+background: transparent url('http://static.sfdict.com/en/i/dictionary/footer/tw.png') no-repeat scroll 0 0;
+height:16px;
+padding:1px 10px 0 17px;
+}
+ul#suggestlist {
+list-style-type:none;
+margin:0px;
+padding-top:3px;
+padding-left:6px;
+}
+#premium-box {
+background:#E3F4F8 url(http://static.sfdict.com/dictstatic/g/d/premium_blue.gif) no-repeat scroll 100%;
+border:1px solid #003A66;
+padding:0.5em 1em;
+/*width:274px;*/
+padding-right:0.63em;
+font-family:"Trebuchet MS",Verdana,sans-serif;
+font-size:0.925em;
+}
+#debug
+{
+text-align:left;
+}
+.premium-services {
+background:#E3F4F8 url(http://static.sfdict.com/dictstatic/g/d/premium_blue.gif) no-repeat scroll 100% 100%;
+border:1px solid #003A66;
+padding-left:5px;
+width:243px;
+text-align:left;
+margin-top:10px
+}
+.premium-services h4 {
+color:#003A66;
+font-family:Georgia,serif;
+font-size:1.5em;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+line-height:normal;
+margin-bottom:5px;
+margin-top:5px;
+}
+.premium-services ul li {
+background:transparent url(http://static.sfdict.com/dictstatic/g/d/bullet_gray.gif) no-repeat scroll 0 0.5em;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin-bottom:0.33em;
+padding-left:8px;
+font-family:verdana;
+font-size:12px;
+}
+.premium-services ul {
+margin-left:-0.5em;
+font-size:0.925em;
+margin-bottom:1.5em;
+margin-top:3px;
+padding-left:0.75em;
+}
+.premium-services a {
+color:#CC3300;
+text-decoration:underline;
+}
+.premium-services a:hover {
+color:#000000;
+text-decoration:underline;
+}
+.btmSearch{
+margin-top:0px;
+}
+/***************LINK TO STYLE-START*********************/
+#link_to_div{
+position:relative;
+display:inline;
+left:0px;
+top:0px;
+padding-left:1px;
+padding-right:1px;
+}
+#link_to_style{
+color:#7b7b7b;
+font-family:Arial;
+font-size:11px;
+text-decoration:underline;
+cursor:pointer;
+}
+#link_to_style:hover{
+color:#0055bb;
+cursor:pointer;
+}
+/***************LINK TO STYLE-END*********************/
+.dN{
+display:none;
+}
+#link_to_module{
+display:none;
+position:absolute;
+height:50px;
+border-width:1px;
+border-color:#e4e4e4;
+background-color:#efefef;
+width:356px;
+z-index:1;
+font-family:Arial;
+border-style:solid;
+}
+#link_to_module span{
+color:#666666;
+}
+.dB {display:block;}
+.pb7 {padding-bottom:7px;}
+.pt5 {padding-top:5px;}
+.taR {text-align:right;}
+#dict_hdr
+{
+background-repeat: repeat;
+border-bottom:1px solid #4F4F4F;
+height:22px;
+cursor: default; /* prevent cursor from jumping between text, pointer and default */
+position:absolute;
+top:0;
+left:0;
+width: 100%;
+min-width:1000px;
+}
+.sep{
+float:left;height:22px;border-left:1px solid #4F4F4F;
+}
+.sepl{
+float:left;height:22px;border-left:1px solid #4F4F4F;border-right:1px solid #FFFFFF;
+}
+.hdr{
+font-family:arial;
+font-size:13px;
+color:#333333;
+text-align:center;
+padding:4px 15px 0;
+height:19px;
+}
+a.sel{
+color:#FFFFFF;
+font-weight:bold;
+}
+#lr .hd {
+color:#000000;
+font-family:georgia;
+font-size:18px;
+}
+#lr .sp {
+width:180px;
+height:1px;
+float:right;
+}
+.rcr, .rcr a {
+font-family:arial;
+font-size:11px;
+color:#7B7B7B;
+padding-top:6px;
+padding-bottom:13px;
+}
+.rcr a {
+font-size:1em;
+text-decoration:underline;
+}
+.rcr a:hover {
+color:#0050BB;
+}
+#bs {
+padding-bottom:20px;
+padding-top:23px;
+}
+#bs .askSearchfont {
+border:solid 1px #666666;
+font-family:Verdana;
+font-size:14pt;
+color:#333333;
+}
+.sepTop{
+border-top: solid 1px #b6d0dd;
+padding-top:11px;
+padding-bottom:14px;
+position : relative;
+}
+#bk{
+background-position:-132px -38px;
+height:10px;
+left:45px;
+overflow:hidden;
+position:absolute;
+width:6px;
+z-index:5;
+}
+.adsdbg{
+position:absolute;
+top:auto;
+background-color:#A9A9A9;
+text-align:left;
+border:1px dashed #000000;
+font:small verdana;
+}
+.dbghdr{
+text-align:center;
+font-weight:bold;
+}
+.ptrFtr{
+position:relative;
+display:inline-block;
+width:900px;
+padding-bottom:30px;
+top:-4px;
+}
+.ptnr {
+color:#464646;
+font-family:Arial;
+font-size:11px;
+text-decoration: none;
+float:left;
+}
+.ptLink{
+position:relative;
+left:-2px;
+line-height:12px;
+float:left;
+}
+.ptLink a{
+color:#464646;
+font-family:Arial;
+font-size:11px;
+display:inline-block;
+padding:0 7px;
+border-right:1px solid #B5B5B5;
+border-left:1px solid #777777;
+}
+.ptLink a:hover{
+text-decoration:underline;
+}
+#fl{
+border-left:none;
+}
+#ll{
+border-right:none;
+}
+.cc_bx {
+padding:16px 6px 11px 19px;
+}
+a, address, blockquote, body, caption, center, dd, dir, div, dl, dt, form, h1, h2, h3, h4, h5, h6, input, menu, ol,
+option, p, select, table, td, th, ul, textarea {
+font-family:verdana;
+font-size:small
+}
+#top_search {
+min-width:1024px;
+}
+#dict_header {
+min-width:1024px;
+}
+.link_text{
+top:2px;
+position:relative;
+left:10px;
+font-size:11px;
+font-family:arial;
+}
+.linkbox{
+top:5px;
+position:relative;
+height:17px;
+left:10px;
+width:334px;
+border:inset;
+font-size:13px;
+border-color:#e4e4e4;
+border-width:1px;
+background-color:#fff;
+color:#333333;
+}
+#newimg{
+background-image:url('');
+margin-top:8px;
+}
+#newimg6{
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='', sizingMethod='crop');
+}
+#ie8margin{
+}
+#searchboxpad{
+}
+}
+a.nearByCurr {
+color:#000000;
+}
+a.nearByCurr:hover {
+color:;
+}
+a.nearByCurr:visited {
+color:#000000;
+}
+.bottomAd {
+z-index:1;
+position:relative;
+padding-top:15px;
+padding-bottom:15px;
+}
+.premium-services{
+background:#E3F4F8 url(http://static.sfdict.com/dictstatic/g/d/premium_blue.gif) no-repeat scroll 100% 100%;
+border:1px solid #003A66;
+}
+<!--header v2 styles-->
+#dict_header {
+min-width:1000px;
+}
+#dict_header {
+background-image:url();
+font-size:small;
+}
+.dic_header_current_dropitemoff{
+background-image: url("http://static.sfdict.com/en/i/dictionary/ask_header_global_navButtons_off.png");
+background-repeat:repeat;
+}
+.seperator {
+background-image:url("http://static.sfdict.com/en/i/dictionary/mid_hdr.png");
+}
+.logoPrius{
+background-image:url("http://static.sfdict.com/en/i/dictionary/logo_Prius_small_update.png");
+background-repeat:no-repeat;
+width:53px;
+height:27px;
+float:left;
+}
+.adPrius{
+background-image:url("http://static.sfdict.com/en/i/dictionary/prius_advertisement.png");
+background-repeat:no-repeat;
+width:56px;
+height:7px;
+padding-right:7px;
+float:right;
+position:relative;
+top:7px;
+}
+.dN{
+display:none;
+}
+#prius{
+width:173px;
+padding:16px 14px 11px;
+}
+#prius .narrow{
+padding-top:13px;
+}
+#prius .head_prius{
+padding-left:3px;
+display:inline;
+}
+.headwordDefcount{
+font-family:arial;
+font-size:0.938em;
+color:#333333;
+}
+#translateFrame
+{
+padding-top:100px;
+height:0px;
+}
+.Lis{
+font-family:verdana;
+font-size:13px;
+color:#333333;
+text-decoration:underline;
+position:relative;
+top:1px;
+left:3px;
+}
+.LImg{
+height:16px;
+width:16px;
+left:0px;
+position:relative;
+overflow:hidden;
+background-repeat:no-repeat;
+display:inline;
+float:left;
+}
+.Lsentnce{
+display:none;
+}
+.AU {
+text-decoration:underline;
+}
+.clbtn{
+background:url("http://static.sfdict.com/en/i/dictionary/close_btn.png") scroll no-repeat 0px 0px;
+float:right;
+height:19px;
+width:19px;
+position:absolute;
+top:12px;
+*top:5px;
+right:7px;
+}
+/* common misspellings start*/
+.cmHd{
+text-align:left;
+padding-left:7px;
+padding-top:5px;
+padding-bottom:5px;
+font-family:Georgia;
+font-size:15px;
+color:#4A4A4A;
+background-image:url("http://static.sfdict.com/en/i/dictionary/header_misspell.png");
+_filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.sfdict.com/en/i/dictionary/header_misspell.png',sizingMethod='crop')";
+_height:29px;
+_width:300px;
+_background-image:none;
+}
+.cmsp{
+margin-bottom:15px;
+margin-top:15px;
+position:relative;
+}
+.qry{
+font-size:15px;
+font-weight:bold;
+font-style:italic;
+font-family:Georgia;
+color:#000000;
+}
+.cmCnt{
+border-left:1px solid #E4E4E4;
+border-right:1px solid #E4E4E4;
+border-bottom:1px solid #E4E4E4;
+text-align:left;
+line-height:22px;
+padding-bottom:6px;
+padding-left:7px;
+padding-top:4px;
+_width:300px;
+}
+h2.msp{
+font-size:12px;
+font-family:Verdana;
+color:#363636;
+display:inline;
+font-weight:normal;
+margin:0;
+padding:0;
+width:0;
+}
+.cmL,.cmR{
+position:absolute;
+height:4px;
+width:4px;
+bottom:0;
+_top:102px;
+}
+.cmL{
+left:0;
+_left:-140px;
+background:url('http://static.sfdict.com/en/i/dictionary/bottom_left_corner.png') no-repeat 0 0;
+background-color:white;
+}
+.cmR{
+right:0;
+background:url('http://static.sfdict.com/en/i/dictionary/bottom_right_corner.png') no-repeat 0 0;
+background-color:white;
+}
+/* common misspellings end*/
+.result_copyright, .result_copyright a {
+color:#3D3D3D;
+font-family:verdana;
+font-size:0.8em;
+padding-bottom:13px;
+padding-top:16px;
+}
+.result_copyright a {
+font-size:1em;
+text-decoration:underline;
+}
+.result_copyright a:hover {
+color:#0055bb;
+cursor:pointer;
+}
+/*Css for Example sentences Module*/
+.sentmodule {
+background: url("http://static.sfdict.com/dictionary/homepage/images/dic_serp_bg.png") repeat-x scroll 0 -733px transparent; ;
+display: inline-block;
+padding-left: 8px;
+padding-top: 4px;
+padding-bottom: 3px;
+width: 98%;
+color: #000000;
+font-family: Arial;
+font-size: 18px;
+}
+a.more,a.more:active,a.more:hover,a.more:visited{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -301px -293px transparent;
+width:0px;
+}
+a.more, a.more:hover, a.less, a.less:hover {
+color: #0066CC;
+cursor: pointer;
+display: block;
+font: bold 11px arial;
+height: 18px;
+margin-bottom: 6px;
+margin-top: 5px;
+padding-left: 82px;
+padding-top: 5px;
+text-decoration: none;
+}
+a.less,a.less:active,a.less:hover,a.less:visited{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -383px -294px transparent;
+width:4px;
+}
+.exsent{
+background-color: #FFFFFF;
+padding-bottom:4px;
+}
+.exsentindex{
+color: #000000;
+display: block;
+float: left;
+font-family:arial;
+font-size:13px;
+width: 16px;
+}
+.exsentdata{
+color: #000000;
+font-family:arial;
+font-size:13px;
+padding-left: 23px;
+background:url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat -608px -455px transparent;
+background-repeat:no-repeat;
+list-style-type:none;
+}
+.firstsent{
+padding-top:5px;
+padding-left:2px;
+}
+.hdr2{
+padding-top:5px;
+}
+.exheader{
+color: #333333;
+font-size: 13px;
+font-style: italic;
+font-weight: bold;
+padding-bottom: 3px;
+padding-left: 6px;
+}
+.speaker{
+*padding-left:11px;
+*position:relative;
+width: 20px;
+height: 19px;
+cursor:pointer;
+display:inline-block;
+padding-left:3px;
+}
+.speaker:hover{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -287px -217px transparent;
+}
+.audspk{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -290px -242px transparent;
+cursor: pointer;
+height: 15px;
+width: 17px;
+position:relative;
+display:inline-block;
+}
+.questionmark, .questionmark:hover {
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -176px -215px transparent;
+height:16px;
+width:16px;
+position:relative;
+top:2px;
+*top:0px;
+display:inline-block;
+}
+.questionmark:hover{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -199px -216px transparent;
+top:3px;
+*top:1px;
+}
+.pronlink{
+font-family:Verdana;
+font-size:11px;
+margin-left:11px;
+color:#999999;
+}
+.fcimgh{
+position:relative;
+*top:5px;
+margin-left:7px;
+}
+a.examsent,a.examsent:hover{
+top:-4px;
+display: inline-block;
+margin-left:8px;
+*margin-left:7px;
+height: 20px;
+position:relative;
+font-family:Arial;
+font-size:13px;
+color:#707070;
+text-decoration:underline;
+}
+a.wordorglink,a.wordorglink:hover{
+top:-4px;
+display: inline-block;
+margin-left:10px;
+*margin-left:8px;
+height: 20px;
+position:relative;
+font-family:Arial;
+font-size:13px;
+color:#707070;
+text-decoration:underline;
+}
+#examsent a, #examsent a:visited{
+cursor: pointer;
+padding-left:6px;
+display:inline;
+bottom: 4px;
+position: relative;
+}
+/*footerCommon styles*/
+.fb {
+height:14px;
+padding:1px 0 0 18px;
+}
+.tw {
+height:16px;
+padding:1px 10px 0 17px;
+}
+.fC,.cR,.tP,.fC a {
+color:#464646;
+font-family:Arial;
+font-size:11px;
+text-align:left;
+}
+.aB {
+border:none;
+position:relative;
+top:4px;
+right:14px;
+width:87px;
+height:20px;
+}
+.tP {float:right;
+position:relative;
+top:8px;
+width:180px;
+}
+.cR {
+padding:5px 0 5px 0;
+}
+.ptrFtr {
+display:inline-block;
+position:relative;
+top:8px;
+width:900px;
+}
+.fC {
+margin-left:20px;
+width:830px;
+float:left;
+}
+#promo_ftr {
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat -458px -112px;
+width: 86px;
+height: 26px;
+display: inline-block;
+}
+.nRl1{
+float:right;width:160px;_position:absolute;
+}
+.nRl2{
+width:300px;*width:138px;_width:140px;_float:left;
+}
+.aQA {
+font-family:georgia;
+font-size:20px;
+color:#000000;
+padding-bottom:12px;
+}
+.qs div,.qs a{
+font-family:verdana;
+font-size:13px;
+color:#333333;
+}
+.qs div{
+padding-top:5px;
+}
+.qs img{
+padding:0 5px 1px 0;
+}
+.qs{
+margin-bottom:10px;
+}
+#hWD{
+padding: 0 0 5px 0;
+}
+#alM8{
+background:#FFFFD5;
+height:35px;
+_height:35px;
+}
+/*d.com content module styles*/
+.mreQ{
+margin-top:8px;
+}
+.mreQ a{
+text-decoration:underline;
+}
+.popQ{
+margin-bottom:25px;
+}
+.popQ a{
+margin-right:15px;
+text-decoration:underline;
+}
+#mn
+{
+background-image:url("http://static.sfdict.com/en/i/dictionary/results_mid_hdr.png");
+background-repeat:repeat-x;
+padding-top:17px;
+padding-bottom:14px;
+border-top:1px solid #B6D0DD;
+}
+#expert
+{
+background-image:url("http://static.sfdict.com/en/i/dictionary/quotes/HC_logo.png");
+background-repeat:no-repeat;
+height:21px;
+/* margin-top:17px;
+margin-bottom:17px;*/
+}
+#tit
+{
+font: bold 17px arial;
+color:#333333;
+padding-top:13px;
+}
+#dt
+{
+font:11px arial;
+color:#676767;
+}
+#cnt
+{
+padding-top:13px;
+padding-bottom:18px;
+line-height:16px;
+font:13px verdana;
+color:#333333;
+}
+#mn a
+{
+font:13px arial;
+color:#0055bb;
+}
+#symp
+{
+background-image:url("http://static.sfdict.com/en/i/dictionary/quotes/sympton_checker.png");
+background-repeat:no-repeat;
+height:202px ;
+display : block;
+background-position:right top;
+}
+#quiz
+{
+border:2px solid #50b619;
+padding-top:8px;
+padding-bottom:12px;
+padding-left:10px;
+padding-right:10px;
+background-image:url("http://static.sfdict.com/en/i/dictionary/quotes/quiz_background.png");
+}
+#fq
+{
+font:18px georgia;
+color: #000000;
+}
+#ct
+{
+padding-top:5px;
+padding-bottom:10px;
+font:12px arial;
+color:#000000;
+}
+#quiz a
+{
+background-image:url("http://static.sfdict.com/en/i/dictionary/quotes/quiz_btn.png");
+background-repeat:no-repeat;
+display:block;
+height:25px;
+margin-left:51px;
+}
+#mn a:hover
+{
+text-decoration:underline;
+}
+/*favorites*/
+#fncyb{
+display:block;
+height:18px;
+}
+#nonfav{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -177px -195px transparent;
+cursor:pointer;
+}
+#nonfav:hover{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -199px -195px transparent;
+}
+#nonfav,#fav {
+display:none;
+width:17px;
+height:19px;
+position:relative;
+top:0px;
+*top:-3px;
+left:6px;
+z-index:1;
+}
+#fav {
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -199px -195px transparent;
+}
+#popup {
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat scroll -168px -300px transparent;
+display: none ;
+height:55px ;
+position: absolute ;
+width:120px ;
+z-index:101;
+}
+#popup span,.pS{
+font:12px Arial;
+position:relative;
+top:31px;
+left:0px;
+}
+.pS{
+display:block;
+top:30px;
+position:absolute;
+left:10px;
+}
+#pfav{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -199px -195px transparent;
+display: block;
+left: 14px;
+*left: -37px;
+position: relative;
+top: 6px;
+height: 19px;
+width: 17px;
+z-index: 1;
+}
+#popup a{
+font:12px Arial;
+color:#0055BB;
+text-decoration:underline;
+}
+#searchMe{z-index:100;}
+#bnrTop{
+height:92px;
+}
+#abvFold{
+height:250px;
+}
+#macnt {
+display:block;
+width:762px;
+}
+/*Header Styles*/
+#wrp {
+height: 119px;
+}
+#hdr .diclogo {
+top: 16px;
+}
+#hdr, #cwrp {
+width: 980px;
+background: none repeat scroll 0 0 white;
+margin: auto;
+position: relative;
+}
+#hdr form {
+top: 20px;
+}
+#contouter {
+top: -29px;
+width:978px;
+background:url("http://static.sfdict.com/dictionary/homepage/images/bg-main.png") repeat-y scroll 0 0 transparent;
+margin: auto;
+position: relative;
+z-index: 100;
+margin-bottom:1px;
+*margin-bottom:-15px;
+}
+#tpnv {
+line-height:20px;
+display:block;
+}
+#tpnv a{
+padding-left:0px;
+padding-right:1px;
+}
+#snv {
+height: 0px;
+padding: 0;
+}
+/*#de {
+margin: 0;
+}*/
+#lr {
+background-image: none;
+/*border-right: 1px solid #E4E4E4;*/
+padding-left: 12px;
+padding-top: 0;
+width:165px;
+float:left;
+height:100%;
+top:0;
+position:absolute;
+}
+#lr .hd {
+color: #333333;
+font-family: arial;
+font-size: 14px;
+font-weight:bold;
+}
+#lr .ey ,#nBL .eD a{
+color: #333333;
+font-family: arial;
+font-size: 13px;
+line-height:1.45em;
+}
+#lr a.ey:hover,#nBL .eD a:hover {
+color:#0050BB;
+}
+#lr .nearByCurr {
+font-family: arial;
+font-size: 13px;
+font-weight: bold;
+}
+#lr .nearByCurr {
+color: #333333;
+}
+#lr .lmore {
+cursor: pointer;
+font-family: arial;
+font-size: 11px;
+font-weight:bold;
+}
+a.dicColor {
+color: #0066CC;
+}
+#midRail {
+width: 470px;
+*float:left;
+}
+#rightRail {
+/*border-left:1px solid #E4E4E4;*/
+border-bottom:1px solid #E4E4E4;
+float: left;
+margin-left: 10px;
+width: 299px;
+margin-top: -28px;
+}
+#quotesbox {
+border-top: 1px solid #E4E4E4;
+padding-top:5px;
+}
+.rqbox{
+border-bottom: 1px solid #E4E4E4;
+padding: 14px 0 6px 8px;
+}
+#wordorg{
+background: url("http://static.sfdict.com/dictionary/homepage/images/dic_serp_bg.png")repeat-x 0 -733px ;
+color: #000000;
+font-family: Arial;
+font-size: 18px;
+padding-left: 15px;
+padding-top: 5px;
+height:auto;
+width: 285px;
+margin-top:15px;
+}
+.spshPr{
+width:162px;
+height:140px;
+margin:15px 0;
+border: 1px solid #E4E4E4;
+}
+.lr_skyad,.lng_skyad{
+margin-top:12px;
+*margin-top:15px;
+padding-left:2px;
+padding-right:1px;
+}
+/*For Did you know module*/
+#macnt {
+background: none repeat scroll 0 0 #CDEAFA;
+height:25px;
+margin-left: 10px;
+padding-top: 5px;
+position: relative;
+}
+#rpane{
+width:470px;
+}
+.wia {
+color: #333333;
+font-family: Georgia;
+font-size: 14px;
+font-weight: normal;
+padding-left: 26px;
+font-style: italic;
+}
+.wiac {
+color: #333333;
+font-family: Arial;
+font-size: 13px;
+padding-left: 3px;
+}
+.lnktxt, .lnktxt:visited {
+color: #0066CC;
+font-family: Arial;
+font-size: 13px;
+font-weight: bold;
+}
+.query_h1 {
+color: #000000;
+font-family: Arial;
+font-size: 27px;
+font-weight: bold;
+}
+.nmore,.nmore:visited{
+color: #0066CC;
+font-family: arial;
+font-size: 11px;
+font-weight: bold;
+padding-left: 10px;
+}
+.nmorescr,.nmorescr:visited{
+color: #0066CC;
+font-family: arial;
+font-weight: bold;
+margin-left: 10px;
+display: block;
+font-size: 12px;
+padding-top: 3px;
+background-color: white;
+}
+.nmr{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -226px -211px transparent;
+width: 9px;
+padding-top:5px;
+}
+.snmr {
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -227px -216px transparent;
+display: inline-block;
+width: 10px;
+height:15px;
+}
+.dynmr {
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -227px -218px transparent;
+display: inline-block;
+width: 65px;
+height:15px;
+padding-top:3px;
+}
+.dynmrscr {
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -226px -213px transparent;
+display: inline-block;
+width: 194px;
+padding-top: 0px;
+}
+.synmr{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -225px -216px transparent;
+display: block;
+width: 10px;
+height:15px;
+padding-left:2px;
+}
+.slogo {
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -352px -113px transparent;
+display: block;
+height: 25px;
+margin-left: 54px;
+margin-top: -22px;
+position: relative;
+width: 100px;
+cursor: pointer;
+}
+#lr .rbox {
+border-bottom: 1px solid #E4E4E4;
+}
+.dC{
+*line-height:1.45em;
+}
+.rboxborder{
+border: 1px solid #FFFFFF;
+padding:6px 0px 14px 8px;
+}
+#lr #narrow {
+padding-top: 7px;
+*padding-top:4px;
+}
+.nBL{
+line-height:1.45em;
+}
+.sE{
+font:13px/18px arial;
+padding-left: 2px;
+*line-height: 18px;
+}
+#synonym{
+padding-bottom: 4px;
+padding-top:5px;
+}
+.rqbox .sE{
+font:13px/18px arial;
+*line-height: 18px;
+}
+.shortsrcname{
+float: right;
+font-style: italic;
+padding-right: 8px;
+padding-top: 4px;
+color: grey;
+font-family:Arial;
+font-size:12px;
+}
+.shd_hdr {
+background: url("http://static.sfdict.com/dictionary/homepage/images/dic_serp_bg.png") repeat-x scroll 0 -733px transparent;
+padding-top: 4px;
+}
+.shd_hdr .header{
+padding-bottom:2px;
+word-wrap: break-word;
+}
+.pb7,.pb2{
+border-top: solid 1px #E4E4E4;
+padding-top:6px;
+padding-left:0px;
+background: none;
+}
+div.pbk {
+padding-top: 0;
+}
+.smpo {
+padding: 6px 13px;
+}
+#up_right{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat -74px -202px;
+display: inline-block;
+height: 75px;
+width: 75px;
+margin-left: -5px;
+margin-top: -8px;
+}
+.hwl {
+display: inline-block;
+position: relative;
+color:#333333;
+font-family:Arial;
+font-size: 14px;
+font-weight: bold;
+padding-bottom:10px;
+}
+.ah,.ah a{
+color: #333333;
+font-family: arial;
+font-size: 13px;
+width: 200px;
+}
+.ah a:hover,.ah a:visited{
+color: #333333;
+}
+.hwt{
+color: #666666;
+font-family: arial;
+font-size: 21px;
+font-weight:bold;
+position: relative;
+bottom:5px;
+*bottom:0px;
+}
+/*Related words slang module*/
+#mrb1{
+border: 1px solid #E4E4E4;
+background: url("http://static.sfdict.com/dictionary/homepage/images/dic_serp_bg.png")repeat-x 0 -733px ;
+display:inline-block;
+margin-top:15px;
+width:299px;
+}
+.rwhr {
+color: #000000;
+font-family: arial;
+font-size: 18px;
+padding-right:10px;
+background:none;
+cursor:default;
+}
+.rwhs {
+color: #000000;
+font-family: arial;
+font-size: 18px;
+padding-right:74px;
+cursor:default;
+}
+.rwli {
+float: left;
+padding: 5px 0;
+text-align: center;
+width: 148px;
+}
+.rwlitab {
+background: none repeat scroll 0 0 #F6F6F6;
+float: left;
+padding: 5px 0;
+text-align: center;
+width: 148px;
+border: 1px solid #DDDDDD;
+border-top:none;
+}
+ul#st {
+height: 22px;
+}
+.ze{
+width: 300px;
+*padding-top:10px;
+}
+#st .ui-tabs-selected {
+background: none;
+border:none;
+}
+#st a {
+color:#000000;
+display: block;
+outline: medium none;
+text-decoration: none;
+}
+#relatedwords {
+padding:14px 3px 18px 5px;
+width:290px;
+}
+#slang{
+border-top:1px solid #E4E4E4;
+display:inline-block;
+padding:12px 3px 14px 5px;
+width:290px;
+}
+#relatedwordsnt {
+padding: 3px 14px 5px;
+width:287px;
+}
+#slangnt {
+padding: 0px 14px 5px;
+width:287px;
+*position:relative;
+*bottom:15px;
+}
+.ui-tabs .ui-tabs-hide {
+display: none;
+}
+.ui-tabs-panel {
+display: inline-block;
+}
+.fla,.flav{
+float: left;
+width: 140px;
+line-height:1.35em;
+}
+.flav{
+padding-left:5px;
+}
+.rlmr{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -221px -216px transparent;
+display: inline-block;
+width: 17px;
+position:relative;
+padding-left:5px;
+*padding-left:7px;
+top:5px;
+}
+#mrb{
+margin-top:15px;
+border: 1px solid #E4E4E4;
+padding-bottom:10px;
+}
+.rey{
+color: #333333;
+font-family: arial;
+font-size: 13px;
+display:block;
+}
+.rey:hover{
+color: #0050BB;
+}
+.rwh {
+color: #333333;
+font-family: arial;
+font-size: 14px;
+font-weight: bold;
+padding-left:7px;
+}
+.ihdr{
+color: #333333;
+font-family: Arial;
+font-size: 14px;
+font-weight: bold;
+padding-left: 7px;
+}
+#idbox{
+border-top:1px solid #E4E4E4;
+padding:12px 3px 14px 5px;
+}
+/*Quotes Right rail module*/
+.qbox{
+padding:7px 15px;
+}
+.imgh{
+color: #333333;
+font-family: arial;
+font-size: 14px;
+font-weight: bold;
+}
+.qhdr{
+color: #333333;
+font-family: arial;
+font-size: 14px;
+font-weight: bold;
+}
+.qhdr1{
+color: #000000;
+font-family: Arial;
+font-size: 15px;
+font-weight: bold;
+position:relative;
+left:3px;
+font-style:italic;
+}
+.qquote,.qquote a{
+color: #333333;
+font-family: Georgia;
+font-size: 15px;
+font-style: italic;
+padding-top:5px;
+}
+.qquote a:hover,.qquote a:visited{
+color: #333333;
+}
+.qblw{
+height: 58px;
+padding-top: 2px;
+position:relative;
+}
+.qtn{
+color: #666666;
+font-family: georgia;
+font-size: 11px;
+position: absolute;
+padding-top:16px;
+float:right;
+width:208px;
+}
+.qauti{
+position: relative;
+left:6px;
+bottom:3px;
+float:right;
+padding:7px;
+}
+.qsnmr {
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -594px -141px transparent;
+display: block;
+width: 9px;
+position: absolute;
+margin-top:30px;
+*margin-top:0px;
+*top: 33px;
+padding-top:10px;
+}
+.idl{
+font-family: arial;
+font-size: 13px;
+*line-height:1.45em;
+padding-left:7px;
+padding-top:4px;
+}
+.idh{
+line-height:1.3em;
+padding-bottom:3px;
+}
+.snm{
+padding-top:1px;
+*padding-top:0px;
+}
+#lr .sbox{
+border-bottom: 1px solid #E4E4E4;
+padding: 14px 0 14px 9px;
+}
+.contfaq {
+color: #333333;
+font-family: arial;
+font-size: 13px;
+line-height: 1.45em;
+}
+.contfaq:hover {
+color: #0050BB;
+}
+/* Flash cards mmodule */
+#fcrds{
+-moz-border-radius: 5px 5px 5px 5px;
+border: 2px solid #999999;
+margin-bottom: 15px;
+margin-top:20px;
+padding:14px 14px 10px;
+display:block;
+width:411px;
+position:relative;
+}
+.fhdr{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -353px -139px transparent;
+}
+.SAT{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -356px -180px transparent;
+}
+.LSAT{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -404px -180px transparent;
+}
+.GRE{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -454px -180px transparent;
+}
+.PSAT{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -498px -183px transparent;
+}
+.TOEFL{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -538px -186px transparent;
+}
+.ACT{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -584px -182px transparent;
+}
+.fhdr,.SAT,.LSAT,.GRE,.PSAT,.TOEFL,.ACT{
+display: block;
+height: 40px;
+width: 43px;
+float:left;
+}
+.frb{
+font-family: Arial;
+font-size: 14px;
+font-weight: bold;
+color:black;
+}
+#fchead{
+padding-bottom:20px;
+position:relative;
+float:left;
+width:340px;
+}
+#fctimer p {
+display:none;
+}
+.flshlog {
+background:url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat scroll -405px -140px transparent;
+width:180px;
+height:30px;
+display:inline-block;
+}
+#fctimer {
+display:block;
+position: absolute;
+right: 32px;
+top: 10px;
+}
+.timer1,.timer2,.timer3,.timer4,.timer5,.timer6,.timer7,.timer8,.timer9,.timer10{
+height: 42px;
+width: 35px;
+display:block;
+font-size:18px;
+}
+#fctimer span {
+height: 42px;
+width: 35px;
+display:block;
+font-size:18px;
+}
+.tmrv1,.tmrv2,.tmrv3,.tmrv4,.tmrv5,.tmrv6,.tmrv7,.tmrv8,.tmrv9,.tmrv10 {
+font-size:16px;
+color:#00CC00;
+font-family:Arial;
+margin-right:10px;
+}
+.fwcrp{
+z-index:2000;
+position:relative;
+}
+.fcwrp {
+background-color: black;
+display: none;
+z-index:2000;
+left: -2px;
+margin-bottom: 15px;
+}
+.fls {
+background-color: black;
+margin-bottom: 15px;
+height:126px;
+opacity: 0.75;
+cursor: pointer;
+}
+.txt1,.ftxt1,.stxt1,.ttxt1{
+color: #999999;
+font-family: Arial;
+font-size: 14px;
+font-weight: bold;
+position: relative;
+}
+#cor,#incor{
+padding-left: 13px;
+padding-top: 3px;
+width: 404px;
+}
+#cor:hover,#incor:hover{
+padding-left: 13px;
+padding-top: 3px;
+width: 404px;
+}
+.fecor,.feincor{
+-moz-border-radius: 5px 5px 5px 5px;
+background: none repeat scroll 0 0 #CCDEED;
+color: black;
+display: inline-block;
+font-family: Arial;
+font-size: 13px;
+padding: 3px 16px 3px 9px;
+position: relative;
+left:10px;
+width: 348px;
+font-weight:bold;
+cursor:pointer;
+}
+.fecor:hover,.feincor:hover{
+color:white;
+background: none repeat scroll 0 0 #0066CC;
+}
+.fcbot,#fccl{
+color: #999999;
+display: inline-block;
+font-family: Arial;
+font-weight:Bold;
+font-size: 12px;
+padding-top: 7px;
+text-decoration:none;
+}
+.fcbotv {
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -218px -213px transparent;
+display: inline-block;
+width: 17px;
+height:17px;
+}
+#fcclv {
+color: #0066CC;
+display: inline-block;
+font-family: Arial;
+font-weight:Bold;
+font-size: 12px;
+text-decoration:none;
+position:relative;
+top:-2px;
+}
+.fcnv{
+position: relative;
+width: 166px;
+border: 1px solid rgb(204, 204, 204);
+border-radius: 2px 2px 2px 2px;
+left: 241px;
+top: 8px;
+}
+.fcnv1{
+position: relative;
+width: 97px;
+display:inline-block;
+border: 1px solid rgb(204, 204, 204);
+border-radius: 2px 2px 2px 2px;
+left: 308px;
+top: 4px;
+}
+#fcclv1, #fcclv2 {
+font-size: 12px;
+font-family: Arial;
+text-decoration: none;
+color: rgb(0, 102, 204);
+font-weight: bold;
+position:relative;
+top:-2px;
+}
+.fcbot{
+width:408px;
+text-align:right;
+position:relative;
+}
+#fcsz{
+color:#999999;
+font-size: 13px;
+font-weight: bold;
+font-family:Arial;
+}
+#fcfc{
+text-decoration:underline;
+color:#999999;
+font-family:Arial;
+font-size:14px;
+}
+.fcmg{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/splite_new.png") repeat scroll -278px -690px transparent;
+height: 23px;
+width: 90px;
+float:right;
+margin-top:-23px;
+margin-left:-7px;
+}
+.fcnxt{
+color: black;
+font-size: 14px;
+font-weight: bold;
+font-family:Arial;
+}
+#facor,#faincor{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/splite_new.png") repeat scroll -173px -554px transparent;
+color: white;
+display: inline-block;
+font-family: Arial;
+font-size: 16px;
+font-weight: bold;
+height: 26px;
+padding-left: 5px;
+padding-top:1px;
+position: relative;
+width: 23px;
+}
+.gc{
+color: #666666;
+font-family: Arial;
+font-size: 13px;
+font-weight: bold;
+}
+/*Images promo module */
+#imr{
+-moz-border-radius: 5px 5px 5px 5px;
+border-top: 1px solid #E4E4E4;
+padding: 14px 13px;
+}
+#prev {
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -174px -234px transparent;
+height: 19px;
+left:0px;
+position: relative;
+width: 19px;
+cursor:pointer;
+float:left;
+top:45px;
+}
+#himg{
+float:left;
+left:48px;
+position: relative;
+}
+#nxt {
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -198px -234px transparent;
+top:45px;
+height: 19px;
+left: 254px;
+*left:0px;
+*float:right;
+position: relative;
+width: 19px;
+cursor:pointer;
+}
+.smg{
+position: relative;
+margin-bottom: 10px;
+}
+.imgc{
+padding-top:10px;
+}
+div.luna-Ent, div.luna-Pronkey{
+background:none;
+}
+.Headserp .show_spellpr,.Headserp .show_ipapr{
+position:relative;
+bottom:4px;
+margin-left: 5px;
+}
+/*footer styles start*/
+#sftr{
+width: 999px;
+text-align:center;
+height:45px;
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/topheavy_footer.png") no-repeat scroll -26px -26px transparent;
+top: auto;
+bottom: -1px;
+position: fixed;
+z-index: 10000;
+margin: 0 50%;
+left: -499px;
+display:block;
+visibility:hidden;
+}
+.ftwr{
+text-align:left;
+*position:relative;
+*left:0;
+}
+.sftc{
+position: relative;
+height:38px;
+}
+.sfav,.srec,.sfav:visited, .srec:visited{
+position: relative;
+top: 20px;
+left:39px;
+*top: 20px;
+font: bold 10px Arial;
+color: #ffffff;
+cursor:pointer;
+display:inline-block;
+}
+.app{
+position: relative;
+*position: absolute;
+*margin-left:550px;
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/androset.png") no-repeat scroll 0 0 transparent;
+top: 15px;
+left:68px;
+*left:132px;
+cursor:pointer;
+display:inline-block;
+height:25px;
+width:25px;
+}
+.andro{
+position: relative;
+*position: absolute;
+*margin-left:580px;
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/androset.png") no-repeat scroll -28px 0 transparent;
+top: 15px;
+left:68px;
+*left:132px;
+cursor:pointer;
+display:inline-block;
+height:25px;
+width:25px;
+}
+.dice{
+position: relative;
+*position: absolute;
+*margin-left:610px;
+top: 5px;
+left:68px;
+*left:132px;
+*top: 20px;
+font:12px Arial;
+color: #ffffff;
+display:inline-block;
+}
+.flAlr,.flAlr:visited{
+position: relative;
+top: 16px;
+right: 36px;
+font: 12px Arial;
+color: white;
+}
+.fCol{
+cursor: pointer;
+display: inline-block;
+height: 10px;
+position: absolute;
+right: 9px;
+top: 22px;
+width: 6px;
+background: url('http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png') no-repeat -225px -200px transparent;
+}
+.sfav{
+margin-left: 25px;
+min-width:80px;
+}
+.sfav span,.srec span{
+position:relative;
+float:left;
+display:block;
+padding-left:4px;
+}
+.sfav div,.srec div{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat;
+width:12px;
+height:12px;
+float:left;
+}
+.sfav div{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -270px -198px transparent;
+height: 13px;
+}
+.srec div{
+background-position:-256px -198px;
+color: black;
+font-family: Arial;
+font-size: 18px;
+}
+.srec{
+min-width:56px;
+margin-left:5px;
+}
+.ftsp{
+color: black;
+cursor: pointer;
+display: block;
+float: right;
+font: 11px Arial;
+position: relative;
+top: 14px;
+width: 340px;
+*top:-30px;
+margin-left:-15px;
+}
+.android_txt_ftr{
+position: relative;
+margin-top: -24px;
+color: white;
+top: -13px;
+margin-left: 6px;
+font: bold 13px Arial;
+}
+#promo_ftr_anc{
+left: -15px;
+position: relative;
+}
+.promo_txt_ftr{
+color: white;
+font: bold 11px Arial;
+position: relative;
+top: -8px;
+}
+.mnfrm{
+display: inline-block;
+height: 26px;
+margin-left: 123px;
+*margin-left: 298px;
+position: relative;
+top: 14px;
+*top: -3px;
+width: 288px;
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat scroll -88px -3px transparent;
+}
+#bq{
+outline:none;
+padding:0 8px;
+border:0 none;
+font:normal 15px Arial;
+color:#999999;
+position: relative;
+*position:absolute;
+left: 1px;
+width: 270px;
+top:5px;
+*top:5px;
+}
+.mnfrm button{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat scroll -376px -3px transparent;
+border: 0 none;
+cursor: pointer;
+height: 27px;
+position: absolute;
+right: 0px;
+top: 0;
+left:298px;
+width: 26px;
+}
+.ftr_logo{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat scroll -305px -157px transparent;
+display: inline-block;
+height: 39px;
+position: absolute;
+width: 50px;
+left:6px;
+top:9px;
+cursor:pointer;
+}
+.bfp{
+background-repeat: no-repeat;
+position: absolute;
+width: 139px;
+bottom: 26px;
+z-index: 999999;
+display:none;
+}
+#bfpu{
+left: 69px;
+}
+#brpu{
+left: 170px;
+}
+.bfp a,.bfp a:visited{
+font:11px Arial;
+color:#333333;
+}
+.bfp a:hover{
+color:#0066CC;
+}
+.bfp li{
+font:11px Arial;
+color:#333333;
+padding-left:10px;
+padding-bottom: 3px;
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat scroll -61px -425px transparent;
+*z-index:1000;
+width: 198px;
+}
+.bfp .bpt{
+height: 7px;
+padding: 0;
+width: 198px;
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat scroll -61px -412px transparent;
+}
+.bfp .bpb{
+height: 7px;
+width: 198px;
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat scroll -61px -470px transparent;
+*margin-top:-8px;
+}
+.bpmr{
+font-size: 10px;
+margin-top: -4px;
+text-align:right;
+}
+.bpmr a,.bpmr a:visited{
+font:10px Arial;
+color:#0066CC;
+margin-right:34px;
+}
+.flog,.freg,.flog:visited,.freg:visited{
+color:#0066CC;
+text-decoration:underline;
+}
+/*footer styles end*/
+#wordorg .me{
+font-size:14px;
+font-family:arial;
+word-wrap: break-word;
+}
+.Headserp #pronsetipa .pronlink, .Headserp #pronsetspell {
+color:#707070;
+padding-left:8px;
+*padding-left:15px;
+font-size:13px;
+position:relative;
+bottom:5px;
+}
+.Headserp .show_spellpr .pron,.Headserp .show_spellpr .prondelim,.Headserp .show_ipapr .pron,.Headserp .show_ipapr .prondelim {
+color:#707070;
+}
+.KonaBody{
+padding-left:7px;
+}
+.KonaBody .tail{
+padding-top:10px;
+}
+#wordorgtop{
+*padding-bottom:1px;
+}
+#topfcrds #hotword{
+color:white;
+}
+#mid3 {
+border-bottom: 1px solid #E4E4E4;
+border-top: 1px solid #E4E4E4;
+padding-bottom: 8px;
+padding-top: 8px;
+}
+#mid1,#mid2 {
+margin-bottom:15px;
+}
+#mid2{border-bottom: 1px solid #E4E4E4;}
+.hdwrp{
+display: inline-block;
+float: left;
+margin-left: 0px;
+}
+#nfotr{
+background-color:#ffffff;
+overflow-y:hidden;
+margin-bottom:10px;
+}
+.hdmd{
+color: #575757;
+font-family: arial;
+font-size: 11px;
+position:relative;
+float:right;
+display: inline-block;
+padding-bottom:7px;
+top:5px;
+right:-17px;
+}
+.hdfb{
+text-align:left;
+}
+.mdbt{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat -619px -59px transparent;
+float:right;
+margin-top:5px;
+*margin-top:-25px;
+*margin-bottom:5px;
+width:91px;
+height:20px;
+margin-left:17px;
+}
+.ptn a, .ptn, #nfr a, #nfr .bllt,.npr {
+color: #666666;
+}
+.favL,.fdic,.fask,.hnew,.bnew{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat 0 0 transparent;
+}
+.favL {
+background-position: -271px -196px;
+*display:inline-block;
+}
+.fbuser{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat scroll -312px -197px transparent;
+height: 13px;width: 13px;
+padding-left: 16px;
+*display:inline-block;
+}
+.fdic {
+background-position: -163px -163px;
+}
+.fask{
+background-position: -282px -167px;
+}
+.hnew {
+background-position: -529px -428px;
+position:relative;
+*top:-5px;
+left:5px;
+}
+.bnew {
+position:relative;
+top:-10px;
+*top:-14px;
+left:-3px;
+width:21px;
+height:7px;
+display:inline-block;
+}
+.dylogo {
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -57px -323px transparent;
+display: block;
+height: 33px;
+margin-left: 54px;
+margin-top: -12px;
+position: relative;
+width: 100px;
+cursor: pointer;
+}
+/*fancy box version 1.3.4 styles start*/
+#fancybox-loading {
+position: fixed;
+top: 50%;
+left: 50%;
+width: 40px;
+height: 40px;
+margin-top: -20px;
+margin-left: -20px;
+cursor: pointer;
+overflow: hidden;
+z-index: 1104;
+display: none;
+}
+#fancybox-loading div {
+position: absolute;
+top: 0;
+left: 0;
+width: 40px;
+height: 480px;
+background: transparent url('http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png') -7px 0px;
+}
+#fancybox-overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 1100;
+display: none;
+}
+#fancybox-tmp {
+padding: 0;
+margin: 0;
+border: 0;
+overflow: auto;
+display: none;
+}
+#fancybox-wrap {
+position: absolute;
+top: 0;
+left: 0;
+padding: 20px;
+z-index: 1101;
+outline: none;
+display: none;
+}
+#fancybox-outer {
+position: relative;
+width: 100%;
+height: 100%;
+background: #fff;
+}
+#fancybox-content {
+width: 0;
+height: 0;
+padding: 0;
+outline: none;
+position: relative;
+overflow: hidden;
+z-index: 1102;
+border: 0px solid #fff;
+}
+#fancybox-hide-sel-frame {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: transparent;
+z-index: 1101;
+}
+#fancybox-close {
+position: absolute;
+top: -15px;
+right: -15px;
+width: 30px;
+height: 30px;
+background: transparent url('http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png') -47px -0px;
+cursor: pointer;
+z-index: 1103;
+display: none;
+}
+#fancybox-error {
+color: #444;
+font: normal 12px/20px Arial;
+padding: 14px;
+margin: 0;
+}
+#fancybox-img {
+width: 100%;
+height: 100%;
+padding: 0;
+margin: 0;
+border: none;
+outline: none;
+line-height: 0;
+vertical-align: top;
+}
+#fancybox-frame {
+width: 100%;
+height: 100%;
+border: none;
+display: block;
+}
+#fancybox-left, #fancybox-right {
+position: absolute;
+bottom: 0px;
+height: 100%;
+width: 35%;
+cursor: pointer;
+outline: none;
+z-index: 1102;
+display: none;
+}
+#fancybox-left {
+left: 0px;
+}
+#fancybox-right {
+right: 0px;
+}
+#fancybox-left-ico, #fancybox-right-ico {
+position: absolute;
+top: 50%;
+left: -9999px;
+width: 30px;
+height: 30px;
+margin-top: -15px;
+cursor: pointer;
+z-index: 1102;
+display: block;
+}
+#fancybox-left-ico {
+background-image: url('http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png');
+background-position: -47px -28px;
+}
+#fancybox-right-ico {
+background-image: url('http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png');
+background-position: -47px -57px;
+}
+#fancybox-left:hover, #fancybox-right:hover {
+visibility: visible; /* IE6 */
+}
+#fancybox-left:hover span {
+left: 20px;
+}
+#fancybox-right:hover span {
+left: auto;
+right: 20px;
+}
+.fancybox-bg {
+position: absolute;
+padding: 0;
+margin: 0;
+border: 0;
+width: 20px;
+height: 20px;
+z-index: 1001;
+}
+#fancybox-title {
+font-family: Helvetica;
+font-size: 12px;
+z-index: 1102;
+}
+.fancybox-title-inside {
+padding-bottom: 10px;
+text-align: center;
+color: #333;
+background: #fff;
+position: relative;
+}
+.fancybox-title-outside {
+padding-top: 10px;
+color: #fff;
+}
+.fancybox-title-over {
+position: absolute;
+bottom: 0;
+left: 0;
+color: #FFF;
+text-align: left;
+}
+#fancybox-title-over {
+padding: 10px;
+background-image: url('fancy_title_over.png');
+display: block;
+}
+.fancybox-title-float {
+position: absolute;
+left: 0;
+bottom: -20px;
+height: 32px;
+}
+#fancybox-title-float-wrap {
+border: none;
+border-collapse: collapse;
+width: auto;
+}
+#fancybox-title-float-wrap td {
+border: none;
+white-space: nowrap;
+}
+#fancybox-title-float-left {
+padding: 0 0 0 15px;
+background: url('http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png') -47px -88px no-repeat;
+}
+#fancybox-title-float-right {
+padding: 0 0 0 15px;
+background: url('http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png') -62px -88px no-repeat;
+}
+/*IE6 */
+/*.fancybox-ie6 #fancybox-close { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/js/fancybox-1.3.4/fancy_close.png', sizingMethod='scale'); }*/
+/*.fancybox-ie6 #fancybox-left-ico { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/js/fancybox-1.3.4/fancy_nav_left.png', sizingMethod='scale'); }*/
+/*.fancybox-ie6 #fancybox-right-ico { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/js/fancybox-1.3.4/fancy_nav_right.png', sizingMethod='scale'); }*/
+/*.fancybox-ie6 #fancybox-title-over { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/js/fancybox-1.3.4/fancy_title_over.png', sizingMethod='scale'); zoom: 1; }*/
+/*.fancybox-ie6 #fancybox-title-float-left { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/js/fancybox-1.3.4/fancy_title_left.png', sizingMethod='scale'); }*/
+/*.fancybox-ie6 #fancybox-title-float-main { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/js/fancybox-1.3.4/fancy_title_main.png', sizingMethod='scale'); }*/
+/*.fancybox-ie6 #fancybox-title-float-right { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/js/fancybox-1.3.4/fancy_title_right.png', sizingMethod='scale'); }*/
+.fancybox-ie6 #fancybox-bg-w, .fancybox-ie6 #fancybox-bg-e, .fancybox-ie6 #fancybox-left, .fancybox-ie6 #fancybox-right, #fancybox-hide-sel-frame {
+height: expression(this.parentNode.clientHeight + "px");
+}
+#fancybox-loading.fancybox-ie6 {
+position: absolute; margin-top: 0;
+top: expression( (-20 + (document.documentElement.clientHeight ? document.documentElement.clientHeight/2 : document.body.clientHeight/2 ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop )) + 'px');
+}
+/*#fancybox-loading.fancybox-ie6 div { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/js/fancybox-1.3.4/fancy_loading.png', sizingMethod='scale'); }*/
+/*IE6, IE7, IE8 */
+/*.fancybox-ie .fancybox-bg { background: transparent !important; }*/
+/*.fancybox-ie #fancybox-bg-n { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/js/fancybox-1.3.4/fancy_shadow_n.png', sizingMethod='scale'); }*/
+/*.fancybox-ie #fancybox-bg-ne { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/js/fancybox-1.3.4/fancy_shadow_ne.png', sizingMethod='scale'); }*/
+/*.fancybox-ie #fancybox-bg-e { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/js/fancybox-1.3.4/fancy_shadow_e.png', sizingMethod='scale'); }*/
+/*.fancybox-ie #fancybox-bg-se { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/js/fancybox-1.3.4/fancy_shadow_se.png', sizingMethod='scale'); }*/
+/*.fancybox-ie #fancybox-bg-s { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/js/fancybox-1.3.4/fancy_shadow_s.png', sizingMethod='scale'); }*/
+/*.fancybox-ie #fancybox-bg-sw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/js/fancybox-1.3.4/fancy_shadow_sw.png', sizingMethod='scale'); }*/
+/*.fancybox-ie #fancybox-bg-w { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/js/fancybox-1.3.4/fancy_shadow_w.png', sizingMethod='scale'); }*/
+/*.fancybox-ie #fancybox-bg-nw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/js/fancybox-1.3.4/fancy_shadow_nw.png', sizingMethod='scale'); }*/
+/*fancy box styles end*/
+/*Styles related to Ads*/
+.banner-ad {
+width: 728px;
+height:90px;
+}
+.sykscraper-ad {
+width: 160px;
+height: 600px;
+}
+.box-ad {
+width : 300px;
+min-height: 250px;
+}
+#fancybox-outer {
+background: none repeat scroll 0 0 transparent;
+}
+#mid1,#mid3{display: inline-block;width: 445px;}
+/*nearby module start*/
+#lr .nbox {
+border-bottom: 1px solid #E4E4E4;
+padding: 14px 0 14px 9px;
+}
+.pt10 {
+background: url('http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png') -156px -91px no-repeat transparent;
+width: 140px;
+height: 15px;
+margin-top: 5px;
+padding-bottom: 0;
+padding-top: 5px;
+cursor:pointer;
+}
+#nBL {
+margin-top: 0px;
+}
+.pt12 {
+background: url('http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png') -306px -91px no-repeat transparent;
+margin-top: 5px;
+padding-top: 5px;
+width: 140px;
+height: 15px;
+cursor:pointer;
+}
+.dN {
+display: none;
+}
+#diduno{display: none;}
+a.theColor {
+color: #0050BB;
+display: block;
+font-family: verdana;
+font-size: 11px;
+letter-spacing: -0.4px;
+line-height: 10px;
+}
+/*nearby module end*/
+/*changes for luns-thinspace*/
+luna-thinspace {
+width:2px;
+height:4px;
+}
+.tp{
+top:0;
+}
+.luna-Ent a.slA:link,.luna-Ent .slANC > a,.lunatext .slD a,.lunatext .spl_unshd a {text-decoration:none;}
+.lunatext .slT b{ color:#4089E0;}
+#mid3{position: relative;top:11px;}
+.slD a,.slD a:hover, .slD:visited {color:#404040;}
+.slANC{line-height:16px;}
+.spl_unshd{
+padding-top:5px;
+padding-bottom:7px;
+}
+.spl_unshd_NC{
+padding-top: 5px;
+padding-bottom: 7px;
+}
+.shd_hdr1 {
+width:100%;
+}
+.sep_top1 {
+position : relative;
+}
+.citesourceseperator{
+border-bottom: solid 1px #E4E4E4;
+margin-top:15px;
+margin-bottom:7px;
+*margin-bottom:6px;
+}
+.sep_top1 table{
+margin-top:-2px;
+margin-bottom:-5px;
+*margin-bottom:-3px;
+}
+.results_content ul, .results_content ol {
+margin-bottom:-3px;
+*margin-bottom:0px;
+}
+/*from image silder.jsp*/
+.smg{
+display: none;
+}
+#imr{
+display:none;
+}
+/*from image silder.jsp end*/
+.moredef{display:none;}
+.moreun{display:none;}
+.moresent{display:none;}
+/*styles for dynamo promo*/
+#flyout {
+position: relative;
+}
+#flyout .flyt {
+width: 233px;
+height: 181px;
+position: absolute;
+z-index: 10005;
+top: 27px;
+cursor:pointer;
+}
+#hlin #dyn{
+background-color:#E53357;
+color:#FFFFFF;
+font: normal 17px/17px arial;
+}
+#hlin #dyn:hover{
+background:#FF5275;
+}
+.gear{
+height: 147px;
+left: 14px;
+position: relative;
+width: 233px;
+}
+.txt {
+color: #FFFFFF;
+width: 200px;
+position:relative;
+left:-20px;
+top:5px;
+font: bold 17px/17px arial;
+}
+.bnew{
+background:url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_Serp.png") no-repeat -567px -450px;
+}
+/*peel promo styles*/
+.peelprm {
+height: 90px;
+width: 130px;
+color: #6699CC;
+font-size: 12px;
+font-weight: bold;
+position: absolute;
+right: 0px;
+top: 0px;
+cursor:pointer;
+}
+.peelpr {
+/*background-image: url("http://static-dev.en.dev.ask.com/en/i/dictionary/adshop/promos/small.png");*/
+height: 75px;
+width: 173px;
+color: #6699CC;
+font-size: 12px;
+font-weight: bold;
+position: absolute;
+right: 1px;
+top: 0px;
+cursor:pointer;
+}
+.peelprbg {
+background-color: transparent;
+background-repeat: no-repeat;
+color: #6699CC;
+display: none;
+font-size: 12px;
+font-weight: bold;
+height: 255px;
+position: absolute;
+right: 0;
+top:0px;
+width: 300px;
+z-index: 10001;
+cursor:pointer;
+}
+#wrapserp{
+padding: 13px 0 0 20px;
+margin: 5px 0px -9px 0px;
+background: url('http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png') no-repeat -721px -2px;
+width:300px;
+height:44px;
+}
+#serppremium{
+font-size: 13px;
+font-family: Arial;
+line-height: 32px;
+padding-left: 30px;
+color: #FFFFFF;
+}
+#wdcb{
+display: none;
+position:absolute;
+cursor:pointer;
+z-index:10002;
+float:right;
+right:5px;
+top:5px;
+}
+#prem_symbol1
+{
+background: url('http://static.sfdict.com/en/i/dictionary/newserp/prm_login.png') no-repeat;
+width: 72px;
+height: 65px;
+float:right;
+margin-top: 23px;
+position:absolute;
+right:0px;
+}
+/*Gsl Styles Start*/
+.slT{
+font-family: "Verdana";
+font-size: 15px;
+color: #4089E0;
+text-decoration:underline;
+line-height:16px;
+}
+.slD{
+font-family: "Verdana";
+font-size: 13px;
+color: #404040;
+line-height:16px;
+}
+.slB{
+font-family: "Verdana";
+font-size: 14px;
+color: #000000;
+display:block;
+line-height:16px;
+}
+.slL{
+color:#666666;
+cursor:default;
+float:right;
+font-family:arial;
+font-size:9px;
+line-height: 14px;
+*margin-top:-12px;
+padding-left: 0px;
+}
+.spl_unshd {
+border-top: solid 1px #E4E4E4;
+padding-top: 3px;
+*padding-top: 15px;
+padding-bottom:3px;
+position:static;
+}
+.slA {
+padding-top:2px;
+line-height:16px;
+}
+.spl_unshd_NC {
+border-top: solid 1px #E4E4E4;
+margin-bottom:0px;
+cursor:default;
+margin-top:0px;
+padding-bottom:3px;
+padding-top:3px;
+}
+.slANC {
+margin-top:1px;
+margin-bottom:1px;
+padding-bottom:3px;
+padding-top:3px;
+line-height:0px;
+}
+.slBNC{
+font-family: "Verdana";
+font-size: 14px;
+color: #000000;
+line-height:16px;
+}
+.slTNC{
+font-family: "Verdana";
+font-size: 15px;
+color: #4089E0;
+text-decoration:underline;
+line-height:16px;
+font-weight:normal;
+}
+.nu1NC{
+display:inline-block;
+white-space:nowrap;
+background-color:#ffffff;
+}
+/*Gsl Styles End*/
+/*Relevant Questions Styles*/
+#contentResults{
+padding-top: 0px;
+}
+#rltqns{
+border-top: solid 1px #E4E4E4;
+border-bottom: solid 1px #E4E4E4;
+margin: 0px 0px 15px;
+overflow: hidden;
+padding:8px 0px 13px;
+width: 100%;
+}
+#relatedQns{
+font-family: "Arial";
+font-size: 14px;
+color: #000000;
+font-weight: bold;
+}
+#leftqn{
+float:left;
+}
+#rightqn{
+float:right;
+}
+a.qna{
+font-family: "Arial";
+font-size: 13px;
+text-decoration: none;
+color: #06C;
+}
+.qn{
+width:200px;
+padding:5px 5px 0px 0px;
+}
+#adclose{
+background: url('http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png') no-repeat -173px -283px;
+right:25px;
+top:-11px;
+width:44px;
+height:11px;
+}
+.frstluna
+{
+display: inline;
+}
+.zshop{
+top:-4px;
+display: inline-block;
+position:relative;
+font-family:Arial;
+font-size:13px;
+color:#707070;
+text-decoration:underline;
+}
+.zlogo{
+background: url('http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png') no-repeat -431px -7px;
+height: 20px;
+padding-left:26px;
+position:relative;
+display:inline-block;
+}
+.zlg{
+margin-left:10px;
+}
+.zanc{
+border-left: 1px solid #707070;
+margin-left:0px;
+padding-left:3px;
+}
+.prmsbl
+{
+background: url('http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png') no-repeat -92px -39px;
+width: 32px;
+height: 31px;
+padding-bottom: 15px;
+padding-left: 35px;
+padding-top: 7px;
+}
+.bar
+{
+border-left: 1px solid;
+padding-right: 2px;
+font-size:12px;
+}
+.myacnt
+{
+border-right: 1px solid;
+padding-right: 2px;
+}
+/* Short Serp Word FAQs Start */
+#wordFaq{
+padding-top : 7px;
+padding-bottom : 16px;
+border-top : 1px solid #E4E4E4;
+}
+#wordFaq .title{
+color: #333333;
+font-family: arial;
+font-size: 16px;
+font-weight: bold;
+margin-bottom : 4px;
+}
+#wordFaq p{
+color: #333333;
+font-family: arial;
+font-size: 13px;
+font-weight: normal;
+margin-bottom : 4px;
+}
+#wordFaq .lists a{
+color: #0066CC;
+font-family: arial;
+font-size: 13px;
+font-weight: bold;
+line-height: 18px;
+}
+/* Short Serp Word FAQs End */
+/* Short Serp More From Module Start*/
+#moreFrom{
+padding-top : 8px;
+border-top : 1px solid #E4E4E4;
+}
+#moreFrom div{
+margin-bottom:13px;
+}
+#moreFrom .title{
+color: #333333;
+font-family: arial;
+font-size: 16px;
+font-weight: bold;
+margin-bottom : 4px;
+line-height: 18px;
+}
+#moreFrom .lists, #moreFrom .lists div{
+color: #333333;
+font-family: arial;
+font-size: 13px;
+font-weight: normal;
+margin-bottom : 4px;
+}
+#moreFrom .lists a{
+color: #0066CC;
+font-family: arial;
+font-size: 13px;
+font-weight: bold;
+line-height: 18px;
+}
+/* Short Serp More From Module End */
+/*Styles for premium flyout*/
+.preimg{
+height: 15px;
+position: relative;
+top: 13px;
+right: 3px;
+}
+.prex{
+position:relative;
+top:11px;
+right:1px;
+margin-bottom:42px;
+border-bottom:1px solid #E4E4E4;
+border-left:1px solid #E4E4E4;
+border-right:1px solid #E4E4E4;
+width:442px;
+}
+.prmore{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -95px -38px transparent;
+height: 31px;
+width: 32px;
+font: bold 13px Arial;
+color: #0066CC;
+cursor:pointer;
+padding-bottom: 20px;
+padding-left:35px;
+padding-top:9px;
+}
+#primg{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") repeat scroll -947px -65px transparent;
+height: 64px;
+width: 64px;
+display:inline-block;
+float:left;
+padding:16px 10px 3px;
+}
+#dpre{
+display:inline-block;
+position:relative;
+top:10px;
+font-family:Arial;
+font-size:13px;
+width:356px;
+padding-bottom:20px;
+}
+#dpre li{
+list-style:disc outside none;
+}
+.pretxt{
+padding-left: 15px;
+padding-left: 1px;
+font-family: Arial;
+font-size: 13px;
+}
+a.prelu{
+font: bold 13px Arial;
+color:#0066CC;
+cursor: pointer;
+}
+#mobAudio
+{
+width:1px;
+}
+#exsntHdg
+{
+color: #333333;
+font-family: Arial;
+font-size: 16px;
+font-weight: bold;
+padding-bottom: 1px;
+}
+.sentcont
+{
+display: none;
+}
+.sentelipsis
+{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/Sprite_New.png") no-repeat -302px -440px;
+width: 10px;
+height: 2px;
+display: inline-block;
+}
+.exsentences
+{
+color: #333333;
+font-family:arial;
+font-size:13px;
+list-style-type:none;
+padding-bottom: 6px;
+padding-top: 2px;
+}
+.essntothr
+{
+display:none;
+}
+#exsntBlock
+{
+margin : 0 0 -2px 14px;
+}
+#quotesboxt
+{
+margin : 0 0 -6px 14px;
+}
+.smpot {
+padding: 0px 13px 6px;
+}
+/*for top heavy header*/
+#hlinT a{
+float:left;
+color: #ffffff;
+font-family:Helvetica;
+font-size:13px;
+text-decoration: none;
+height:24px;
+position:relative;
+padding: 0px 18px 0px 20px;
+font-weight: bold;
+line-height: 24px;
+}
+#tpnvT
+{
+right: 0px;
+line-height:13px;
+display:block;
+float: right;
+padding-right: 5px;
+padding-top: 4px;
+font-family:Helvetica,Arial,sans-serif;
+}
+#tpnvT a
+{
+color: #ffffff;
+text-decoration: none;
+font-size: 12px;
+position: static;
+padding-left:0px;
+padding-right:1px;
+font-family:Helvetica;
+}
+#tpnvT span
+{
+color: #ffffff;
+}
+#tpnvT a+a{
+border:none;
+padding-left:5px;
+}
+#contouterT{
+width:978px;
+background:url("http://static.sfdict.com/dictionary/homepage/images/bg-main.png") repeat-y scroll 0 0 transparent;
+margin: auto;
+position: relative;
+z-index: 100;
+margin-bottom:1px;
+*margin-bottom:-15px;
+}
+#hdrT
+{
+width: 100%;
+margin: auto;
+background:url("http://static.sfdict.com/en/i/dictionary/newserp/topheavy_hdr_bg.png") repeat-x scroll 0 -82px;
+background:url("data:image/png;base64,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") repeat-x scroll 0 -82px;
+height: 60px;
+float: left;
+position: relative;
+}
+#hdrT span, #hdrT a, #hdrT div{font-family:Helvetica,Arial;
+font-weight: bold;
+}
+#hdrT span { color: white;}
+#hdrT .diclogo{
+left:0;
+top:16px;
+}
+#hdrT form{
+height: 48px;
+width: 478px;
+position: absolute;
+text-align: left;
+top: 15px;
+left: 34px;
+}
+#hdrT input{
+position: relative;
+font:21px arial;
+color:#000000;
+width: 350px;
+height: 29px;
+outline: none;
+border: 0;
+}
+#hdrT button{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/topheavy_hdr.png") no-repeat scroll -206px -40px transparent;
+background: url("data:image/png;base64,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") no-repeat scroll -206px -40px transparent;
+width: 53px;
+height: 33px;
+border: none;
+position: absolute;
+right: 18px;
+top: -2px;
+cursor:pointer;
+}
+#wrapper
+{
+width:100%;
+background-color: #262627;
+float: left;
+}
+#contnr, #wraplogoform
+{
+margin: auto;
+width: 970px;
+}
+/*for tabs*/
+#dicttab
+{
+background: url('http://static.sfdict.com/en/i/dictionary/newserp/topheavy_hdr_bg.png') repeat-x scroll 0 -56px transparent;
+}
+#dynamotab:hover ,#quotestab:hover ,#reftab:hover ,#transtab:hover ,#spanishtab:hover ,#thestab:hover
+{
+background: url('http://static.sfdict.com/en/i/dictionary/newserp/topheavy_hdr_bg.png') repeat-x scroll 0 -302px transparent;
+}
+#reftab a:active
+{
+background: url('http://static.sfdict.com/en/i/dictionary/newserp/topheavy_hdr_bg.png') repeat-x scroll 0 -328px transparent;
+}
+#transtab a:active
+{
+background: url('http://static.sfdict.com/en/i/dictionary/newserp/topheavy_hdr_bg.png') repeat-x scroll 0 -448px transparent;
+}
+.prmsblT
+{
+background: url('http://static.sfdict.com/en/i/dictionary/newserp/topheavy_hdr.png') no-repeat -224px -223px;
+width: 16px;
+height: 17px;
+float: right;
+}
+.dlogo {
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/topheavy_hdr.png") repeat scroll -17px -41px;
+width: 151px;
+height: 34px;
+position: relative;
+top: 7px;
+left:1px;
+}
+.area-holderT{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/topheavy_hdr.png") no-repeat scroll -11px -5px;
+width: 394px;
+height: 30px;
+padding: 0 16px;
+margin: 0 12px 0 0;
+}
+#wrpT{
+text-align: center;
+height:84px;
+}
+#wrpT #sh{
+background:url("http://static.sfdict.com/dictionary/homepage/images/tp.png") no-repeat scroll 100% 0 transparent;
+height:26px;
+position:absolute;
+right:0;
+top:0;
+width:857px;
+}
+.devider
+{
+background: url("http://static.sfdict.com/en/i/dictionary/newserp/topheavy_hdr.png") no-repeat scroll -232px -250px;
+width: 2px;
+height: 24px;
+float: left;
+}
+#logoimg , #logoform
+{
+float:left;
+position: relative;
+}
+#logoimg
+{
+top: 4px;
+left: 15px;
+}
+#prem_symbol1T
+{
+background: url('http://static.sfdict.com/en/i/dictionary/newserp/prm_login.png') no-repeat;
+width: 72px;
+height: 65px;
+float:right;
+position:relative;
+}
+.relatedw
+{
+padding-bottom: 4px;
+padding-top: 5px;
+}
+.nbox .hd
+{
+color: #333;
+font-family: arial;
+font-size: 14px;
+font-weight: bold;
+}
+.exsentences b
+{
+margin-right: -4px;
+}
+.sentcont
+{
+margin-left: -4px;
+}
+#rightRail .nearByCurr {
+font-weight:bold;
+}
+.prmsblTn
+{
+float: none;
+padding-left: 19px;
+}
+.bar{
+font-size:10px;
+}
+.prmsblT{
+background-position:-224px -223px;
+}

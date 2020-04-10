@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Sản phẩm]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách sản phẩm]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Sản phẩm &raquo; Danh sách]]></lines>
+
+
+	<lines name="head_add" descr=""><![CDATA[Thêm sản phẩm]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin sản phẩm]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Sản phẩm &raquo; Thêm]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật sản phẩm]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin sản phẩm]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Sản phẩm &raquo; Cập nhật]]></lines>
+
+
+	<lines name="labelUid" descr=""><![CDATA[Tài khoản]]></lines>
+	<lines name="labelVid" descr=""><![CDATA[Nhà Cung cấp]]></lines>
+	<lines name="labelVsubid" descr=""><![CDATA[Nhà Phân phối]]></lines>
+	<lines name="labelPcid" descr=""><![CDATA[Danh mục]]></lines>
+	<lines name="labelPcid1" descr=""><![CDATA[Danh mục con]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelBarcode" descr=""><![CDATA[Barcode]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Tên]]></lines>
+	<lines name="labelSlug" descr=""><![CDATA[Slug]]></lines>
+	<lines name="labelContent" descr=""><![CDATA[Nội dung]]></lines>
+	<lines name="labelSummary" descr=""><![CDATA[Đặc điểm]]></lines>
+	<lines name="labellaigop" descr=""><![CDATA[Lãi gộp]]></lines>
+	<lines name="labellaigopauto" descr=""><![CDATA[Lãi gộp auto]]></lines>
+	<lines name="labelDiscountPercent" descr=""><![CDATA[Giảm giá]]></lines>
+	<lines name="labelIsbagdehot" descr=""><![CDATA[Hot]]></lines>
+	<lines name="labelIsbagdenew" descr=""><![CDATA[Mới]]></lines>
+	<lines name="labelIsbagdegift" descr=""><![CDATA[Tặng quà]]></lines>
+	<lines name="labelSeotitle" descr=""><![CDATA[SEO Title]]></lines>
+	<lines name="labelSeokeyword" descr=""><![CDATA[SEO Keyword]]></lines>
+	<lines name="labelSeodescription" descr=""><![CDATA[SEO Description]]></lines>
+	<lines name="labelCanonical" descr=""><![CDATA[Canonical]]></lines>
+	<lines name="labelUnitprice" descr=""><![CDATA[Giá gốc]]></lines>
+	<lines name="labelSellprice" descr=""><![CDATA[Giá bán]]></lines>
+	<lines name="labelVendorprice" descr=""><![CDATA[Giá đối tác]]></lines>
+	<lines name="labelInstock" descr=""><![CDATA[Số lượng]]></lines>
+	<lines name="labelCountview" descr=""><![CDATA[Số lượt xem]]></lines>
+	<lines name="labelCountreview" descr=""><![CDATA[Số lượt nhận xét]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="labelIpaddress" descr=""><![CDATA[Ipaddress]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Datecreated]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Datemodified]]></lines>
+	<lines name="productInfo" descr=""><![CDATA[Thông tin]]></lines>
+	<lines name="attributeInfo" descr=""><![CDATA[Thuộc tính]]></lines>
+	<lines name="mediaInfo" descr=""><![CDATA[Media]]></lines>
+	<lines name="image" descr=""><![CDATA[Hình ảnh]]></lines>
+	<lines name="image360" descr=""><![CDATA[Hình 360]]></lines>
+	<lines name="url" descr=""><![CDATA[URL]]></lines>
+	<lines name="addmore" descr=""><![CDATA[Thêm]]></lines>
+	<lines name="labelInstockSearch" descr=""><![CDATA[Tình trạng tồn kho]]></lines>
+	<lines name="labelSyncStatus" descr=""><![CDATA[Trạng thái đồng bộ]]></lines>
+	<lines name="labelOnsiteStatus" descr=""><![CDATA[Onsite status]]></lines>
+	<lines name="labelBarcodeStatus" descr=""><![CDATA[Trạng thái Barcode]]></lines>
+	<lines name="labelHaveInstock" descr=""><![CDATA[Sản phẩm còn hàng]]></lines>
+	<lines name="labelNotHaveInstock" descr=""><![CDATA[Sản phẩm hết còn hàng]]></lines>
+	<lines name="labelAll" descr=""><![CDATA[Tất cả]]></lines>
+	<lines name="labelHaveBarcode" descr=""><![CDATA[Có Barcode]]></lines>
+	<lines name="labelNotHaveBarcode" descr=""><![CDATA[Không có Barcode]]></lines>
+	<lines name="bulkItemChangeOrderSuccess" descr=""><![CDATA[ Cập nhật thứ tự hiển thị thành công]]></lines>
+
+	<lines name="errattributeAdd" descr=""><![CDATA[Vui lòng nhập thuộc tính của sản phẩm !]]></lines>
+	<lines name="groupattribute" descr=""><![CDATA[Nhóm thuộc tính]]></lines>
+	<lines name="attributeValue" descr=""><![CDATA[Giá trị]]></lines>
+	<lines name="attribute" descr=""><![CDATA[Thuộc tính]]></lines>
+	<lines name="caption" descr=""><![CDATA[Caption]]></lines>
+	<lines name="accessories" descr=""><![CDATA[Phụ kiện]]></lines>
+    <lines name="sample" descr=""><![CDATA[SP liên quan]]></lines>
+    <lines name="color" descr=""><![CDATA[Màu]]></lines>
+    <lines name="colorTitle" descr=""><![CDATA[Danh sách màu sản phẩm]]></lines>
+    <lines name="labelAddColor" descr=""><![CDATA[Thêm màu sản phẩm]]></lines>
+    <lines name="labelColor" descr=""><![CDATA[Màu]]></lines>
+    <lines name="labelDefaultColor" descr=""><![CDATA[Màu mặc định]]></lines>
+	<lines name="iamgeLabel" descr=""><![CDATA[Hình ảnh]]></lines>
+	<lines name="labelGood" descr=""><![CDATA[Ưu điểm]]></lines>
+	<lines name="labelBad" descr=""><![CDATA[Nhược điểm]]></lines>
+	<lines name="labelDienmayreview" descr=""><![CDATA[Dienmay.com đánh giá]]></lines>
+	<lines name="labelFullbox" descr=""><![CDATA[Bộ bán hàng đầy đủ]]></lines>
+	<lines name="formActionCloneTooltip" descr=""><![CDATA[Clone Product]]></lines>
+	<lines name="formCloneLabel" descr=""><![CDATA[Clone]]></lines>
+	<lines name="warningChangeCategory" descr=""><![CDATA[Nếu bạn thay dổi danh mục sản phẩm thì tất cả thuộc tính hiện tại sẽ mất . Bạn có muốn tiếp tục không ?]]></lines>
+	<lines name="deleteMediaConfirm" descr=""><![CDATA[Bạn có muốn xóa dòng này không ?]]></lines>
+	<lines name="cloneProductConfirm" descr=""><![CDATA[Bạn có clone sản phẩm này không ?]]></lines>
+	<lines name="deleteProductConfirm" descr=""><![CDATA[Bạn có muốn xóa sản phẩm này không ?]]></lines>
+	<lines name="labelCurrency" descr=""><![CDATA[&#272;]]></lines>
+	<lines name="labelEdit" descr=""><![CDATA[Chi tiết]]></lines>
+	<lines name="labelDelete" descr=""><![CDATA[Xóa]]></lines>
+	<lines name="deleteError" descr=""><![CDATA[Không thể xóa dòng này.]]></lines>
+	<lines name="labelBackLink" descr=""><![CDATA[Quay lại trang trước]]></lines>
+	<lines name="product2" descr=""><![CDATA[SP Ưu tiên bán]]></lines>
+	<lines name="product3" descr=""><![CDATA[SP liên quan đặt hàng]]></lines>
+	<lines name="labelDisplayorder" descr=""><![CDATA[TT hiển thị]]></lines>
+	<lines name="labelStartdate" descr=""><![CDATA[Ngày bắt đầu]]></lines>
+	<lines name="labelEnddate" descr=""><![CDATA[Ngày kết thúc]]></lines>
+
+
+	<lines name="errVidMustGreaterThanZero" descr=""><![CDATA[Vui lòng chọn đối tác.]]></lines>
+	<lines name="errPcidMustGreaterThanZero" descr=""><![CDATA[Vui lòng chọn danh mục sản phẩm.]]></lines>
+	<lines name="errNameNotEmpty" descr=""><![CDATA[Vui lòng nhập tên sản phẩm.]]></lines>
+	<lines name="errAttributeGroup" descr=""><![CDATA[Danh mục này chưa có thuộc tính]]></lines>
+	<lines name="errProductChoose" descr=""><![CDATA[Sản phẩm này đã được chọn]]></lines>
+	<lines name="errSeoDescriptionNotEmpty" descr=""><![CDATA[Vui lòng nhập SEO Description.]]></lines>
+	<lines name="errPrepaidPriceMustGreaterThanZero" descr=""><![CDATA[Giá đặt trước phải là số và lớn hơn 0]]></lines>
+	<lines name="errPrepaindMustGreaterThanZero" descr=""><![CDATA[Số lượng hàng được đặt phải là số]]></lines>
+	<lines name="errPrepaidDepositMustGreaterThanZero" descr=""><![CDATA[Giá yêu cầu đặt trước phải là số và lớn hơn 0]]></lines>
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi khi thêm mới sản phẩm.]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Sản phẩm đã được tạo.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi trong khi cập nhật sản phẩm]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Sản phẩm đã được cập nhật.]]></lines>
+	<lines name="succClone" descr=""><![CDATA[Sản phẩm đã được Cloned.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thất sản phẩm.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi trong khi xóa sản phẩm với id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Sản phẩm có id là ###id### đã được xóa.]]></lines>
+	<lines name="errColorExist" descr=""><![CDATA[Màu sản phẩm đã tồn tại]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy dữ liệu.]]></lines>
+	<lines name="errorAddPermission" descr=""><![CDATA[Bạn không thể tạo mới sản phẩm.]]></lines>
+	<lines name="errorEditPermission" descr=""><![CDATA[Bạn không thể cập nhật sản phẩm này.]]></lines>
+	<lines name="errorDeletePermission" descr=""><![CDATA[Bạn không thể xóa sản phẩm này.]]></lines>
+	<lines name="errorClonePermission" descr=""><![CDATA[Bạn không thể clone sản phẩm này.]]></lines>
+	<lines name="labelNext" descr=""><![CDATA[Tiếp theo]]></lines>
+
+	<lines name="errFileType" descr=""><![CDATA[File upload không hợp lệ.]]></lines>
+	<lines name="errFileMediaType" descr=""><![CDATA[File Media upload không hợp lệ.]]></lines>
+	<lines name="errFile360Type" descr=""><![CDATA[File 360 upload không hợp lệ.]]></lines>
+	<lines name="errFileSpecialType" descr=""><![CDATA[File upload không định dạng.]]></lines>
+	<lines name="errVendor" descr=""><![CDATA[Bạn không thể tạo sản phẩm cho hãng ###name###.]]></lines>
+	<lines name="errFileExist" descr=""><![CDATA[ File ###filename### đã tồn tại.]]></lines>
+	<lines name="errAttributeDataType" descr=""><![CDATA[ Kiểu dữ liệu của thuộc tính ###name### không đúng.]]></lines>
+	<lines name="categorysampleError" descr=""><![CDATA[Danh mục hiện tại và danh mục chuyển đến giống nhau . Vui lòng chọn danh mục chuyển đến khác.]]></lines>
+	<lines name="changecategorysucces" descr=""><![CDATA[Danh mục đã được chuyển thành công.]]></lines>
+	<lines name="changecategoryerror" descr=""><![CDATA[  Có lỗi xảy ra trong quá trình chuyển danh mục]]></lines>
+</data>
+

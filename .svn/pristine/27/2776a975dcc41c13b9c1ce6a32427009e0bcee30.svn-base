@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[PromotionStore]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[PromotionStore Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[PromotionStore &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New PromotionStore]]></lines>
+	<lines name="title_add" descr=""><![CDATA[PromotionStore Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[PromotionStore &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update PromotionStore]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[PromotionStore Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[PromotionStore &raquo; Update]]></lines>
+
+	
+	<lines name="labelPromoid" descr=""><![CDATA[Promoid]]></lines>
+	<lines name="labelSid" descr=""><![CDATA[Sid]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	
+	
+	<lines name="errPromoidMustGreaterThanZero" descr=""><![CDATA[Promoid must be greater than zero.]]></lines>
+	<lines name="errSidMustGreaterThanZero" descr=""><![CDATA[Sid must be greater than zero.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add PromotionStore]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[PromotionStore had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating PromotionStore]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[PromotionStore had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[PromotionStore not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting PromotionStore with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[PromotionStore with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

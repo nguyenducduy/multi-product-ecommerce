@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="title" descr=""><![CDATA[Title Here]]></lines>
+	
+		
+	<lines name="pageTitle" descr=""><![CDATA[Page Title Here]]></lines>
+	<lines name="pageKeyword" descr=""><![CDATA[Page Keyword Here]]></lines>
+	<lines name="pageDescription" descr=""><![CDATA[Page Description Here]]></lines>
+
+</data>

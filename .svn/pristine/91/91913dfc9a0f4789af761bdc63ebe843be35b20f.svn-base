@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="title" descr=""><![CDATA[Quên mật khẩu]]></lines>
+	<lines name="email" descr=""><![CDATA[Email của bạn]]></lines>
+	<lines name="resetHelp" descr=""><![CDATA[Nhập lại mật khẩu mới cho tài khoản của bạn ]]></lines>
+	<lines name="password" descr=""><![CDATA[Mật khẩu mới]]></lines>
+	<lines name="password2" descr=""><![CDATA[Nhập lại Mật khẩu]]></lines>
+	<lines name="submitLabel" descr=""><![CDATA[Đồng ý]]></lines>
+	<lines name="succSubmitEmail" descr=""><![CDATA[Thông tin khôi phục mật khẩu đã được gởi đến địa chỉ email của bạn.]]></lines>
+	<lines name="errSpam" descr=""><![CDATA[Phát hiện Spam. Hãy đợi khoảng 30 giây.]]></lines>
+	<lines name="errInvalidEmail" descr=""><![CDATA[Địa chỉ email không hợp lệ.]]></lines>
+	<lines name="errAccountInvalid" descr=""><![CDATA[Không tìm thấy địa chỉ Email.]]></lines>
+	<lines name="errPassNotMatch" descr=""><![CDATA[Mật khẩu nhập không khớp]]></lines>
+	<lines name="errInvalidCode" descr=""><![CDATA[Mã xác nhận không đúng. Hãy kiểm tra lại email]]></lines>
+	<lines name="errReset" descr=""><![CDATA[Có lỗi khi reset mật khẩu.]]></lines>
+	<lines name="mailSubject" descr=""><![CDATA[Reset Password Information from]]></lines>  
+	<lines name="emptyinfo" descr=""><![CDATA[Vui lòng nhập đầy đủ thông tin]]></lines>
+
+	<lines name="pageTitle" descr=""><![CDATA[Lấy lại thông tin mật khẩu]]></lines>
+	<lines name="pageKeyword" descr=""><![CDATA[quen mat khau, forgot password]]></lines>
+	<lines name="pageDescription" descr=""><![CDATA[Khôi phục mật khẩu.]]></lines>
+
+</data>

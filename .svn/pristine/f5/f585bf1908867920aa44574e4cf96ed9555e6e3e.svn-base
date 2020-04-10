@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Orders]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Orders Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Orders &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New Orders]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Orders Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Orders &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update Orders]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Orders Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Orders &raquo; Update]]></lines>
+
+	
+	<lines name="labelUid" descr=""><![CDATA[Uid]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelOrderidcrm" descr=""><![CDATA[Order ID CRM]]></lines>
+	<lines name="labelRelatedorderid" descr=""><![CDATA[Relatedorderid]]></lines>
+	<lines name="labelInvoiceid" descr=""><![CDATA[Invoice ID]]></lines>
+	<lines name="labelPricesell" descr=""><![CDATA[Price Sell]]></lines>
+	<lines name="labelPriceship" descr=""><![CDATA[Price Ship]]></lines>
+	<lines name="labelPricediscount" descr=""><![CDATA[Price Discount]]></lines>
+	<lines name="labelPricetax" descr=""><![CDATA[Price Tax]]></lines>
+	<lines name="labelPricehandling" descr=""><![CDATA[Price Handling]]></lines>
+	<lines name="labelPricefinal" descr=""><![CDATA[Price Final]]></lines>
+	<lines name="labelCoupon" descr=""><![CDATA[Coupon]]></lines>
+	<lines name="labelCouponvalue" descr=""><![CDATA[Couponvalue]]></lines>
+	<lines name="labelPromotionid" descr=""><![CDATA[Promotionid]]></lines>
+	<lines name="labelPromotionvalue" descr=""><![CDATA[Promotionvalue]]></lines>
+	<lines name="labelContactemail" descr=""><![CDATA[Contact Email]]></lines>
+	<lines name="labelBillingfullname" descr=""><![CDATA[Billing Fullname]]></lines>
+	<lines name="labelBillingphone" descr=""><![CDATA[Billing Phone]]></lines>
+	<lines name="labelBillingaddress" descr=""><![CDATA[Billing Address]]></lines>
+	<lines name="labelBillingregionid" descr=""><![CDATA[Billing Regionid]]></lines>
+	<lines name="labelBillingcountry" descr=""><![CDATA[Billing Country]]></lines>
+	<lines name="labelShippingfullname" descr=""><![CDATA[Shipping Fullname]]></lines>
+	<lines name="labelShippingphone" descr=""><![CDATA[Shipping Phone]]></lines>
+	<lines name="labelShippingaddress" descr=""><![CDATA[Shipping Address]]></lines>
+	<lines name="labelShippingcountry" descr=""><![CDATA[Shipping Country]]></lines>
+	<lines name="labelShippingregionid" descr=""><![CDATA[Shipping Regionid]]></lines>
+	<lines name="labelShippinglat" descr=""><![CDATA[Shipping Lat]]></lines>
+	<lines name="labelShippinglng" descr=""><![CDATA[Shipping Long]]></lines>
+	<lines name="labelShippingservice" descr=""><![CDATA[Shipping Service]]></lines>
+	<lines name="labelShippingtrackingcode" descr=""><![CDATA[Shipping Tracking Code]]></lines>
+	<lines name="labelIpaddress" descr=""><![CDATA[Ipaddress]]></lines>
+	<lines name="labelPaymentisdone" descr=""><![CDATA[Is done]]></lines>
+	<lines name="labelPaymentmethod" descr=""><![CDATA[Payment Method]]></lines>
+	<lines name="labelDeliverymethod" descr=""><![CDATA[Delivery Method]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Status]]></lines>
+	<lines name="labelIsgift" descr=""><![CDATA[Is gift]]></lines>
+	<lines name="labelNote" descr=""><![CDATA[Note]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Date created]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Datemodified]]></lines>
+	<lines name="labelDatecompleted" descr=""><![CDATA[Datecompleted]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>	
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	<lines name="formorderprogramtype" descr=""><![CDATA[Loại ĐH]]></lines>
+	
+    <lines name="labelorderDeliveryStore" descr=""><![CDATA[Nhận hàng tại siêu thị]]></lines>
+    <lines name="labelorderDeliveryIn24H" descr=""><![CDATA[Giao hàng nhanh trong 24 giờ]]></lines>
+    <lines name="labelorderDeliveryDiscount72H" descr=""><![CDATA[Ưu đãi giảm giá trong 72 giờ]]></lines>
+    
+    <lines name="labelorderPaymenMethodCash" descr=""><![CDATA[Thanh toán khi nhận hàng]]></lines>
+    <lines name="labelorderPaymentMethodCardInHouse" descr=""><![CDATA[Thanh toán bằng thẻ tại nhà qua máy POS]]></lines>
+    <lines name="labelorderPaymentMethodOnline" descr=""><![CDATA[Thanh toán trực tuyến]]></lines>
+    <lines name="labelorderPaymentMethodTransfer" descr=""><![CDATA[Chuyển khoản ngân hàng cho dienmay.com]]></lines>
+    
+    <lines name="labelorderStatusPending" descr=""><![CDATA[Mới đặt hàng]]></lines>
+    <lines name="labelorderStatusProcessing" descr=""><![CDATA[Đang xử lý]]></lines>
+    <lines name="labelorderStatusShipping" descr=""><![CDATA[Đang giao hàng]]></lines>
+    <lines name="labelorderStatusCompleted" descr=""><![CDATA[Đã giao hàng]]></lines>
+    <lines name="labelorderStatusCancel" descr=""><![CDATA[Hủy]]></lines>
+    <lines name="labelorderStatusError" descr=""><![CDATA[Lỗi]]></lines>
+    <lines name="labelorderStatusReturnPending" descr=""><![CDATA[Chờ trả hàng]]></lines>    
+    <lines name="labelorderStatusReturnRequest" descr=""><![CDATA[Yêu cầu trả hàng]]></lines>
+    <lines name="labelorderStatusReturnProcessing" descr=""><![CDATA[Đang xử lý trả hàng]]></lines>
+    <lines name="labelorderStatusCancelMerge" descr=""><![CDATA[Hủy vì gọp đơn hàng]]></lines>
+    
+    <lines name="labelPaymentIsDone" descr=""><![CDATA[Đã thanh toán]]></lines>
+    <lines name="labelPaymentIsGift" descr=""><![CDATA[Có gói quà]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add Orders]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Orders had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating Orders]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Orders had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Orders not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting Orders with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Orders with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="title" descr=""><![CDATA[Trang cá nhân]]></lines>
+	<lines name="feedMoreTitle" descr=""><![CDATA[Hiển thị thêm các hoạt động khác]]></lines>
+	<lines name="inGroupDepartment" descr=""><![CDATA[trong]]></lines>
+	
+	<lines name="emptyactivity" descr=""><![CDATA[Chưa có hoạt động nào]]></lines>
+	<lines name="pageTitle" descr=""><![CDATA[ - Trang cá nhân]]></lines>
+	<lines name="pageKeyword" descr=""><![CDATA[trang cá nhân, profile, trang nha, trang chu]]></lines>
+	<lines name="pageDescription" descr=""><![CDATA[ Trang cá nhân của thành viên.]]></lines>
+
+</data>

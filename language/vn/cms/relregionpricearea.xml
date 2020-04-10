@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Khu vực giá theo tỉnh]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm thấy]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách khu vực giá theo tỉnh]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Khu vực giá theo tỉnh &raquo; Danh sách]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Thêm khu vực giá theo tỉnh]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Xem khu vực giá theo tỉnh]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Khu vực giá theo tỉnh &raquo; Thêm]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật Khu vực giá theo tỉnh]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Xem Khu vực giá theo tỉnh ]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Khu vực giá theo tỉnh &raquo; Update]]></lines>
+
+	
+	<lines name="labelUid" descr=""><![CDATA[Tên user]]></lines>
+	<lines name="labelPpaid" descr=""><![CDATA[Khu vực giá]]></lines>
+	<lines name="labelRid" descr=""><![CDATA[Tỉnh]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	
+	
+	<lines name="errPpaidMustGreaterThanZero" descr=""><![CDATA[Chọn khu vực giá.]]></lines>
+    <lines name="errRidMustGreaterThanZero" descr=""><![CDATA[Chọn tỉnh.]]></lines>
+	<lines name="errAidMustGreaterThanZero" descr=""><![CDATA[Chọn khu vực.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Lỗi khi thêm Khu vực giá theo tỉnh]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Khu vực giá theo tỉnh đã được tạo.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Lỗi khi cập nhật Khu vực giá theo tỉnh]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Khu vực giá theo tỉnh đã được cập nhật.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Khu vực giá theo tỉnh not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Lỗi khi xóa Khu vực giá theo tỉnh with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Khu vực giá theo tỉnh với mã ###id### đã được xóa.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

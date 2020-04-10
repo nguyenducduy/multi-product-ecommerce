@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Quản lý Language File]]></lines>
+	<lines name="intro_list" descr=""><![CDATA[Chức năng quản lý các file ngôn ngữ hiển thị trong giao diện của website]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách Folder/File]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Language » Danh sách Folder/File]]></lines>
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật File Ngôn ngữ]]></lines>
+	<lines name="intro_edit" descr=""><![CDATA[Cho phép thay đổi ngôn ngữ của các file ngôn ngữ hiển thị trên website]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Chi tiết file]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Language » Cập nhật File]]></lines>
+	<lines name="formNameLabel" descr=""><![CDATA[Tên]]></lines>
+	<lines name="formDescriptionLabel" descr=""><![CDATA[Mô tả]]></lines>
+	<lines name="formReorderAlphabetLabel" descr=""><![CDATA[Cập nhật lại thứ tự theo abc]]></lines>
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy thông tin file.]]></lines>
+	<lines name="succSave" descr=""><![CDATA[Cập nhật File thành công.]]></lines>
+</data>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Siêu thị / Kho]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Siêu thị &raquo; Danh sách]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Thêm mới]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Siêu thị &raquo; Thêm]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật thông tin]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Siêu thị &raquo; Cập nhật]]></lines>
+
+	
+	<lines name="labelId" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelImage" descr=""><![CDATA[Hình]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Tên]]></lines>
+	<lines name="labelSlug" descr=""><![CDATA[Slug]]></lines>
+	<lines name="labelDescription" descr=""><![CDATA[Giới thiệu]]></lines>
+	<lines name="labelAddress" descr=""><![CDATA[Địa chỉ]]></lines>
+	<lines name="labelRegion" descr=""><![CDATA[Tỉnh/Thành phố]]></lines>
+	<lines name="labelPhone" descr=""><![CDATA[Phone]]></lines>
+	<lines name="labelEmail" descr=""><![CDATA[Email]]></lines>
+	<lines name="labelFax" descr=""><![CDATA[Fax]]></lines>
+	<lines name="labelLat" descr=""><![CDATA[Latitude]]></lines>
+	<lines name="labelLng" descr=""><![CDATA[Longitude]]></lines>
+	<lines name="labelCountemployee" descr=""><![CDATA[Số nhân viên]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="labelDisplayorder" descr=""><![CDATA[Thứ tự hiển thị]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Ngày tạo]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Ngày cập nhật]]></lines>
+	<lines name="labelMap" descr=""><![CDATA[Map]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Từ khóa]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Tìm trong -]]></lines>
+	
+	
+	<lines name="errNameRequired" descr=""><![CDATA[Bạn chưa nhập tên.]]></lines>
+	<lines name="errAddressRequired" descr=""><![CDATA[Bạn chưa nhập địa chỉ.]]></lines>
+	<lines name="errRegionRequired" descr=""><![CDATA[Bạn chưa chọn Tỉnh/Thành phố.]]></lines>
+	<lines name="errPhoneRequired" descr=""><![CDATA[Bạn chưa nhập số điện thoại.]]></lines>
+	<lines name="errEmailRequired" descr=""><![CDATA[Bạn chưa nhập email.]]></lines>
+	<lines name="errStatusRequired" descr=""><![CDATA[Bạn chưa chọn trạng thái.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi khi thêm]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Thông tin của bạn đã được lưu.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi khi cập nhật.]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Thông tin của bạn đã được lưu.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy thông tin.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi khi xóa record với ID ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Xóa thành công record có ID ###id###.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy thông tin.]]></lines>
+	
+	
+	
+	
+</data>

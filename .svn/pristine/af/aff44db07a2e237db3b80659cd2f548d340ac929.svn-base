@@ -1,0 +1,32 @@
+body{margin:0; padding:0;position:relative;font-family: "Segoe UI", Tahoma, Geneva, sans-serif; font-size:11px; background:#fff; overflow-y:scroll;}
+p, h1, form, input{border:0; margin:0; padding:0;}
+.spacer{clear:both; height:1px;}
+.hide{display:none;}
+.cl{clear:both;}
+.fr{float:right;}
+.fl{float:left;}
+.clear{clear:both; height:0px;}
+
+
+/*	PAGINATION	*/
+.pagination {text-align: right;padding: 20px 0 5px 0;margin-bottom:20px; font-size: 12px; line-height:2.3}
+.pagination a { margin: 0 5px 0 0;padding: 5px 10px;color:#000;font-style:normal;font-size:12px; border-radius:4px; -webkit-border-radius:4px;}			
+.pagination a:hover {color:#F06;background:#eee; text-decoration:none;}
+.pagination a.number {border: 1px solid #ddd;}
+.pagination a.current {background: #444444 !important;border-color: #333 !important;color: #fff !important;}		
+.pagination a.numbernext{background:#f90; font-weight:bold; color:#fff;padding:6px 15px;border:2px solid #fff;}
+.pagination a.numbernext:hover{background:#09f;}
+.pagination a.current:hover {text-decoration: none;}
+
+
+/* ---- NOTIFY BAR ---- */
+.notify-bar{padding:10px;border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; margin:10px;}
+.notify-bar-success{background:#eaffa5;color:#6c8c00;}
+.notify-bar-error{background:#ffcfce;color:#9e3737;}
+.notify-bar-warning{background:#ffeeb1;color:#e37b00;}
+.notify-bar-info{background:#d6e2ff;color:#577bd1;}
+.notify-bar-icon{float:left;width:35px;}
+.notify-bar-icon img{width:24px; height:24px;}
+.notify-bar-text{padding:0 20px 0 35px; font-size:14px;line-height:1.5;}
+.notify-bar-text-sep{border-top:1px solid #eee;margin:10px 0;}
+.notify-bar-button{float:right;width:15px;text-align:right;}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Bình luận rao vặt]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Bình luận &raquo; Danh sách]]></lines>
+	
+	<lines name="title_add" descr=""><![CDATA[Thông tin bình luận rao vặt]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin bình luận rao vặt]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Bình luận &raquo; Cập nhật]]></lines>
+
+	
+	<lines name="labelUid" descr=""><![CDATA[Người đăng]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelObjectid" descr=""><![CDATA[Bài viết]]></lines>
+
+	<lines name="labelEmail" descr=""><![CDATA[Email]]></lines>
+	<lines name="labelText" descr=""><![CDATA[Nội dung]]></lines>
+	<lines name="labelIpaddress" descr=""><![CDATA[Ipaddress]]></lines>
+	<lines name="labelModeratorid" descr=""><![CDATA[Mod]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="labelCountthumbup" descr=""><![CDATA[Countthumbup]]></lines>
+	<lines name="labelCountthumbdown" descr=""><![CDATA[Countthumbdown]]></lines>
+	<lines name="labelCountreply" descr=""><![CDATA[Trả lời]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Ngày đăng]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Datemodified]]></lines>
+	<lines name="labelDatemoderated" descr=""><![CDATA[Datemoderated]]></lines>
+	<lines name="labelParentid" descr=""><![CDATA[Danh mục cha]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Từ khóa]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Tìm trong -]]></lines>
+	<lines name="bulkActionSuccessLabel" descr=""><![CDATA[Đã duyệt]]></lines>
+	<lines name="bulkActionPendingLabel" descr=""><![CDATA[Chờ duyệt]]></lines>
+	<lines name="bulkActionSpamLabel" descr=""><![CDATA[Spam]]></lines>
+	<lines name="bulkItemNoSelected" descr=""><![CDATA[Please choose item.]]></lines>
+	
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add StuffReview]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[StuffReview had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating StuffReview]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[StuffReview had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[StuffReview not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting StuffReview with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Bình luận với ID ###id### đã được xóa thành công.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+
+	<lines name="errReply" descr=""><![CDATA[Reply error.]]></lines>
+	<lines name="succReply" descr=""><![CDATA[Reply thành công.]]></lines>
+	<lines name="errContentEmpty" descr=""><![CDATA[Nội dung không được để trống.]]></lines>
+	
+	
+	
+	
+</data>

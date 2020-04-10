@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+  <lines name="adminPanel" descr=""><![CDATA[Admin Panel]]></lines>
+	<lines name="dateFormatTime" descr=""><![CDATA[H:i, M d Y]]></lines>
+	<lines name="dateFormatTimeSmarty" descr=""><![CDATA[%H:%M, ngày %d/%m/%Y]]></lines>
+	<lines name="dateFormatSmarty" descr=""><![CDATA[%d/%m/%Y]]></lines>
+	
+	<lines name="menudashboard" descr=""><![CDATA[Dashboard]]></lines>
+  
+	<lines name="formDeleteLabel" descr=""><![CDATA[Xóa]]></lines>     
+	<lines name="formEditLabel" descr=""><![CDATA[Thay đổi]]></lines>     
+	<lines name="formDetailLabel" descr=""><![CDATA[Chi tiết]]></lines>     
+	<lines name="formHaveImageLabel" descr=""><![CDATA[Có hình đại diện]]></lines>     
+	<lines name="formActionEditTooltip" descr=""><![CDATA[Thay đổi thông tin dòng này]]></lines>     
+	<lines name="formActionDeleteTooltip" descr=""><![CDATA[Xóa dòng này]]></lines> 
+	<lines name="formActionDetailTooltip" descr=""><![CDATA[Xem chi tiết của dữ liệu này]]></lines> 
+	<lines name="formRequiredLabel" descr=""><![CDATA[Bắt buộc]]></lines>   
+	<lines name="formViewAll" descr=""><![CDATA[Xem tất cả]]></lines>   
+	<lines name="formBackLabel" descr=""><![CDATA[&laquo; Quay về trang trước]]></lines>   
+	<lines name="formAddSubmit" descr=""><![CDATA[ THÊM ]]></lines>  
+	<lines name="formCreateSubmit" descr=""><![CDATA[ TẠO ]]></lines>  
+	<lines name="formAddExitSubmit" descr=""><![CDATA[ THÊM & QUAY LẠI ]]></lines>  
+	<lines name="formSaveSubmit" descr=""><![CDATA[ LƯU ]]></lines>  
+	<lines name="formSaveExitSubmit" descr=""><![CDATA[ LƯU & QUAY LẠI ]]></lines>  
+	<lines name="formUpdateSubmit" descr=""><![CDATA[ CẬP NHẬT ]]></lines>  
+	<lines name="formUpdateExitSubmit" descr=""><![CDATA[ CẬP NHẬT & QUAY LẠI]]></lines>  
+	<lines name="formSelectSubmit" descr=""><![CDATA[ Chọn... ]]></lines>  
+	<lines name="formCloseSubmit" descr=""><![CDATA[ ĐÓNG ]]></lines>  
+	<lines name="formChangeOrderSubmit" descr=""><![CDATA[ Cập nhật THỨ TỰ ]]></lines>  
+	<lines name="formGeneralSubmit" descr=""><![CDATA[ GỞI ]]></lines>  
+	<lines name="formUploadSubmit" descr=""><![CDATA[ Upload File của bạn ]]></lines>  
+    <lines name="formSyncPriceSubmit" descr=""><![CDATA[ Đồng bộ giá ]]></lines>  
+	
+	<lines name="accountcodebadgeLabel" descr=""><![CDATA[Mã tài khoản]]></lines>
+  <lines name="hi" descr=""><![CDATA[Hi,]]></lines>
+  <lines name="editProfileTooltip" descr=""><![CDATA[Cập nhật tài khoản]]></lines>
+  <lines name="gotoHomepage" descr=""><![CDATA[Xem Website]]></lines>
+  <lines name="gotoHomepageTooltip" descr=""><![CDATA[Ra trang web chính]]></lines>
+  <lines name="logout" descr=""><![CDATA[Thoát]]></lines>
+  <lines name="logoutTooltip" descr=""><![CDATA[Thoát khỏi hệ thống.]]></lines>
+  <lines name="noItemSelected" descr=""><![CDATA[Chưa có item nào được chọn.]]></lines>
+  <lines name="succDelete" descr=""><![CDATA[Xóa thành công.]]></lines>
+  <lines name="errUpdateDb" descr=""><![CDATA[Có lỗi khi cập nhật dữ liệu.]]></lines>
+  <lines name="errUploadFile" descr=""><![CDATA[Có lỗi khi cập nhật dữ liệu.]]></lines>
+  <lines name="tableTabLabel" descr=""><![CDATA[Danh sách]]></lines>
+  <lines name="filterLabel" descr=""><![CDATA[Tìm kiếm]]></lines>
+  <lines name="filterSubmit" descr=""><![CDATA[Tìm]]></lines>
+  <lines name="notfound" descr=""><![CDATA[Không tìm thấy dữ liệu]]></lines>
+  <lines name="formFormLabel" descr=""><![CDATA[Thông tin chính]]></lines>
+  <lines name="formMoreInfoLabel" descr=""><![CDATA[Thông tin khác]]></lines>
+  <lines name="formIdLabel" descr=""><![CDATA[ID]]></lines>
+  <lines name="formImageLabel" descr=""><![CDATA[Image]]></lines>
+  <lines name="formOrderLabel" descr=""><![CDATA[Thứ tự]]></lines>
+  <lines name="formYesLabel" descr=""><![CDATA[YES]]></lines>
+  <lines name="formNoLabel" descr=""><![CDATA[NO]]></lines>
+  <lines name="formSeoLabel" descr=""><![CDATA[Thông tin SEO]]></lines>
+  <lines name="formSeoUrlLabel" descr=""><![CDATA[SEO Url]]></lines>
+  <lines name="formSeoTitleLabel" descr=""><![CDATA[SEO Title]]></lines>
+  <lines name="formSeoKeywordLabel" descr=""><![CDATA[SEO Keyword]]></lines>
+  <lines name="formSeoDescriptionLabel" descr=""><![CDATA[SEO Description]]></lines>
+  
+  <lines name="groupnameAdmin" descr=""><![CDATA[Administrator]]></lines>
+  <lines name="groupnameModerator" descr=""><![CDATA[Moderator]]></lines>
+  <lines name="groupnameDeveloper" descr=""><![CDATA[Developer]]></lines>
+  <lines name="groupnameEmployee" descr=""><![CDATA[Employee]]></lines>
+  <lines name="groupnamePartner" descr=""><![CDATA[Partner]]></lines>
+  <lines name="groupnameDepartment" descr=""><![CDATA[Department]]></lines>
+  <lines name="groupnameGroup" descr=""><![CDATA[Group]]></lines>
+  <lines name="groupnameMember" descr=""><![CDATA[Member]]></lines>
+  <lines name="groupnameMemberbanned" descr=""><![CDATA[Banned Member]]></lines>
+  <lines name="groupnameGuest" descr=""><![CDATA[Guest]]></lines>
+	<lines name="groupjoinBtn" descr=""><![CDATA[Tham gia]]></lines>
+	<lines name="followBtn" descr=""><![CDATA[Follow]]></lines>
+	<lines name="unfollowBtn" descr=""><![CDATA[Đã Follow]]></lines>
+	<lines name="groupexitBtn" descr=""><![CDATA[Ngưng tham gia]]></lines>
+	
+	<lines name="errSlugExisted" descr=""><![CDATA[Slug đã tồn tại. <a href="###VALUE###" title="View">Nhấn vào đây</a> để xem nơi sử dụng slug này.]]></lines>
+  
+	
+  <lines name="bulkActionSelectLabel" descr=""><![CDATA[Chọn thao tác...]]></lines>
+	<lines name="bulkActionDeletetLabel" descr=""><![CDATA[Xóa]]></lines>
+	<lines name="bulkActionSubmit" descr=""><![CDATA[Tiến hành xử lý]]></lines>
+	<lines name="bulkActionInvalidWarn" descr=""><![CDATA[Bạn chưa chọn thao tác cần thực hiện]]></lines>
+	<lines name="bulkItemNoSelected" descr=""><![CDATA[Bạn chưa chọn dòng dữ liệu nào cả]]></lines>
+	<lines name="bulkItemChangeOrderSubmit" descr=""><![CDATA[Lưu thứ tự hiển thị]]></lines>
+	<lines name="bulkItemChangeOrderSuccess" descr=""><![CDATA[Thứ tự hiển thị đã được lưu thành công.]]></lines>
+	
+	<lines name="errFormTokenInvalid" descr=""><![CDATA[Có lỗi khi gởi dữ liệu. Hãy thử lại.]]></lines>
+	
+	
+	
+	<!-- for profile -->
+	
+	<lines name="friend" descr=""><![CDATA[bạn]]></lines>
+	<lines name="loginRequired" descr=""><![CDATA[Đăng nhập trước khi tiến hành]]></lines>
+	<lines name="notfoundRequestUrl" descr=""><![CDATA[Đường dẫn gốc: ]]></lines>
+	<lines name="genderMale" descr=""><![CDATA[Nam]]></lines>
+	<lines name="genderFemale" descr=""><![CDATA[Nữ]]></lines>
+	<lines name="ofTitle" descr=""><![CDATA[của]]></lines>
+	<lines name="statusboxTitleSelf" descr=""><![CDATA[Bạn có gì mới?]]></lines>
+	<lines name="statusboxTitle" descr=""><![CDATA[Viết gì đó cho]]></lines>
+	<lines name="statusboxLoginWarning" descr=""><![CDATA[Đăng nhập trước khi tiến hành]]></lines>
+	<lines name="statusboxButton" descr=""><![CDATA[Gởi]]></lines>
+	<lines name="statusboxAddPhotoText" descr=""><![CDATA[Thêm Hình ảnh]]></lines>
+	<lines name="statusboxAddLinkText" descr=""><![CDATA[Thêm Liên kết]]></lines>
+	<lines name="statusboxAddLinkTitle" descr=""><![CDATA[Nhập địa chỉ trang web (http://..), sau đó nhấn Tiếp tục]]></lines>
+	<lines name="statusboxAddLinkAttach" descr=""><![CDATA[Tiếp tục]]></lines>
+	<lines name="statusboxAddLinkCloseTitle" descr=""><![CDATA[Đóng - Không chèn liên kết]]></lines>
+	
+	<lines name="feedTitleSelf" descr=""><![CDATA[Các hoạt động mới]]></lines>
+	<lines name="feedTitle" descr=""><![CDATA[Hoạt động mới]]></lines>
+	<lines name="feedLoadingText" descr=""><![CDATA[Loading...]]></lines>
+	<lines name="feedMore" descr=""><![CDATA[Xem nhiều hơn [...]]]></lines>
+	<lines name="feedLikeLabel" descr=""><![CDATA[Thích]]></lines>
+	<lines name="feedLikeYou" descr=""><![CDATA[Bạn]]></lines>
+	<lines name="feedLikeAnd" descr=""><![CDATA[và]]></lines>
+	<lines name="feedLikeOther" descr=""><![CDATA[người khác]]></lines>
+	<lines name="feedLikeAlso" descr=""><![CDATA[cùng]]></lines>
+	<lines name="feedLikeAlsoOnlyone" descr=""><![CDATA[đã]]></lines>
+	<lines name="feedLikeString" descr=""><![CDATA[thích điều này.]]></lines>
+	<lines name="feedLikeViewAll" descr=""><![CDATA[Thành viên đã thích hoạt động của]]></lines>
+	<lines name="feedLikeViewAllTitle" descr=""><![CDATA[Nhấn để xem toàn bộ danh sách thành viên đã thích hoạt động này]]></lines>
+	<lines name="feedCommentLinkLabel" descr=""><![CDATA[Trả lời]]></lines>
+	<lines name="feedCommentRemoveLabel" descr=""><![CDATA[Xoá]]></lines>
+	<lines name="feedCommentEditLabel" descr=""><![CDATA[Sửa]]></lines>
+	<lines name="feedCommentButton" descr=""><![CDATA[Gởi]]></lines>
+	<lines name="feedCommentShowMore" descr=""><![CDATA[Xem các trả lời trước đó]]></lines>
+	<lines name="feedCommentShowMoreTitle" descr=""><![CDATA[Click để xem các trả lời trước đó]]></lines>
+	<lines name="feedComment" descr=""><![CDATA[trả lời]]></lines>
+	<lines name="editProfile" descr=""><![CDATA[Cập nhật tài khoản]]></lines>
+	<lines name="editProfileTitle" descr=""><![CDATA[Click để cập nhật thông tin của tài khoản]]></lines>
+	<lines name="myMessage" descr=""><![CDATA[Tin nhắn]]></lines>
+	<lines name="friendRequestSendButton" descr=""><![CDATA[Kết bạn]]></lines>
+	<lines name="friendRequestSendButtonTitle" descr=""><![CDATA[Gởi đề nghị kết bạn]]></lines>
+	<lines name="bottombarFriendRequestHeading" descr=""><![CDATA[Thành viên muốn kết bạn]]></lines>
+	<lines name="bottombarNotificationHeading" descr=""><![CDATA[Thông báo mới]]></lines>
+	<lines name="bottombarNotificationHeadingTitle" descr=""><![CDATA[Xem tất cả các thông báo]]></lines>
+	<lines name="bottombarMessageHeading" descr=""><![CDATA[Tin nhắn mới]]></lines>
+	<lines name="bottombarMessageHeadingTitle" descr=""><![CDATA[Xem tất cả các tin nhắn]]></lines>
+	<lines name="gotoProfileOf" descr=""><![CDATA[Tới nhà của]]></lines>
+	<lines name="userAbuseReport" descr=""><![CDATA[Thông báo thành viên xấu]]></lines>
+	<lines name="userAbuseReportTitle" descr=""><![CDATA[Thông báo với ban quản trị biết thành viên này có hoạt động không tốt]]></lines>
+	<lines name="closewindow" descr=""><![CDATA[Đóng cửa sổ này]]></lines>
+	<lines name="latestFriend" descr=""><![CDATA[Bạn bè năng động]]></lines>
+	<lines name="panelSearchMember" descr=""><![CDATA[Tìm kiếm thành viên]]></lines>
+	<lines name="panelSearchMemberTooltip" descr=""><![CDATA[Nhập tên, email hoặc screenname để tìm]]></lines>
+	<lines name="panelSearchMemberSubmit" descr=""><![CDATA[Tìm]]></lines>
+	<lines name="latestActiveMember" descr=""><![CDATA[Các thành viên năng động]]></lines>
+	<lines name="feedReplyDefaultText" descr="tieng viet khong dau de js hieu"><![CDATA[Nhap tra loi cua ban]]></lines>
+	<lines name="feedReplyTextboxTitle" descr=""><![CDATA[Nhập nội dung trả lời của bạn. Nhấn ENTER để gởi. [SHIFT + ENTER] để xuống hàng]]></lines>
+	<lines name="feedReplyToUserTitle" descr=""><![CDATA[Gởi trả lời tới]]></lines>
+	<lines name="feedReplyDeleteTitle" descr=""><![CDATA[Xóa trả lời này]]></lines>
+	<lines name="feedReplyEditTitle" descr=""><![CDATA[Chỉnh sửa nội dung trả lời này]]></lines>
+	<lines name="privatemessage" descr=""><![CDATA[Tin nhắn cá nhân]]></lines>
+	<lines name="newmessage" descr=""><![CDATA[Gởi tin nhắn]]></lines>
+	<lines name="newmessageTitle" descr=""><![CDATA[Gởi 1 tin nhắn cá nhân cho ]]></lines>
+	<lines name="editTitle" descr=""><![CDATA[Chỉnh sửa thông tin]]></lines>
+	<lines name="deleteTitle" descr=""><![CDATA[Xóa thông tin]]></lines>
+	<lines name="yesLabel" descr=""><![CDATA[Có]]></lines>
+	<lines name="noLabel" descr=""><![CDATA[Không]]></lines>
+	<lines name="member" descr=""><![CDATA[Thành viên]]></lines>
+	
+	<lines name="reply" descr=""><![CDATA[Trả lời]]></lines>
+	<lines name="delete" descr=""><![CDATA[Xóa]]></lines>
+	<lines name="edit" descr=""><![CDATA[Sửa]]></lines>
+	<lines name="ratingof" descr=""><![CDATA[Đánh giá của]]></lines>
+	<lines name="pageLabel" descr=""><![CDATA[Trang]]></lines>
+	<lines name="underimplement" descr=""><![CDATA[Đang mần]]></lines>
+	
+	<lines name="pushNewmessage" descr=""><![CDATA[gởi tin nhắn mới cho bạn.]]></lines>
+	<lines name="pushReplymessage" descr=""><![CDATA[gởi trả lời cho tin nhắn với bạn]]></lines>
+	
+	<lines name="setting" descr=""><![CDATA[Tùy chỉnh]]></lines>
+  
+  <lines name="securityTokenInvalid" descr=""><![CDATA[Có lỗi khi truyền dữ liệu. Hãy thử lại.]]></lines>
+  
+  <lines name="jsDelConfirm" descr=""><![CDATA[Bạn có đồng ý?]]></lines>
+  <lines name="jsAgreeLabel" descr=""><![CDATA[Đồng ý]]></lines>
+  <lines name="errPermission" descr=""><![CDATA[Bạn không có quyền truy cập vào chức năng này]]></lines>
+
+	
+</data>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Danh mục rao vặt]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách danh mục rao vặt]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Danh mục rao vặt &raquo; Danh sách]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Tạo mới danh mục rao vặt]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin danh mục rao vặt]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Danh mục rao vặt &raquo; Tạo mới]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật danh mục rao vặt]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin danh mục rao vặt]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Danh mục rao vặt &raquo; Cập nhật]]></lines>
+
+	
+	<lines name="labelId" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelImage" descr=""><![CDATA[Hình đại diện]]></lines>
+	<lines name="labelStuff" descr=""><![CDATA[Rao vặt]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Tên danh mục]]></lines>
+	<lines name="labelSlug" descr=""><![CDATA[Slug]]></lines>
+	<lines name="labelSummary" descr=""><![CDATA[Mô tả ngắn gọn]]></lines>
+	<lines name="labelSeotitle" descr=""><![CDATA[Seo title]]></lines>
+	<lines name="labelSeokeyword" descr=""><![CDATA[Seo keyword]]></lines>
+	<lines name="labelSeodescription" descr=""><![CDATA[Seo description]]></lines>
+	<lines name="labelParentid" descr=""><![CDATA[Danh mục cha]]></lines>
+	<lines name="labelCountitem" descr=""><![CDATA[Số lượng tin rao vặt]]></lines>
+	<lines name="labelDisplayorder" descr=""><![CDATA[Thứ tự hiển thị]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Ngày tạo]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Ngày sửa]]></lines>
+	<lines name="labelIconclass" descr=""><![CDATA[Icon class cho danh mục]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Từ khóa]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Tìm từ khóa trong -]]></lines>
+    <lines name="labelCategoryPermission" descr=""><![CDATA[Phân quyền danh mục]]></lines>
+    <lines name="labelHaveStuff" descr=""><![CDATA[Rao vặt]]></lines>
+    <lines name="labelHaveStuffcategory" descr=""><![CDATA[Danh mục rao vặt]]></lines>
+	
+	
+	
+	<lines name="errNameRequired" descr=""><![CDATA[Tên danh mục không được để trống.]]></lines>
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi trong quá trình tạo danh mục.]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Danh mục đã được tạo thành công.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi trong quá trình cập nhật danh mục.]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Danh mục đã được cập nhật.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Hiện chưa có danh mục nào.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi trong quá trình xóa danh mục ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Danh mục với id ###id### đã được xóa.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	<lines name="head_list_role" descr=""><![CDATA[Phân quyền danh mục rao vặt]]></lines>
+	<lines name="title_list_role" descr=""><![CDATA[Danh sách phân quyền danh mục rao vặt]]></lines>
+	<lines name="head_add_role" descr=""><![CDATA[Thêm phân quyền]]></lines>
+	<lines name="head_edit_role" descr=""><![CDATA[Cập nhật phân quyền]]></lines>
+	<lines name="labelAccount" descr=""><![CDATA[Tài khoản]]></lines>
+	<lines name="labelMod" descr=""><![CDATA[Tạo phân quyền]]></lines>
+	<lines name="errRole" descr=""><![CDATA[Vui lòng chọn danh mục để phân quyền.]]></lines>
+	<lines name="errRoleUser" descr=""><![CDATA[Vui lòng nhập mã tài khoản.]]></lines>
+	<lines name="errRoleCategoryExist" descr=""><![CDATA[Danh mục ###pcid### đã được phân quyền cho tài khoản này.]]></lines>
+	<lines name="succAddRole" descr=""><![CDATA[Phân quyền danh mục đã được tạo.]]></lines>
+	<lines name="errAddRole" descr=""><![CDATA[Có lỗi xảy ra trong quá trình tạo phân quyền danh mục.]]></lines>
+	<lines name="errorAccess" descr=""><![CDATA[Bạn không thể truy cập vào trang này.]]></lines>
+	<lines name="succUpdateRole" descr=""><![CDATA[Cập nhật phân quyền thành công.]]></lines>
+	<lines name="errUpdateRole" descr=""><![CDATA[Có lỗi xảy ra trong quá trình cập nhật phân quyền.]]></lines>
+	<lines name="succDeleteRole" descr=""><![CDATA[Phân quyền cho danh mục ###name### đã được xóa]]></lines>
+	<lines name="errDeleteRole" descr=""><![CDATA[Phân quyền cho danh mục ###name### không thể xóa]]></lines>
+	<lines name="errRoleCategoryDelegate" descr=""><![CDATA[Bạn không thể phân quyền cho danh mục ###name###]]></lines>
+	<lines name="errParentRequired" descr=""><![CDATA[Bạn không có quyền tạo danh mục cha. Vui lòng chọn danh mục cha.]]></lines>
+	<lines name="labelView" descr=""><![CDATA[Xem]]></lines>
+	<lines name="labelChange" descr=""><![CDATA[Thay đổi]]></lines>
+	<lines name="labelDelete" descr=""><![CDATA[Xóa]]></lines>
+	<lines name="labelGroup" descr=""><![CDATA[Nhóm]]></lines>
+	<lines name="errstartUser" descr=""><![CDATA[Bạn chưa thuộc phòng ban nào nên không thể thực hiện chức năng này.]]></lines>
+	<lines name="errendUser" descr=""><![CDATA[Tài khoản ###name### hiện tại không thuộc phòng ban của bạn.]]></lines>
+	<lines name="errendUserPiority" descr=""><![CDATA[Chức vụ của bạn không thể phân quyền cho tài khoản ###name###.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy dữ liệu.]]></lines>
+	<lines name="errorAddPermission" descr=""><![CDATA[Không được tạo danh mục mới bên ngoài danh mục được phân quyền.]]></lines>
+	<lines name="errorEditPermission" descr=""><![CDATA[Bạn không có quyền cập nhật danh mục.]]></lines>
+	<lines name="errorDeletePermission" descr=""><![CDATA[Bạn không có quyền xóa danh mục.]]></lines>
+	<lines name="errRole" descr=""><![CDATA[Vui lòng chọn danh mục để phân quyền.]]></lines>
+	<lines name="errRoleUser" descr=""><![CDATA[Vui lòng nhập mã tài khoản.]]></lines>
+	<lines name="errRoleCategoryExist" descr=""><![CDATA[Danh mục ###pcid### đã được phân quyền cho tài khoản này.]]></lines>
+	<lines name="succAddRole" descr=""><![CDATA[Phân quyền danh mục đã được tạo.]]></lines>
+	<lines name="errAddRole" descr=""><![CDATA[Có lỗi xảy ra trong quá trình tạo phân quyền danh mục.]]></lines>
+	<lines name="errorAccess" descr=""><![CDATA[Bạn không thể truy cập vào trang này.]]></lines>
+	<lines name="succUpdateRole" descr=""><![CDATA[Cập nhật phân quyền thành công.]]></lines>
+	<lines name="errUpdateRole" descr=""><![CDATA[Có lỗi xảy ra trong quá trình cập nhật phân quyền.]]></lines>
+	<lines name="labelCreatorid" descr=""><![CDATA[Người tạo]]></lines>
+	<lines name="succDeleteRole" descr=""><![CDATA[Phân quyền cho danh mục ###name### đã được xóa]]></lines>
+	<lines name="errDeleteRole" descr=""><![CDATA[Phân quyền cho danh mục ###name### không thể xóa]]></lines>
+	<lines name="errRoleCategoryDelegate" descr=""><![CDATA[Bạn không thể phân quyền cho danh mục ###name###]]></lines>
+	
+	<lines name="errRoleFull" descr=""><![CDATA[Danh mục được phân quyền phải có quyền xem hoặc thay đổi.]]></lines>
+
+</data>

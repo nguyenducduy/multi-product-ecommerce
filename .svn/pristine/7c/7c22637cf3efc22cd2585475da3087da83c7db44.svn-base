@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Giá Đối thủ]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách giá đối thủ]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Giá đối thủ &raquo; Danh sách]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Thêm giá đối thủ]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin giá đối thủ]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Giá đối thủ &raquo; Thêm]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Cập nhật giá đối thủ]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Thông tin giá đối thủ]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Giá đối thủ &raquo; Cập nhật]]></lines>
+
+	
+	<lines name="labelPid" descr=""><![CDATA[Mã sản phẩm]]></lines>
+	<lines name="labelUid" descr=""><![CDATA[Tài khoản]]></lines>
+	<lines name="labelEid" descr=""><![CDATA[Đối thủ]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelUrl" descr=""><![CDATA[Url]]></lines>
+	<lines name="labelPrice" descr=""><![CDATA[Giá gốc]]></lines>	
+	<lines name="labelPricePromotion" descr=""><![CDATA[Giá Khuyến Mãi]]></lines>	
+	<lines name="labelPriceauto" descr=""><![CDATA[Giá tự động]]></lines>
+	<lines name="labelNote" descr=""><![CDATA[Ghi chú]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Datecreated]]></lines>
+	<lines name="labelDateupdated" descr=""><![CDATA[Dateupdated]]></lines>
+	<lines name="labelDatesynced" descr=""><![CDATA[Datesynced]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	<lines name="labelDisplayorder" descr=""><![CDATA[Thứ tự hiển thị]]></lines>
+	
+	
+	<lines name="errPidMustGreaterThanZero" descr=""><![CDATA[Vui lòng nhập mã sản phẩm]]></lines>
+	<lines name="errUidMustGreaterThanZero" descr=""><![CDATA[Uid must be greater than zero.]]></lines>
+	<lines name="errEidMustGreaterThanZero" descr=""><![CDATA[Vui lòng chọn đối thủ.]]></lines>
+	<lines name="errUrlRequired" descr=""><![CDATA[Vui lòng nhập URL.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi xảy ra trong quá trình thêm giá đối thủ]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Giá đối thủ đã được thêm thành công.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi xảy ra trong quá trình cập nhật giá đối thủ]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Giá đối thủ đã được cập nhật.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy dữ liệu.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi xảy ra trong quá trình xóa giá đối thủ có id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Giá đối thủ có id ###id### đã được xóa.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy dữ liệu.]]></lines>
+
+	<lines name="errSearchCond" descr=""><![CDATA[Vui lòng nhập mã sản phẩm hoặc barcode để tìm kiếm.]]></lines>
+	<lines name="productPermission" descr=""><![CDATA[Sản phẩm này không thuộc ngành hàng của bạn.]]></lines>
+	<lines name="productNotFound" descr=""><![CDATA[Không tìm thấy sản phẩm mà bạn yêu cầu.]]></lines>
+	<lines name="errPriceEnemyExist" descr=""><![CDATA[Thông tin giá đối thủ đã tồn tại.]]></lines>
+	<lines name="errAddPermission" descr=""><![CDATA[Bạn không thễ thêm thông tin giá của đối thủ cho sản phẩm này.]]></lines>
+	
+	<lines name="lableName" descr=""><![CDATA[Tên chi nhánh.]]></lines>
+	<lines name="lableImage" descr=""><![CDATA[Image]]></lines>
+	<lines name="lablePromotionInfo" descr=""><![CDATA[Thông tin khuyến mãi.]]></lines>
+	<lines name="lablePricePromotion" descr=""><![CDATA[Giá khuyến mãi.]]></lines>
+	<lines name="labelRegion" descr=""><![CDATA[Tỉnh thành.]]></lines>
+	<lines name="lableType" descr=""><![CDATA[Hình thức thêm giá đối thủ.]]></lines>
+	<lines name="labelDescription" descr=""><![CDATA[Mô tả]]></lines>
+	<lines name="lablePrice" descr=""><![CDATA[Giá gốc]]></lines>
+	<lines name="errorName" descr=""><![CDATA[Vui lòng nhập tên chi nhánh]]></lines>
+	<lines name="lableProductname" descr=""><![CDATA[Tên sản phẩm của đối thủ]]></lines>
+	
+	
+</data>

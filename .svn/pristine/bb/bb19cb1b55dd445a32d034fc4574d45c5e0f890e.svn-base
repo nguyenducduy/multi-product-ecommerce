@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="labelLeftPosition" descr=""><![CDATA[Bên trái]]></lines>
+	<lines name="labelCenterPosition" descr=""><![CDATA[Ở giữa]]></lines>
+	<lines name="labelAllPosition" descr=""><![CDATA[Tất cả]]></lines>
+</data>

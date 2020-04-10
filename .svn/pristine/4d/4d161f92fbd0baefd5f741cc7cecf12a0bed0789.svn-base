@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[ForecastUservalue]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[ForecastUservalue Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[ForecastUservalue &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New ForecastUservalue]]></lines>
+	<lines name="title_add" descr=""><![CDATA[ForecastUservalue Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[ForecastUservalue &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update ForecastUservalue]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[ForecastUservalue Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[ForecastUservalue &raquo; Update]]></lines>
+
+	
+	<lines name="labelUid" descr=""><![CDATA[Uid]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelIdentifier" descr=""><![CDATA[Identifier]]></lines>
+	<lines name="labelSheet" descr=""><![CDATA[Sheet]]></lines>
+	<lines name="labelValue" descr=""><![CDATA[Value]]></lines>
+	<lines name="labelDescription" descr=""><![CDATA[Description]]></lines>
+	<lines name="labelDate" descr=""><![CDATA[Date]]></lines>
+	<lines name="labelLevel" descr=""><![CDATA[Level]]></lines>
+	<lines name="labelIsofficial" descr=""><![CDATA[Isofficial]]></lines>
+	<lines name="labelCanedit" descr=""><![CDATA[Canedit]]></lines>
+	<lines name="labelCandelete" descr=""><![CDATA[Candelete]]></lines>
+	<lines name="labelSessionid" descr=""><![CDATA[Sessionid]]></lines>
+	<lines name="labelIpaddress" descr=""><![CDATA[Ipaddress]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Datecreated]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Datemodified]]></lines>
+	
+	
+	<lines name="errUidMustGreaterThanZero" descr=""><![CDATA[Uid must be greater than zero.]]></lines>
+	<lines name="errIdentifierRequired" descr=""><![CDATA[Identifier is required.]]></lines>
+	<lines name="errSheetRequired" descr=""><![CDATA[Sheet is required.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add ForecastUservalue]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[ForecastUservalue had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating ForecastUservalue]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[ForecastUservalue had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[ForecastUservalue not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting ForecastUservalue with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[ForecastUservalue with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

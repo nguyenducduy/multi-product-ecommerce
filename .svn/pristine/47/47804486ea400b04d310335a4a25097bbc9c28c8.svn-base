@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Khuyến mãi]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách chương trình khuyến mãi]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Promotion &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New Promotion]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Promotion Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Promotion &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update Promotion]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Promotion Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Promotion &raquo; Update]]></lines>
+
+	
+	<lines name="labelId" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelUsercreate" descr=""><![CDATA[User create]]></lines>
+	<lines name="labelUseractive" descr=""><![CDATA[User active]]></lines>
+	<lines name="labelUserdelete" descr=""><![CDATA[User delete]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Tên chương trình]]></lines>
+	<lines name="labelShortdescription" descr=""><![CDATA[Tóm tắt]]></lines>
+	<lines name="labelDescription" descr=""><![CDATA[Mô tả]]></lines>
+	<lines name="labelIsnew" descr=""><![CDATA[New]]></lines>
+	<lines name="labelShowtype" descr=""><![CDATA[Show type]]></lines>
+	<lines name="labelIsprintpromotion" descr=""><![CDATA[Is print promotion]]></lines>
+	<lines name="labelDescriptionproductapply" descr=""><![CDATA[Description product apply]]></lines>
+	<lines name="labelDescriptionpromotioninfo" descr=""><![CDATA[Description promotion info]]></lines>
+	<lines name="labelIspromotionbyprice" descr=""><![CDATA[Is promotion by price]]></lines>
+	<lines name="labelMaxpromotionbyprice" descr=""><![CDATA[Max promotion by price]]></lines>
+	<lines name="labelMinpromotionbyprice" descr=""><![CDATA[Min promotion by price]]></lines>
+	<lines name="labelIspromotionbytotalmoney" descr=""><![CDATA[Is promotion by total money]]></lines>
+	<lines name="labelMaxpromotionbytotalmoney" descr=""><![CDATA[Max promotion by total money]]></lines>
+	<lines name="labelMinpromotionbytotalmoney" descr=""><![CDATA[Min promotion by total money]]></lines>
+	<lines name="labelIspromotionbyquantity" descr=""><![CDATA[Is promotion by quantity]]></lines>
+	<lines name="labelMaxpromotionbyquantity" descr=""><![CDATA[Max promotion by quantity]]></lines>
+	<lines name="labelMinpromotionbyquantity" descr=""><![CDATA[Min promotion by quantity]]></lines>
+	<lines name="labelIspromotionbyhour" descr=""><![CDATA[Is promotion by hour]]></lines>
+	<lines name="labelStartpromotionbyhour" descr=""><![CDATA[Start promotion by hour]]></lines>
+	<lines name="labelEndpromotionbyhour" descr=""><![CDATA[End promotion by hour]]></lines>
+	<lines name="labelIsloyalty" descr=""><![CDATA[Is loyalty]]></lines>
+	<lines name="labelIsnotloyalty" descr=""><![CDATA[Is not loyalty]]></lines>
+	<lines name="labelIsimei" descr=""><![CDATA[Is imei]]></lines>
+	<lines name="labelIscombo" descr=""><![CDATA[Is combo]]></lines>
+	<lines name="labelIsshowvat" descr=""><![CDATA[Is showvat]]></lines>
+	<lines name="labelMessagevat" descr=""><![CDATA[Message vat]]></lines>
+	<lines name="labelIspriorityinvoice" descr=""><![CDATA[Is priority invoice]]></lines>
+	<lines name="labelIsdiscountpercent" descr=""><![CDATA[Is discount percent]]></lines>
+	<lines name="labelDiscountvalue" descr=""><![CDATA[Dis countvalue]]></lines>
+	<lines name="labelIsconditiondiscount" descr=""><![CDATA[Is condition discount]]></lines>
+	<lines name="labelPromolgconditiondiscounttext" descr=""><![CDATA[Promomotion list group condition discounttext]]></lines>
+	<lines name="labelTypeapply" descr=""><![CDATA[Type apply]]></lines>
+	<lines name="labelIsunlimited" descr=""><![CDATA[Is unlimited]]></lines>
+	<lines name="labelTimepromotion" descr=""><![CDATA[Time promotion]]></lines>
+	<lines name="labelUrl" descr=""><![CDATA[Url]]></lines>
+	<lines name="labelIshot" descr=""><![CDATA[Is hot]]></lines>
+	<lines name="labelIsactived" descr=""><![CDATA[Is actived]]></lines>
+	<lines name="labelImage" descr=""><![CDATA[Image]]></lines>
+	<lines name="labelIsdeleted" descr=""><![CDATA[Is deleted]]></lines>
+	<lines name="labelStartdate" descr=""><![CDATA[Ngày bắt đầu]]></lines>
+	<lines name="labelEnddate" descr=""><![CDATA[Ngày kết thúc]]></lines>
+	<lines name="labelDateadd" descr=""><![CDATA[Date add]]></lines>
+	<lines name="labelDatemodify" descr=""><![CDATA[Date modify]]></lines>
+	<lines name="labelDisplayorder" descr=""><![CDATA[Display order]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	
+	
+	<lines name="errNameRequired" descr=""><![CDATA[Name is required.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add Promotion]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Promotion had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating Promotion]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Promotion had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Promotion not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting Promotion with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Promotion with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

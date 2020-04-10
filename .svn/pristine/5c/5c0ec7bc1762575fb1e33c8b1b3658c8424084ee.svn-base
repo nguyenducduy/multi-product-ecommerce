@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Subscriber]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Subscriber Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Subscriber &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New Subscriber]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Subscriber Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Subscriber &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update Subscriber]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Subscriber Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Subscriber &raquo; Update]]></lines>
+
+	
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelUid" descr=""><![CDATA[Uid]]></lines>
+	<lines name="labelEmail" descr=""><![CDATA[Email]]></lines>
+	<lines name="labelIpaddress" descr=""><![CDATA[Ipaddress]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Datecreated]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Datemodified]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	
+	
+	<lines name="errEmailRequired" descr=""><![CDATA[Email is required.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add Subscriber]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Subscriber had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating Subscriber]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Subscriber had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Subscriber not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting Subscriber with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Subscriber with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

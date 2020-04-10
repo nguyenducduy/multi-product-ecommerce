@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Quản lý người tham gia chương trình]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách người tham gia chương trình]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Người tham gia chương trình &raquo; Danh sách]]></lines>
+	
+    <lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelProductName" descr=""><![CDATA[Nhập người tham gia chương trình cần tìm]]></lines>
+    <lines name="labelListproduct" descr=""><![CDATA[Danh sách người tham gia chương trình]]></lines>
+    <lines name="labelUpdate" descr=""><![CDATA[Cập nhật]]></lines>
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	 <lines name="labelUserNameList" descr=""><![CDATA[Danh sách người tham gia chương trình]]></lines>
+    <lines name="labelID" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Tên người chơi]]></lines>
+	<lines name="labelEmail" descr=""><![CDATA[Email]]></lines>
+	<lines name="labelPhone" descr=""><![CDATA[Số điện thoại]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="labelSearch" descr=""><![CDATA[Tìm kiếm]]></lines>
+	<lines name="labelDateCreated" descr=""><![CDATA[Ngày tham gia]]></lines>
+	<lines name="errNameNotEmpty" descr=""><![CDATA[Vui lòng nhập tên, số điện thoại hoặc email để tìm kiếm]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Tìm kiếm theo]]></lines>
+	
+</data>

@@ -1,0 +1,142 @@
+<div class="header-row">
+    <div class="header-row-wrapper">
+        <header>
+            <h1 class="header-main" id="page-header" rel="menu_general_list">
+                <i class="fa fa-file-text-o"></i>
+                <span class="breadcrumb"><a href="{$conf.rooturl_admin}{$controller}" title="">Setting</a> /</span>
+                General
+            </h1>
+            <div class="header-right pull-right">
+                <a class="btn btn-default" href="{$conf.rooturl_admin}{$controller}">Cancel</a>
+                <a class="btn btn-success" href="javascript:void(0)" onclick="$('#myform').submit();">Save</a>
+            </div>
+        </header>
+    </div>
+</div>
+
+
+<form action="" id="myform" method="post" name="myform" class="form-horizontal">
+<input type="hidden" name="ftoken" value="{$smarty.session.newsAddToken}" />
+
+    {include file="notify.tpl" notifyError=$error notifySuccess=$success notifyWarning=$warning}
+
+
+    <div class="row section">
+        <div class="col-md-3 section-summary">
+            <h1>Store details</h1>
+            <p>Edit your store information. The store name shows up on your storefront, while the title and meta description help define how your store shows up on search engines.</p>
+        </div>
+        <div class="col-md-9 section-content">
+            <div class="col-md-12 ssb clear inner-left">
+                <label for="fgroupid">Store name</label>
+                <input type="text" name="fstore" id="fstore" value="" class="">
+            </div>
+
+            <div class="col-md-12 ssb clear inner-left">
+                <label for="fgroupid">Homepage Title &nbsp;<span class="note" > of 70 characters used</span></label>
+                <input type="text" name="fseotitle" id="fseotitle" value="" class="">
+            </div>
+
+            <div class="col-md-12 ssb clear inner-left">
+                <label for="fgroupid">Homepage meta description &nbsp;<span class="note" > of 160 characters used</span></label>
+                <textarea name="fseodescription" id="fseodescription">
+                    
+                </textarea>
+            </div>
+
+            <div class="col-md-12 ssb clear inner-left">
+                <label for="fgroupid">Homepage meta keyword &nbsp;<span class="note"> of 160 characters used</span></label>
+                <input type="text" name="fseokeyword" id="fseokeyword"  value="" class="">
+            </div>
+
+            <div class="ssb clear">
+                <div class="col-md-6 inner-left">
+                    <label for="faccountemail">Account email</label>
+                    <input type="text" name="faccountemail" id="faccountemail" />
+                    <span class="note">
+                        Email used for Shopify to contact you about your account
+                    </span>
+                </div>
+                <div class="col-md-6 inner-right">
+                    <label for="fcustomeremail">Customer email</label>
+                    <input type="password" name="fcustomeremail" id="fcustomeremail" />
+                    <span class="note">
+                        Your customers will see this when you email them (e.g.: order confirmations)
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div><!-- end .section -->
+
+     <div class="row section">
+        <div class="col-md-3 section-summary">
+            <h1>Store address</h1>
+            <p>This address will appear on your invoices and will be used to calculate your shipping rates.</p>
+        </div>
+        <div class="col-md-9 section-content">
+            <div class="col-md-3 ssb clear inner-left">
+                <label for="fgroupid">Phone</label>
+                <input type="text" name="fphone" id="fphone" value="" class="">
+            </div>
+
+            <div class="col-md-6 ssb clear inner-left">
+                <label for="fgroupid">Street</label>
+                <input type="text" name="faddress" id="faddress" value="" class="">
+            </div>
+
+            <div class="col-md-12 ssb inner-left">
+                <div class="col-md-3  inner-left">
+                    <label for="fgroupid">City</label>
+                    <input type="text" name="fcity" id="fcity" value="" class="">
+                </div>
+                <div class="col-md-2 inner-left">
+                    <label for="fgroupid">Postal / Zip Code</label>
+                    <input type="text" name="fcity" id="fcity" value="" class="">
+                </div>
+            </div>
+
+            <div class="col-md-12 ssb clear inner-left">
+                <label for="fgroupid">Country</span></label>
+                <select name="fcountry" id="fcountry">
+                    <option value="3">Canada</option>
+                </select>
+            </div>
+        </div>
+    </div><!-- end .section -->
+
+     <div class="row section">
+        <div class="col-md-3 section-summary">
+            <h1>Standards & formats</h1>
+            <p>Standards and formats are used to calculate such things as product price, shipping weight and the time an order was placed.</p>
+        </div>
+        <div class="col-md-9 section-content">
+            <div class="col-md-5 ssb clear inner-left">
+                <label for="fgroupid">Order ID</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" name="forderid" id="forderid" value="">
+                    <span class="input-group-addon">Example: #1001</span>
+                </div>
+            </div>  
+        </div>
+    </div><!-- end .section -->
+    <div class="row section">
+        <div class="col-md-3 section-summary">
+            <h1>Google Analytics</h1>
+            <p>Paste in the code supplied by Google.</p>
+        </div>
+        <div class="col-md-9 section-content">
+                <label for="fgroupid">Google Analytics code <span class="note"><a>(how do I set this up?)</a></span></label>
+                <textarea name="fgoogleanalytics"  id="fgoogleanalytics" placeholder="Paste your code from Google here">
+                    
+                </textarea>
+        </div>
+    </div><!-- end .section -->
+
+    <div class="row section buttons">
+        <input type="hidden" name="fsubmit" value="1" />
+        <input type="submit" value="{$lang.default.formAddSubmit}" class="btn btn-success" />
+        <span class="pull-left"><span class="star_require">*</span> : {$lang.default.formRequiredLabel}</span>
+    </div>
+
+</form>
+

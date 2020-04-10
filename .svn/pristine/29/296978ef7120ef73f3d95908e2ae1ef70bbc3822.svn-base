@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Crontask]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Crontask Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Crontask &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New Crontask]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Crontask Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Crontask &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update Crontask]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Crontask Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Crontask &raquo; Update]]></lines>
+
+	
+	<lines name="labelId" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelController" descr=""><![CDATA[Controller]]></lines>
+	<lines name="labelAction" descr=""><![CDATA[Action]]></lines>
+	<lines name="labelIpaddress" descr=""><![CDATA[IP Address]]></lines>
+	<lines name="labelTimeprocessing" descr=""><![CDATA[Time Processing]]></lines>
+	<lines name="labelOutput" descr=""><![CDATA[Output]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Date Created]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	
+	
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add Crontask]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Crontask had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating Crontask]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Crontask had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Crontask not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting Crontask with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Crontask with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

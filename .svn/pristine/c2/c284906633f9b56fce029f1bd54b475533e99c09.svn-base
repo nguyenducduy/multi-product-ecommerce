@@ -1,0 +1,1 @@
+<h2>{$lang.controller.titleRecommend}</h2>

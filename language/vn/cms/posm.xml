@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Posm]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Posm Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Posm &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New Posm]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Posm Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Posm &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update Posm]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Posm Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Posm &raquo; Update]]></lines>
+
+	
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Name]]></lines>
+	<lines name="labelCodeimage" descr=""><![CDATA[Codeimage]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	
+	
+	<lines name="errNameRequired" descr=""><![CDATA[Name is required.]]></lines>
+	<lines name="errCodeimageRequired" descr=""><![CDATA[Codeimage is required.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add Posm]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Posm had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating Posm]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Posm had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Posm not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting Posm with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Posm with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

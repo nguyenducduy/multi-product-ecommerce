@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Đơn hàng ERP]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Đơn hàng ERP]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Đơn hàng ERP &raquo; Danh sách]]></lines>
+	
+
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelSaleorderid" descr=""><![CDATA[Sale Order ID]]></lines>
+	<lines name="labelOrdertypeid" descr=""><![CDATA[Hình thức xuất]]></lines>
+	<lines name="labelDeliverytypeid" descr=""><![CDATA[Delivery type id]]></lines>
+	<lines name="labelCompanyid" descr=""><![CDATA[Companyid]]></lines>
+	<lines name="labelCustomerid" descr=""><![CDATA[Customer ID]]></lines>
+	<lines name="labelCustomername" descr=""><![CDATA[Khách hàng]]></lines>
+	<lines name="labelCustomeraddress" descr=""><![CDATA[Địa chỉ]]></lines>
+	<lines name="labelCustomerphone" descr=""><![CDATA[Điện thoại]]></lines>
+	<lines name="labelContactname" descr=""><![CDATA[Tên liên hệ]]></lines>
+	<lines name="labelGender" descr=""><![CDATA[Gender]]></lines>
+	<lines name="labelAgeid" descr=""><![CDATA[Ageid]]></lines>
+	<lines name="labelDeliveryaddress" descr=""><![CDATA[Deliveryaddress]]></lines>
+	<lines name="labelProvinceid" descr=""><![CDATA[Provinceid]]></lines>
+	<lines name="labelDistrictid" descr=""><![CDATA[Districtid]]></lines>
+	<lines name="labelIsreviewed" descr=""><![CDATA[Isreviewed]]></lines>
+	<lines name="labelPayabletypeid" descr=""><![CDATA[Payabletypeid]]></lines>
+	<lines name="labelCurrencyunitid" descr=""><![CDATA[Currencyunitid]]></lines>
+	<lines name="labelCurrencyexchange" descr=""><![CDATA[Currencyexchange]]></lines>
+	<lines name="labelTotalquantity" descr=""><![CDATA[Totalquantity]]></lines>
+	<lines name="labelTotalamount" descr=""><![CDATA[Totalamount]]></lines>
+	<lines name="labelTotaladvance" descr=""><![CDATA[Totaladvance]]></lines>
+	<lines name="labelShippingcost" descr=""><![CDATA[Shippingcost]]></lines>
+	<lines name="labelDebt" descr=""><![CDATA[Debt]]></lines>
+	<lines name="labelDiscountreasonid" descr=""><![CDATA[Discountreasonid]]></lines>
+	<lines name="labelDiscount" descr=""><![CDATA[Discount]]></lines>
+	<lines name="labelOriginatestoreid" descr=""><![CDATA[Originatestoreid]]></lines>
+	<lines name="labelIsoutproduct" descr=""><![CDATA[Isoutproduct]]></lines>
+	<lines name="labelOutputstoreid" descr=""><![CDATA[Outputstoreid]]></lines>
+	<lines name="labelIsincome" descr=""><![CDATA[Isincome]]></lines>
+	<lines name="labelIsdeleted" descr=""><![CDATA[Isdeleted]]></lines>
+	<lines name="labelPromotiondiscount" descr=""><![CDATA[Promotiondiscount]]></lines>
+	<lines name="labelVouchertypeid" descr=""><![CDATA[Vouchertypeid]]></lines>
+	<lines name="labelVoucherconcern" descr=""><![CDATA[Voucherconcern]]></lines>
+	<lines name="labelDeliveryuser" descr=""><![CDATA[Deliveryuser]]></lines>
+	<lines name="labelSaleprogramid" descr=""><![CDATA[Saleprogramid]]></lines>
+	<lines name="labelTotalpaid" descr=""><![CDATA[Totalpaid]]></lines>
+	<lines name="labelIssmspromotion" descr=""><![CDATA[Issmspromotion]]></lines>
+	<lines name="labelDeliverytime" descr=""><![CDATA[Deliverytime]]></lines>
+	<lines name="labelIsdelivery" descr=""><![CDATA[Isdelivery]]></lines>
+	<lines name="labelDeliveryupdatetime" descr=""><![CDATA[Deliveryupdatetime]]></lines>
+	<lines name="labelIsmove" descr=""><![CDATA[Ismove]]></lines>
+	<lines name="labelParentsaleorderid" descr=""><![CDATA[Parentsaleorderid]]></lines>
+	<lines name="labelThirdpartyvoucher" descr=""><![CDATA[Thirdpartyvoucher]]></lines>
+	<lines name="labelPayabletime" descr=""><![CDATA[Payabletime]]></lines>
+	<lines name="labelCreatedbyotherapps" descr=""><![CDATA[Createdbyotherapps]]></lines>
+	<lines name="labelContactphone" descr=""><![CDATA[Phone]]></lines>
+	<lines name="labelCustomercarestatusid" descr=""><![CDATA[Customercarestatusid]]></lines>
+	<lines name="labelTotalprepaid" descr=""><![CDATA[Totalprepaid]]></lines>
+	<lines name="labelCrmcustomerid" descr=""><![CDATA[CRM Customer ID]]></lines>
+	<lines name="labelDatearchived" descr=""><![CDATA[Ngày đồng bộ]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	
+	
+	<lines name="errSaleorderidRequired" descr=""><![CDATA[Saleorderid is required.]]></lines>
+	<lines name="errOrdertypeidRequired" descr=""><![CDATA[Ordertypeid is required.]]></lines>
+	<lines name="errDeliverytypeidRequired" descr=""><![CDATA[Deliverytypeid is required.]]></lines>
+	<lines name="errCompanyidRequired" descr=""><![CDATA[Companyid is required.]]></lines>
+	<lines name="errCustomeridRequired" descr=""><![CDATA[Customerid is required.]]></lines>
+	<lines name="errCustomernameRequired" descr=""><![CDATA[Customername is required.]]></lines>
+	<lines name="errCustomeraddressRequired" descr=""><![CDATA[Customeraddress is required.]]></lines>
+	<lines name="errCustomerphoneRequired" descr=""><![CDATA[Customerphone is required.]]></lines>
+	<lines name="errContactnameRequired" descr=""><![CDATA[Contactname is required.]]></lines>
+	<lines name="errGenderRequired" descr=""><![CDATA[Gender is required.]]></lines>
+	<lines name="errAgeidRequired" descr=""><![CDATA[Ageid is required.]]></lines>
+	<lines name="errDeliveryaddressRequired" descr=""><![CDATA[Deliveryaddress is required.]]></lines>
+	<lines name="errProvinceidRequired" descr=""><![CDATA[Provinceid is required.]]></lines>
+	<lines name="errDistrictidRequired" descr=""><![CDATA[Districtid is required.]]></lines>
+	<lines name="errIsreviewedRequired" descr=""><![CDATA[Isreviewed is required.]]></lines>
+	<lines name="errPayabletypeidRequired" descr=""><![CDATA[Payabletypeid is required.]]></lines>
+	<lines name="errCurrencyunitidRequired" descr=""><![CDATA[Currencyunitid is required.]]></lines>
+	<lines name="errCurrencyexchangeRequired" descr=""><![CDATA[Currencyexchange is required.]]></lines>
+	<lines name="errTotalquantityRequired" descr=""><![CDATA[Totalquantity is required.]]></lines>
+	<lines name="errTotalamountRequired" descr=""><![CDATA[Totalamount is required.]]></lines>
+	<lines name="errTotaladvanceRequired" descr=""><![CDATA[Totaladvance is required.]]></lines>
+	<lines name="errShippingcostRequired" descr=""><![CDATA[Shippingcost is required.]]></lines>
+	<lines name="errDebtRequired" descr=""><![CDATA[Debt is required.]]></lines>
+	<lines name="errDiscountreasonidRequired" descr=""><![CDATA[Discountreasonid is required.]]></lines>
+	<lines name="errDiscountRequired" descr=""><![CDATA[Discount is required.]]></lines>
+	<lines name="errOriginatestoreidRequired" descr=""><![CDATA[Originatestoreid is required.]]></lines>
+	<lines name="errIsoutproductRequired" descr=""><![CDATA[Isoutproduct is required.]]></lines>
+	<lines name="errOutputstoreidRequired" descr=""><![CDATA[Outputstoreid is required.]]></lines>
+	<lines name="errIsincomeRequired" descr=""><![CDATA[Isincome is required.]]></lines>
+	<lines name="errIsdeletedRequired" descr=""><![CDATA[Isdeleted is required.]]></lines>
+	<lines name="errPromotiondiscountRequired" descr=""><![CDATA[Promotiondiscount is required.]]></lines>
+	<lines name="errVouchertypeidRequired" descr=""><![CDATA[Vouchertypeid is required.]]></lines>
+	<lines name="errVoucherconcernRequired" descr=""><![CDATA[Voucherconcern is required.]]></lines>
+	<lines name="errDeliveryuserRequired" descr=""><![CDATA[Deliveryuser is required.]]></lines>
+	<lines name="errSaleprogramidRequired" descr=""><![CDATA[Saleprogramid is required.]]></lines>
+	<lines name="errTotalpaidRequired" descr=""><![CDATA[Totalpaid is required.]]></lines>
+	<lines name="errIssmspromotionRequired" descr=""><![CDATA[Issmspromotion is required.]]></lines>
+	<lines name="errDeliverytimeRequired" descr=""><![CDATA[Deliverytime is required.]]></lines>
+	<lines name="errIsdeliveryRequired" descr=""><![CDATA[Isdelivery is required.]]></lines>
+	<lines name="errDeliveryupdatetimeRequired" descr=""><![CDATA[Deliveryupdatetime is required.]]></lines>
+	<lines name="errIsmoveRequired" descr=""><![CDATA[Ismove is required.]]></lines>
+	<lines name="errParentsaleorderidRequired" descr=""><![CDATA[Parentsaleorderid is required.]]></lines>
+	<lines name="errThirdpartyvoucherRequired" descr=""><![CDATA[Thirdpartyvoucher is required.]]></lines>
+	<lines name="errPayabletimeRequired" descr=""><![CDATA[Payabletime is required.]]></lines>
+	<lines name="errCreatedbyotherappsRequired" descr=""><![CDATA[Createdbyotherapps is required.]]></lines>
+	<lines name="errContactphoneRequired" descr=""><![CDATA[Contactphone is required.]]></lines>
+	<lines name="errCustomercarestatusidRequired" descr=""><![CDATA[Customercarestatusid is required.]]></lines>
+	<lines name="errTotalprepaidRequired" descr=""><![CDATA[Totalprepaid is required.]]></lines>
+	<lines name="errCrmcustomeridRequired" descr=""><![CDATA[Crmcustomerid is required.]]></lines>
+	<lines name="errDatearchivedRequired" descr=""><![CDATA[Datearchived is required.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add Đơn hàng ERP]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Đơn hàng ERP had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating Đơn hàng ERP]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Đơn hàng ERP had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Đơn hàng ERP not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting Đơn hàng ERP with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Đơn hàng ERP with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

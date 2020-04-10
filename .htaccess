@@ -1,0 +1,28 @@
+Options +FollowSymLinks
+Options -Indexes  -MultiViews
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^(www)\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%2/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !(\.png|\.jpg|\.jpeg|\.gif|\.aspx|\.css|\.js|\.)$ [NC]
+RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]
+
+
+# Workaround for using static resource dienmay.css & dienmay.js on localhost
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} (\.css|\.js)$ [NC]
+RewriteRule ^templates/default/dienmay.(css|js) templates/default/min/?g=$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^.*(\.gif|\.jpe?g|\.png)$ placeholder.png [L]
+
+
+

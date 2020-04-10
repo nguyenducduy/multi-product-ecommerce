@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	
+	<lines name="errffullnameRequired" descr=""><![CDATA[Vui lòng nhập họ và tên]]></lines>
+	<lines name="errfemailRequired" descr=""><![CDATA[Vui lòng nhập Email]]></lines>
+	<lines name="errvalidatefemailRequired" descr=""><![CDATA[Vui lòng nhập Đúng định dạng email]]></lines>
+	<lines name="errfphoneRequired" descr=""><![CDATA[Vui lòng nhập Điện thoại]]></lines>
+	<lines name="successForm" descr=""><![CDATA[Bạn đã đăng ký mua sản phẩm. Cám ơn bạn]]></lines>
+	<lines name="userLucky" descr=""><![CDATA[Email hoặc số điện thoại này đã may mắn ở sản phẩm khác]]></lines>
+	<lines name="userExsistRegister" descr=""><![CDATA[Email hoặc số điện thoại đã này đăng kí sản phẩm này]]></lines>
+
+</data>

@@ -1,0 +1,46 @@
+<?php
+
+namespace Controller\Admin;
+
+class Pages extends BaseController
+{
+    public function indexAction()
+    {
+        $contents = $this->registry->smarty->fetch($this->registry->smartyController.'index.tpl');
+
+        $this->registry->smarty->assign(array(
+                'contents' => $contents,
+                'pageTitle' => $this->registry->lang['controller']['pageTitle'],
+                'pageKeyword' => $this->registry->lang['controller']['pageKeyword'],
+                'pageDescription' => $this->registry->lang['controller']['pageDescription'],
+                ));
+
+        $this->registry->smarty->display($this->registry->smartyModule.'index.tpl');
+    }
+
+    public function addAction()
+    {
+        $contents = $this->registry->smarty->fetch($this->registry->smartyController.'add.tpl');
+
+        $this->registry->smarty->assign(array(
+            'menu'        => 'useradd',
+            'pageTitle'    => $this->registry->lang['controller']['pageTitle_add'],
+            'contents'     => $contents
+        ));
+
+        $this->registry->smarty->display($this->registry->smartyModule . 'index.tpl');
+    }
+
+    public function editAction()
+    {
+        $contents .= $this->registry->smarty->fetch($this->registry->smartyController.'edit.tpl');
+
+        $this->registry->smarty->assign(array(
+            'menu'        => 'userlist',
+            'pageTitle'    => $this->registry->lang['controller']['pageTitle_edit'],
+            'contents'             => $contents
+        ));
+
+        $this->registry->smarty->display($this->registry->smartyModule . 'index.tpl');
+    }
+}

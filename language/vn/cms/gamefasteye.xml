@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Gamefasteye]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Gamefasteye Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Gamefasteye &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New Gamefasteye]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Gamefasteye Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Gamefasteye &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update Gamefasteye]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Gamefasteye Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Gamefasteye &raquo; Update]]></lines>
+
+	
+	<lines name="labelId" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Name]]></lines>
+	<lines name="labelRule" descr=""><![CDATA[Rule]]></lines>
+	<lines name="labelBlockhtml" descr=""><![CDATA[Blockhtml]]></lines>
+	<lines name="labelTime" descr=""><![CDATA[Time]]></lines>
+	<lines name="labelStarttime" descr=""><![CDATA[Starttime]]></lines>
+	<lines name="labelExpiretime" descr=""><![CDATA[Expiretime]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Status]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Date Created]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Date Modified]]></lines>
+	
+	
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add Gamefasteye]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Gamefasteye had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating Gamefasteye]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Gamefasteye had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Gamefasteye not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting Gamefasteye with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Gamefasteye with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

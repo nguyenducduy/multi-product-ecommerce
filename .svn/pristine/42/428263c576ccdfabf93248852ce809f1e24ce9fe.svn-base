@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="dateFormatTime" descr=""><![CDATA[H:i, M d Y]]></lines>
+	<lines name="dateFormatTimeSmarty" descr=""><![CDATA[%H:%M, ngày %d/%m/%Y]]></lines>
+	<lines name="dateFormatSmarty" descr=""><![CDATA[%d/%m/%Y]]></lines>
+    <lines name="dateFormatRssSmarty" descr=""><![CDATA[%a, %d %b %Y %H:%M:%S %z]]></lines>
+    
+    <lines name="forum" descr=""><![CDATA[Forum]]></lines>
+    <lines name="bussiness" descr=""><![CDATA[Doanh nghiệp]]></lines>
+    <lines name="forPartner" descr=""><![CDATA[Dành cho đối tác]]></lines>
+    <lines name="login" descr=""><![CDATA[Đăng nhập]]></lines>
+    <lines name="logout" descr=""><![CDATA[Đăng xuất]]></lines>
+    <lines name="doitacchienluoc" descr=""><![CDATA[Đối tác chiến lược]]></lines>
+    <lines name="doitackhachhang" descr=""><![CDATA[Đối tác bán hàng]]></lines>
+    <lines name="register" descr=""><![CDATA[Đăng ký]]></lines>
+    <lines name="promotion" descr=""><![CDATA[Khuyến mãi]]></lines>
+    <lines name="promotionEvent" descr=""><![CDATA[Chương trình khuyến mãi]]></lines>
+    <lines name="khuyenmaidienlanh" descr=""><![CDATA[Khuyến mãi điện lạnh]]></lines>
+    <lines name="khuyenmaigiadung" descr=""><![CDATA[Khuyến mãi gia dụng]]></lines>
+    <lines name="khuyenmaikythuatso" descr=""><![CDATA[Khuyến mãi kỹ thuật số]]></lines>
+    
+
+
+
+
+    <lines name="operation" descr=""><![CDATA[Hoạt động]]></lines>
+    <lines name="infoaccount" descr=""><![CDATA[Thông tin tài khoản]]></lines>
+    <lines name="saleorder" descr=""><![CDATA[Đơn hàng]]></lines>
+    <lines name="point" descr=""><![CDATA[Điểm tích lũy]]></lines>
+    <lines name="support" descr=""><![CDATA[Phản hồi]]></lines>
+    <lines name="friend" descr=""><![CDATA[Bạn bè]]></lines>
+    <lines name="News" descr=""><![CDATA[Tin mua bán]]></lines>
+    <lines name="Inbox" descr=""><![CDATA[Hộp thư]]></lines>
+    <lines name="maProduct" descr=""><![CDATA[Quản lý sản phẩm]]></lines>
+    <lines name="maCustomer" descr=""><![CDATA[Quản lý khách hàng]]></lines>
+    <lines name="masaleorder" descr=""><![CDATA[Quản lý đơn hàng]]></lines>
+    <lines name="maStock" descr=""><![CDATA[Quản lý kho]]></lines>
+    <lines name="maShip" descr=""><![CDATA[Quản lý giao nhận]]></lines>
+    <lines name="promotionspecial" descr=""><![CDATA[Sản phẩm khuyến mãi]]></lines>
+</data>

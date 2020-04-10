@@ -1,0 +1,993 @@
+<?php
+
+Class Controller_Crm_Customer Extends Controller_Crm_Base
+{
+	public $recordPerPage = 20;
+
+	public function indexAction()
+	{
+		// var_dump($this->registry);
+	/*	var_dump(preg_match("/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)com+$/", "adsadsa@"));
+		die();*/
+
+		$formData 		= array('fbulkid' => array());
+		$formData['countCus'] = 0;
+		$formData['countCom'] = 0;
+
+
+		$group = $this->registry->router->getArg('group');
+		$formData['group'] = $group;
+		$keySearch  = $this->registry->router->getArg('searchkey');
+		$customer =  new Core_Customer();
+		$customers =  $customer->searchCustomer($keySearch,$group);
+		$formData['countCus'] = $customers['countCus'];
+		$formData['countCom'] = $customers['countCom'];
+		$formData['totalcount'] = $formData['countCom'] +  $formData['countCus'] ;
+		unset( $customers['countCus']);
+		unset( $customers['countCom']);
+
+		$paginateUrl = $this->registry->conf['rooturl_crm'].'customer/index/';
+
+
+
+		//build redirect string
+		$redirectUrl = $paginateUrl;
+		$redirectUrl = base64_encode($redirectUrl);
+		$error 			= array();
+		$success 		= array();
+		$warning 		= array();
+
+
+		$_SESSION['securityToken'] = Helper::getSecurityToken();  //for delete link
+
+		/*	if(!empty($_POST['fsubmitbulk']))
+		{
+			if(!isset($_POST['fbulkid']))
+			{
+				$warning[] = $this->registry->lang['default']['bulkItemNoSelected'];
+			}
+			else
+			{
+				$formData['fbulkid'] = $_POST['fbulkid'];
+
+				//check for delete
+				if($_POST['fbulkaction'] == 'delete')
+				{
+					$delArr = $_POST['fbulkid'];
+					$deletedItems = array();
+					$cannotDeletedItems = array();
+					foreach($delArr as $id)
+					{
+						//check valid user and not admin user
+						$myUser = new Core_User($id);
+
+						if($myUser->id > 0)
+						{
+							//tien hanh xoa
+							if($myUser->delete())
+							{
+								$deletedItems[] = $myUser->email;
+								$this->registry->me->writelog('user_delete', $myUser->id, array('email' => $myUser->email, 'fullname' => $myUser->fullname, 'dateregister' => date('H:i:s d/m/Y', $myUser->datecreated)));
+							}
+							else
+								$cannotDeletedItems[] = $myUser->email;
+						}
+						else
+							$cannotDeletedItems[] = $myUser->email;
+					}
+
+					if(count($deletedItems) > 0)
+						$success[] = str_replace('###email###', implode(', ', $deletedItems), $this->registry->lang['controller']['succDelete']);
+
+					if(count($cannotDeletedItems) > 0)
+						$error[] = str_replace('###email###', implode(', ', $cannotDeletedItems), $this->registry->lang['controller']['errDelete']);
+				}
+				else
+				{
+					//bulk action not select, show error
+					$warning[] = $this->registry->lang['default']['bulkActionInvalidWarn'];
+				}
+			}
+		}*/
+		$userGroups = array('Customer','Company');
+		$this->registry->smarty->assign(array(	'customers' 	=> $customers,
+												'formData'		=> $formData,
+												'userGroups' 	=> $userGroups,
+												'redirectUrl'	=> $redirectUrl,
+												'success'		=> $success,
+												'error'			=> $error,
+												'warning'		=> $warning,
+												));
+
+		$contents = $this->registry->smarty->fetch($this->registry->smartyControllerContainer.'index.tpl');
+
+		$this->registry->smarty->assign(array(	'menu'		=> 'userlist',
+												'pageTitle'	=> $this->registry->lang['controller']['pageTitle_list'],
+												'contents' 	=> $contents));
+
+		$this->registry->smarty->display($this->registry->smartyControllerGroupContainer . 'index.tpl');
+	}
+
+	public function deleteAction()
+	{
+		$id = (int)$this->registry->router->getArg('id');
+		$myUser = new Core_User($id);
+
+
+		if($myUser->id > 0)
+		{
+			if(Helper::checkSecurityToken())
+			{
+				//tien hanh xoa
+				if($myUser->delete())
+				{
+					$redirectMsg = str_replace('###email###', $myUser->email, $this->registry->lang['controller']['succDelete']);
+
+					$this->registry->me->writelog('user_delete', $myUser->id, array('email' => $myUser->email, 'fullname' => $myUser->fullname, 'dateregister' => date('H:i:s d/m/Y', $myUser->datecreated)));
+				}
+				else
+				{
+					$redirectMsg = str_replace('###email###', $myUser->email, $this->registry->lang['controller']['errDelete']);
+				}
+			}
+			else
+				$redirectMsg = $this->registry->lang['default']['errFormTokenInvalid'];
+
+
+		}
+		else
+		{
+			$redirectMsg = $this->registry->lang['controller']['errNotFound'];
+		}
+
+		$this->registry->smarty->assign(array('redirect' => $this->getRedirectUrl(),
+												'redirectMsg' => $redirectMsg,
+												));
+		$this->registry->smarty->display('redirect.tpl');
+	}
+
+	function addAction()
+	{
+
+		 $action  = $this->registry->router->getArg('action');
+		 $customer =  new Core_Customer();
+		 $city =  $customer->getCityDic();
+		$arrCity = $city[1];
+		$arrDis = $city[0];
+
+		$error     = array();
+		$success     = array();
+		$contents     = '';
+		$formData     = array();
+
+		if(!empty($_POST['fsubmit']))
+		{
+			/*if($_SESSION['userAddToken']==$_POST['ftoken'])//kiem tra token
+			{
+				$formData = array_merge($formData, $_POST);
+				$date =  explode("/",$formData['fbirthday']);
+				$formData['fbirthday'] = $date[2]."-".$date[1]."-".$date[0];
+
+				if($this->addActionValidator($formData, $error))//kiem tra du lieu nhap
+				{
+					$arr['firstName']  = $formData['ffname'];
+					$arr['lastName']  = $formData['flname'];
+					$arr['gender']  = $formData['fgender'];
+					$arr['birthDay']  =  $formData['fbirthday'];
+					$arr['cityID']  = $formData['fcity'];
+					$arr['address']  = $formData['faddress'];
+					$arr['personalID']  = $formData['fpersonal'];
+					$arr['mainMobile']  = $formData['fmainmobile'];
+					$arr['subMobile']  = $formData['fsubmobile'];
+					$arr['mainEmail']  = $formData['fmainemail'];
+					$arr['subEmail']  = $formData['fsubemail'];
+					$arr['taxNo']  = $formData['ftaxno'];
+					$arr['ISSMS']  = $formData['fisemail'];
+					$arr['ISEMAIL']  = $formData['fsms'];
+					$arr['strPassword']  = $formData['fpassword'];
+					$rs =	$customer->addCustomer($arr);
+					if($rs != 0)
+					{
+						$success[] =$this->registry->lang['controller']['succAdd'];
+					}
+				}
+			}*/
+			$success[] =$this->registry->lang['controller']['succAdd'];
+		}
+		$_SESSION['userAddToken'] = Helper::getSecurityToken();  //them token moi
+
+
+		$this->registry->smarty->assign(array(  'formData'         => $formData,
+												'City'    => $arrCity,
+												'District'    => $arrDis,
+												'redirectUrl'    => $this->getRedirectUrl(),
+												'userGroups' => Core_User::getGroupnameList(),
+												'error'            => $error,
+												'success'        => $success,
+
+												));
+		if($action == "customer")
+		$contents = $this->registry->smarty->fetch($this->registry->smartyControllerContainer.'add.tpl');
+		if($action == "company")
+		$contents = $this->registry->smarty->fetch($this->registry->smartyControllerContainer.'addcom.tpl');
+
+		$this->registry->smarty->assign(array(    'menu'        => 'useradd',
+												'pageTitle'    => $this->registry->lang['controller']['pageTitle_add'],
+												'contents'     => $contents));
+
+		$this->registry->smarty->display($this->registry->smartyControllerGroupContainer . 'index.tpl');
+	}
+	function detailAction()
+	{
+
+		$error     = array();
+		$success     = array();
+		$contents     = '';
+		$formData     = array();
+			/*	 $action  = $this->registry->router->getArg('action');*/
+		 $customers =  new Core_Customer();
+		/*	 $city =  $customer->getCityDic();
+		rrCity = $city[1];
+		$arrDis = $city[0];*/
+		$saleorders =  new Core_Saleorder();
+		$group = $this->registry->router->getArg('group');
+		$keySearch  = $this->registry->router->getArg('id');
+
+		if($group == 0)
+		{
+
+			$customer  = $customers->searchCustomer($keySearch,$group);
+
+			$date = explode("-",substr($customer[0]['BIRTHDAY'],0,-9));
+			$customer[0]['BIRTHDAY'] =  $date[2]."/".$date[1]."/".$date[0];
+			$formData['countCus'] = 0;
+			$formData['countCom'] = 0;
+			$formData['countCus'] = $customer['countCus'];
+			$formData['countCom'] = $customer['countCom'];
+			$_SESSION["customerGroup"] = $group;
+			unset( $customer['countCus'] );
+			unset( $customer['countCom'] );
+
+			/*===================SALEORDER==============================*/
+
+			$saleorder =  $saleorders->getSaleorderByid($keySearch);
+			$formData['countSal'] = $saleorder == "" ? 0  : count($saleorder);
+
+			/*======================Support===========================*/
+			$tickets =  new Core_Ticket();
+			$ticket  =  $tickets->getTicket($keySearch);
+			$formData['countSup'] = $ticket == "" ? 0  : count($ticket);
+			$formData['idcustomer'] = $keySearch;
+
+			/*=======================SMS==========================*/
+
+
+			$sms = $tickets->GetSmsByCustomerID($keySearch);
+			$formData['countSms'] = $sms == "" ? 0  : count($sms);
+
+			/*========================EMAIL=========================*/
+
+			$email = $tickets->GetEmailByCustomerID($keySearch);
+
+			/*for ($i=0; $i < count($email); $i++) {
+				preg_match_all('/<td colspan="2" style="text-align: center;">(.*?)<\/td>/i', $email[$i]->EMAILCONTENT, $matches);
+				if($matches[1][0] == "<strong>Nội dung câu hỏi</strong>")
+					$email[$i]->EMAILCONTENT_text = $matches[1][1];
+				else
+					$email[$i]->EMAILCONTENT_text = "";
+			}*/
+
+			$formData['countEmail'] = $email == "" ? 0  : count($email);
+		}
+		$formData['group'] = $group;
+
+
+		$this->registry->smarty->assign(array(  'formData'       => $formData,
+												'customer'  	 => $customer,
+												'sms'  	 		 => $sms,
+												'email'  	 	 => $email,
+												'ticket'  	 	 => $ticket,
+												'saleorder'		 => $saleorder,
+												'redirectUrl'    => $this->getRedirectUrl(),
+												'userGroups' => Core_User::getGroupnameList(),
+												'error'            => $error,
+												'success'        => $success,
+
+												));
+		$contents = $this->registry->smarty->fetch($this->registry->smartyControllerContainer.'detail.tpl');
+
+		$this->registry->smarty->assign(array(    'menu'        => 'useradd',
+												'pageTitle'    => $this->registry->lang['controller']['pageTitle_detail'],
+												'contents'     => $contents));
+
+		$this->registry->smarty->display($this->registry->smartyControllerGroupContainer . 'index.tpl');
+	}
+	public function detailsaleAction()
+	{
+
+		$id = $this->registry->router->getArg('id');
+		$saleid = $this->registry->router->getArg('saleid');
+		$saleorders =  new Core_Saleorder();
+		$saleorder_info =  $saleorders->GetSaleOrderDetailInfo($id,$saleid);
+		$saleorder_detail =  $saleorders->getSaleorderDetailByid($id,$saleid);
+
+
+		$saleorder_info[0]->inputTime = $this->formatdatecrm($saleorder_info[0]->inputTime);
+		$saleorder_info[0]->deliveryTime = $this->formatdatecrm($saleorder_info[0]->deliveryTime);
+		$formData['discountname'] = $saleorder_info[0]->discountName;
+		$product = new Core_Product();
+		$customers =  new Core_Customer();
+		$customer  = $customers->searchCustomer($id,"0");
+		$date = explode("-",substr($customer[0]['BIRTHDAY'],0,-9));
+		$customer[0]['BIRTHDAY'] =  $date[2]."/".$date[1]."/".$date[0];
+		$formData['countCus'] = 0;
+		$formData['countCom'] = 0;
+		$formData['countCus'] = $customer['countCus'];
+		$formData['countCom'] = $customer['countCom'];
+		$formData['totalorder']=0;
+		$formData['promotionmoney'] = 0;
+		foreach ($saleorder_info as $key => $value) {
+
+			$formData['totalorder'] = $value->total;
+			$formData['promotionmoney'] =$value->discount;
+		}
+
+		foreach ($saleorder_detail as $key => $value) {
+			if($value->strImei!="")
+			{
+				$sync = $product->getIdByBarcode($value->strImei);
+				if($sync->barcode != null)
+				{
+					$saleorder_detail[$key]->sync = "V";
+					if($sync->image!= null)
+						$saleorder_detail[$key]->img = $this->registry->conf['rooturl']."uploads/".$sync->image;
+					else
+						$saleorder_detail[$key]->img = $this->registry->conf['rooturl']."templates/default/images/noimage.jpg";
+				}
+				else
+				{
+					$saleorder_detail[$key]->sync = "X";
+					$saleorder_detail[$key]->img = $this->registry->conf['rooturl']."templates/default/images/noimage.jpg";
+				}
+
+			}
+			else
+			{
+				$saleorder_detail[$key]->sync = "O";
+				$saleorder_detail[$key]->img = $this->registry->conf['rooturl']."templates/default/images/noimage.jpg";
+			}
+
+		}
+		$formData['totalpayment'] = $formData['totalorder'] - $formData['promotionmoney'];
+		$formData['saleid'] =  $saleid;
+		$formData['storename'] =  $saleorder_info[0]->storeName;
+		unset( $customer['countCus'] );
+		unset( $customer['countCom'] );
+
+		$this->registry->smarty->assign(array(  'formData'       => $formData,
+												'saleorder'		 => $saleorder_detail,
+												'saleorder_info' => $saleorder_info,
+												'customer'		 => $customer
+												));
+		$contents = $this->registry->smarty->fetch($this->registry->smartyControllerContainer.'saledetail.tpl');
+
+		$this->registry->smarty->assign(array(    'menu'        => 'useradd',
+												'pageTitle'    => $this->registry->lang['controller']['pageTitle_saledetail'],
+												'contents'     => $contents));
+		$this->registry->smarty->display($this->registry->smartyControllerGroupContainer . 'index.tpl');
+	}
+	private function formatdatecrm($str)
+	{
+		$input  = substr($str, 6);
+		$input  = substr($input, 0,-10);
+		$input  = date("d-m-Y ",$input);
+		return  $input;
+	}
+	public function detailemailAction()
+	{
+		$id = $this->registry->router->getArg('id');
+		$emailid = $this->registry->router->getArg('emailid');
+		$tickets =  new Core_Ticket();
+//		$email = $tickets->GetEmailByCustomerID($keySearch);
+		$rs["content"] ="";
+		foreach ($email as $key => $value) {
+			if($value->EMAILID == (int)$emailid)
+			{
+				$rs["content"] = $value->EMAILCONTENT;
+			}
+			else
+			{
+				if($rs["content"] == "")
+				$rs["content"] = "không tìm thấy";
+			}
+
+		}
+		$this->registry->smarty->assign(array(  'table'       => $rs));
+		$contents = $this->registry->smarty->fetch($this->registry->smartyControllerContainer.'detailemail.tpl');
+		$this->registry->smarty->assign(array(  'menu'        => 'useradd',
+												'pageTitle'    => $this->registry->lang['controller']['pageTitle_add'],
+												'contents'     => $contents));
+		$this->registry->smarty->display($this->registry->smartyControllerContainerRoot . 'index_shadowbox.tpl');
+	}
+
+
+	function editAction()
+	{
+
+
+		$customers = new Core_Customer();
+		$id = (int)$this->registry->router->getArg('id');
+		$myUser = new Core_User($_SESSION['userLogin']);
+		$customer = $customers->searchCustomer($id,"0");
+		$city =  $customers->getCityDic();
+		$arrCity = $city[1];
+		$arrDis = $city[0];
+		$redirectUrl = $this->getRedirectUrl();
+		if($myUser)
+		{
+
+
+			$formData['ffname'] = ($customer[0]["FIRSTNAME"]);
+			$formData['customerID'] = $customer[0]["CUSTOMERID"];
+			$formData['flname'] = ($customer[0]["LASTNAME"]);
+			$formData['faddress'] = $customer[0]["ADDRESS"];
+			$formData['fcity'] = $customer[0]["CITYID"];
+			$formData['fgender'] = $customer[0]["GENDER"];
+			$formData['fdistrict'] = $customer[0]["DISTRICTID"];
+			$formData['fbirthday'] = $customer[0]["BIRTHDAY"];
+			$formData['fmainmobile'] = $customer[0]["MAINMOBILE"];
+			$formData['fsubmobile'] = $customer[0]["SUBMOBILE"];
+			$formData['fmainemail'] = $customer[0]["MAINEMAIL"];
+			$formData['fsubemail'] = $customer[0]["SUBEMAIL"];
+			$formData['foaddress'] = "";
+			$formData['PID'] = 0;
+			$formData['fsms'] = true;
+			$date =  explode("-",$formData['fbirthday']);
+			$formData['fbirthday'] = $date[0]."/".$date[1]."/".$date[2];
+				if(!empty($_POST['fsubmit']))
+				{
+/*
+					if($_SESSION['userEditToken']==$_POST['ftoken'])
+					{
+
+						$formData = array_merge($formData, $_POST);
+						if($this->editActionValidator($formData, $customer , $error))//kiem tra du lieu nhap
+						{
+							$date =  explode("/",$formData['fbirthday']);
+							$formData['fbirthday'] = $date[2]."-".$date[1]."-".$date[0];
+							$arr['firstName']  = $formData['ffname'];
+							$arr['customerID']  = $formData['customerID'];
+							$arr['lastName']  = $formData['flname'];
+							$arr['intGender']  = $formData['fgender'];
+							$arr['birthDay']  = $formData['fbirthday'];
+							$arr['cityID']  = $formData['fcity'];
+							$arr['address']  = $formData['faddress'];
+							$arr['otherAddress']  = $formData['foaddress'];
+							$arr['districtID']  = $formData['fdistrict'];
+							$arr['mobile']  = $formData['fmainmobile'];
+							$arr['phone']  = $formData['fsubmobile'];
+							$arr['email']  = $formData['fmainemail'];
+							$arr['otherEmail']  = $formData['fsubemail'];
+							$arr['otherEmail']  = $formData['fsubemail'];
+							$arr['DONOTSMS']  = $formData['fsms'];
+							$rs =	$customers->updateCustomer($arr);
+							if($rs==1)
+							{
+								$success[] =$this->registry->lang['controller']['succEdit'];
+							}
+						}
+					}*/
+					$success[] =$this->registry->lang['controller']['succEdit'];
+				}
+				$_SESSION['userEditToken']=Helper::getSecurityToken();//Tao token moi
+				$this->registry->smarty->assign(array(   'formData'     => $formData,
+														'myUser'	=> $myUser,
+														'City'    => $arrCity,
+														'District'    => $arrDis,
+														'redirectUrl'=> $redirectUrl,
+														'success'    => $success,
+
+														));
+				$contents= $this->registry->smarty->fetch($this->registry->smartyControllerContainer.'edit.tpl');
+				$this->registry->smarty->assign(array(
+														'menu'        => 'userlist',
+														'pageTitle'    => $this->registry->lang['controller']['pageTitle_edit'],
+														'contents'             => $contents));
+				$this->registry->smarty->display($this->registry->smartyControllerGroupContainer . 'index.tpl');
+
+
+		}
+		else
+		{
+			$redirectMsg = $this->registry->lang['controller']['errNotFound'];
+			$this->registry->smarty->assign(array('redirect' => $redirectUrl,
+													'redirectMsg' => $redirectMsg,
+													));
+			$this->registry->smarty->display('redirect.tpl');
+		}
+	}
+
+	function resetpassAction()
+	{
+		$id = (int)$this->registry->router->getArg('id');
+		$myUser = new Core_User($id);
+		$redirectUrl = $this->getRedirectUrl();
+
+		if($myUser->id > 0)
+		{
+			//check priviledge priority
+			//Yeu cau de edit:
+			// 1. Hoac la admin
+			// 2. Hoac la edit ban than, dung cho moderator, judge...
+			// 3. Hoac la co priority number < priority number cua user duoc edit
+			if($this->registry->me->groupid == GROUPID_ADMIN || ($this->registry->me->id == $myUser->id) )
+			{
+				$error 		= array();
+				$success 	= array();
+				$contents 	= '';
+				$formData 	= array();
+
+
+				 srand((double)microtime()*1000000);
+				 $newpass = rand(100000, 999999);
+
+				 if($myUser->resetpass($newpass))
+				 {
+					 //send mail
+					 $this->registry->smarty->assign(array('newpass' => $newpass,
+															'myUser'	=> $myUser));
+					 $mailContents = $this->registry->smarty->fetch($this->registry->smartyMailContainerRoot.'user/resetpass.tpl');
+					 $sender=  new SendMail($this->registry,
+											$myUser->email,
+											$myUser->fullname,
+											str_replace('{USERNAME}', $myUser->username, $this->registry->setting['mail']['subjectAdminResetpassUser']),
+											$mailContents,
+											$this->registry->setting['mail']['fromEmail'],
+											$this->registry->setting['mail']['fromName']
+											);
+
+					 $this->registry->me->writelog('user_resetpass', $myUser->id, array('email' => $myUser->email, 'fullname' => $myUser->fullname, 'newpass' => $newpass));
+
+
+					 if($sender->Send())
+					 {
+						  $redirectMsg = str_replace('###email###', $myUser->email, $this->registry->lang['controller']['succResetpass']);
+					 }
+					 else
+					 {
+						 $redirectMsg = str_replace('###email###', $myUser->email, $this->registry->lang['controller']['errResetpassSendMail']);
+					 }
+				 }
+				 else
+				 {
+					 $redirectMsg = $this->registry->lang['controller']['errResetpass'];
+				 }
+
+				 $redirectUrl = $this->registry->conf['rooturl_admin'] . 'user/edit/id/' . $myUser->id;
+
+			}
+			else
+			{
+				$redirectMsg = $this->registry->lang['global']['notpermissiontitle'];
+			}
+
+		}
+		else
+		{
+			$redirectMsg = $this->registry->lang['controller']['errNotFound'];
+		}
+
+
+		 $this->registry->smarty->assign(array('redirect' => $redirectUrl,
+												'redirectMsg' => $redirectMsg,
+												));
+		$this->registry->smarty->display('redirect.tpl');
+	}
+
+	####################################################################################################
+	####################################################################################################
+	####################################################################################################
+
+
+	private function addActionValidator($formData, &$error)
+	{
+		$pass = true;
+
+		$customer =  new Core_Customer();
+		//kiem tra email co dung dinh dang hay khong    :ValidatedEmail
+		if(!Helper::ValidatedEmail($formData['fmainemail']))
+		{
+			$error[] = $this->registry->lang['controller']['errEmailInvalid'];
+			$pass = false;
+		}
+		else
+		{
+			//kiem tra co trung email hay khong
+			 if(!$customer->checkEmail($formData['fmainemail']))
+			{
+				$error[] = $this->registry->lang['controller']['errEmailExisted'];
+				$pass = false;
+			}
+		}
+
+		//kiem tra password
+
+
+		if($formData['ffname'] == '')
+		{
+			$error[] = $this->registry->lang['controller']['errffname'];
+			$pass = false;
+		}
+		if($formData['fpassword'] == '')
+		{
+			$error[] = $this->registry->lang['controller']['errfpassword'];
+			$pass = false;
+		}
+
+		if($formData['flname'] == '')
+		{
+			$error[] = $this->registry->lang['controller']['errflname'];
+			$pass = false;
+		}
+
+		if($formData['fgender'] == '')
+		{
+			$error[] = $this->registry->lang['controller']['errfgender'];
+			$pass = false;
+		}
+
+		if($formData['fbirthday'] == '')
+		{
+			$error[] = $this->registry->lang['controller']['errfbirthday'];
+			$pass = false;
+		}
+
+		if($formData['fcity'] == '')
+		{
+			$error[] = $this->registry->lang['controller']['errfcity'];
+			$pass = false;
+		}
+
+		if($formData['fdistrict'] == '')
+		{
+			$error[] = $this->registry->lang['controller']['errfdistrict'];
+			$pass = false;
+		}
+
+		if($formData['faddress'] == '')
+		{
+			$error[] = $this->registry->lang['controller']['errfaddress'];
+			$pass = false;
+		}
+
+		if($formData['fpersonal'] == '')
+		{
+			$error[] = $this->registry->lang['controller']['errfpersonal'];
+			$pass = false;
+		}
+
+		if($formData['fmainmobile'] == '')
+		{
+			$error[] = $this->registry->lang['controller']['errfmainmobile'];
+			$pass = false;
+		}
+		else
+		{
+			if(!is_numeric($formData['fmainmobile']))
+			{
+				$error[] = $this->registry->lang['controller']['errfnummainmobile'];
+				$pass = false;
+			}
+			if(!$customer->checkMobile($formData['fmainmobile']))
+			{
+				$error[] = $this->registry->lang['controller']['errmobileExisted'];
+				$pass = false;
+			}
+
+		}
+
+
+
+
+		return $pass;
+	}
+	 //khong cap nhat username
+	private function editActionValidator($formData,$dataold, &$error)
+	{
+
+		$pass = true;
+		$customer =  new Core_Customer();
+		if(!Helper::ValidatedEmail($formData['fmainemail']))
+		{
+			$error[] = $this->registry->lang['controller']['errEmailInvalid'];
+			$pass = false;
+		}
+		else
+		{
+			if($dataold[0]['MAINEMAIL'] != $formData['fmainemail'])
+			{
+				if(!$customer->checkEmail($formData['fmainemail']))
+				{
+
+					$error[] = $this->registry->lang['controller']['errEmailExisted'];
+					$pass = false;
+				}
+			}
+			//kiem tra co trung email hay khong
+
+		}
+
+		//kiem tra password
+
+
+		if($formData['ffname'] == '')
+		{
+			$error[] = $this->registry->lang['controller']['errffname'];
+			$pass = false;
+		}
+
+
+		if($formData['flname'] == '')
+		{
+			$error[] = $this->registry->lang['controller']['errflname'];
+			$pass = false;
+		}
+
+		if($formData['fgender'] == '')
+		{
+			$error[] = $this->registry->lang['controller']['errfgender'];
+			$pass = false;
+		}
+
+		if($formData['fbirthday'] == '')
+		{
+			$error[] = $this->registry->lang['controller']['errfbirthday'];
+			$pass = false;
+		}
+
+		if($formData['fcity'] == '')
+		{
+			$error[] = $this->registry->lang['controller']['errfcity'];
+			$pass = false;
+		}
+
+		if($formData['fdistrict'] == '')
+		{
+			$error[] = $this->registry->lang['controller']['errfdistrict'];
+			$pass = false;
+		}
+
+		if($formData['faddress'] == '')
+		{
+			$error[] = $this->registry->lang['controller']['errfaddress'];
+			$pass = false;
+		}
+
+
+
+		if($formData['fmainmobile'] == '')
+		{
+			$error[] = $this->registry->lang['controller']['errfmainmobile'];
+			$pass = false;
+		}
+		else
+		{
+
+			if(!is_numeric($formData['fmainmobile']))
+			{
+				$error[] = $this->registry->lang['controller']['errfnummainmobile'];
+				$pass = false;
+			}
+			if($dataold[0]['MAINMOBILE']!=$formData['fmainmobile'])
+			{
+				if(!$customer->checkMobile($formData['fmainmobile']))
+				{
+					$error[] = $this->registry->lang['controller']['errmobileExisted'];
+					$pass = false;
+				}
+			}
+		}
+
+
+
+		return $pass;
+	}
+
+
+	public function searchidAction()
+	{
+		$error 			= array();
+		$success 		= array();
+		$warning 		= array();
+		$formData 		= array();
+
+		$idFilter 		= (int)($this->registry->router->getArg('id'));
+		$groupidFilter 		= (int)($this->registry->router->getArg('groupid'));
+		$keywordFilter 	= $this->registry->router->getArg('keyword');
+		$searchKeywordIn= $this->registry->router->getArg('searchin');
+
+		//check sort column condition
+		$sortby 	= $this->registry->router->getArg('sortby');
+		if($sortby == '') $sortby = 'id';
+		$formData['sortby'] = $sortby;
+		$sorttype 	= $this->registry->router->getArg('sorttype');
+		if(strtoupper($sorttype) != 'ASC') $sorttype = 'DESC';
+		$formData['sorttype'] = $sorttype;
+
+
+
+
+		$paginateUrl = $this->registry->conf['rooturl_admin'].'user/searchid/';
+
+		if($idFilter > 0)
+		{
+			$paginateUrl .= 'id/'.$idFilter . '/';
+			$formData['fid'] = $idFilter;
+			$formData['search'] = 'id';
+		}
+
+		if($groupidFilter > 0)
+		{
+			$paginateUrl .= 'groupid/'.$groupidFilter . '/';
+			$formData['fgroupid'] = $groupidFilter;
+			$formData['search'] = 'groupid';
+		}
+
+
+		if(strlen($keywordFilter) > 0)
+		{
+
+			$paginateUrl .= 'keyword/' . $keywordFilter . '/';
+
+			if($searchKeywordIn == 'screenname')
+			{
+				$paginateUrl .= 'searchin/screenname/';
+			}
+			else if($searchKeywordIn == 'email')
+			{
+				$paginateUrl .= 'searchin/email/';
+			}
+			else if($searchKeywordIn == 'fullname')
+			{
+				$paginateUrl .= 'searchin/fullname/';
+			}
+			$formData['fkeyword'] = $formData['fkeywordFilter'] = $keywordFilter;
+			$formData['fsearchin'] = $formData['fsearchKeywordIn'] = $searchKeywordIn;
+			$formData['search'] = 'keyword';
+		}
+
+
+		//get latest account
+		$users = Core_User::getUsers($formData, $sortby, $sorttype, 100);
+
+
+		//build redirect string
+		$redirectUrl = $paginateUrl;
+
+
+		$this->registry->smarty->assign(array(	'users' 		=> $users,
+												'formData'		=> $formData,
+												'userGroups' => Core_User::getGroupnameList(),
+												'success'		=> $success,
+												'error'			=> $error,
+												'warning'		=> $warning,
+												'redirectUrl'	=> $redirectUrl,
+												));
+
+		$contents = $this->registry->smarty->fetch($this->registry->smartyControllerContainer.'searchid.tpl');
+
+		$this->registry->smarty->assign(array(	'menu'		=> 'userlist',
+												'pageTitle'	=> $this->registry->lang['controller']['pageTitle_list'],
+												'contents' 	=> $contents));
+
+		$this->registry->smarty->display($this->registry->smartyControllerGroupContainer . 'index_tiny.tpl');
+	}
+
+
+	function changepasswordAction()
+	{
+		$id = (int)$this->registry->router->getArg('id');
+		$myUser = new Core_User($id);
+		$redirectUrl = $this->getRedirectUrl();
+		if($myUser->id > 0)
+		{
+			//check priviledge priority
+			//Yeu cau de edit:
+			// 1. Hoac la admin
+			// 2. Hoac la edit ban than
+			if($this->registry->me->id == $myUser->id )
+			{
+				$error         = array();
+				$success     = array();
+				$contents     = '';
+				$formData     = array();
+
+				if(!empty($_POST['fsubmit']))
+				{
+					$formData = array_merge($formData, $_POST);
+					//kiem tra du lieu nhap
+					if($this->changepasswordActionValidator($formData, $error))
+					{
+
+						$myUser->newpass = $formData['fnewpass1'];
+
+						if($myUser->updateData(array(), $error))
+						{
+						   $success[] = $this->registry->lang['controller']['succChangepassword'];
+						   $this->registry->me->writelog('user_changepassword', $myUser->id, array('email' => $myUser->email, 'fullname' => $myUser->fullname));
+						}
+						else
+						{
+							$error[] = $this->registry->lang['controller']['errChangepassword'];
+						}
+					}
+
+				}
+
+
+				$this->registry->smarty->assign(array(   'formData'     => $formData,
+														'myUser'	=> $myUser,
+														'redirectUrl'=> $redirectUrl,
+														'encoderedirectUrl'=> base64_encode($redirectUrl),
+														'error'        => $error,
+														'success'    => $success,
+														));
+				$contents .= $this->registry->smarty->fetch($this->registry->smartyControllerContainer.'changepassword.tpl');
+				$this->registry->smarty->assign(array(
+														'pageTitle'    => $this->registry->lang['controller']['pageTitle_changepassword'],
+														'contents'             => $contents));
+				$this->registry->smarty->display($this->registry->smartyControllerGroupContainer . 'index.tpl');
+			}
+			else
+			{
+				$redirectMsg = $this->registry->lang['global']['notpermissiontitle'];
+				$this->registry->smarty->assign(array('redirect' => $redirectUrl,
+														'redirectMsg' => $redirectMsg,
+														));
+				$this->registry->smarty->display('redirect.tpl');
+			}
+
+		}
+		else
+		{
+			$redirectMsg = $this->registry->lang['controller']['errNotFound'];
+			$this->registry->smarty->assign(array('redirect' => $redirectUrl,
+													'redirectMsg' => $redirectMsg,
+													));
+			$this->registry->smarty->display('redirect.tpl');
+		}
+	}
+
+
+
+	private function changepasswordActionValidator($formData, &$error)
+	{
+		$pass = true;
+
+		//check oldpass
+		//change password
+		if(!viephpHashing::authenticate($formData['foldpass'], $this->registry->me->password))
+		{
+			$pass = false;
+			$this->registry->me->newpass = '';
+			$error[] = $this->registry->lang['controller']['errOldpassNotvalid'];
+		}
+
+		if(strlen($formData['fnewpass1']) < 6)
+		{
+			$pass = false;
+			$this->registry->me->newpass = '';
+			$error[] = $this->registry->lang['controller']['errNewpassnotvalid'];
+		}
+
+		if($formData['fnewpass1'] != $formData['fnewpass2'])
+		{
+			$pass = false;
+			$this->registry->me->newpass = '';
+			$error[] = $this->registry->lang['controller']['errNewpassnotmatch'];
+		}
+
+		return $pass;
+	}
+
+}

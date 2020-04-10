@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Quản lý Log]]></lines>
+	<lines name="intro_list" descr=""><![CDATA[Chức năng quản lý các thao tác trên website]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Danh sách Log Entry]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Kết quả tìm kiếm]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Log &raquo; Danh sách Log]]></lines>
+	
+	<lines name="head_detail" descr=""><![CDATA[Chi tiết Log Entry]]></lines>
+	<lines name="intro_detail" descr=""><![CDATA[Thông tin chi tiết về Log Entry]]></lines>
+	<lines name="title_detail" descr=""><![CDATA[Thông tin chi tiết]]></lines>
+	<lines name="pageTitle_detail" descr=""><![CDATA[Log &raquo; Chi tiết Log Entry]]></lines>
+	
+	<lines name="formDatecreatedLabel" descr=""><![CDATA[Thời gian]]></lines>
+	<lines name="formEmailLabel" descr=""><![CDATA[Email]]></lines>
+	<lines name="formTypeLabel" descr=""><![CDATA[Thao tác]]></lines>
+	<lines name="formIpLabel" descr=""><![CDATA[IP]]></lines>
+	<lines name="formMainIdLabel" descr=""><![CDATA[ID của đối tượng]]></lines>
+	<lines name="formMoreDataLabel" descr=""><![CDATA[Các thông tin thêm]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy thông tin Log Entry hoặc Log Entry không hợp lệ.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi khi xóa Log Entry #<strong>###logid###</strong>.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Xóa thành công Log Entry #<strong>###logid###</strong>.]]></lines>
+	
+	
+	
+</data>

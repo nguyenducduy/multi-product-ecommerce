@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="title" descr=""><![CDATA[Sửa thông tin cá nhân]]></lines>
+	<lines name="titleProfile" descr=""><![CDATA[thông tin cá nhân]]></lines>
+	<lines name="titleUpdate" descr=""><![CDATA[Cập nhật]]></lines>
+	<lines name="titleAccount" descr=""><![CDATA[Tài khoản]]></lines>
+	<lines name="account" descr=""><![CDATA[Tài khoản]]></lines>
+	<lines name="fullname" descr=""><![CDATA[Họ và tên]]></lines>
+	<lines name="screenname" descr=""><![CDATA[Screen Name]]></lines>
+	<lines name="screennameHelp" descr=""><![CDATA[Screen Name là giúp đường dẫn đến trang nhà của bạn ngắn hơn. Tài khoản cá nhân phải có Screen Name theo các quy tắc sau: <br /><ul><li>Sử dụng tên riêng, tốt nhất là dùng họ tên của bạn.</li><li>Không lấy tên các thương hiệu, công ty đã đăng ký nhãn hiệu.</li><li>Không dùng các tên chung chung mô tả sự vật, sự việc. VD: thoitrang, sachbao...</li><li>Không có các ký tự đặc biệt, chỉ cho phép chứ cái, chữ số và dấu chấm.</li><li>Khi phát hiện vi phạm thì Ban Quản Trị sẽ tự động thay đổi mà không báo trước.</li></ul>]]></lines>
+	<lines name="fullnameHelp" descr=""><![CDATA[Họ tên của bạn dùng để hiển thị trên website, theo các quy tắc sau: <br /><ul><li>Họ Tên hoặc tên riêng của bạn.</li><li>Không lấy tên các thương hiệu, công ty đã đăng ký nhãn hiệu.</li><li>Không dùng các tên chung chung mô tả sự vật, sự việc. </li><li>Khi phát hiện vi phạm thì Ban Quản Trị sẽ tự động thay đổi mà không báo trước.</li></ul>]]></lines>
+	<lines name="phone1" descr=""><![CDATA[Điện thoại]]></lines>
+	<lines name="address" descr=""><![CDATA[Địa chỉ]]></lines>
+	<lines name="gender" descr=""><![CDATA[Giới tính]]></lines>
+	<lines name="birthday" descr=""><![CDATA[Ngày sinh]]></lines>
+	<lines name="website" descr=""><![CDATA[Website của bạn]]></lines>
+	<lines name="favouriteCategory" descr=""><![CDATA[Sách yêu thích]]></lines>
+	<lines name="bio" descr=""><![CDATA[Giới thiệu bản thân]]></lines>
+	<lines name="moreInfo" descr=""><![CDATA[Cập nhật thêm thông tin]]></lines>
+	<lines name="changepass" descr=""><![CDATA[Thay đổi mật khẩu]]></lines>
+	<lines name="oldpass" descr=""><![CDATA[Mật khẩu cũ]]></lines>
+	<lines name="newpass1" descr=""><![CDATA[Mật khẩu mới]]></lines>
+	<lines name="newpass2" descr=""><![CDATA[Nhập lại mật khẩu mới]]></lines>
+	<lines name="changeprivacysetting" descr=""><![CDATA[Cài đặt quyền riêng tư]]></lines>
+	<lines name="privacyAccess" descr=""><![CDATA[Ai được xem các thông tin của bạn?]]></lines>
+	<lines name="privacyAccessHelp" descr=""><![CDATA[Xem tủ sách, yêu thích, bình luận, trích dẫn, danh sách bạn..]]></lines>
+	<lines name="privacyInternet" descr=""><![CDATA[Tất cả mọi người]]></lines>
+	<lines name="privacyFriend" descr=""><![CDATA[Bạn bè của tôi]]></lines>
+	<lines name="privacyMe" descr=""><![CDATA[Chỉ cá nhân tôi]]></lines>
+	<lines name="errFullnameRequired" descr=""><![CDATA[Họ tên phải có tối thiểu 6 ký tự.]]></lines>
+	<lines name="errScreennameRequired" descr=""><![CDATA[Screen Name phải có tối thiểu 7 ký tự và tối đa 32 ký tự.]]></lines>
+	<lines name="errScreennameInvalid" descr=""><![CDATA[Screen Name không hợp lệ. (Chỉ cho phép ký tự a-z, 0-9 và dấu chấm)]]></lines>
+	<lines name="errScreennameInvalidPhp" descr=""><![CDATA[Screen Name không hợp lệ. (Không kết thúc bằng .php)]]></lines>
+	<lines name="errScreennameExisted" descr=""><![CDATA[Screen Name bạn chọn đã có người khác đăng ký. Hãy chọn giá trị khác.]]></lines>
+	<lines name="errOldpassNotvalid" descr=""><![CDATA[Mật khẩu cũ không đúng]]></lines>
+	<lines name="errNewpassnotvalid" descr=""><![CDATA[Mật khẩu mới phải có tối thiểu 6 ký tự]]></lines>
+	<lines name="errNewpassnotmatch" descr=""><![CDATA[Mật khẩu xác nhận không đúng. Hãy kiểm tra lại.]]></lines>
+	<lines name="errAvatarInvalid" descr=""><![CDATA[Hình tải lên không hợp lệ. (Cho phép: JPG, PNG, GIF, kích thước tối đa 1MB)]]></lines>
+	<lines name="errImageUpload" descr=""><![CDATA[Có lỗi khi upload hình đại diện. (ERROR CODE: ###errorcode###)]]></lines>
+	<lines name="errGenderInvalid" descr=""><![CDATA[Giới tính không hợp lệ]]></lines>
+	<lines name="errCategoryValue" descr=""><![CDATA[Danh mục sách yêu thích không hợp lệ]]></lines>
+	<lines name="errBirthdayFormat" descr=""><![CDATA[Định dạng ngày sinh không đúng. (Định dạng: DD/MM/YYYY)]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Cập nhật thành công.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi khi cập nhật thông tin.]]></lines>
+	<lines name="submitLabel" descr=""><![CDATA[Cập nhật]]></lines>
+	<lines name="formImageDeleteLabel" descr=""><![CDATA[Xóa Avatar hiện tại]]></lines>
+	<lines name="currentAvatar" descr=""><![CDATA[Hình hiện tại]]></lines>
+	<lines name="noavatar" descr=""><![CDATA[Chưa có hình đại diện]]></lines>
+	<lines name="haveavatar" descr=""><![CDATA[Hình đại diện]]></lines>
+	<lines name="removeavatar" descr=""><![CDATA[Xoá hình đại diện]]></lines>
+	<lines name="avatarHelp" descr=""><![CDATA[Sau khi upload hoặc dùng webcam chụp hình, bạn có thể cắt hình(crop) theo ý mình]]></lines>
+	<lines name="avatarUploadTitle" descr=""><![CDATA[Upload hình đại diện]]></lines>
+	<lines name="avatarUploadHelp" descr=""><![CDATA[Chọn hình để upload.]]></lines>
+	<lines name="avatarUploadErrJsType" descr=""><![CDATA[Định dạng hình không đúng (Định dạng hình hợp lệ: JPG, PNG, GIF)]]></lines>
+	<lines name="avatarWebcamTitle" descr=""><![CDATA[Chụp hình từ Webcam]]></lines>
+	<lines name="avatarWebcamHelp" descr=""><![CDATA[Bạn nhấn nút "<em>Chụp hình</em>" để chụp lại hình mà bạn muốn xử lý tiếp, nếu không thì bạn có thể nhấn nút "<em>Xóa</em>" để chụp lại hình khác. Sau khi đã ưng ý với hình đã chụp, nhấn nút "<em>Upload hình</em>" để qua trang xử lý hình.]]></lines>
+	<lines name="errAvatarWebcamSize" descr=""><![CDATA[Kích thước hình quá lớn.]]></lines>
+	<lines name="avatarEditorOriginal" descr=""><![CDATA[Hình gốc]]></lines>
+	<lines name="avatarEditorHelp" descr=""><![CDATA[Rê hoặc kéo thả chuột để chọn khu vực ưng ý trên hình gốc, sau đó nhấn nút Lưu]]></lines>
+	<lines name="avatarEditorPreview" descr=""><![CDATA[Xem trước]]></lines>
+	<lines name="avatarEditorSave" descr=""><![CDATA[Lưu]]></lines>
+	<lines name="succActivate" descr=""><![CDATA[Tài khoản của bạn đã được kích hoạt thành công.]]></lines>
+	<lines name="tabAccount" descr=""><![CDATA[Tài khoản]]></lines>
+	<lines name="tabProfile" descr=""><![CDATA[Thông tin cá nhân]]></lines>
+	<lines name="tabPrivacy" descr=""><![CDATA[Cài đặt quyền riêng tư]]></lines>
+	<lines name="tabChangepassword" descr=""><![CDATA[Thay đổi Mật khẩu]]></lines>
+	<lines name="tabAccountMobile" descr=""><![CDATA[Tài khoản]]></lines>
+	<lines name="tabProfileMobile" descr=""><![CDATA[Thông tin]]></lines>
+	<lines name="tabPrivacyMobile" descr=""><![CDATA[Riêng tư]]></lines>
+	<lines name="tabChangepasswordMobile" descr=""><![CDATA[Mật khẩu]]></lines>
+	<lines name="groupContact" descr=""><![CDATA[LIÊN HỆ]]></lines>
+	<lines name="groupUniversity" descr=""><![CDATA[ĐẠI HỌC - CAO ĐẲNG]]></lines>
+	<lines name="groupSchool" descr=""><![CDATA[TRƯỜNG HỌC]]></lines>
+	<lines name="groupWork" descr=""><![CDATA[CÔNG VIỆC]]></lines>
+	<lines name="groupOther" descr=""><![CDATA[THÔNG TIN KHÁC]]></lines>
+	
+	<lines name="addSubmit" descr=""><![CDATA[THÊM]]></lines>
+	<lines name="updateSubmit" descr=""><![CDATA[CẬP NHẬT]]></lines>
+	<lines name="datestart" descr=""><![CDATA[Bắt đầu]]></lines>
+	<lines name="dateend" descr=""><![CDATA[Kết thúc]]></lines>
+	<lines name="month" descr=""><![CDATA[Tháng]]></lines>
+	<lines name="monthUnknown" descr=""><![CDATA[ - không nhớ -]]></lines>
+	<lines name="year" descr=""><![CDATA[Năm]]></lines>
+	<lines name="now" descr=""><![CDATA[Hiện tại]]></lines>
+	<lines name="editLabel" descr=""><![CDATA[Chỉnh sửa]]></lines>
+	<lines name="deleteLabel" descr=""><![CDATA[Xóa]]></lines>
+	<lines name="errProfileitemNotfound" descr=""><![CDATA[Không tìm thấy thông tin.]]></lines>
+	<lines name="errDeleteProfileitem" descr=""><![CDATA[Có lỗi khi xóa thông tin bạn đã chọn.]]></lines>
+	<lines name="succDeleteProfileitem" descr=""><![CDATA[Thông tin bạn chọn đã được xóa.]]></lines>
+	<lines name="errProfileitemAdd" descr=""><![CDATA[Có lỗi khi thêm thông tin của bạn.]]></lines>
+	<lines name="succProfileitemAdd" descr=""><![CDATA[Thông tin của bạn đã được thêm.]]></lines>
+	<lines name="errProfileitemEdit" descr=""><![CDATA[Có lỗi khi cập nhật thông tin của bạn.]]></lines>
+	<lines name="succProfileitemEdit" descr=""><![CDATA[Thông tin của bạn đã được cập nhật.]]></lines>
+	<lines name="errYear" descr=""><![CDATA[Năm không hợp lệ]]></lines>
+	
+	<lines name="addNewWork" descr=""><![CDATA[Thêm công việc]]></lines>
+	<lines name="company" descr=""><![CDATA[Tên công ty]]></lines>
+	<lines name="jobtitle" descr=""><![CDATA[Mô tả vị trí/công việc]]></lines>
+	<lines name="worklocation" descr=""><![CDATA[Nơi làm việc]]></lines>
+	<lines name="errWorkCompany" descr=""><![CDATA[Bạn chưa nhập tên công ty]]></lines>
+	<lines name="errWorkLocation" descr=""><![CDATA[Nơi làm việc không hợp lệ]]></lines>
+	<lines name="errWorkQuota" descr=""><![CDATA[Bạn chỉ có thể thêm tối đa ###VALUE### thông tin công việc.]]></lines>
+	
+	<lines name="addNewUniversity" descr=""><![CDATA[Thêm trường Đại học/Cao đẳng]]></lines>
+	<lines name="university" descr=""><![CDATA[Tên trường]]></lines>
+	<lines name="department" descr=""><![CDATA[Chuyên ngành - Khoa]]></lines>
+	<lines name="universitylocation" descr=""><![CDATA[Địa điểm]]></lines>
+	<lines name="errUniversityName" descr=""><![CDATA[Bạn chưa nhập tên trường]]></lines>
+	<lines name="errUniversityLocation" descr=""><![CDATA[Địa điểm không hợp lệ]]></lines>
+	<lines name="errUniversityQuota" descr=""><![CDATA[Bạn chỉ có thể thêm tối đa ###VALUE### thông tin trường đại học/cao đẳng.]]></lines>
+	
+	<lines name="addNewSchool" descr=""><![CDATA[Thêm trường]]></lines>
+	<lines name="school" descr=""><![CDATA[Tên trường]]></lines>
+	<lines name="schoollocation" descr=""><![CDATA[Địa điểm]]></lines>
+	<lines name="schooltypecap3" descr=""><![CDATA[PTTH]]></lines>
+	<lines name="schooltypecap2" descr=""><![CDATA[THCS]]></lines>
+	<lines name="schooltypecap1" descr=""><![CDATA[Tiểu học]]></lines>
+	<lines name="schooltypemamnon" descr=""><![CDATA[Mầm non]]></lines>
+	<lines name="schooltypeother" descr=""><![CDATA[Khác]]></lines>
+	<lines name="errSchoolName" descr=""><![CDATA[Bạn chưa nhập tên trường]]></lines>
+	<lines name="errSchoolLocation" descr=""><![CDATA[Địa điểm không hợp lệ]]></lines>
+	<lines name="errSchooltypeInvalid" descr=""><![CDATA[Loại trường không hợp lệ]]></lines>
+	<lines name="errSchoolQuota" descr=""><![CDATA[Bạn chỉ có thể thêm tối đa ###VALUE### thông tin trường học.]]></lines>
+	
+	<lines name="addNewOtherfield" descr=""><![CDATA[Thêm thông tin khác]]></lines>
+	<lines name="fieldname" descr=""><![CDATA[Tên thông tin]]></lines>
+	<lines name="fieldvalue" descr=""><![CDATA[Nội dung]]></lines>
+	<lines name="errOtherfieldName" descr=""><![CDATA[Bạn chưa nhập tên thông tin]]></lines>
+	<lines name="errOtherfieldValue" descr=""><![CDATA[Bạn chưa nhập nội dung]]></lines>
+	<lines name="errOtherfieldQuota" descr=""><![CDATA[Bạn chỉ có thể thêm tối đa ###VALUE### thông tin phụ khác.]]></lines>
+	
+	<lines name="pageTitle" descr=""><![CDATA[Thông tin cá nhân - Profile]]></lines>
+	<lines name="pageKeyword" descr=""><![CDATA[username, Thông tin cá nhân, profile, user profile, username, email, gender, phone, address, region]]></lines>
+	<lines name="pageDescription" descr=""><![CDATA[Trang quản lý thông tin cá nhân của tài khoản. Cập nhật profile, username, mật khẩu.]]></lines>
+
+ 
+</data>

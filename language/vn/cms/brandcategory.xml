@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <lines name="head_list" descr=""><![CDATA[Thương hiệu - Ngành hàng]]></lines>
+    <lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+    <lines name="title_list" descr=""><![CDATA[Danh sách Thương hiệu - Ngành hàng]]></lines>
+    <lines name="pageTitle_list" descr=""><![CDATA[Thương hiệu - Ngành hàng &raquo; Danh sách]]></lines>
+
+
+    <lines name="head_add" descr=""><![CDATA[Thêm mới Thương hiệu - Ngành hàng]]></lines>
+    <lines name="title_add" descr=""><![CDATA[Thông tin Thương hiệu - Ngành hàng]]></lines>
+    <lines name="pageTitle_add" descr=""><![CDATA[Thương hiệu-Ngành hàng &raquo; Thêm mới]]></lines>
+
+    <lines name="head_edit" descr=""><![CDATA[Cập nhật Thương hiêu - Ngành hàng]]></lines>
+    <lines name="title_edit" descr=""><![CDATA[Thương hiêu - Ngành hàng Thông tin]]></lines>
+    <lines name="pageTitle_edit" descr=""><![CDATA[Thương hiêu - Ngành hàng &raquo; Cập nhật]]></lines>
+
+
+    <lines name="labelAzid" descr=""><![CDATA[Zone]]></lines>
+    <lines name="labelId" descr=""><![CDATA[Id]]></lines>
+    <lines name="labelCategory" descr=""><![CDATA[Category]]></lines>
+    <lines name="labelVendor" descr=""><![CDATA[Vendor]]></lines>
+    <lines name="labelSeotitle" descr=""><![CDATA[SEO Title]]></lines>
+    <lines name="labelSeokeyword" descr=""><![CDATA[SEO Keyword]]></lines>
+    <lines name="labelSeodescription" descr=""><![CDATA[SEO Description]]></lines>
+
+    <lines name="labelBrand" descr=""><![CDATA[Brand ID]]></lines>
+    <lines name="labelName" descr=""><![CDATA[Name]]></lines>
+    <lines name="labelSlug" descr=""><![CDATA[Slug]]></lines>
+    <lines name="labelLink" descr=""><![CDATA[Link]]></lines>
+    <lines name="labelImage" descr=""><![CDATA[Image]]></lines>
+    <lines name="labelTitle" descr=""><![CDATA[Title]]></lines>
+    <lines name="labelSummary" descr=""><![CDATA[Summary]]></lines>
+    <lines name="labelWidth" descr=""><![CDATA[Width]]></lines>
+    <lines name="labelHeight" descr=""><![CDATA[Height]]></lines>
+    <lines name="labelCampaign" descr=""><![CDATA[Campaign]]></lines>
+    <lines name="labelCampaignsource" descr=""><![CDATA[Campaign source]]></lines>
+    <lines name="labelCampaignmedium" descr=""><![CDATA[Campaign medium]]></lines>
+    <lines name="labelGroup" descr=""><![CDATA[Product Category]]></lines>
+    <lines name="labelGroupdisplaytype" descr=""><![CDATA[Group display type]]></lines>
+    <lines name="labelGroupdisplayorder" descr=""><![CDATA[Group display order]]></lines>
+    <lines name="labelLinktarget" descr=""><![CDATA[Link target]]></lines>
+    <lines name="labelIsinternal" descr=""><![CDATA[Is internal]]></lines>
+    <lines name="labelPayperclick" descr=""><![CDATA[Pay per click]]></lines>
+    <lines name="labelImpression" descr=""><![CDATA[Impression]]></lines>
+    <lines name="labelClick" descr=""><![CDATA[Click]]></lines>
+    <lines name="labelStatus" descr=""><![CDATA[Status]]></lines>
+    <lines name="labelDatebegin" descr=""><![CDATA[Date start]]></lines>
+    <lines name="labelDateend" descr=""><![CDATA[Date end]]></lines>
+    <lines name="labelUnlimited" descr=""><![CDATA[No Date End]]></lines>
+    <lines name="labelstartDateGreaterEnddate" descr=""><![CDATA[Start date have to be less than end date]]></lines>
+    <lines name="labelDatecreated" descr=""><![CDATA[Date created]]></lines>
+    <lines name="labelDatemodified" descr=""><![CDATA[Date modified]]></lines>
+    <lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+    <lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+
+
+    <lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+    <lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+    <lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+
+    <lines name="errZoneRequired" descr=""><![CDATA[Zone is required.]]></lines>
+    <lines name="errStartdateRequired" descr=""><![CDATA[Start date is required.]]></lines>
+    <lines name="errEnddateRequired" descr=""><![CDATA[End date is required.]]></lines>
+    <lines name="errNameRequired" descr=""><![CDATA[Name is required.]]></lines>
+    <lines name="errLinkRequired" descr=""><![CDATA[Link is required.]]></lines>
+    <lines name="errNamesubRequired" descr=""><![CDATA[Name in Product Custom BrandCateogry is required.]]></lines>
+    <lines name="errNamesubRequired" descr=""><![CDATA[Name in Product Custom BrandCateogry is required.]]></lines>
+    <lines name="errLinksubRequired" descr=""><![CDATA[Link in Product Custom BrandCateogry is required.]]></lines>
+    <lines name="errFileRequired" descr=""><![CDATA[File Upload is required.]]></lines>
+    <lines name="errFiletypeInvalid" descr=""><![CDATA[File type is Invalid. (JPG, PNG, GIF only)]]></lines>
+    <lines name="errFilesizeInvalid" descr=""><![CDATA[File size is too big. (Max: ###VALUE###MB)]]></lines>
+
+
+    <lines name="bulkItemNoSelected" descr=""><![CDATA[No select item BrandCateogry]]></lines>
+    <lines name="bulkActionInvalidWarn" descr=""><![CDATA[Please choose action]]></lines>
+    <lines name="categoryads" descr=""><![CDATA[Product Custom BrandCateogry]]></lines>
+
+
+
+    <lines name="errAdd" descr=""><![CDATA[Error while Add BrandCateogry]]></lines>
+    <lines name="succAdd" descr=""><![CDATA[BrandCateogry had been created.]]></lines>
+    <lines name="errUpdate" descr=""><![CDATA[Error while updating BrandCateogry]]></lines>
+    <lines name="succUpdate" descr=""><![CDATA[BrandCateogry had been updated.]]></lines>
+    <lines name="succSubUpdate" descr=""><![CDATA[Sub BrandCateogry had been updated.]]></lines>
+
+    <lines name="errNotFound" descr=""><![CDATA[BrandCateogry not found.]]></lines>
+    <lines name="errDelete" descr=""><![CDATA[Error while deleting BrandCateogry with id ###id###.]]></lines>
+    <lines name="succDelete" descr=""><![CDATA[BrandCateogry with id ###id### had been deleted.]]></lines>
+
+    <lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+
+
+
+
+</data>

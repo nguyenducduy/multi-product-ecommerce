@@ -1,0 +1,512 @@
+/*
+Attachment viewer styles for Dribbble
+dan@simplebits.com
+*/
+/* reset styles 
+--------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* general styles 
+--------------------------------------------- */
+body {
+  padding: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  color: #999;
+  background: #3d3d3d url(/images/attachments/attachments-bg.png?1);
+}
+
+/* links */
+a:link, a:visited {
+  color: #369;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #39c;
+}
+
+/* page structure 
+--------------------------------------------- */
+#secondary {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 140px;
+}
+
+#secondary.zoomed {
+  display: none;
+}
+
+#viewer {
+  margin-left: 160px;
+}
+
+#viewer.zoomed {
+  margin-left: 0;
+}
+
+/* secondary styles 
+--------------------------------------------- */
+#logo {
+  margin: 0 0 10px 0;
+  text-align: center;
+  line-height: 1;
+}
+
+#logo a {
+  -webkit-transition: 0.2s opacity ease;
+  -moz-transition: 0.2s opacity ease;
+  -o-transition: 0.2s opacity ease;
+  transition: 0.2s opacity ease;
+}
+
+#logo a:hover {
+  opacity: .75;
+}
+
+#attachment-owner {
+  margin: 0 0 15px 0;
+  padding: 15px 0;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+#attachment-owner a {
+  display: block;
+  margin: 0 0 8px 0;
+  color: #ddd;
+  text-align: center;
+  -webkit-transition: 0.2s color ease;
+  -moz-transition: 0.2s color ease;
+  -o-transition: 0.2s color ease;
+  transition: 0.2s color ease;
+}
+
+#attachment-owner a:hover {
+  color: #fff;
+}
+
+#attachment-owner span.meta {
+  display: block;
+  margin: 6px 0 0 0;
+  font-size: 11px;
+  line-height: 1.3;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#attachment-owner span.file {
+  color: rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#attachment-owner span.file:hover {
+  overflow: visible;
+  text-overflow: none;
+}
+
+#attachment-owner span.date {
+  padding: 2px 0 2px 17px;
+  background: url(/images/attachments/icon-paperclip.png) no-repeat 0 50%;
+}
+
+#attachment-owner span.views {
+  padding: 0 0 0 17px;
+  background: url(/images/attachments/icon-attach-views.png) no-repeat 0 50%;
+}
+
+#back {
+  display: block;
+  margin: 0 0 20px 0;
+  padding: 8px 8px 8px 18px;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.2) url(/images/attachments/back-arrow.png?1) no-repeat 0 53%;
+  -webkit-border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  -webkit-transition: 0.2s all ease;
+  -moz-transition: 0.2s all ease;
+  -o-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+}
+
+#back:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#back:active {
+  -webkit-transform: translate(0, 1px);
+  -moz-transform: translate(0, 1px);
+  transform: translate(0, 1px);
+}
+
+div.ad {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  width: 140px;
+  font-size: 11px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+div.ad a.flag {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+div.ad a img {
+  display: block;
+  margin: 10px auto;
+}
+
+div.ad a {
+  color: rgba(255, 255, 255, 0.7);
+  -webkit-transition: 0.2s opacity ease;
+  -moz-transition: 0.2s opacity ease;
+  -o-transition: 0.2s opacity ease;
+  transition: 0.2s opacity ease;
+}
+
+div.ad a br {
+  display: none;
+}
+
+div.ad a em {
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+}
+
+div.ad a:hover {
+  opacity: .75;
+}
+
+/* viewer styles 
+--------------------------------------------- */
+#viewer img {
+  display: block;
+  max-width: 100%;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+#viewer img:hover {
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in;
+}
+
+#viewer img.zoomed:hover {
+  cursor: -webkit-zoom-out;
+  cursor: -moz-zoom-out;
+  cursor: zoom-out;
+}
+
+#viewer-img img.zoomed {
+  max-width: none;
+}
+
+#viewer img.not-on-s3 {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+@-webkit-keyframes progress {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+#viewer img.ring {
+  -webkit-animation: progress 8s infinite linear;
+}
+
+#viewer div.progress-ring {
+  position: relative;
+  width: 250px;
+  margin: 40px auto;
+}
+
+#viewer div.progress-ring img.cloud {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+div.message {
+  margin: 0 0 50px 0;
+  padding: 20px;
+}
+
+div.message h2 {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.3;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* crop styles 
+--------------------------------------------- */
+body#crop #viewer img {
+  max-width: none;
+}
+
+#crop-form fieldset {
+  padding: 15px 0 0 0;
+  font-size: 12px;
+  text-align: center;
+}
+
+#crop-form fieldset.choose-size {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+#crop-form fieldset.choose-size label {
+  display: block;
+  margin: 0 0 10px 0;
+  padding: 9px;
+  color: #606060;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+#crop-form fieldset.choose-size label:last-child {
+  margin: 0;
+}
+
+#crop-form fieldset.choose-size label input {
+  position: absolute;
+  opacity: 0;
+}
+
+#crop-form fieldset.choose-size label strong {
+  font-size: 14px;
+  font-weight: bold;
+  color: #777;
+}
+
+#crop-form fieldset.choose-size label.active {
+  padding: 10px;
+  color: #bbb;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#crop-form fieldset.choose-size label.active strong {
+  color: #fff;
+}
+
+#crop-form fieldset.choose-size label span.mod-meta {
+  display: block;
+  margin-top: 4px;
+  font-size: 11px;
+}
+
+#crop-form input.form-sub {
+  display: block;
+  width: 100%;
+  padding: 7px 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  border: none;
+  background: #ea4c89 url(/images/glass-light.png) repeat-x 0 50%;
+  border-radius: 4px;
+}
+
+#crop-form input.form-sub:hover,
+#crop-form input.form-sub:focus {
+  text-decoration: none;
+  background-color: #df3e7b;
+}
+
+#crop-form input.form-sub:active {
+  text-decoration: none;
+  background-color: #c22b65;
+}
+
+#cancel-crop-form input.form-btn {
+  display: block;
+  width: 100%;
+  margin: 10px 0 0 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #777;
+  border: none;
+  background: none;
+}
+
+#cancel-crop-form input.form-btn:hover {
+  color: #999;
+}
+
+#cancel-crop-form input.form-btn:active {
+  color: #bbb;
+}
+
+div.crop-message {
+  margin: 15px 0 0 0;
+  padding: 15px 0;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #999;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* misc. 
+--------------------------------------------- */
+hr, .hide {
+  display: none;
+}
+
+a img {
+  border: none;
+}
+
+/* self-clear floats */
+.group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* IE patches 
+--------------------------------------------- */
+/* self-clear floats */
+*:first-child + html .group {
+  /* IE7 */
+  min-height: 1px;
+}
+
+/* responsiveness
+--------------------------------------------- */
+@media screen and (max-width: 640px) {
+  #secondary {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: auto;
+  }
+
+  #logo {
+    text-align: center;
+  }
+
+  #logo a {
+    float: none;
+  }
+
+  #attachment-owner a img {
+    float: left;
+    margin: 0 8px 0 0;
+  }
+
+  #viewer {
+    margin-left: 0;
+  }
+
+  #viewer img {
+    margin-bottom: 20px;
+  }
+
+  div.ad {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    width: auto;
+    text-align: left;
+  }
+
+  div.ad a.flag {
+    display: block;
+    margin: 0 0 10px 0;
+  }
+
+  div.ad a img {
+    float: left;
+    display: block;
+    margin: 0 10px 0 0;
+  }
+}

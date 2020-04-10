@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="titleFollowing" descr=""><![CDATA[Danh sách Following]]></lines>
+	<lines name="titleFollower" descr=""><![CDATA[Danh sách Follower]]></lines>
+	<lines name="empty" descr=""><![CDATA[Chưa có thông tin]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Xoá thành công]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi khi xoá khỏi danh sách]]></lines>
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi khi follow tài khoản.]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Follow thành công.]]></lines>
+	<lines name="errFollowingExisted" descr=""><![CDATA[Bạn đã Follow tài khoản này rồi.]]></lines>
+	
+	
+	<lines name="pageTitle" descr=""><![CDATA[ | Danh sách Following]]></lines>
+	<lines name="pageKeyword" descr=""><![CDATA[ban be, friend, friendlist, friend list, bạn bè, danh sách bạn, danh sách bạn bè]]></lines>
+	<lines name="pageDescription" descr=""><![CDATA[Danh sách bạn bè của thành viên.]]></lines>
+	
+</data>

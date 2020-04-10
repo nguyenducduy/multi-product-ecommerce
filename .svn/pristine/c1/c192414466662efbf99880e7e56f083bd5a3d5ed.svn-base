@@ -1,0 +1,46 @@
+.wrap_supermark{overflow:hidden; margin:15px auto; width:1200px; font:normal 12px Arial; color:#444}
+
+.mark_left{float:left; overflow:hidden; width:760px}
+.s_point{overflow:hidden; background:#0082cc; padding:6px;}
+
+
+
+.mark_right{float:right; width:420px;height:565px; display:block; overflow:auto; }
+.mark_right li{list-style:none; float:left; width:170px; padding:7px; margin:7px; font:normal 11px/20px Arial; color:#444; background:#f2f2f2;height: 125px;}
+.mark_right li.active{
+	background : #FFFFBA;
+}
+.mark_right li a{display:block; font:bold 12px/20px Arial; color:#0089cf; text-decoration:none; background:url(../../images/site/map-1.png) no-repeat left center; padding-left:20px;}
+.mark_right li a:hover{color:#444;}
+
+.mark_right li span{font:normal 11px/20px Arial; color:#444; display:block}
+
+
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .wrap_supermark{ width:980px;}
+    .mark_right{ width:210px !important; overflow-x:hidden; overflow-y:auto }
+    .mark_right li{ width:170px; padding:7px; margin:7px 0;}
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    .wrap_supermark{ width:980px;}
+    .mark_right{ width:210px !important;overflow-x:hidden; overflow-y:auto }
+    .mark_right li{ width:170px; padding:7px; margin:7px }
+
+}
+#titlestoreproduct {
+    clear: both;
+    color: #555555;
+    display: none;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+    width: auto;
+}
+#showmaplist {
+    height: 600px;
+width: 760px;
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Installment]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[Installment Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[Installment &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New Installment]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Installment Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[Installment &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update Installment]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[Installment Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[Installment &raquo; Update]]></lines>
+
+	
+    <lines name="labelPid" descr=""><![CDATA[Pid]]></lines>
+	<lines name="labelOrderCRM" descr=""><![CDATA[Order CRM]]></lines>
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelInvoiceid" descr=""><![CDATA[Mã đơn hàng]]></lines>
+	<lines name="labelPricesell" descr=""><![CDATA[Giá bán]]></lines>
+	<lines name="labelPricemonthly" descr=""><![CDATA[Tiền hàng tháng]]></lines>
+	<lines name="labelGender" descr=""><![CDATA[Giới tính]]></lines>
+	<lines name="labelFullname" descr=""><![CDATA[Họ Tên]]></lines>
+	<lines name="labelPhone" descr=""><![CDATA[Số ĐT]]></lines>
+	<lines name="labelEmail" descr=""><![CDATA[Email]]></lines>
+	<lines name="labelBirthday" descr=""><![CDATA[Ngày Sinh]]></lines>
+	<lines name="labelPersonalid" descr=""><![CDATA[CMND]]></lines>
+	<lines name="labelPersonaltype" descr=""><![CDATA[Loại]]></lines>
+	<lines name="labelAddress" descr=""><![CDATA[Địa chị]]></lines>
+	<lines name="labelRegion" descr=""><![CDATA[Nơi ở]]></lines>
+	<lines name="labelRegionresident" descr=""><![CDATA[Hộ khẩu]]></lines>
+	<lines name="labelInstallmentmonth" descr=""><![CDATA[Thời gian trả góp]]></lines>
+	<lines name="labelSegmentpercent" descr=""><![CDATA[Mức trả trước]]></lines>
+	<lines name="labelPayathome" descr=""><![CDATA[Trả góp tận nhà]]></lines>
+	<lines name="labelDatecreate" descr=""><![CDATA[Ngày tạo]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+	
+	
+	<lines name="errInvoiceidRequired" descr=""><![CDATA[Mã đơn hàng is required.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add Installment]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Installment had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating Installment]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Installment had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Installment not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting Installment with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Installment with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

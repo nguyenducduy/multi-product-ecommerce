@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[ProductGuessUser]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[ProductGuessUser Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[ProductGuessUser &raquo; Listing]]></lines>
+	
+
+	<lines name="head_add" descr=""><![CDATA[Add New ProductGuessUser]]></lines>
+	<lines name="title_add" descr=""><![CDATA[ProductGuessUser Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[ProductGuessUser &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update ProductGuessUser]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[ProductGuessUser Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[ProductGuessUser &raquo; Update]]></lines>
+
+	
+	<lines name="labelPid" descr=""><![CDATA[Pid]]></lines>
+	<lines name="labelPgid" descr=""><![CDATA[Pgid]]></lines>
+	<lines name="labelId" descr=""><![CDATA[ID]]></lines>
+	<lines name="labelFullname" descr=""><![CDATA[Fullname]]></lines>
+	<lines name="labelEmail" descr=""><![CDATA[Email]]></lines>
+	<lines name="labelPhone" descr=""><![CDATA[Phone]]></lines>
+	<lines name="labelAddress" descr=""><![CDATA[Address]]></lines>
+	<lines name="labelAnswer" descr=""><![CDATA[Answer]]></lines>
+	<lines name="labelNewsletterproduct" descr=""><![CDATA[Newsletterproduct]]></lines>
+	<lines name="labelNewsletter" descr=""><![CDATA[Newsletter]]></lines>
+	<lines name="labelDatecreated" descr=""><![CDATA[Date Created]]></lines>
+	<lines name="labelDatemodified" descr=""><![CDATA[Date Modified]]></lines>
+	
+	
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add ProductGuessUser]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[ProductGuessUser had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating ProductGuessUser]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[ProductGuessUser had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[ProductGuessUser not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting ProductGuessUser with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[ProductGuessUser with id ###id### had been deleted.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+	
+	
+	
+	
+</data>

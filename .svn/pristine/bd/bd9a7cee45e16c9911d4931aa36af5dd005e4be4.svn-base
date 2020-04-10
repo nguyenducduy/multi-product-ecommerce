@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<lines name="titleBlog" descr=""><![CDATA[Blog]]></lines>
+	<lines name="titleArticle" descr=""><![CDATA[Bài viết]]></lines>
+	<lines name="title" descr=""><![CDATA[Blog của]]></lines>
+	<lines name="titleAlt" descr=""><![CDATA[Danh sách Blog]]></lines>
+	<lines name="titleAdd" descr=""><![CDATA[Đăng bài viết]]></lines>
+	<lines name="titleAddTitle" descr=""><![CDATA[Viết bài vào Blog của bạn]]></lines>
+	<lines name="titleDetail" descr=""><![CDATA[Đọc Blog]]></lines>
+	<lines name="titleEdit" descr=""><![CDATA[Chỉnh sửa bài viết]]></lines>
+	<lines name="empty" descr=""><![CDATA[Chưa có bài viết nào trong Blog]]></lines>
+	<lines name="emptyLinkText" descr=""><![CDATA[Viết Blog]]></lines>
+	<lines name="edit" descr=""><![CDATA[Sửa]]></lines>
+	<lines name="editTitle" descr=""><![CDATA[Chỉnh sửa nội dung bài viết]]></lines>
+	<lines name="delete" descr=""><![CDATA[Xoá]]></lines>
+	<lines name="deleteTitle" descr=""><![CDATA[Xoá bài viết này]]></lines>
+	<lines name="image" descr=""><![CDATA[Hình đại diện]]></lines>
+	<lines name="imageHelp" descr=""><![CDATA[Định dạng cho phép: JPG, PNG, GIF. Tối đa]]></lines>
+	<lines name="labelTitle" descr=""><![CDATA[Tiêu đề bài viết]]></lines>
+	<lines name="contents" descr=""><![CDATA[Nội dung]]></lines>
+	<lines name="submit" descr=""><![CDATA[Gởi]]></lines>
+	<lines name="save" descr=""><![CDATA[Lưu]]></lines>
+	<lines name="deleteImage" descr=""><![CDATA[Xoá hình này]]></lines>
+	<lines name="sharebookmarkTitle" descr=""><![CDATA[Chia sẻ lên:]]></lines>
+	<lines name="datecreated" descr=""><![CDATA[Đăng bài lúc ]]></lines>
+	<lines name="view" descr=""><![CDATA[Lượt xem ]]></lines>
+	<lines name="author" descr=""><![CDATA[Tác giả ]]></lines>
+	<lines name="commenttoblog" descr=""><![CDATA[Bình luận cho bài viết]]></lines>
+	<lines name="abuse" descr=""><![CDATA[Báo nội dung xấu]]></lines>
+	<lines name="abuseTitle" descr=""><![CDATA[Thông báo cho ban quản trị vì bài viết có nội dung không tốt]]></lines>
+	<lines name="type" descr=""><![CDATA[Thể loại bài viết]]></lines>
+	<lines name="typeBlog" descr=""><![CDATA[Blog]]></lines>
+	<lines name="typeArticle" descr=""><![CDATA[Bài viết cho Văn hóa đọc]]></lines>
+	<lines name="typeArticleHelp" descr=""><![CDATA[Các bài viết cho văn hóa đọc sẽ được hiển thị trong chuyên mục 'Văn hóa đọc' của Reader và cho tất cả mọi người cùng đọc. Các bài viết thuộc loại Blog thì chỉ nằm trong trang cá nhân của bạn.]]></lines>
+	<lines name="category" descr=""><![CDATA[Danh mục]]></lines>
+	<lines name="categorydefault" descr=""><![CDATA[- - - - - - - -]]></lines>
+	<lines name="sourceurl" descr=""><![CDATA[Nguồn tin]]></lines>
+	<lines name="sourceurlhelp" descr=""><![CDATA[Địa chỉ website (nếu có)]]></lines>
+	
+	<lines name="errTitleEmpty" descr=""><![CDATA[Bạn chưa nhập tiêu đề cho bài viết]]></lines>
+	<lines name="errMessageTooShort" descr=""><![CDATA[Nội dung bài viết quá ngắn. (Tối thiểu ###VALUE### ký tự)]]></lines>
+	<lines name="errMessageTooLong" descr=""><![CDATA[Nội dung bài viết quá dài. (Tối đa ###VALUE### ký tự)]]></lines>
+	<lines name="errDuplicate" descr=""><![CDATA[Blog với tiêu đề bạn gởi vừa được tạo.]]></lines>
+	<lines name="errSpam" descr=""><![CDATA[Thông tin bạn gởi quá nhanh. Hãy chờ trong giây lát.]]></lines>
+	<lines name="errSharemode" descr=""><![CDATA[Chế độ chia sẻ không hợp lệ.]]></lines>
+	<lines name="errSharemodeCustom" descr=""><![CDATA[Bạn chọn chia sẻ đến một số bạn nên phải chọn ít nhất 1 bạn để chia sẻ.]]></lines>
+	<lines name="errImageExtensionInvalid" descr=""><![CDATA[Định dạng hình không hợp lệ.]]></lines>
+	<lines name="errImageMaxFileSize" descr=""><![CDATA[Dung lượng hình quá lớn, hãy sử dụng hình nhẹ hơn.]]></lines>
+	
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi khi lưu Blog của bạn.]]></lines>
+	<lines name="errEdit" descr=""><![CDATA[Có lỗi khi cập nhật bài viết của bạn.]]></lines>
+		
+	<lines name="succAdd" descr=""><![CDATA[Thêm bài viết thành công]]></lines>
+	<lines name="succEdit" descr=""><![CDATA[Cập nhật thành công]]></lines>
+	
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi khi xoá bài viết]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Xoá bài viết thành công]]></lines>
+	
+	<lines name="commentTitle" descr=""><![CDATA[Bình luận cho bài viết]]></lines>
+	<lines name="goToTop" descr=""><![CDATA[Lên đầu trang]]></lines>
+	<lines name="commentLabel" descr=""><![CDATA[bình luận]]></lines>
+	<lines name="commentEmpty" descr=""><![CDATA[Chưa có bình luận nào]]></lines>
+	<lines name="commentMessageHeading" descr=""><![CDATA[Gởi bình luận cho bài viết này]]></lines>
+	<lines name="commentMessage" descr=""><![CDATA[Nội dung:]]></lines>
+	<lines name="commentSubmit" descr=""><![CDATA[Gởi]]></lines>
+	<lines name="followDisable" descr=""><![CDATA[Không nhận thông báo mới]]></lines>
+	<lines name="followDisableTitle" descr=""><![CDATA[Không nhận thông báo mới khi có người gởi bình luận mới cho bài blog này]]></lines>
+	<lines name="succDisableNotification" descr=""><![CDATA[Thông tin của bạn đã được lưu]]></lines>
+	<lines name="errDisableNotification" descr=""><![CDATA[Có lỗi khi lưu thông tin của bạn]]></lines>
+	
+	<lines name="shareoption" descr=""><![CDATA[Tùy chọn chia sẻ cho bài viết này: ]]></lines>
+	<lines name="sharemode" descr=""><![CDATA[Ai được xem]]></lines>
+	<lines name="sharemodeEveryone" descr=""><![CDATA[Tất cả mọi người]]></lines>
+	<lines name="sharemodeFriend" descr=""><![CDATA[Tất cả bạn bè]]></lines>
+	<lines name="sharemodePrivate" descr=""><![CDATA[Chỉ mình tôi]]></lines>
+	<lines name="sharemodeCustom" descr=""><![CDATA[Chỉ một số bạn mà tôi chỉ định...]]></lines>
+	<lines name="sharetothislistTitle" descr=""><![CDATA[Nhập tên bạn bè cho phép xem.]]></lines>
+	<lines name="sharemodeDeny" descr=""><![CDATA[TRỪ những người bạn sau: (Nhập tên bạn bè KHÔNG cho xem)]]></lines>
+	<lines name="setting" descr=""><![CDATA[Cài đặt khác]]></lines>
+	<lines name="imageintext" descr=""><![CDATA[Hiển thị hình đại diện trong nội dung bài viết]]></lines>
+	<lines name="opencomment" descr=""><![CDATA[Cho phép gởi bình luận cho bài viết này]]></lines>
+	<lines name="closecommentwarning" descr=""><![CDATA[Bài viết này đã bị tác giả khóa không cho viết bình luận.]]></lines>
+	<lines name="pageMemberOnly" descr=""><![CDATA[Chỉ có thành viên của Page mới bình luận được.]]></lines>
+	<lines name="showinhomepage" descr=""><![CDATA[Hiển thị trong Văn hóa đọc]]></lines>
+	
+	<lines name="tagBook" descr=""><![CDATA[Tag sách]]></lines>
+	<lines name="tagbookListTitle" descr=""><![CDATA[Sách được tag trong bài viết:]]></lines>
+	<lines name="titleBlogEventAdd" descr=""><![CDATA[Viết Blog cho cuộc thi]]></lines>
+	<lines name="errBlogEventExistedRedirect" descr=""><![CDATA[Bạn đã gởi bài tham gia rồi. Đang chuyển tới trang chỉnh sửa bài blog bạn đã gởi.]]></lines>
+	
+	<lines name="pageTitle" descr=""><![CDATA[ - Blog]]></lines>
+	<lines name="pageKeyword" descr=""><![CDATA[blog, viet blog, danh sach blog]]></lines>
+	<lines name="pageDescription" descr=""><![CDATA[danh sach bai viet trong blog]]></lines>
+	
+	<lines name="pageTitleAdd" descr=""><![CDATA[ - Viết Blog]]></lines>
+	<lines name="pageTitleEdit" descr=""><![CDATA[ - Chỉnh sửa Blog]]></lines>
+	<lines name="pageKeywordAdd" descr=""><![CDATA[viet blog, tao bai viet moi, viet bai, viet blog, danh sach blog]]></lines>
+	<lines name="pageDescriptionAdd" descr=""><![CDATA[Viết bài cho Blog]]></lines>
+
+</data>

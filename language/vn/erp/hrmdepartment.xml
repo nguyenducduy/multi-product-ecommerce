@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[Phòng ban]]></lines>
+
+	<lines name="head_add" descr=""><![CDATA[Thêm phòng ban mới]]></lines>
+	<lines name="title_add" descr=""><![CDATA[Thông tin]]></lines>
+	
+	<lines name="head_employeeadd" descr=""><![CDATA[Thêm nhân viên vào phòng ban]]></lines>
+	<lines name="head_employeelist" descr=""><![CDATA[Danh sách nhân viên]]></lines>
+	<lines name="head_employeeedit" descr=""><![CDATA[Cập nhật phòng ban cho nhân viên]]></lines>
+
+	<lines name="addEmployee" descr=""><![CDATA[Thêm nhân viên]]></lines>
+
+	<lines name="labelParent" descr=""><![CDATA[Phòng ban cha]]></lines>
+	<lines name="labelParentRoot" descr=""><![CDATA[- - - Đây là phòng ban gốc - - -]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Tên phòng ban]]></lines>
+	<lines name="viewList" descr=""><![CDATA[Xem dạng List]]></lines>
+	<lines name="viewChart" descr=""><![CDATA[Xem dạng Sơ đồ]]></lines>
+	<lines name="labelDepartment" descr=""><![CDATA[Phòng ban]]></lines>
+	<lines name="labelJobtitle" descr=""><![CDATA[Chức vụ]]></lines>
+	<lines name="labelEmployee" descr=""><![CDATA[Chọn nhân viên]]></lines>
+	<lines name="errEmployeeIsRequired" descr=""><![CDATA[Bạn chưa chọn nhân viên]]></lines>
+	<lines name="errExistedDepartmentEmployee" descr=""><![CDATA[###VALUE### hiện đã thuộc phòng ban "###VALUE2###" (<a href="###VALUE3###">Đổi phòng ban</a>)]]></lines>
+	
+	<lines name="errJobtitleInvalid" descr=""><![CDATA[Chức vụ không hợp lệ.]]></lines>
+	<lines name="errDepartmentInvalid" descr=""><![CDATA[Phòng ban không hợp lệ.]]></lines>
+	<lines name="errAdd" descr=""><![CDATA[Có lỗi khi thêm phòng ban mới]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[Thêm phòng ban thành công]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Có lỗi khi cập nhật phòng ban.]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[Cập nhật phòng ban thành công.]]></lines>
+	
+	<lines name="succEmployeeAdd" descr=""><![CDATA[Thêm thành công các nhân viên ###VALUE### vào phòng ban đã chọn.]]></lines>
+	<lines name="errEmployeeAdd" descr=""><![CDATA[Có lỗi khi thêm các nhân viên ###VALUE### vào phòng ban đã chọn.]]></lines>
+	
+	<lines name="succEmployeeUpdate" descr=""><![CDATA[Cập nhật thành công]]></lines>
+	<lines name="errEmployeeUpdate" descr=""><![CDATA[Có lỗi khi cập nhật thông tin bạn chọn]]></lines>
+	
+	<lines name="removeEmployee" descr=""><![CDATA[Xóa khỏi các phòng ban]]></lines>
+	<lines name="succEmployeeRemove" descr=""><![CDATA[Xóa thành viên khỏi phòng ban thành công.]]></lines>
+	<lines name="errEmployeeRemove" descr=""><![CDATA[Có lỗi khi xóa thành viên khỏi phòng ban.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy thông tin bạn chọn.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Có lỗi khi xóa phòng ban với ID ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[Phòng ban với ID ###id### đã được xóa.]]></lines>
+	
+	<lines name="errNotFound" descr=""><![CDATA[Không tìm thấy thông tin]]></lines>
+	
+	
+	
+	
+</data>

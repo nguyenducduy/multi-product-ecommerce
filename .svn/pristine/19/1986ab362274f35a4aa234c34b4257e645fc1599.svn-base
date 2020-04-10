@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+   
+  
+  <lines name="logoTitle" descr=""><![CDATA[Mạng xã hội sách cho người Việt Nam]]></lines>
+  <lines name="welcomeHeadline" descr=""><![CDATA[Mạng Xã Hội Sách]]></lines>
+  <lines name="mRegister" descr=""><![CDATA[Đăng ký]]></lines>
+  <lines name="mRegisterTitle" descr=""><![CDATA[Đăng ký thành viên mới]]></lines>
+  <lines name="mLogin" descr=""><![CDATA[Đăng nhập]]></lines>
+  <lines name="mLoginAddon" descr=""><![CDATA[(Có thể dùng tài khoản Facebook, Yahoo, Gmail)]]></lines>
+  <lines name="mLoginTitle" descr=""><![CDATA[Đăng nhập vào trang nhà của bạn]]></lines>
+  <lines name="mHome" descr=""><![CDATA[Trang chủ]]></lines>
+  <lines name="mHomeTitle" descr=""><![CDATA[Quay về trang chủ]]></lines>
+  <lines name="mMember" descr=""><![CDATA[Thành viên]]></lines>
+  <lines name="mMemberTitle" descr=""><![CDATA[Các thành viên trên website]]></lines>
+  <lines name="mShelf" descr=""><![CDATA[Tủ sách]]></lines>
+  <lines name="mShelfTitle" descr=""><![CDATA[Các tủ sách tạo bởi thành viên]]></lines>
+  <lines name="mIntro" descr=""><![CDATA[Giới thiệu Website]]></lines>
+  <lines name="mIntroTitle" descr=""><![CDATA[Tìm hiểu về website Reader.vn]]></lines>
+  <lines name="mBook" descr=""><![CDATA[Thư viện sách]]></lines>
+  <lines name="mBookTitle" descr=""><![CDATA[Vào thư viện sách]]></lines>
+  <lines name="mHot" descr=""><![CDATA[Sách nổi bật]]></lines>
+  <lines name="mHotTitle" descr=""><![CDATA[Xem các sách nổi bật trên website]]></lines>
+  <lines name="mShop" descr=""><![CDATA[Bán - Chia sẻ]]></lines>
+  <lines name="mShopTitle" descr=""><![CDATA[Xem các sách do các thành viên bán hoặc chia sẻ link download, đọc online]]></lines>
+  <lines name="mReview" descr=""><![CDATA[Bình luận sách]]></lines>
+  <lines name="mReviewTitle" descr=""><![CDATA[Xem các bình luận sách của thành viên]]></lines>
+  <lines name="mQuote" descr=""><![CDATA[Trích dẫn sách]]></lines>
+  <lines name="mQuoteTitle" descr=""><![CDATA[Xem trích dẫn hay từ sách]]></lines>
+  <lines name="mTos" descr=""><![CDATA[Điều lệ tham gia]]></lines>
+  <lines name="mTosTitle" descr=""><![CDATA[Thông tin điều lệ tham gia của website]]></lines>
+  <lines name="mForgotpass" descr=""><![CDATA[Quên mật khẩu]]></lines>
+  <lines name="mForgotpassTitle" descr=""><![CDATA[Nhấn vào đây nếu bạn quên mật khẩu của tài khoản]]></lines>
+  <lines name="mContact" descr=""><![CDATA[Liên hệ]]></lines>
+  <lines name="mContactTitle" descr=""><![CDATA[Liên hệ với chúng tôi]]></lines>
+  <lines name="mLogout" descr=""><![CDATA[Thoát]]></lines>
+  <lines name="mLogoutTitle" descr=""><![CDATA[Click để thoát khỏi hệ thống]]></lines>
+  <lines name="mProfile" descr=""><![CDATA[Thông tin cá nhân]]></lines>
+  <lines name="mProfileTitle" descr=""><![CDATA[Cập nhật thông tin tài khoản của bạn]]></lines>
+  <lines name="mOrder" descr=""><![CDATA[Lịch sử mua bán]]></lines>
+  <lines name="mOrderTitle" descr=""><![CDATA[Lịch sử giao dịch mua bán của bạn]]></lines>
+  <lines name="mWidget" descr=""><![CDATA[Widget]]></lines>
+  <lines name="mWidgetProfile" descr=""><![CDATA[Tạo Widget tủ sách]]></lines>
+  <lines name="mMyProfile" descr=""><![CDATA[Trang cá nhân]]></lines>
+  <lines name="mMyProfileTitle" descr=""><![CDATA[Tới trang cá nhân của bạn]]></lines>
+  <lines name="mFriend" descr=""><![CDATA[Danh sách bạn bè]]></lines>
+  <lines name="mFriendTitle" descr=""><![CDATA[Danh sách bạn bè]]></lines>
+  <lines name="mMyBook" descr=""><![CDATA[Sách của tôi]]></lines>
+  <lines name="mMyBookTitle" descr=""><![CDATA[Tất cả sách của tôi]]></lines>
+  <lines name="mInvite" descr=""><![CDATA[Kết bạn]]></lines>
+  <lines name="mInviteTitle" descr=""><![CDATA[Tìm kiếm và mời bạn bè tham gia]]></lines>
+  <lines name="mBookAdd" descr=""><![CDATA[Thêm sách]]></lines>
+  <lines name="mBookAddTitle" descr=""><![CDATA[Thêm sách vào tủ sách của bạn]]></lines>
+  <lines name="mMyHome" descr=""><![CDATA[Trang nhà]]></lines>
+  <lines name="mMyHomeTitle" descr=""><![CDATA[Đến trang nhà của bạn]]></lines>
+  <lines name="mSitesearchbooksubmit" descr=""><![CDATA[Tìm sách]]></lines>
+  <lines name="mSitesearchbookTooltip" descr=""><![CDATA[Nhập tựa sách cần tìm]]></lines>
+  <lines name="mFriendRequest" descr=""><![CDATA[Lời mời kết bạn]]></lines>
+  <lines name="mFriendRequestTitle" descr=""><![CDATA[Danh sách những lời mời kết bạn được gởi cho bạn]]></lines>
+  <lines name="mMoreTitle" descr=""><![CDATA[Các chức năng khác]]></lines>
+  <lines name="mBlog" descr=""><![CDATA[Blog của tôi]]></lines>
+  <lines name="mBlogTitle" descr=""><![CDATA[Danh sách bài viết trong Blog]]></lines>
+  <lines name="mNote" descr=""><![CDATA[Ghi chú sách của tôi]]></lines>
+  <lines name="mNoteTitle" descr=""><![CDATA[Danh sách các ghi chú sách]]></lines>
+  <lines name="mShopSuggest" descr=""><![CDATA[Có thể bạn muốn mua]]></lines>
+  <lines name="mProfileinfo" descr=""><![CDATA[Thông tin cá nhân]]></lines>
+  
+  <lines name="copyright" descr=""><![CDATA[2011 &copy; Reader.vn. <span style="color:#555">Phiên bản thử nghiệm</span>]]></lines>
+  <lines name="categoryListing" descr=""><![CDATA[Khám phá sách theo danh mục]]></lines>
+  <lines name="newReview" descr=""><![CDATA[Bình luận mới]]></lines>
+  <lines name="viewAll" descr=""><![CDATA[Xem tất cả]]></lines>
+  <lines name="coverPrice" descr=""><![CDATA[Giá bìa]]></lines>
+  <lines name="memberLabel" descr=""><![CDATA[Thành viên]]></lines>
+  <lines name="sideIntroHeader" descr=""><![CDATA[Tham gia Website để:]]></lines>
+	<lines name="sideIntroGroup" descr=""><![CDATA[Kết bạn với người thích đọc sách.]]></lines>
+	<lines name="sideIntroDiscover" descr=""><![CDATA[Khám phá nhiều sách mới.]]></lines>
+	<lines name="sideIntroShelf" descr=""><![CDATA[Tạo tủ sách của riêng bạn.]]></lines>
+	<lines name="sideIntroComment" descr=""><![CDATA[Thảo luận &amp; đánh giá về sách.]]></lines>
+	<lines name="sideIntroQuote" descr=""><![CDATA[Lưu trích dẫn từ sách.]]></lines>
+	<lines name="sideIntroShop" descr=""><![CDATA[Mua bán, Download, đọc online.]]></lines>
+	<lines name="sideIntroWidget" descr=""><![CDATA[Tạo Widget nhúng vào Blog, Web.]]></lines>
+	<lines name="bookgridTypeTable" descr=""><![CDATA[Hiển thị dạng bảng]]></lines>
+	<lines name="bookgridTypeShelf" descr=""><![CDATA[Hiển thị dạng tủ sách]]></lines>
+	<lines name="book" descr=""><![CDATA[sách]]></lines>
+	<lines name="bookFirstCap" descr=""><![CDATA[Sách]]></lines>
+	<lines name="bookCover" descr=""><![CDATA[Hình]]></lines>
+	<lines name="bookTitle" descr=""><![CDATA[Tựa sách]]></lines>
+	<lines name="bookAuthor" descr=""><![CDATA[Tác giả]]></lines>
+	<lines name="bookCategory" descr=""><![CDATA[Danh mục]]></lines>
+	<lines name="bookPriceCover" descr=""><![CDATA[Giá bìa]]></lines>
+	<lines name="bookPriceCoverNotUpdated" descr=""><![CDATA[Chưa cập nhật]]></lines>
+	<lines name="bookPriceSell" descr=""><![CDATA[Giá bán]]></lines>
+	<lines name="bookPublish" descr=""><![CDATA[Xuất bản]]></lines>
+	<lines name="bookFav" descr=""><![CDATA[Sách yêu thích]]></lines>
+	<lines name="bookQuote" descr=""><![CDATA[Trích dẫn sách]]></lines>
+	<lines name="bookPage" descr=""><![CDATA[Trang]]></lines>
+	<lines name="bookShelf" descr=""><![CDATA[Tủ sách]]></lines>
+	<lines name="bookReview" descr=""><![CDATA[Bình luận]]></lines>
+	<lines name="bookRating" descr=""><![CDATA[Đánh giá]]></lines>
+	<lines name="bookRating5" descr=""><![CDATA[Rất hay]]></lines>
+	<lines name="bookRating4" descr=""><![CDATA[Hay]]></lines>
+	<lines name="bookRating3" descr=""><![CDATA[Bình thường]]></lines>
+	<lines name="bookRating2" descr=""><![CDATA[Không hay]]></lines>
+	<lines name="bookRating1" descr=""><![CDATA[Dở tệ]]></lines>
+	<lines name="bookQuality" descr=""><![CDATA[Chất lượng]]></lines>
+	<lines name="bookQualityNew" descr=""><![CDATA[Sách mới]]></lines>
+	<lines name="bookQualityOneTime" descr=""><![CDATA[Mới đọc 1 lần]]></lines>
+	<lines name="bookQualityManyTime" descr=""><![CDATA[Đã đọc vài lần]]></lines>
+	<lines name="bookQualityOld" descr=""><![CDATA[Sách xưa]]></lines>
+	<lines name="bookQualityPhoto" descr=""><![CDATA[Sách Photo còn mới]]></lines>
+	<lines name="bookQualityEbook" descr=""><![CDATA[Sách điện tử (Ebook)]]></lines>
+	<lines name="bookQuantity" descr=""><![CDATA[Số lượng]]></lines>
+	<lines name="bookQuantity1" descr=""><![CDATA[1]]></lines>
+	<lines name="bookQuantityMany" descr=""><![CDATA[Nhiều]]></lines>
+	<lines name="bookQuantityOutStock" descr=""><![CDATA[Đang hết hàng]]></lines>
+	<lines name="bookCountUsing" descr=""><![CDATA[người đã thêm]]></lines>
+	<lines name="bookCountSelling" descr=""><![CDATA[người đang bán/chia sẻ]]></lines>
+	<lines name="bookSellCount" descr=""><![CDATA[sách đang bán/chia sẻ]]></lines>
+	<lines name="bookCountFav" descr=""><![CDATA[yêu thích]]></lines>
+	<lines name="bookCountReview" descr=""><![CDATA[bình luận]]></lines>
+	<lines name="bookCountQuote" descr=""><![CDATA[trích dẫn]]></lines>
+	
+	<lines name="friend" descr=""><![CDATA[bạn]]></lines>
+	<lines name="clickToBuyTooltip" descr=""><![CDATA[Nhấn để xem thông tin và mua sách này]]></lines>
+	<lines name="clickToGetfreeTooltip" descr=""><![CDATA[Nhấn để xem thông tin chia sẻ sách này]]></lines>
+	<lines name="freebook" descr=""><![CDATA[Miễn phí]]></lines>
+	<lines name="freebookebook" descr=""><![CDATA[Ebook Free]]></lines>
+	<lines name="loginRequired" descr=""><![CDATA[Đăng nhập trước khi tiến hành]]></lines>
+	<lines name="bookNotFound" descr=""><![CDATA[Không tìm thấy sách]]></lines>
+	<lines name="readStatus" descr=""><![CDATA[Trạng thái]]></lines>
+	<lines name="readStatusPast" descr=""><![CDATA[Đã đọc]]></lines>
+	<lines name="readStatusPresent" descr=""><![CDATA[Đang đọc]]></lines>
+	<lines name="readStatusFuture" descr=""><![CDATA[Muốn mua]]></lines>
+	<lines name="activateWarnText1" descr=""><![CDATA[Tài khoản của bạn chưa kích hoạt. <p>Đường dẫn kích hoạt đã được gởi đến email của bạn.</p>]]></lines>
+	<lines name="activateWarnText2" descr=""><![CDATA[&raquo; Gởi lại mail kích hoạt]]></lines>
+	<lines name="notfoundRequestUrl" descr=""><![CDATA[Đường dẫn gốc: ]]></lines>
+	<lines name="genderMale" descr=""><![CDATA[Nam]]></lines>
+	<lines name="genderFemale" descr=""><![CDATA[Nữ]]></lines>
+	<lines name="ofTitle" descr=""><![CDATA[của]]></lines>
+	<lines name="lastestBook" descr=""><![CDATA[Sách mới thêm]]></lines>
+	<lines name="statusboxTitleSelf" descr=""><![CDATA[Bạn có gì mới?]]></lines>
+	<lines name="statusboxTitle" descr=""><![CDATA[Viết gì đó cho]]></lines>
+	<lines name="statusboxLoginWarning" descr=""><![CDATA[Đăng nhập trước khi tiến hành]]></lines>
+	<lines name="statusboxButton" descr=""><![CDATA[Gởi]]></lines>
+	<lines name="statusboxAddLinkText" descr=""><![CDATA[Thêm Liên kết]]></lines>
+	<lines name="statusboxAddLinkTitle" descr=""><![CDATA[Nhập địa chỉ trang web (http://..), sau đó nhấn Tiếp tục]]></lines>
+	<lines name="statusboxAddLinkAttach" descr=""><![CDATA[Tiếp tục]]></lines>
+	<lines name="statusboxAddLinkCloseTitle" descr=""><![CDATA[Đóng - Không chèn liên kết]]></lines>
+	
+	<lines name="feedTitleSelf" descr=""><![CDATA[Hoạt động của bạn bè]]></lines>
+	<lines name="feedTitle" descr=""><![CDATA[Hoạt động mới]]></lines>
+	<lines name="feedLoadingText" descr=""><![CDATA[Loading...]]></lines>
+	<lines name="feedMore" descr=""><![CDATA[Xem nhiều hơn [...]]]></lines>
+	<lines name="feedLikeLabel" descr=""><![CDATA[Thích]]></lines>
+	<lines name="feedLikeYou" descr=""><![CDATA[Bạn]]></lines>
+	<lines name="feedLikeAnd" descr=""><![CDATA[và]]></lines>
+	<lines name="feedLikeOther" descr=""><![CDATA[người khác]]></lines>
+	<lines name="feedLikeAlso" descr=""><![CDATA[cùng]]></lines>
+	<lines name="feedLikeAlsoOnlyone" descr=""><![CDATA[đã]]></lines>
+	<lines name="feedLikeString" descr=""><![CDATA[thích điều này.]]></lines>
+	<lines name="feedLikeViewAll" descr=""><![CDATA[Thành viên đã thích hoạt động của]]></lines>
+	<lines name="feedLikeViewAllTitle" descr=""><![CDATA[Nhấn để xem toàn bộ danh sách thành viên đã thích hoạt động này]]></lines>
+	<lines name="feedCommentLinkLabel" descr=""><![CDATA[Trả lời]]></lines>
+	<lines name="feedCommentRemoveLabel" descr=""><![CDATA[Xoá]]></lines>
+	<lines name="feedCommentButton" descr=""><![CDATA[Gởi]]></lines>
+	<lines name="feedCommentShowMore" descr=""><![CDATA[Xem các trả lời trước đó]]></lines>
+	<lines name="feedCommentShowMoreTitle" descr=""><![CDATA[Click để xem các trả lời trước đó]]></lines>
+	<lines name="feedComment" descr=""><![CDATA[trả lời]]></lines>
+	<lines name="editProfile" descr=""><![CDATA[Cập nhật tài khoản]]></lines>
+	<lines name="editProfileTitle" descr=""><![CDATA[Click để cập nhật thông tin của tài khoản]]></lines>
+	<lines name="myFav" descr=""><![CDATA[Yêu thích]]></lines>
+	<lines name="myHaveread" descr=""><![CDATA[Đã đọc]]></lines>
+	<lines name="myReading" descr=""><![CDATA[Đang đọc]]></lines>
+	<lines name="myWillread" descr=""><![CDATA[Muốn mua]]></lines>
+	<lines name="myShop" descr=""><![CDATA[Bán - Chia sẻ]]></lines>
+	<lines name="myShelf" descr=""><![CDATA[Tủ sách]]></lines>
+	<lines name="myMessage" descr=""><![CDATA[Tin nhắn]]></lines>
+	<lines name="myNote" descr=""><![CDATA[Ghi chú sách]]></lines>
+	<lines name="myPaymentHistory" descr=""><![CDATA[Lịch sử mua bán]]></lines>
+	<lines name="myPlace" descr=""><![CDATA[Địa điểm]]></lines>
+	<lines name="mySample" descr=""><![CDATA[Trích đoạn]]></lines>
+	<lines name="friendRequestSendButton" descr=""><![CDATA[Kết bạn]]></lines>
+	<lines name="friendRequestSendButtonTitle" descr=""><![CDATA[Gởi đề nghị kết bạn]]></lines>
+	<lines name="bottombarFriendRequestHeading" descr=""><![CDATA[Thành viên muốn kết bạn]]></lines>
+	<lines name="bottombarNotificationHeading" descr=""><![CDATA[Thông báo mới]]></lines>
+	<lines name="bottombarNotificationHeadingTitle" descr=""><![CDATA[Xem tất cả các thông báo]]></lines>
+	<lines name="bottombarMessageHeading" descr=""><![CDATA[Tin nhắn mới]]></lines>
+	<lines name="bottombarMessageHeadingTitle" descr=""><![CDATA[Xem tất cả các tin nhắn]]></lines>
+	<lines name="bottomAddBlog" descr=""><![CDATA[Viết Blog]]></lines>
+	<lines name="gotoProfileOf" descr=""><![CDATA[Tới nhà của]]></lines>
+	<lines name="userAbuseReport" descr=""><![CDATA[Thông báo thành viên xấu]]></lines>
+	<lines name="userAbuseReportTitle" descr=""><![CDATA[Thông báo với ban quản trị biết thành viên này có hoạt động không tốt]]></lines>
+	<lines name="authorNhieutacgiaString" descr=""><![CDATA[Nhiều tác giả]]></lines>
+	<lines name="siteMoreTitle" descr=""><![CDATA[Click để hiển thị danh sách liên kết]]></lines>
+	<lines name="closewindow" descr=""><![CDATA[Đóng cửa sổ này]]></lines>
+	<lines name="userbox_bookTitle" descr=""><![CDATA[Xem tất cả sách của]]></lines>
+	<lines name="userbox_favTitle" descr=""><![CDATA[Xem tất cả sách yêu thích của]]></lines>
+	<lines name="userbox_shopTitle" descr=""><![CDATA[Xem tất cả sách đang bán của]]></lines>
+	<lines name="userbox_reviewTitle" descr=""><![CDATA[Xem tất cả bình luận của]]></lines>
+	<lines name="userbox_quoteTitle" descr=""><![CDATA[Xem tất cả trích dẫn của]]></lines>
+	<lines name="userbox_friendTitle" descr=""><![CDATA[Xem tất cả bạn bè của]]></lines>
+	<lines name="userbox_blogTitle" descr=""><![CDATA[Xem tất cả Blog của]]></lines>
+	<lines name="userbox_shelfTitle" descr=""><![CDATA[Xem tất cả tủ sách của]]></lines>
+	<lines name="userbox_shelfDetailTitle" descr=""><![CDATA[Xem tất cả sách trong tủ sách]]></lines>
+	<lines name="userbox_readTitle" descr=""><![CDATA[Xem tất cả sách đã đọc của]]></lines>
+	<lines name="userbox_readingTitle" descr=""><![CDATA[Xem tất cả sách đang đọc của]]></lines>
+	<lines name="userbox_willreadTitle" descr=""><![CDATA[Xem tất cả sách muốn mua của]]></lines>
+	<lines name="userbox_messageTitle" descr=""><![CDATA[Xem/Gởi tin nhắn cá nhân]]></lines>
+	<lines name="latestFriend" descr=""><![CDATA[Bạn bè năng động]]></lines>
+	<lines name="panelSearchMember" descr=""><![CDATA[Tìm kiếm thành viên]]></lines>
+	<lines name="panelSearchMemberTooltip" descr=""><![CDATA[Nhập tên, email hoặc screenname để tìm]]></lines>
+	<lines name="panelSearchMemberSubmit" descr=""><![CDATA[Tìm]]></lines>
+	<lines name="latestActiveMember" descr=""><![CDATA[Các thành viên năng động]]></lines>
+	<lines name="feedReplyDefaultText" descr="tieng viet khong dau de js hieu"><![CDATA[Nhap tra loi cua ban]]></lines>
+	<lines name="feedReplyTextboxTitle" descr=""><![CDATA[Nhập nội dung trả lời của bạn. Nhấn ENTER để gởi. [SHIFT + ENTER] để xuống hàng]]></lines>
+	<lines name="feedReplyToUserTitle" descr=""><![CDATA[Gởi trả lời tới]]></lines>
+	<lines name="shelfheadCurPageLabel" descr=""><![CDATA[ - Trang ]]></lines>
+	<lines name="lastestBookOnSite" descr=""><![CDATA[Sách mới cập nhật]]></lines>
+	<lines name="linktypeDownload" descr=""><![CDATA[Download]]></lines>
+	<lines name="linktypeDownloadHelp" descr=""><![CDATA[Link download file (PDF,ZIP..)]]></lines>
+	<lines name="linktypeReadonline" descr=""><![CDATA[Đọc online từ web khác]]></lines>
+	<lines name="linktypeReadonlineHelp" descr=""><![CDATA[Link tới website khác để đọc online]]></lines>
+	<lines name="linktypeReadonlineShort" descr=""><![CDATA[Trích đoạn sách]]></lines>
+	<lines name="linktypeReadonlineShortHelp" descr=""><![CDATA[Link tới website khác để đọc trích đoạn cho sách]]></lines>
+	<lines name="linktypeScribd" descr=""><![CDATA[Embed từ Scribd.com]]></lines>
+	<lines name="linktypeScribdHelp" descr=""><![CDATA[Đường dẫn lấy từ chức năng Embed của tài liệu tại Scribd.com (Có dạng: http://www.scribd.com/full/53397715?access_key=key-17861lsjed7lmyv2n7k7)]]></lines>
+	<lines name="linktypeSoundbook" descr=""><![CDATA[Nghe online]]></lines>
+	<lines name="linktypeSoundbookHelp" descr=""><![CDATA[Đường dẫn tới website khác cho nghe online]]></lines>
+	<lines name="linktypeSwfpdf" descr=""><![CDATA[URL tới File .swf (convert bằng PDF2SWF)]]></lines>
+	<lines name="linktypeSwfpdfHelp" descr=""><![CDATA[Đường dẫn tới file swf là kết quả convert từ PDF thành SWF bằng các phần mềm PDF2SWF]]></lines>
+	<lines name="linktypeEmbedflash" descr=""><![CDATA[Nhúng Flash]]></lines>
+	<lines name="linktypeEmbedflashHelp" descr=""><![CDATA[Đoạn code nhúng Flash của sách từ các trang chia sẽ thông qua tính năng Flash. (Có dạng: <object...)]]></lines>
+	<lines name="linktypeFlipbook" descr=""><![CDATA[Flipbook ID]]></lines>
+	<lines name="linktypeFlipbookHelp" descr=""><![CDATA[Nhập ID của Flipbook để xem online (Liên hệ Admin để có Flipbook ID)]]></lines>
+	<lines name="linktypebadgeReadOnline" descr=""><![CDATA[Đọc online]]></lines>
+	<lines name="linktypebadgeReadOnlineTitle" descr=""><![CDATA[Nhấn để đọc sách online tại Reader.vn]]></lines>
+	<lines name="linktypebadgeDownload" descr=""><![CDATA[Download]]></lines>
+	<lines name="linktypebadgeDownloadTitle" descr=""><![CDATA[Tải sách về máy]]></lines>
+	<lines name="linktypebadgeReadLink" descr=""><![CDATA[Link đọc online]]></lines>
+	<lines name="linktypebadgeReadLinkTitle" descr=""><![CDATA[Nhấn để tới trang web cho đọc sách này online]]></lines>
+	<lines name="linktypebadgeReadshort" descr=""><![CDATA[Trích đoạn]]></lines>
+	<lines name="linktypebadgeReadshortTitle" descr=""><![CDATA[Nhấn để xem trích đoạn của sách này]]></lines>
+  	<lines name="linktypebadgeAudio" descr=""><![CDATA[Nghe Online]]></lines>
+  	<lines name="linktypebadgeAudioTitle" descr=""><![CDATA[Nghe Online - Audio]]></lines>
+	<lines name="linktypebadgeReadshortTitle" descr=""><![CDATA[Nhấn để xem trích đoạn của sách này]]></lines>
+	
+	<lines name="allBookFromAuthorTitle" descr=""><![CDATA[Xem các sách của tác giả ]]></lines>
+	<lines name="insertSmileyTitle" descr=""><![CDATA[Nhấn để thêm biểu tượng vào trả lời]]></lines>
+	<lines name="boxRegion" descr=""><![CDATA[Đang sống tại: ]]></lines>
+	<lines name="privatemessage" descr=""><![CDATA[Tin nhắn cá nhân]]></lines>
+	<lines name="newmessage" descr=""><![CDATA[Gởi tin nhắn]]></lines>
+	<lines name="newmessageTitle" descr=""><![CDATA[Gởi 1 tin nhắn cá nhân cho ]]></lines>
+	<lines name="writereview" descr=""><![CDATA[Viết bình luận]]></lines>
+	<lines name="writereviewTitle" descr=""><![CDATA[Nhấn vào đây để viết bình luận của bạn cho sách]]></lines>
+  
+  
+  <lines name="securityTokenInvalid" descr=""><![CDATA[Có lỗi khi truyền dữ liệu. Hãy thử lại.]]></lines>
+  
+  <lines name="jsDelConfirm" descr=""><![CDATA[Bạn có đồng ý?]]></lines>
+  <lines name="jsAgreeLabel" descr=""><![CDATA[Đồng ý]]></lines>
+  
+  
+</data>

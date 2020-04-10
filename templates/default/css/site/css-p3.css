@@ -1,0 +1,91 @@
+
+.areaguest{width:100%;display:block;padding:10px 0;	overflow:hidden;background:#00a4ea;padding-bottom: 30px}
+.areaguest h2{font:bold 24px/30px arial;color:#fff;	margin:5px 0;text-transform:uppercase;background:#2cb7f1;padding:4px 10px;}
+.areaguest h2 span{font:bold 34px/40px arial;color:#ffd478;	text-transform:uppercase;}
+.areaguest ul {display: block; float: left; margin:10px; padding: 0;width: 300px;}
+.areaguest li{float: none; list-style: square inside none; margin-left:8px;overflow: hidden; padding: 3px 0;color:white;font:normal 13px arial}
+.areaguest .giftP3{margin:5px 10px;font:normal 15px arial;color:#000;float:left; width: 95%; line-height: 20px;}
+.areaguest .giftP3 img{float:left;margin-top:-6px;margin-right:10px;}
+.giftP32{float:left; width:48%; color:white !important}
+.giftP32 img{margin:0 0 10px 0 !important}
+.counter-tt{color:#fff; font:normal 13px arial; width:250px; margin:3px 0 0 15px; height: 220px}
+.counter-tt2{ width: 95%; margin:0 15px 10px 15px;font:14px arial;font-weight: bold;height: 16px; float: left;}
+
+
+.counter .countMinutes{margin-right:10px}
+.counter .countSeconds{margin-right:10px}
+.counter .points{display:none}
+.counter .countDays{margin-right:10px}
+.counter .countHours{margin-right:10px}
+
+#counter {width: 100%;	margin:10px 10px 0 15px;font:bold 26px arial;color: #272727;}
+
+.countDays, .countHours, .countMinutes, .countSeconds {float: left;width:45px;height:40px;padding-left:13px;background: #fff;border-radius: 4px;color:#333;	box-shadow: 0px 2px 3px #888888 inset;}
+
+.points {float: left;width: 15px;margin: 0;padding:9px 0px;	color:#fff;font:bold 16px arial;font-weight: bold;text-align: center;	line-height: 20px;text-shadow: none;}
+
+.position {position: relative;float: left;width:20px;height: 22px;margin: 8px 0 0 0;}
+
+.digit {position: absolute;	top: 0;	left: 0;}
+.boxName {float: left;margin: 15px 0 0 0;font:bold 12px/18px Arial;	color: #fff;text-transform:uppercase}
+.Hours { margin-left:1px; }
+.Seconds { margin-left: 2px; }
+.btn-detail {border: 1px solid #4dadd6; float: right; padding: 0; margin-top:10px; margin-right:20px;}
+.btn-detail a {background:#ffb733;  border: 1px solid #0089c4; color: #FFFFFF;border-radius:3px; display: block; font:bold 17px Arial;text-transform:uppercase; outline: medium none; padding: 10px 25px 10px 23px;  text-decoration: none;  text-transform: none;}
+.btn-detail a:hover{background:#ffac13}
+.btn-vtl {border: 1px solid #4dadd6; padding: 0; margin-left:10px; margin-top:0}
+.btn-vtl a {background:#ffb733;  border: 1px solid #0089c4; color: #FFFFFF;border-radius:3px; display: block; font:12px Arial; text-transform:uppercase; outline: medium none; padding: 7px 12px;  text-decoration: none;}
+.btn-vtl a:hover{background:#ffac13}
+.p3question{display:block; background:#f5f5f5; overflow:hidden; border-bottom:2px solid #666; padding:15px; font:14px Arial; color:#333}
+.p3question strong{display:block; font-size:16px;margin-bottom:6px}
+.p3question span{display:block; margin-bottom:10px}
+.p3question label{vertical-align:middle}
+.p3question .radio{float:left; margin:1px 8px 10px 0}
+.p3question .check{float:left; margin:0px 8px 10px 0}
+.p3alert{float:left; font:12px Arial; color:red; margin:8px 0 0 8px}
+.p3shipping{display:block; margin:8px 0 0}
+.p3shipping span{float:left; padding:12px 0 0}
+.p3input1{border:1px solid #ddd; padding:6px 8px; line-height:20px; margin-bottom:8px}
+.p3input2{border:1px solid #ddd; padding:6px 8px; line-height:20px; margin-bottom:8px; width:175px; float:left}
+.p3check{font-size:12px}
+
+.btn-step {border: 1px solid #4dadd6; float: left; padding: 0;margin:0; border-radius:3px}
+.btn-step a {border: 1px solid #fff; color: #FFFFFF; display: block; font:bold 13px Arial; text-transform:uppercase; outline: medium none; padding: 7px 12px;  text-decoration: none; cursor:pointer;
+	background: #00a1e6;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#00a1e6), to(#0072cc));
+    background: -webkit-linear-gradient(top, #00a1e6, #0072cc);
+    background: -o-linear-gradient(top, #00a1e6, #0072cc);
+    background: linear-gradient(to bottom, #00a1e6, #0072cc);
+    background: -moz-linear-gradient(top, #00a1e6, #0072cc);
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#00a1e6', endColorstr='#0072cc', GradientType=0);
+    filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+	-webkit-border-radius:4px 4px 4px 4px  ; 
+	-moz-border-radius:4px 4px 4px 4px  ;
+	border-radius:4px 4px 4px 4px ;
+}
+	
+.btn-step a:hover{background:#007EB0}
+.right-col{margin-bottom:10px;}
+.right-col ul.Right{border:1px solid #ccc;border-bottom:3px solid #ccc;	list-style:none;margin-top:1px;}
+.right-col .bl-bar{background:#00a1e6;border-top: 2px solid #fbdb36;padding:10px;color:#fff;font:bold 15px arial;}
+.right-col ul.Right li{color:#333;display:block;margin:0px auto;padding:5px 8px;border-bottom:1px dotted #999;}
+.right-col ul.Right li a{font:bold 12px arial;color:#333;text-decoration:none;}
+.right-col ul.Right li a:hover{color:#00a1e5;text-decoration:none;}
+.right-col ul.Right li.nod{border-bottom:none;}
+.right-col ul.Right li span{font:normal 11px arial;	color:#666;	display:block;}
+
+
+
+@media screen and (max-width: 1024px) {
+	.areaguest h2{	font:bold 18px/20px arial;}
+	.areaguest h2 span{font:bold 25px/30px arial;}
+	.btn-detail { float:left; margin-bottom:10px;margin-left:95px;}
+}
+
+.guessloading{
+	display: none;
+	width: 16px;
+}
+
+.paginate_dot{float: left;
+margin-left: 4px;}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lines name="head_list" descr=""><![CDATA[ReportColumn]]></lines>
+	<lines name="title_listSearch" descr=""><![CDATA[Search result]]></lines>
+	<lines name="title_list" descr=""><![CDATA[ReportColumn Listing]]></lines>
+	<lines name="pageTitle_list" descr=""><![CDATA[ReportColumn &raquo; Listing]]></lines>
+
+
+	<lines name="head_add" descr=""><![CDATA[Add New ReportColumn]]></lines>
+	<lines name="title_add" descr=""><![CDATA[ReportColumn Information]]></lines>
+	<lines name="pageTitle_add" descr=""><![CDATA[ReportColumn &raquo; Add]]></lines>
+
+	<lines name="head_edit" descr=""><![CDATA[Update ReportColumn]]></lines>
+	<lines name="title_edit" descr=""><![CDATA[ReportColumn Information]]></lines>
+	<lines name="pageTitle_edit" descr=""><![CDATA[ReportColumn &raquo; Update]]></lines>
+
+
+	<lines name="labelId" descr=""><![CDATA[Id]]></lines>
+	<lines name="labelIdentifier" descr=""><![CDATA[Identifier]]></lines>
+	<lines name="labelName" descr=""><![CDATA[Name]]></lines>
+	<lines name="labelValuetype" descr=""><![CDATA[Valuetype]]></lines>
+	<lines name="labelDatatype" descr=""><![CDATA[Datatype]]></lines>
+	<lines name="labelStatus" descr=""><![CDATA[Status]]></lines>
+	<lines name="labelDisplayorder" descr=""><![CDATA[Displayorder]]></lines>
+	<lines name="labelFormular" descr=""><![CDATA[Formular]]></lines>
+	<lines name="labelObjecttype" descr=""><![CDATA[Objecttype]]></lines>
+	<lines name="formKeywordLabel" descr=""><![CDATA[Keyword]]></lines>
+	<lines name="formKeywordInLabel" descr=""><![CDATA[- Search keyword in -]]></lines>
+
+
+	<lines name="errIdentifierRequired" descr=""><![CDATA[Identifier is required.]]></lines>
+	<lines name="errNameRequired" descr=""><![CDATA[Name is required.]]></lines>
+	<lines name="errFormularRequired" descr=""><![CDATA[Formular is required.]]></lines>
+
+
+	<lines name="errAdd" descr=""><![CDATA[Error while Add ReportColumn]]></lines>
+	<lines name="succAdd" descr=""><![CDATA[ReportColumn had been created.]]></lines>
+	<lines name="errUpdate" descr=""><![CDATA[Error while updating ReportColumn]]></lines>
+	<lines name="succUpdate" descr=""><![CDATA[ReportColumn had been updated.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[ReportColumn not found.]]></lines>
+	<lines name="errDelete" descr=""><![CDATA[Error while deleting ReportColumn with id ###id###.]]></lines>
+	<lines name="succDelete" descr=""><![CDATA[ReportColumn with id ###id### had been deleted.]]></lines>
+
+	<lines name="errNotFound" descr=""><![CDATA[Item Not Found.]]></lines>
+
+
+
+
+</data>
