@@ -3129,7 +3129,7 @@ function isValidDate(dateString) {
 
 function isEmail(str) {
   var email = str
-  var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/
+  var filter = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
   if (!filter.test($(email).val())) return false
   return true
 }
