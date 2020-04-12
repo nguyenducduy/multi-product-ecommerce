@@ -22,7 +22,6 @@ return array(
         '../js/site/jquery.reel.js',
         '../js/site/jquery.iosslider.min.js',
         '../js/site/idangerous.swiper-2.1.min.js',
-        '../js/site/app.js',
         '../js/site/customsite.js',
         '../js/site/menu-aim.js',
         '../js/admin/bootstrap-datepicker.js',
@@ -50,7 +49,7 @@ return array(
         '../js/site/360image.js',
         '../js/site/jquery.countdown.js',
         '../js/site/jquery.tipsy.js',
-
+				'../js/site/app.js',
         '../js/admin/shadowbox.js',//dat sau cung
 		),
    'jsadmin' => array(
