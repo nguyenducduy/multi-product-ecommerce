@@ -396,7 +396,7 @@ Ngay từ đơn hàng kế tiếp, tôi sẽ được sử dụng 263,800đ này
         </div>
         <div class="sub-answer answer">
             <p>Để được hỗ trợ cụ thể các vấn đề liên quan đến thẻ thành viên, hoặc quyền lợi thể thành viên, bạn có thể trực tiếp liên hệ tổng đài 1900-1883 để tổng đài viên trả lời trực tiếp thắc mắc của bạn; hoặc bạn liên hệ với <span style="color:#00adf2; font-weight:bold;">dienmay.com</span> qua các kênh thông tin</p>
-            <p>&#8226; fanpage: <a href="https://www.facebook.com/dienmaycom">www.facebook.com/dienmaycom</a><br />
+            <p>&#8226; fanpage: <a href=" ">www.facebook.com/dienmaycom</a><br />
 &#8226; G+: <a href="https://plus.google.com/+dienmay/">www.google.com/+dienmay</a>
 </p>
         </div>    
@@ -441,7 +441,7 @@ Ngay từ đơn hàng kế tiếp, tôi sẽ được sử dụng 263,800đ này
             	<p class="f-title"> Thông tin công ty </p>                
 	            <li><i class="arrow2"></i><a href="https://ecommerce.kubil.app/gioi-thieu-ve-dienmaycom" title="Giới thiệu về dienmay.com">Giới thiệu về dienmay.com</a></li>
 	            <li><i class="arrow2"></i><a href="https://ecommerce.kubil.app/tuyendung" title="Tuyển dụng">Tuyển dụng</a></li>
-                <li> <a href="https://www.facebook.com/dienmaycom" target="_blank"><i class="icon-face"></i></a> <a href="https://www.google.com/+dienmay" target="_blank"><i class="icon-gl-plus"></i></a></li>
+                <li> <a href=" " target="_blank"><i class="icon-face"></i></a> <a href=" " target="_blank"><i class="icon-gl-plus"></i></a></li>
                 
             </ul>
     </div>

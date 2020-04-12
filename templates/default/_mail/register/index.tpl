@@ -23,7 +23,7 @@
             <td height="17" width="137"><div align="right"><span class="style7" style="font-size: 12px; font-family: arial; color: #FFFFFF;">Tìm chúng tôi trên</span></div></td>
           </tr>
         </table></td>
-        <td width="30"><div align="center"><a href="https://www.facebook.com/dienmaycom">
+        <td width="30"><div align="center"><a href=" ">
         <img src="{$registry->conf.rooturl}templates/default/images/mail/24518067.png" alt="fblogo" width="20" height="20" /></a></div></td>
         <td width="26"><a href="http://forum.dienmay.com/forum.php">
     <img src="{$registry->conf.rooturl}templates/default/images/mail/zr7l.png" alt="logoforum" width="20" height="20" /></a></td>

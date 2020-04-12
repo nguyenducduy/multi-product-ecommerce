@@ -27,8 +27,8 @@
       </div>
       <div class="newsbotsocial"> <span>social network</span>
         <ul>
-          <li><a target="_blank" href="https://www.facebook.com/dienmaycom" title=""><i class="icon-netw1"></i></a></li>
-          <li><a target="_blank" href="https://www.google.com/+dienmay" title=""><i class="icon-netw2"></i></a></li>
+          <li><a target="_blank" href=" " title=""><i class="icon-netw1"></i></a></li>
+          <li><a target="_blank" href=" " title=""><i class="icon-netw2"></i></a></li>
           <!-- <li><a target="_blank" href="#" title=""><i class="icon-netw3"></i></a></li> -->
         </ul>
       </div>

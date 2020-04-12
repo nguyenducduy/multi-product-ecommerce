@@ -20,9 +20,9 @@
 		<div class="dmphone">1900 1883 - (08) 39 48 6789</div>
 		<div class="dmemail">cskh@dienmay.com</div>
 		<div class="iconsocial">
-			<a href="https://www.facebook.com/dienmaycom" target="_blank"><i class="icon-dmface"></i></a>
+			<a href=" " target="_blank"><i class="icon-dmface"></i></a>
 			<a href="#"><i class="icon-dmmap"></i></a>
-			<a href="https://www.google.com/+dienmay"  target="_blank"><i class="icon-dmggl"></i></a>
+			<a href=" "  target="_blank"><i class="icon-dmggl"></i></a>
 		</div>
                         <div class="dmemail"><a href="#" onclick="redirect('{$conf.rooturl}ho-tro-khach-hang')" style="text-decoration:none">CHÍNH SÁCH HỔ TRỢ KHÁCH HÀNG</a></div>
 	</div>

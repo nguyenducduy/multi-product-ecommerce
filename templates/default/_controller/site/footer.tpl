@@ -51,8 +51,8 @@
             <li><i class="arrowbt2"></i><a href="{$conf.rooturl}gioi-thieu-ve-dienmaycom" title="Giới thiệu về dienmay.com">Giới thiệu về dienmay.com</a></li>
             <li><i class="arrowbt2"></i><a href="{$conf.rooturl}tuyendung" title="Tuyển dụng" >Tuyển dụng</a></li>
     </ul> 
-    <a target="_blank" href="https://www.facebook.com/dienmaycom"><i class="icon-dmface"></i></a> 
-    <a target="_blank" href="https://www.google.com/+dienmay"><i class="icon-dmggl"></i></a> 
+    <a target="_blank" href=" "><i class="icon-dmface"></i></a> 
+    <a target="_blank" href=" "><i class="icon-dmggl"></i></a> 
     <div class="input-append">
         <label class="textregiserpromo">Đăng ký nhận tin khuyến mãi</label>
         <input class="inputfoot wi-inreg" id="appendedInputButton"   type="text" placeholder="Nhập email để nhận khuyến mãi">

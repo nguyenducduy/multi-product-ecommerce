@@ -12,7 +12,7 @@
                 <tr>
                     <td width="518" height="40" align="left"><blockquote><p style="font-size:10px;font-family:arial;color:#ffffff;"><span style="font-size:10px;font-family:arial;color:#ffffff;">CÔNG TY CỔ PHẦN THƯƠNG MẠI THẾ GIỚI ĐIỆN TỬ<br>Địa chỉ: 130 Trần Quang Khải, P. Tân Định, Q.1, TP.Hồ Chí  Minh.<br>Website: <a style="font-size:10px;font-family:arial;color:#ffffff;" href="" target="_blank" rel="nofollow"><span class="yshortcuts">www.dienmay.com</span></a> | Hotline: 1900 1883 | Customer Care: 1900 1887</span></p></blockquote></td>
                     <td width="101"><p style="font-size:10px;font-family:arial;color:#ffffff;">Kết nối với chúng tôi</p></td>
-                    <td width="67"><a href="https://www.facebook.com/dienmaycom" target="_blank" rel="nofollow"><img width="37" height="34" alt="facebook icon" src="http://i.upanh.com/vlpmmd"></a></td>
+                    <td width="67"><a href=" " target="_blank" rel="nofollow"><img width="37" height="34" alt="facebook icon" src="http://i.upanh.com/vlpmmd"></a></td>
                 </tr>
             </table>
         </td>
@@ -21,7 +21,7 @@
 <table width="700" cellspacing="0" cellpadding="0" border="0" align="center" style="padding-top: -2px;">
     <tr>
         <td valign="top" height="32" bgcolor="#FFFFFF">
-            <a href="https://www.facebook.com/dienmaycom" target="_blank" ><img width="699" height="32" align="absbottom" style="display:block;" alt="bong" src="https://ecommerce.kubil.app/Files/2013/03/07/46208/main-shadow.png" border="0" /></a>
+            <a href=" " target="_blank" ><img width="699" height="32" align="absbottom" style="display:block;" alt="bong" src="https://ecommerce.kubil.app/Files/2013/03/07/46208/main-shadow.png" border="0" /></a>
         </td>
     </tr>
 </table>

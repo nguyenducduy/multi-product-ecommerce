@@ -295,7 +295,7 @@ Ngân hàng Vietcombank, chi nhánh Tân Bình, TP. HCM [Show dòng này nếu c
                                 <tr>
                                     <td>
                                         <span style="float: left; font: 11px arial; color: #222; margin-right: 7px; margin-top: 5px;">
-                                            Tìm <i><strong>dienmay</strong>.com</i> tại: </span><a href="https://www.facebook.com/dienmaycom">
+                                            Tìm <i><strong>dienmay</strong>.com</i> tại: </span><a href=" ">
                                                 <img alt="Facebook fanpage dienmay.com" style="margin-right: 5px;" src="https://ecommerce.kubil.app/uploads/pimages/email/icon-facebook.jpg" /></a>
                                         <a href="https://plus.google.com/+dienmay/posts">
                                             <img alt="Google Plus dienmay.com" style="margin-right: 7px;" src="https://ecommerce.kubil.app/uploads/pimages/email/icon-gplus.jpg" /></a>

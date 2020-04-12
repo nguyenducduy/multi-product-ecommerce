@@ -118,7 +118,7 @@
     <!-- hotline -->
     <div class="hotlinehead"><strong>Hotline:</strong> <span>1800 1061</span></div>
     <div class="headlike" id="facebook-headlike">
-                	<!-- <iframe src="http://www.facebook.com/plugins/like.php?href=https://www.facebook.com/dienmaycom&width=200&height=21&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px; float:left" allowTransparency="true"></iframe> -->
+                	<!-- <iframe src="http://www.facebook.com/plugins/like.php?href= &width=200&height=21&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px; float:left" allowTransparency="true"></iframe> -->
     </div>
     <div style="clear:both"></div>
   </div>

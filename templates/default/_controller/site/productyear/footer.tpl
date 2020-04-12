@@ -27,7 +27,7 @@
                               <div class="block-ico">
                             	<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={$conf.rooturl}product-of-the-year"><img src="{$currentTemplate}images/site/ico-face.png"></a>
                                 <a target="_blank" href="https://plus.google.com/share?url={$conf.rooturl}product-of-the-year"><img src="{$currentTemplate}images/site/ico-gg.png"></a>
-                                <div class="likefb"><iframe src="http://www.facebook.com/plugins/like.php?href=https://www.facebook.com/dienmaycom&width=120&height=21&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:120px; height:21px; float:left" class="likepage"></iframe>
+                                <div class="likefb"><iframe src="http://www.facebook.com/plugins/like.php?href= &width=120&height=21&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:120px; height:21px; float:left" class="likepage"></iframe>
            						 </div>
                             </div>
                         </div>

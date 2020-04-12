@@ -15,7 +15,7 @@
               <li><a href="tel:+18001061" title="">Hotline: 1800 1061 <span>Gọi »</span></a></li>
                 <li class="map"><a href="{$conf.rooturl}sieuthi" title="Tìm siêu thị"><i class="icon-map"></i><span>Hệ thống 13 siêu thị</span></a></li>
                 <li class="social">
-                     <a target="_blank" href="https://www.facebook.com/dienmaycom"><i class="icon-fb"></i></a> 
+                     <a target="_blank" href=" "><i class="icon-fb"></i></a> 
                     <a target="_blank" href="http://www.youtube.com/dienmaycom"><i class="icon-yt"></i></a> 
                     <a target="_blank" href="https://plus.google.com/+dienmay"><i class="icon-gp"></i></a>
                 </li>

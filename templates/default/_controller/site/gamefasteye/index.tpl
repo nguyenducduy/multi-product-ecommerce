@@ -159,7 +159,7 @@ bè</a></div>
 <script type="text/javascript" >
 $(document).ready(function(){
       $('#commentgame').html('<div class="fb-comments" width="980" data-href="{$conf.rooturl}year-in-review" data-numposts="5" data-colorscheme="light"></div>');
-      $('.yt_like').html('<iframe src="http://www.facebook.com/plugins/like.php?href=https://www.facebook.com/dienmaycom&width=120&height=21&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" allowTransparency="true" class="likepage"></iframe>');
+      $('.yt_like').html('<iframe src="http://www.facebook.com/plugins/like.php?href= &width=120&height=21&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" allowTransparency="true" class="likepage"></iframe>');
        {literal}
        var  message="";function clickIE() {if (document.all) {(message);return   false;}}function clickNS(e) {if   (document.layers||(document.getElementById&&!document.all)) {if   (e.which==2||e.which==3) {(message);return false;}}}if  (document.layers)   {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;document.onselectstart=clickIE}document.oncontextmenu=new   Function("return false")
        {/literal}
