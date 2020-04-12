@@ -39,7 +39,7 @@ return array(
         '../js/site/giare.js',
         '../js/site/new.js',
         '../js/site/jquery.scrollTo.js',
-        '../js/admin/jquery.limit-1.2.source.js',
+        // '../js/admin/jquery.limit-1.2.source.js',
         '../js/site/vtip-min.js',
         '../js/site/carousel.js',
         '../js/site/cloudzoom.min.js',
