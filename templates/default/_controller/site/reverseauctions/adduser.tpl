@@ -47,7 +47,7 @@
       Để trở thành người thắng cuộc, bạn phải là người có mức đấu giá <strong>Duy nhất và Thấp nhất</strong> tại thời điểm kết thúc phiên đấu giá. </p>
     <p>
       
-      <img src="http://dienmay.myhost/pimages/Article/rule1_1.jpg?v=2" width="535" alt="Thể lệ">
+      <img src="https://ecommerce.kubil.app/pimages/Article/rule1_1.jpg?v=2" width="535" alt="Thể lệ">
     </p>
              {/if}  
             </form>

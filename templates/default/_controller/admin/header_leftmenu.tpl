@@ -132,7 +132,7 @@
         <ul class="nav nav-list {if $controllerGroup != 'erp'}hide{/if}" id="sidebar">
 			<!--<li id="menu_account" class="nav-header"><a href="javascript:void(0)"><i class="icon-briefcase"></i> Kế toán</a></li>-->
 			<li id="menu_humanresource" class="nav-header"><a href="javascript:void(0)" class="moresidemenu"><i class="icon-sitemap"></i> Nhân sự</a></li>
-			<li class="nav-header"><a href="http://dienmay.myhost:9999/" ><i class="icon-bar-chart"></i> Reporting</a></li>
+			<li class="nav-header"><a href="https://ecommerce.kubil.app:9999/" ><i class="icon-bar-chart"></i> Reporting</a></li>
 			<!--<li id="menu_manufacture" class="nav-header"><a href="{$conf.rooturl_erp}manufacturing"><i class="icon-fire"></i> Sản xuất</a></li>
 			<li id="menu_supplychain" class="nav-header"><a href="{$conf.rooturl_erp}supplychain"><i class="icon-retweet"></i> Supply Chain</a></li>
 			<li id="menu_projectmanagement" class="nav-header"><a href="{$conf.rooturl_erp}project"><i class="icon-calendar"></i> Quản lý dự án</a></li>-->

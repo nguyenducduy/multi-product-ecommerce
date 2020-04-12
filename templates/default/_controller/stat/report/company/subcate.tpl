@@ -223,5 +223,5 @@
     var step = {/literal}{$stepdate}{literal};  
 </script>
 {/literal}
-<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/report/companysubcate.js"></script>
+<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/report/companysubcate.js"></script>
 {include file="_controller/admin/footer.tpl"}

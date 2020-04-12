@@ -129,7 +129,7 @@ Abstract Class ExtractPrice
 
                 if($resourceserverpassed){
                     $filedir = explode('/', $filedir, 2);
-                    $domainUrl = 'http://dienmay.myhost/' .$filedir[1].'/'. $filename;
+                    $domainUrl = 'https://ecommerce.kubil.app/' .$filedir[1].'/'. $filename;
                 }else
                     $errorCount++;
 

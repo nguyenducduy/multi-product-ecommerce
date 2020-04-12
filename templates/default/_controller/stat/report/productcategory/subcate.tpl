@@ -525,5 +525,5 @@
     });
 </script>
 {/literal}
-<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/report/subcate.js"></script>
+<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/report/subcate.js"></script>
 <div style="display: block; height: 500px;">&nbsp;</div>

@@ -286,17 +286,17 @@ Class Controller_Admin_Importproduct Extends Controller_Admin_Base
 
 				$productimage = '';
 				if((int)$checkobjProduct->id <=0 && !empty($pro['BIMAGE'])){
-					$getpathinfo = pathinfo('http://dienmay.myhost/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$pro['BIMAGE']);
+					$getpathinfo = pathinfo('https://ecommerce.kubil.app/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$pro['BIMAGE']);
 					if(!empty($getpathinfo['extension']) && in_array($getpathinfo['extension'],$listextensionimage)){
-						$productimage = 'http://dienmay.myhost/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$pro['BIMAGE'];
+						$productimage = 'https://ecommerce.kubil.app/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$pro['BIMAGE'];
 					}
 				}
 				if(empty($productimage)){
 					$getProductGallery = $oracle->query('SELECT * FROM (SELECT p.PICTURE,rownum rnum FROM TGDD_NEWS.PRODUCT_GALLERY p WHERE p.PRODUCTID='.$pro['PRODUCTID'].' AND p.PICTURE !=\' \' AND p.PICTURE is not null AND rownum<2) WHERE rnum>=0');
 					if(!empty($getProductGallery[0]['PICTURE'])){
-						$imageinfo = pathinfo('http://dienmay.myhost/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$getProductGallery[0]['PICTURE']);
+						$imageinfo = pathinfo('https://ecommerce.kubil.app/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$getProductGallery[0]['PICTURE']);
 						if(!empty($imageinfo['extension']) && in_array($imageinfo['extension'],$listextensionimage)){
-							$productimage = 'http://dienmay.myhost/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$getProductGallery[0]['PICTURE'];
+							$productimage = 'https://ecommerce.kubil.app/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$getProductGallery[0]['PICTURE'];
 						}
 					}
 				}
@@ -395,7 +395,7 @@ Class Controller_Admin_Importproduct Extends Controller_Admin_Base
 
 				}
 				if(!empty($productimage) && Helper::isUrlOnline($productimage)){
-					$objProduct->image=$productimage;//'http://dienmay.myhost/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$pro['BIMAGE']KIEM TRA LAI DUONG DAN HINH
+					$objProduct->image=$productimage;//'https://ecommerce.kubil.app/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$pro['BIMAGE']KIEM TRA LAI DUONG DAN HINH
 					echo $objProduct->image;
 				}
 
@@ -1422,7 +1422,7 @@ Class Controller_Admin_Importproduct Extends Controller_Admin_Base
 
 						if(!empty($getProduct[0]))
 						{
-							$fileurl = 'http://dienmay.myhost/Products/Images/'.$getProduct[0]->pcid.'/'.$getProduct[0]->id.'/'.str_replace(' ','%20',$gal['PICTURE']);
+							$fileurl = 'https://ecommerce.kubil.app/Products/Images/'.$getProduct[0]->pcid.'/'.$getProduct[0]->id.'/'.str_replace(' ','%20',$gal['PICTURE']);
 							$getpathinfo = pathinfo($fileurl);
 							if(!empty($getpathinfo['extension']) && in_array($getpathinfo['extension'],$listextensionimage)){
 								$myProductMedia = new Core_ProductMedia();
@@ -1479,7 +1479,7 @@ Class Controller_Admin_Importproduct Extends Controller_Admin_Base
 						$getProduct = Core_Product::getProducts(array('fid'=>$gal['PRODUCTID']),'','',1);
 						if(!empty($getProduct[0]))
 						{
-							$fileurl = 'http://dienmay.myhost/Products/Images/'.$getProduct[0]->pcid.'/'.$getProduct[0]->id.'/'.str_replace(' ','%20',$gal['PICTURE']);
+							$fileurl = 'https://ecommerce.kubil.app/Products/Images/'.$getProduct[0]->pcid.'/'.$getProduct[0]->id.'/'.str_replace(' ','%20',$gal['PICTURE']);
 							$explode = explode(' ',$gal['PICTURE']);
 							if(count($explode) ==1 )
 							{
@@ -2405,7 +2405,7 @@ echo '<p>SELECT * FROM lit_product WHERE p_slug !="" OR p_slug IS NOT NULL LIMIT
 			$out = array();
 			if(preg_match_all('/cdn.tgdt.vn/', $row['p_content'], $out))
 			{
-				$content = str_replace('cdn.tgdt.vn', 'dienmay.myhost', $row['p_content']);
+				$content = str_replace('cdn.tgdt.vn', 'ecommerce.kubil.app', $row['p_content']);
 				$sql = 'UPDATE ' .TABLE_PREFIX . 'product SET p_content = ? WHERE p_id = ?';
 				$stmt1 = $this->registry->db->query($sql , array($content , $row['p_id']));
 				if($stmt1)

@@ -681,7 +681,7 @@ Class Controller_Cms_Stuff Extends Controller_Cms_Base
 
 			foreach($result as $res)
 			{
-				$imagepath = 'http://dienmay.myhost/ClassifiedAds/';
+				$imagepath = 'https://ecommerce.kubil.app/ClassifiedAds/';
 
 				if($res['IMAGE'] != '')
 				{

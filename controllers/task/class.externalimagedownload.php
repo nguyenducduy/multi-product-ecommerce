@@ -212,7 +212,7 @@ class Controller_Task_ExternalImageDownload extends Controller_Task_Base
 	
 	                    if($resourceserverpassed){
 	                        $filedir = explode('/', $filedir, 2);
-	                        $domainUrl = 'http://dienmay.myhost/' .$filedir[1].'/'. $filename;
+	                        $domainUrl = 'https://ecommerce.kubil.app/' .$filedir[1].'/'. $filename;
 	                        $ftpContent = ContentRelace::replaceContentImagesFTP($domainUrl ,$urlimages, $ftpContent);
 	                    }else
 	                        $errorCount++;

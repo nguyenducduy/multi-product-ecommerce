@@ -8,7 +8,7 @@
         margin: 0;
         border-radius: 0;
         box-shadow:none;
-        background: url(http://dienmay.myhost/templates/default/images/site/logo_trungthu.png) no-repeat #eb4c4d;
+        background: url(https://ecommerce.kubil.app/templates/default/images/site/logo_trungthu.png) no-repeat #eb4c4d;
         border-radius: inherit;
          height: 196px;
     }

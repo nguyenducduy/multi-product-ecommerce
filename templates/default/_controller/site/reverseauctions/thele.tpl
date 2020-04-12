@@ -50,7 +50,7 @@
 		</p>
 		<p>
 			
-			<img src="http://dienmay.myhost/pimages/Article/rule1_1.jpg?v=2" width="535" alt="Thể lệ">
+			<img src="https://ecommerce.kubil.app/pimages/Article/rule1_1.jpg?v=2" width="535" alt="Thể lệ">
 		</p>
 		<p>- Các trường hợp 1000đ, 3000đ, 4000đ (Hình minh hoạ)  là các mức giá không duy nhất cũng không thấp nhất. Để có mức giá thấp nhất và duy nhất bạn phải đặt một mức giá khác. Trong trường hợp không có mức giá nào đạt yêu cầu trên, dienmay.com sẽ dựa trên mức giá thấp nhất, ít lượt đặt nhất để chọn ra người thắng cuộc là người đặt sớm nhất.</p>
 		<p><strong>3. Cách thức tham gia đấu giá:</strong>  </p>

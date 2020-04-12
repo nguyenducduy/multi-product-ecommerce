@@ -20,10 +20,10 @@
 
 		<link type="text/css" rel="stylesheet" href="{$currentTemplate}min/?g=cssadminchart&ver={$setting.site.cssversion}" media="screen" />
 
-		<link rel="stylesheet" type="text/css" href="http://dienmay.myhost/templates/default/css/stat/daterangepicker.css" />
-		<!-- <link rel="stylesheet" type="text/css" href="http://dienmay.myhost/templates/default/css/stat/stat.css" /> -->
-		<link type="text/css" rel="stylesheet" href="http://dienmay.myhost/templates/default/css/site/startproductcategory.css" media="screen" />
-		<link type="text/css" rel="stylesheet" href="http://dienmay.myhost/templates/default/css/site/jquery.handsontable.full.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="https://ecommerce.kubil.app/templates/default/css/stat/daterangepicker.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="https://ecommerce.kubil.app/templates/default/css/stat/stat.css" /> -->
+		<link type="text/css" rel="stylesheet" href="https://ecommerce.kubil.app/templates/default/css/site/startproductcategory.css" media="screen" />
+		<link type="text/css" rel="stylesheet" href="https://ecommerce.kubil.app/templates/default/css/site/jquery.handsontable.full.css" media="screen" />
 
 
 
@@ -38,14 +38,14 @@
 		<!-- customized admin -->
 		<script src="{$currentTemplate}min/?g=jsadmin&ver={$setting.site.jsversion}"></script>
 
-		<!--<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/nvd3/lib/d3.v2.min.js"></script>
-		<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/nvd3/stream_layers.js"></script>
-		<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/nvd3/nv.d3.min.js"></script>
-		<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/mystat.js"></script>-->
-		<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/date.js"></script>
-		<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/daterangepicker.js"></script>
-		<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/forecastproductcategory.js"></script>
-		<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/highcharts/highcharts.js"></script>
+		<!--<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/nvd3/lib/d3.v2.min.js"></script>
+		<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/nvd3/stream_layers.js"></script>
+		<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/nvd3/nv.d3.min.js"></script>
+		<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/mystat.js"></script>-->
+		<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/date.js"></script>
+		<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/daterangepicker.js"></script>
+		<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/forecastproductcategory.js"></script>
+		<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/highcharts/highcharts.js"></script>
 
 
 		{if $controller == 'index'}<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>{/if}
@@ -54,11 +54,11 @@
 		<script type="text/javascript" src="{$currentTemplate}js/admin/bootstrap-datepicker.js"></script>
 		<!--<script type="text/javascript" src="{$currentTemplate}js/site/jquery.handsontable.full.js"></script>-->
 		<script type="text/javascript" src="{$currentTemplate}js/site/numeral.js"></script>
-		<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/jquery.sparkline.min.js"></script>
-		<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/report/jquery.freezeheader.js"></script>		
-		<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/report/jquery.tablesorter.min.js"></script>		
-		<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/report/jquery-calx-1.1.4.min.js"></script>
-		<!--<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/jquery.handsontable-excel.js"></script>-->
+		<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/jquery.sparkline.min.js"></script>
+		<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/report/jquery.freezeheader.js"></script>		
+		<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/report/jquery.tablesorter.min.js"></script>		
+		<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/report/jquery-calx-1.1.4.min.js"></script>
+		<!--<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/jquery.handsontable-excel.js"></script>-->
 		{literal}
 		<style type="text/css">
 			#sb-wrapper{top:80px !important;}
@@ -102,4 +102,4 @@
         {include file="notify.tpl" notifyError=$error notifySuccess=$success}
         {$datahtml}
     </body>
-<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/report/productdetail.js"></script>
+<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/report/productdetail.js"></script>

@@ -356,7 +356,7 @@ Class Controller_Admin_Importproductlocal Extends Controller_Admin_Base
 
                         if(!empty($getProduct->id))
                         {
-                            $fileurl = 'http://dienmay.myhost/Products/Images/'.$getProduct->pcid.'/'.$getProduct->id.'/'.str_replace(' ','%20',$gal['PICTURE']);
+                            $fileurl = 'https://ecommerce.kubil.app/Products/Images/'.$getProduct->pcid.'/'.$getProduct->id.'/'.str_replace(' ','%20',$gal['PICTURE']);
                             $getpathinfo = pathinfo($fileurl);
                             if(!empty($getpathinfo['extension']) && in_array($getpathinfo['extension'],$listextensionimage)){
                                 $myProductMedia = new Core_ProductMedia();
@@ -485,7 +485,7 @@ Class Controller_Admin_Importproductlocal Extends Controller_Admin_Base
                         $getProduct = new Core_Product($gal['PRODUCTID']);//Core_Product::getProducts(array('fid'=>$gal['PRODUCTID']),'','',1);
                         if(!empty($getProduct->id))
                         {
-                            $fileurl = 'http://dienmay.myhost/Products/Images/'.$getProduct->pcid.'/'.$getProduct->id.'/'.str_replace(' ','%20',$gal['PICTURE']);
+                            $fileurl = 'https://ecommerce.kubil.app/Products/Images/'.$getProduct->pcid.'/'.$getProduct->id.'/'.str_replace(' ','%20',$gal['PICTURE']);
                             $explode = explode(' ',$gal['PICTURE']);
                             $getpathinfo = pathinfo($fileurl);
                                 if(!empty($getpathinfo['extension']) && in_array($getpathinfo['extension'],$listextensionimage)){
@@ -778,17 +778,17 @@ Class Controller_Admin_Importproductlocal Extends Controller_Admin_Base
 
 	                $productimage = '';
 	                if((int)$checkobjProduct->id <=0 && !empty($pro['BIMAGE'])){
-	                    $getpathinfo = pathinfo('http://dienmay.myhost/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$pro['BIMAGE']);
+	                    $getpathinfo = pathinfo('https://ecommerce.kubil.app/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$pro['BIMAGE']);
 	                    if(!empty($getpathinfo['extension']) && in_array($getpathinfo['extension'],$listextensionimage)){
-	                        $productimage = 'http://dienmay.myhost/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$pro['BIMAGE'];
+	                        $productimage = 'https://ecommerce.kubil.app/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$pro['BIMAGE'];
 	                    }
 	                }
 	                if(empty($productimage)){
 	                    $getProductGallery = $this->registry->db2->query('SELECT p.PICTURE FROM PRODUCT_GALLERY p WHERE p.PRODUCTID='.$pro['PRODUCTID'].' AND p.PICTURE !=\' \' AND p.PICTURE is not null LIMIT 1')->fetch();
 	                    if(!empty($getProductGallery['PICTURE'])){
-	                        $imageinfo = pathinfo('http://dienmay.myhost/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$getProductGallery['PICTURE']);
+	                        $imageinfo = pathinfo('https://ecommerce.kubil.app/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$getProductGallery['PICTURE']);
 	                        if(!empty($imageinfo['extension']) && in_array($imageinfo['extension'],$listextensionimage)){
-	                            $productimage = 'http://dienmay.myhost/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$getProductGallery['PICTURE'];
+	                            $productimage = 'https://ecommerce.kubil.app/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$getProductGallery['PICTURE'];
 	                        }
 	                    }
 	                }
@@ -897,7 +897,7 @@ Class Controller_Admin_Importproductlocal Extends Controller_Admin_Base
 	                    }
 
 	                if(!empty($productimage) && Helper::isUrlOnline($productimage)){
-	                    $objProduct->image=$productimage;//'http://dienmay.myhost/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$pro['BIMAGE']KIEM TRA LAI DUONG DAN HINH
+	                    $objProduct->image=$productimage;//'https://ecommerce.kubil.app/Products/Images/'.$pro['CATEGORYID'].'/'.$pro['PRODUCTID'].'/'.$pro['BIMAGE']KIEM TRA LAI DUONG DAN HINH
 	                    echo $objProduct->image;
 	                }
 

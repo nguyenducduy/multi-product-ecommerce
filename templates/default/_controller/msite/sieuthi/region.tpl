@@ -42,12 +42,12 @@
 <script type="text/javascript">
     var map;
     var infowindow = new google.maps.InfoWindow();
-    var icondm = new google.maps.MarkerImage('http://dienmay.myhost/templates/default/images/site/mapdienmay.png',
+    var icondm = new google.maps.MarkerImage('https://ecommerce.kubil.app/templates/default/images/site/mapdienmay.png',
             new google.maps.Size(22, 37),
             new google.maps.Point(0, 0),
             new google.maps.Point(0, 0));
 
-    var icondmac = new google.maps.MarkerImage('http://dienmay.myhost/templates/default/images/site/mapdienmayactive.png',
+    var icondmac = new google.maps.MarkerImage('https://ecommerce.kubil.app/templates/default/images/site/mapdienmayactive.png',
             new google.maps.Size(22, 37),
             new google.maps.Point(0, 0),
             new google.maps.Point(0, 0));
@@ -167,7 +167,7 @@
         strImageIcon = 'http://www.dienmay.com/favicon.ico';
         storename = '' + storename;
         var strResult = '<div class="store-info">';
-        strResult += '<div class="l"><div class="img"><img src="http://dienmay.myhost/templates/default/images/site/logo-dien-may.png" alt="' + storename + '" width=100/></div></div>';
+        strResult += '<div class="l"><div class="img"><img src="https://ecommerce.kubil.app/templates/default/images/site/logo-dien-may.png" alt="' + storename + '" width=100/></div></div>';
         strResult += '<div class="r"><h4>' + storename + '</h4>';
         strResult += '<div class="address"><strong>Địa chỉ:</strong> <span>' + storeaddress + '</span></div>';
         if (phone !='' ) strResult += '<div class="phone"><strong>Điện thoại:</strong> <span>' + phone + '</span></div>';

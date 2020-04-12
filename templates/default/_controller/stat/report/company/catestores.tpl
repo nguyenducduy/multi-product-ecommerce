@@ -106,6 +106,6 @@
     		</tbody>
     	</table>
 </div>
-<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/forecastproductcategory.js"></script>
-<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/forecastcategory.js"></script>
+<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/forecastproductcategory.js"></script>
+<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/forecastcategory.js"></script>
 {include file="_controller/admin/footer.tpl"}

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link type="text/css" rel="stylesheet" href="http://dienmay.myhost/templates/default/min/?g=css&ver=196-02112012" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://ecommerce.kubil.app/templates/default/min/?g=css&ver=196-02112012" media="screen" />
 <link type="text/css" rel="stylesheet" href="{$currentTemplate}css/site/style29.css" media="screen" />
 <script src="{$currentTemplate}/js/jquery.js"></script>
 <title>Untitled Document</title>

@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Campaign 29</title>
-<link type="text/css" rel="stylesheet" href="http://dienmay.myhost/templates/default/min/?g=css&ver=196-02112012" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://ecommerce.kubil.app/templates/default/min/?g=css&ver=196-02112012" media="screen" />
 <link type="text/css" rel="stylesheet" href="{$currentTemplate}css/site/style29.css" media="screen" />
 <script src="{$currentTemplate}/js/jquery.js"></script>
 </head>

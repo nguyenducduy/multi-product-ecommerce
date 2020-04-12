@@ -417,7 +417,7 @@ Class Controller_Cron_ResourceServer Extends Controller_Cron_Base
                                 $myFtp->put($destinationFilePath, $sourceFilePath, FTP_BINARY);
                                 // relace content with new url
                                 $filedir = explode('/', $filedir, 2);
-                                $domainUrl = 'http://dienmay.myhost/' .$filedir[1].'/'. $filename;
+                                $domainUrl = 'https://ecommerce.kubil.app/' .$filedir[1].'/'. $filename;
                                 $ftpContent = ContentRelace::replaceContentImagesFTP($domainUrl ,$urlimages, $ftpContent);
                                 $resourceserverpassed = true;
 

@@ -41,7 +41,7 @@
         </td>
     </tr>
     <tr>
-        <td valign="top" height="32" bgcolor="#FFFFFF"><img width="700" height="32" align="absbottom" src="http://dienmay.myhost/Files/2013/03/07/46208/main-shadow.png" alt="bong" style="display:block;"></td>
+        <td valign="top" height="32" bgcolor="#FFFFFF"><img width="700" height="32" align="absbottom" src="https://ecommerce.kubil.app/Files/2013/03/07/46208/main-shadow.png" alt="bong" style="display:block;"></td>
     </tr>
     <!--end header-->
     <tr><td>

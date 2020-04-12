@@ -198,7 +198,7 @@ Class Controller_Site_Test extends Controller_Site_Base
     public function testurlAction()
     {
         $test = new Core_ProductMedia();
-        $test->fileurl = 'http://dienmay.myhost/Products/Images/42/21504/SamsungC170_3.jpg';
+        $test->fileurl = 'https://ecommerce.kubil.app/Products/Images/42/21504/SamsungC170_3.jpg';
 
         $test->addData();
     }

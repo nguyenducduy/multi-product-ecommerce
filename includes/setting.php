@@ -17,8 +17,8 @@
 	$setting['site']['defaultPageKeyword'] = 'mua dien thoai, mua laptop, tivi gia re, may lanh gia re, dien thoai gia re, laptop gia re';
 	$setting['site']['defaultPageDescription'] = 'Siêu thị điện máy dienmay.com - Hệ thống siêu thị điện máy chuyên cung cấp các sản phẩm điện thoại, laptop, điện tử, gia dụng, điện máy chính hãng giá rẻ';
 	$setting['site']['sessionExcludeController'] = array();	//array chua cac controller se khong cap nhat vao session table (thuong la cac request ajax hang loat)
-	$setting['site']['taskurl'] = 'http://dienmay.myhost/_sectask/';	//url toi automatic task
-	$setting['site']['websocketurl'] = 'http://dienmay.myhost/';	//end with slash /
+	$setting['site']['taskurl'] = 'https://ecommerce.kubil.app/_sectask/';	//url toi automatic task
+	$setting['site']['websocketurl'] = 'https://ecommerce.kubil.app/';	//end with slash /
 	$setting['site']['websocketenable'] = 0;
 
 	$setting['site']['apcUserCacheTimetolive'] = 3600;	//seconds, time to renew user cache data in data store in apc
@@ -34,17 +34,17 @@
 	$setting['cache']['homepageExpire'] = 3;	//minutes, the time cache will expired and create new cache file for homepage
 	$setting['cache']['homepageLastActionExpire'] = 1;	//minutes, the time cache for homepage member last action
 
-	$setting['resourcehost']['general'] = 'http://dienmay.myhost/uploads/';
-	$setting['resourcehost']['general_https'] = 'http://dienmay.myhost/uploads/';
+	$setting['resourcehost']['general'] = 'https://ecommerce.kubil.app/uploads/';
+	$setting['resourcehost']['general_https'] = 'https://ecommerce.kubil.app/uploads/';
 
-	$setting['resourcehost']['static'] = 'http://dienmay.myhost/templates/default/';
-	$setting['resourcehost']['static_https'] = 'http://dienmay.myhost/templates/default/';
+	$setting['resourcehost']['static'] = 'https://ecommerce.kubil.app/templates/default/';
+	$setting['resourcehost']['static_https'] = 'https://ecommerce.kubil.app/templates/default/';
 
-	$setting['resourcehost']['static_1'] = 'http://dienmay.myhost/templates/default/';
-	$setting['resourcehost']['static_1_https'] = 'http://dienmay.myhost/templates/default/';
+	$setting['resourcehost']['static_1'] = 'https://ecommerce.kubil.app/templates/default/';
+	$setting['resourcehost']['static_1_https'] = 'https://ecommerce.kubil.app/templates/default/';
 
-	$setting['resourcehost']['static_1'] = 'http://dienmay.myhost/templates/default/';
-	$setting['resourcehost']['static_1_https'] = 'http://dienmay.myhost/templates/default/';
+	$setting['resourcehost']['static_1'] = 'https://ecommerce.kubil.app/templates/default/';
+	$setting['resourcehost']['static_1_https'] = 'https://ecommerce.kubil.app/templates/default/';
 
 	$setting['apc']['shortDelay'] = 300;	//seconds, thoi gian de expire thong tin friendlist cache, va feed va notification, day la khoang thoi gian ngan, de cac thong tin cache rieng cua tung user co the cap nhat nhanh
 	$setting['apc']['onlinestatusTimeout'] = 600;	//thoi gian de danh luu lai user online
@@ -56,9 +56,9 @@
 	$setting['mail']['usingAmazonses'] = true;	//neu true thi su dung co che send mail cua amazon, ket hop voi amazon api key o setting o duoi de send, neu false thi su dung co che mac dinh de goi mail
 	$setting['mail']['dateFormat'] = 'F j, Y, g:i a';
 	$setting['mail']['fromName'] = 'MyWebShop';
-	$setting['mail']['fromEmail'] = 'noreply@dienmay.myhost';
+	$setting['mail']['fromEmail'] = 'noreply@ecommerce.kubil.app';
 	$setting['mail']['toName'] = 'mywebshop Webmaster';
-	$setting['mail']['toEmail'] = 'admin@dienmay.myhost';
+	$setting['mail']['toEmail'] = 'admin@ecommerce.kubil.app';
 	$setting['amazon']['publickey'] = '';
 	$setting['amazon']['privatekey'] = '';
 

@@ -15,7 +15,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{$conf.rooturl}year-in-review" />
 <meta property="og:image"
-	content="http://dienmay.myhost/pimages/Khuyen-mai/Event/noel/ava-yeu-tinh.jpg" />
+	content="https://ecommerce.kubil.app/pimages/Khuyen-mai/Event/noel/ava-yeu-tinh.jpg" />
 <meta property="og:title" content="YEAR IN REVIEW -  AI NHANH MẮT HƠN" />
 <meta property="og:description"
 	content="Hãy cùng chơi game tìm số điểm khác nhau vô cùng vui nhộn để có cơ hội dành lấy smartphone Gionee E6 từ 23/12 đến 30/12/2013" />

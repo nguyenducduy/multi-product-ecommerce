@@ -9,7 +9,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{$conf.rooturl}product-of-the-year" />
 <meta property="og:image"
-	content="http://dienmay.myhost/templates/default/images/site/banner-top.jpg" />
+	content="https://ecommerce.kubil.app/templates/default/images/site/banner-top.jpg" />
 <meta property="og:title" content="{if !empty($article->title)}{$article->title}{else}Product of the year{/if}" />
 <meta property="og:description"
 	content="{if !empty($article->content)}{$article->content}{else}Hãy cùng tham gia chương trình Product of the year để nhận những phần quà hấp dẫn vào dịp cuối năm này. Bài viết hay nhất , người chia sẻ chương trình nhiều nhất, bài viết được người chơi yêu thích nhất sẽ được trao thưởng{/if}" />

@@ -19,7 +19,7 @@ class ResourceServer
 			elseif($type == 'avatar')
 				$rooturl = 'http://a.tgdt.vn/';
 			else
-				$rooturl = 'http://dienmay.myhost/';
+				$rooturl = 'https://ecommerce.kubil.app/';
 			*/
 		}
 		elseif($resourceid == 1)

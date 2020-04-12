@@ -47,7 +47,7 @@ set_time_limit(30);
 
 $conf = array();
 
-$conf['host'] = 'dienmay.myhost';
+$conf['host'] = 'ecommerce.kubil.app';
 
 if(SUBDOMAIN == 'm')
 {

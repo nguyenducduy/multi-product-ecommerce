@@ -35,7 +35,7 @@
 
 <div id="wrap-33k">
     <div class="banner33k">
-        <img src="http://dienmay.myhost/templates/default/images/site/sndienmay/banner-33k.jpg?v=1">
+        <img src="https://ecommerce.kubil.app/templates/default/images/site/sndienmay/banner-33k.jpg?v=1">
         <div class="block-ico">
             <div class="likefb">
             </div>
@@ -74,13 +74,13 @@
         <p>Chương trình được tài trợ bởi:</p>
         <div class="logo-list33">
             <ul>
-                <li><a href="{$registry->conf.rooturl}panasonic?ref=dong-gia-33-ngan" target="_blank"><img src="http://dienmay.myhost/templates/default/images/site/sndienmay/l-pana.png"></a></li>
-                <li><a href="{$registry->conf.rooturl}philips?ref=dong-gia-33-ngan" target="_blank"><img src="http://dienmay.myhost/templates/default/images/site/sndienmay/l-philip.png"></a></li>
-                <li><a href="{$registry->conf.rooturl}sharp?ref=dong-gia-33-ngan" target="_blank"><img src="http://dienmay.myhost/templates/default/images/site/sndienmay/l-sharp.png"></a></li>
-                <li><a href="{$registry->conf.rooturl}midea?ref=dong-gia-33-ngan" target="_blank"><img src="http://dienmay.myhost/templates/default/images/site/sndienmay/l-media.png"></a></li>
-                <li><a href="{$registry->conf.rooturl}acer?ref=dong-gia-33-ngan" target="_blank"><img src="http://dienmay.myhost/templates/default/images/site/sndienmay/acer.png"></a></li>
-                <li><a href="{$registry->conf.rooturl}hitachi?ref=dong-gia-33-ngan" target="_blank"><img src="http://dienmay.myhost/templates/default/images/site/sndienmay/l-hitachi.png"></a></li>
-                <li><a href="{$registry->conf.rooturl}gunners?ref=dong-gia-33-ngan" target="_blank"><img src="http://dienmay.myhost/templates/default/images/site/sndienmay/l-gunner.png"></a></li>
+                <li><a href="{$registry->conf.rooturl}panasonic?ref=dong-gia-33-ngan" target="_blank"><img src="https://ecommerce.kubil.app/templates/default/images/site/sndienmay/l-pana.png"></a></li>
+                <li><a href="{$registry->conf.rooturl}philips?ref=dong-gia-33-ngan" target="_blank"><img src="https://ecommerce.kubil.app/templates/default/images/site/sndienmay/l-philip.png"></a></li>
+                <li><a href="{$registry->conf.rooturl}sharp?ref=dong-gia-33-ngan" target="_blank"><img src="https://ecommerce.kubil.app/templates/default/images/site/sndienmay/l-sharp.png"></a></li>
+                <li><a href="{$registry->conf.rooturl}midea?ref=dong-gia-33-ngan" target="_blank"><img src="https://ecommerce.kubil.app/templates/default/images/site/sndienmay/l-media.png"></a></li>
+                <li><a href="{$registry->conf.rooturl}acer?ref=dong-gia-33-ngan" target="_blank"><img src="https://ecommerce.kubil.app/templates/default/images/site/sndienmay/acer.png"></a></li>
+                <li><a href="{$registry->conf.rooturl}hitachi?ref=dong-gia-33-ngan" target="_blank"><img src="https://ecommerce.kubil.app/templates/default/images/site/sndienmay/l-hitachi.png"></a></li>
+                <li><a href="{$registry->conf.rooturl}gunners?ref=dong-gia-33-ngan" target="_blank"><img src="https://ecommerce.kubil.app/templates/default/images/site/sndienmay/l-gunner.png"></a></li>
             </ul>
             
         </div>

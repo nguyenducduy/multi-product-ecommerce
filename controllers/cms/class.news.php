@@ -821,7 +821,7 @@ Class Controller_Cms_News Extends Controller_Cms_Base
         $result = $oracle->query($sqlOra);
 
         foreach ($result as $res) {
-            $imagepath = 'http://dienmay.myhost/Files/';
+            $imagepath = 'https://ecommerce.kubil.app/Files/';
 
             $dateCreated = DateTime::createFromFormat('d-M-y', $res['CREATEDDATE']);
 
@@ -845,7 +845,7 @@ Class Controller_Cms_News Extends Controller_Cms_Base
             $result = $oracle->query($sqlOra);
 
             foreach ($result as $res) {
-                $imagepath = 'http://dienmay.myhost/Files/';
+                $imagepath = 'https://ecommerce.kubil.app/Files/';
 
                 //chuyen doi time oracle thanh timestamp
                 $dateCreated = DateTime::createFromFormat('d-M-y', $res['CREATEDDATE']);

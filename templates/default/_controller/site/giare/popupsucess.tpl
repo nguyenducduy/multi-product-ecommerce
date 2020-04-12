@@ -1,4 +1,4 @@
-<link type="text/css" rel="stylesheet" href="http://dienmay.myhost/templates/default/css/site/giare.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://ecommerce.kubil.app/templates/default/css/site/giare.css" media="screen" />
 <div class="pop_up_tham_gia" style="display: block;height: 90px;">
     <div>
             <div class="font24">Bạn đã {$formData.msg} thành công chương trình mua sản phẩm giá 1000đ.</div> <br />

@@ -238,5 +238,5 @@
 <script type="text/javascript">
     var step = {$stepdate}
 </script>
-<script type="text/javascript" src="http://dienmay.myhost/templates/default/js/stat/report/subcateattribute.js"></script>
+<script type="text/javascript" src="https://ecommerce.kubil.app/templates/default/js/stat/report/subcateattribute.js"></script>
 {include file="_controller/admin/footer.tpl"}

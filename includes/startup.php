@@ -59,7 +59,7 @@ $registry->setting = $setting;
 
 //Init session
 //$session = new dbsession($db);
-ini_set('session.cookie_domain', '.dienmay.myhost');
+ini_set('session.cookie_domain', '.ecommerce.kubil.app');
 session_start();
 
 //Init tracking ID

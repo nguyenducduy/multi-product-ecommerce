@@ -49,7 +49,7 @@
             <!-- <div class="collaborators">
             	<strong>Thông tin cộng tác viên</strong>
                 <div class="infocolla">
-                	<img src="http://dienmay.myhost/templates/default/images/site/user.jpg" />
+                	<img src="https://ecommerce.kubil.app/templates/default/images/site/user.jpg" />
                     <a href="#"><strong>Đặng Ngọc Thanh Tâm</strong></a>
                     <span>Tham gia: 1/12/2012</span>
                     <span>Bài viết: 10 bài</span>

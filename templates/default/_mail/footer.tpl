@@ -21,7 +21,7 @@
 <table width="700" cellspacing="0" cellpadding="0" border="0" align="center" style="padding-top: -2px;">
     <tr>
         <td valign="top" height="32" bgcolor="#FFFFFF">
-            <a href="https://www.facebook.com/dienmaycom" target="_blank" ><img width="699" height="32" align="absbottom" style="display:block;" alt="bong" src="http://dienmay.myhost/Files/2013/03/07/46208/main-shadow.png" border="0" /></a>
+            <a href="https://www.facebook.com/dienmaycom" target="_blank" ><img width="699" height="32" align="absbottom" style="display:block;" alt="bong" src="https://ecommerce.kubil.app/Files/2013/03/07/46208/main-shadow.png" border="0" /></a>
         </td>
     </tr>
 </table>
