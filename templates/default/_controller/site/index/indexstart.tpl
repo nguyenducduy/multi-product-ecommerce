@@ -15,7 +15,7 @@
 
 <div id="container">
     <!-- promotion, recommendation -->
-    <div id="depart">
+    {* <div id="depart">
         <div class="tabscontainer" id="promo">
             <div class="tabs">  
                 <div class="tagnoelone"></div>                                             
@@ -362,7 +362,7 @@
                 
             </div>
         </div>
-    </div>
+    </div> *}
      <!-- sản phẩm trang chủ -->
     <div class="clear"></div>
     {if !empty($listProductsByCategory)}
