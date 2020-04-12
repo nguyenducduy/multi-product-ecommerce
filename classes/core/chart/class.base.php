@@ -22,7 +22,7 @@ Abstract Class Core_Chart_Base extends Core_Object
 	public static function initCacheEngine()
 	{
 		$myCacheEngine = new Redis();
-		$myCacheEngine->connect('127.0.0.1', 6379);
+		$myCacheEngine->connect('localhost', 6379);
 		
 		return $myCacheEngine;
 	}

@@ -2,7 +2,7 @@
 
 Class RedisCache
 {
-	private $productServer = "127.0.0.1:6379";
+	private $productServer = "localhost:6379";
 	private $generalServer = "10.1.6.10:6378";
 
 	public $redis;

@@ -324,7 +324,7 @@ Class Controller_Admin_LoginTgdd Extends Controller_Admin_Base
 
 
 
-		$x = 'ipaddress=127.0.0.1';
+		$x = 'ipaddress=localhost';
 
 		//Data from SSO site
 		$token = 'XdZ7lYYDyC0fBi3a1nGTudxA0aHIDXAklnGbiua2QrGxkU+LF4L6ZPEQZutsQqSV4Hs0E0VDFiEAt31eiezYU6iuFSco83PPlrImns7hIf7ERFeU0ULMUH5u7rY4l/7tdItwcVd5hosUSFgrqT3tgaaN0kQNDBiE7gzrJE3qQgI=';

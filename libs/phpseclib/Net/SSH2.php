@@ -1726,7 +1726,7 @@ class Net_SSH2 {
     /**
      * Set Timeout
      *
-     * $ssh->exec('ping 127.0.0.1'); on a Linux host will never return and will run indefinitely.  setTimeout() makes it so it'll timeout.
+     * $ssh->exec('ping localhost'); on a Linux host will never return and will run indefinitely.  setTimeout() makes it so it'll timeout.
      * Setting $timeout to false or 0 will mean there is no timeout.
      *
      * @param Mixed $timeout

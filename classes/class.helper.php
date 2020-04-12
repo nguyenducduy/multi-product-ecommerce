@@ -382,7 +382,7 @@ class Helper
 		}
 
 		//Convert IP string to Integer
-		//Example, IP: 127.0.0.1 --> 2130706433
+		//Example, IP: localhost --> 2130706433
 		if($convertToInteger)
 			$ip = ip2long($ip);
 

@@ -10,7 +10,7 @@ Class Controller_Site_TestEmail Extends Controller_Site_Base
 		$msg = $_GET['msg'];
 
 		//limit to localhsot request only
-		if(strlen($msg) > 10 && $ipaddress != '127.0.0.1')
+		if(strlen($msg) > 10 && $ipaddress != 'localhost')
 		{
 
 			$receiverEmail = $_GET['toemail'];

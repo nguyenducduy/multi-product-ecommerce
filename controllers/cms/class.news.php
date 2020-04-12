@@ -807,7 +807,7 @@ Class Controller_Cms_News Extends Controller_Cms_Base
     public function clearAllCacheAction()
     {
         $myRedis = new RedisCache();
-        $myRedis->redis->_instance('127.0.0.1:6379')->flushAll();
+        $myRedis->redis->_instance('localhost:6379')->flushAll();
     }
 
     //Script import data tu oracle qua mysql

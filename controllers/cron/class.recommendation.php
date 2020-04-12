@@ -7,7 +7,7 @@ class Controller_Cron_Recommendation extends Controller_Cron_Base
 	public $for_j = 0 ;
 	public $list  = array();
 	public $server= '172.16.141.60';
-//	public $server= '127.0.0.1';
+//	public $server= 'localhost';
 	public $dem   = 0;
 	public $flag  = true;
 	public $precentRedis = array();
