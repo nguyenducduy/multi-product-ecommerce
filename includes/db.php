@@ -2,28 +2,28 @@
 	//Main Database (Master)
 	$conf['db']['host'] = 'localhost';
 	$conf['db']['name'] = 'dienmay';
-	$conf['db']['user'] = 'root';
-	$conf['db']['pass'] = 'root';
+	$conf['db']['user'] = 'admin';
+	$conf['db']['pass'] = 'Dienmay2013';
 
 	//Main Database (Replicate 01)
 	$conf['db_replicate01']['host'] = 'localhost';
 	$conf['db_replicate01']['name'] = 'dienmay';
-	$conf['db_replicate01']['user'] = 'root';
-	$conf['db_replicate01']['pass'] = 'root';
+	$conf['db_replicate01']['user'] = 'admin';
+	$conf['db_replicate01']['pass'] = 'Dienmay2013';
 
 	//Main Database (Replicate 02)
 	$conf['db_replicate02']['host'] = 'localhost';
 	$conf['db_replicate02']['name'] = 'dienmay';
-	$conf['db_replicate02']['user'] = 'root';
-	$conf['db_replicate02']['pass'] = 'root';
+	$conf['db_replicate02']['user'] = 'admin';
+	$conf['db_replicate02']['pass'] = 'Dienmay2013';
 
 	////////////////////////////////////////////////////
 
 	//Backend Database (Master)
 	$conf['db3']['host'] = 'localhost';
 	$conf['db3']['name'] = 'dienmay_backend';
-	$conf['db3']['user'] = 'root';
-	$conf['db3']['pass'] = 'root';
+	$conf['db3']['user'] = 'admin';
+	$conf['db3']['pass'] = 'Dienmay2013';
 
 	//Redis #1 Information
 	$conf['redis'][0]['ip'] = 'localhost';
