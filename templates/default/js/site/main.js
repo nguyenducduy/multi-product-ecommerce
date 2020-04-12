@@ -1100,7 +1100,7 @@ $(document).ready(function () {
   //$('.showTip').tip({maxWidth:'200px'});
 
   $('#facebook-headlike').html(
-    '<iframe src="http://www.facebook.com/plugins/like.php?href= &width=200&height=21&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px; float:left" allowTransparency="true"></iframe>'
+    '<iframe src="https://www.facebook.com/plugins/like.php?href= &width=200&height=21&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px; float:left" allowTransparency="true"></iframe>'
   )
 
   //Tracking

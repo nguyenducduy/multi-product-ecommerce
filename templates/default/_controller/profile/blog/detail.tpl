@@ -140,7 +140,7 @@
 		<div id="share-bookmark">
 			<div class="title">{$lang.controller.sharebookmarkTitle}</div>
 			<div class="icon">
-				<a href="http://www.facebook.com/share.php?u={$myBlog->getBlogPath()}&amp;t={$myBlog->title|escape:"url"}" title="Share on Facebook" class="sp sptext spbmfacebook">Facebook</a>
+				<a href="https://www.facebook.com/share.php?u={$myBlog->getBlogPath()}&amp;t={$myBlog->title|escape:"url"}" title="Share on Facebook" class="sp sptext spbmfacebook">Facebook</a>
 				<a href="http://twitter.com/home?status={$myBlog->title|escape:"url"}-{$myBlog->getBlogPath()}" title="Tweet This!" class="sp sptext spbmtwitter">Twitter</a>
 				<a href="http://delicious.com/post?url={$myBlog->getBlogPath()}&amp;title={$myBlog->title|escape:"url"}&amp;notes={$myBlog->contents|strip_tags|truncate:400:'..'|escape:"url"}" title="Bookmark on Del.icio.us" class="sp sptext spbmdelicious">Delicious</a>
 				<a href="http://buzz.yahoo.com/buzz?targetUrl={$myBlog->getBlogPath()}&amp;headline={$myBlog->title|escape:"url"}&amp;summary={$myBlog->contents|strip_tags|truncate:400:'..'|escape:"url"}&amp;category=lifestyle&amp;assetType=text" title="Yahoo Buzz Up" title="Yahoo Buzz Up" class="sp sptext spbmyahoo">Yahoo Buzz!</a>

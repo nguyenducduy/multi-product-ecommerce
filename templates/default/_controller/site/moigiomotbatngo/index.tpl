@@ -37,7 +37,7 @@
 	<div id="promo29header">
 		<img src="{$currentTemplate}images/site/popup/moi-gio-mot-bat-ngo-header.jpg?v=2" alt="" border="0" />
 		<div id="promo29headerlike">
-			<iframe src="http://www.facebook.com/plugins/like.php?href={$conf.rooturl|escape:'url'}&width=100&height=21&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px; float:left" allowTransparency="true"></iframe>
+			<iframe src="https://www.facebook.com/plugins/like.php?href={$conf.rooturl|escape:'url'}&width=100&height=21&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px; float:left" allowTransparency="true"></iframe>
 		</div>
 		<a href="javascript:void(0)" id="promo29headerdetailbutton"></a>
 		<a href=" " id="promo29headerfacebook"></a>

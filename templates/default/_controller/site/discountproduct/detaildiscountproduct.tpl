@@ -3,7 +3,7 @@
     	<a href="#" title="Tựu trường cùng dienmay.com"><img src="{$currentTemplate}images/site/banner-back-to-school-main.png" alt="Banner-Back-to-school" /></a>
         <div class="btslike">
         <div class="btnlikeleft">
-        	<iframe src="http://www.facebook.com/plugins/like.php?href=https://ecommerce.kubil.app/khoi-dau-hoan-hao&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px; float:left" allowTransparency="true"></iframe>
+        	<iframe src=" " scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px; float:left" allowTransparency="true"></iframe>
         </div>
             </div>
             <div class="btslikecont">Chương trình tựu trường cùng dienmay.com dành cho tất cả các bạn sinh viên trong năm học mới</div>

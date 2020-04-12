@@ -4,7 +4,7 @@
         <div class="btslike">
         <div class="btnlikeleft">
         <!--<div class="fb-like" data-width="120" data-layout="button_count" data-show-faces="true" data-send="false"></div>-->
-        	<iframe src="http://www.facebook.com/plugins/like.php?href=https://ecommerce.kubil.app/khoi-dau-hoan-hao&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px; float:left" allowTransparency="true"></iframe>
+        	<iframe src=" " scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px; float:left" allowTransparency="true"></iframe>
         </div>
             </div>
             <div class="btslikecont">Chương trình diễn ra từ ngày 26/08 đến ngày 30/09 với hàng trăm ưu đãi lên đến 2 triệu đồng cùng nhiều gói mua sắm được dienmay.com thiết kế dành riêng cho bạn - Cho Sinh Viên</div>

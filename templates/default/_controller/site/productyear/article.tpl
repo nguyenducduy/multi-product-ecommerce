@@ -21,7 +21,7 @@
                                         <span><b>{$article->title}</b></span>
                                         <p>{$article->content}</p>
                                     
-                                   <div class="label-like"><iframe src="http://www.facebook.com/plugins/like.php?href={$article->slug}&colorscheme=light&layout=button_count&action=like&show_faces=true&send=true" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:140px; height:21px; float:left" class="likepage"></iframe></div>
+                                   <div class="label-like"><iframe src="https://www.facebook.com/plugins/like.php?href={$article->slug}&colorscheme=light&layout=button_count&action=like&show_faces=true&send=true" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:140px; height:21px; float:left" class="likepage"></iframe></div>
                                    <div class="label-like"><g:plusone data-href="{$article->slug}" size='medium'></g:plusone></div>
 <!--                                   <div class="label-invite">Số bạn đã mời</div>-->
                                     <div class="bt-back"><a href="{$conf.rooturl}productyear/detail?id={$article->pid}"> Quay về</a></div>

@@ -435,7 +435,7 @@ var fgpa = "{/literal}{$gpa}{literal}"
 var fpa = "{/literal}{$pa}{literal}"
 var prel = "{/literal}{$prel}{literal}"
 $(document).ready(function(){
-	$('.likepage span').html('<iframe src="http://www.facebook.com/plugins/like.php?href='+$('.productpath').html()+'&width=120&height=21&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px; float:left" allowTransparency="true"></iframe>');
+	$('.likepage span').html('<iframe src="https://www.facebook.com/plugins/like.php?href='+$('.productpath').html()+'&width=120&height=21&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px; float:left" allowTransparency="true"></iframe>');
     loadReview(pid , '');
     $('#more').css('display' , 'none');
     $('#view').click(function(){

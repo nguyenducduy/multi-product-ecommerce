@@ -22,7 +22,7 @@
     <div class="socialbar">
   	<div class="likepage">
     	<label>Bạn thích trang này?</label>
-        <span><iframe src="http://www.facebook.com/plugins/like.php?href={$fcat['fullpath']}&width=120&height=21&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px; float:left" allowTransparency="true"></iframe></span>
+        <span><iframe src="https://www.facebook.com/plugins/like.php?href={$fcat['fullpath']}&width=120&height=21&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px; float:left" allowTransparency="true"></iframe></span>
     </div>
     <div class="sharepage">
     	<label>Chia sẻ</label>
