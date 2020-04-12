@@ -4,7 +4,7 @@
         <div class="btslike">
         <div class="btnlikeleft">
         <!--<div class="fb-like" data-width="120" data-layout="button_count" data-show-faces="true" data-send="false"></div>-->
-        	<iframe src="http://www.facebook.com/plugins/like.php?href=http://dienmay.com/khoi-dau-hoan-hao&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px; float:left" allowTransparency="true"></iframe>
+        	<iframe src="http://www.facebook.com/plugins/like.php?href=https://ecommerce.kubil.app/khoi-dau-hoan-hao&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px; float:left" allowTransparency="true"></iframe>
         </div>
             </div>
             <div class="btslikecont">Chương trình diễn ra từ ngày 26/08 đến ngày 30/09 với hàng trăm ưu đãi lên đến 2 triệu đồng cùng nhiều gói mua sắm được dienmay.com thiết kế dành riêng cho bạn - Cho Sinh Viên</div>
@@ -64,9 +64,9 @@ Gói ưu đãi được xây dựng dựa trên nhu cầu thực tế của các
 	<ul>
     	<li>Hãy cùng chia sẽ với bạn bè để lan tỏa niềm vui mua sắm cho mùa tựu trường</li>
         <li><i class="iconhand"></i></li>
-        <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://dienmay.com/khoi-dau-hoan-hao/" target="_blank"><i class="iconshfb"></i></a></li>
-        <li><a href="http://twitter.com/share?text=Khởi đầu hoàn hảo cùng dienmay.com&url=http://dienmay.com/khoi-dau-hoan-hao/" target="_blank"><i class="iconstwt"></i></a></li>
-        <li><a href="https://plus.google.com/share?url=http://dienmay.com/khoi-dau-hoan-hao/" target="_blank"><i class="iconsgpl"></i></a></li>
+        <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://ecommerce.kubil.app/khoi-dau-hoan-hao/" target="_blank"><i class="iconshfb"></i></a></li>
+        <li><a href="http://twitter.com/share?text=Khởi đầu hoàn hảo cùng dienmay.com&url=https://ecommerce.kubil.app/khoi-dau-hoan-hao/" target="_blank"><i class="iconstwt"></i></a></li>
+        <li><a href="https://plus.google.com/share?url=https://ecommerce.kubil.app/khoi-dau-hoan-hao/" target="_blank"><i class="iconsgpl"></i></a></li>
     </ul>
 </div>
 <div class="buybts"><a href="{$config.root}khoi-dau-hoan-hao/san-pham">Bắt đầu mua sắm <i class="iconbuybts"></i></a></div>

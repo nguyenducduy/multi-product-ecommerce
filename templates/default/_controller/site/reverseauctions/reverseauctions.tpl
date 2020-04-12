@@ -11,11 +11,11 @@
                         <span></span>
                     </div>
                 </div>
-                <div class="auc_float"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://dienmay.com/dau-gia-nguoc"><i class="icon-face"></i></a>
+                <div class="auc_float"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://ecommerce.kubil.app/dau-gia-nguoc"><i class="icon-face"></i></a>
                 </div>
-                <div class="auc_float"><a target="_blank" href="https://plus.google.com/share?url=http://dienmay.com/dau-gia-nguoc"><i class="icon-goog"></i></a>
+                <div class="auc_float"><a target="_blank" href="https://plus.google.com/share?url=https://ecommerce.kubil.app/dau-gia-nguoc"><i class="icon-goog"></i></a>
                 </div>
-                <div class="auc_float"><a target="_blank" href="http://twitthis.com/twit?url=http://dienmay.com/dau-gia-nguoc"><i class="icon-twitter"></i></a>
+                <div class="auc_float"><a target="_blank" href="http://twitthis.com/twit?url=https://ecommerce.kubil.app/dau-gia-nguoc"><i class="icon-twitter"></i></a>
                 </div>
             </div>
             </div>

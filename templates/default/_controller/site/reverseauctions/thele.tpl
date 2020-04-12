@@ -40,7 +40,7 @@
 	<div class="titpop">Thể lệ chương trình Đấu giá ngược <!-- <i class="closepop_auc"></i> --></div>
     <div class="cont_auc">
     	<p><strong>1. Đối tượng:</strong></p>
-		<p>Áp dụng cho các mọi khách hàng trên toàn quốc, trừ thành viên của <a href="http://dienmay.com/">dienmay.com</a> và thegioididong.com </p>
+		<p>Áp dụng cho các mọi khách hàng trên toàn quốc, trừ thành viên của <a href="https://ecommerce.kubil.app/">dienmay.com</a> và thegioididong.com </p>
 		<p><strong>2. Thể lệ:</strong>
 		  
 		</p>
@@ -59,7 +59,7 @@
 		<p><strong>Quy định:</strong> Mỗi số điện thoại chỉ được tham gia đấu giá tối đa 10 lần mỗi ngày xuyên suốt chương trình.</p>
 		<p><strong>4. Công bố kết quả đấu giá và trao thưởng:</strong>  </p>
 		<p>- Người thắng cuộc là người có mức giá đặt <strong>thấp nhất và duy nhất</strong>, trong trường hợp không có mức giá nào đạt yêu cầu trên, dienmay.com sẽ dựa trên mức giá thấp nhất, ít lượt đặt nhất để chọn ra người thắng cuộc là người đặt sớm nhất.</p>
-		<p>- Sau khi kết thúc 3 ngày đấu giá mỗi sản phẩm, dienmay.com sẽ thông báo thành viên thắng cuộc tại địa chỉ <a href="http://dienmay.com/dau-gia-nguoc">http://dienmay.com/dau-gia-nguoc</a> và trên Facebook fanpage <a href="http://facebook.com/dienmaycom">http://facebook.com/dienmaycom</a>.</p>
+		<p>- Sau khi kết thúc 3 ngày đấu giá mỗi sản phẩm, dienmay.com sẽ thông báo thành viên thắng cuộc tại địa chỉ <a href="https://ecommerce.kubil.app/dau-gia-nguoc">https://ecommerce.kubil.app/dau-gia-nguoc</a> và trên Facebook fanpage <a href="http://facebook.com/dienmaycom">http://facebook.com/dienmaycom</a>.</p>
 		<p>- Trong vòng 48 giờ nhân viên dienmay.com sẽ liên lạc với người thắng cuộc. Qua thời hạn trên, nếu dienmay.com không thể liên lạc với người thắng cuộc thì giải thưởng sẽ được chuyển cho người có giá thấp nhất và duy nhất tiếp theo.</p>
 		<p>- dienmay.com sẽ tiến hành trao thưởng trong vòng 5 ngày kể từ ngày xác nhận được với thành viên thắng cuộc. Đây là khoảng thời gian cần thiết để dienmay.com xác nhận tính hợp lệ của đấu giá thắng cuộc cũng như chuẩn bị cho việc trao giải được thuận tiện.</p>
 		<p>- Sau khi nhận được thông báo về thời gian và địa điểm nhận giải, người trúng thưởng mang Chứng minh thư, 02 bản sao chứng minh thư (có công chứng), sim điện thoại chưa bị khóa 2 chiều đến địa điểm trao giải để nhận giải thưởng.</p>

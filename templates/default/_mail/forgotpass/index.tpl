@@ -7,7 +7,7 @@
                 <p>Xin chào <strong>{$formData.fullname}</strong>,
                     <br />
                     <br />
-                    Bạn đã gửi cho <a href="http://dienmay.com?utm_source=trigger-email&utm_medium=email-reset-password&utm_campaign=more-traffic-from-trigger-email&utm_content=body-link-dienmay"
+                    Bạn đã gửi cho <a href="https://ecommerce.kubil.app?utm_source=trigger-email&utm_medium=email-reset-password&utm_campaign=more-traffic-from-trigger-email&utm_content=body-link-dienmay"
                                       title="dienmay.com"><i><strong>dienmay</strong>.com</i></a> lời yêu cầu đổi mật khẩu, vui lòng nhấn vào hoặc chép và dán đường dẫn dưới đây vào thanh địa chỉ trên trình duyệt của bạn, nhập và xác nhận mật khẩu mới.
                     <br />
                 </p>

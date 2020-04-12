@@ -11,7 +11,7 @@
           </tr>
           <tr>
             <td style="font-family: arial;font-size: 12px;">
-                Cảm ơn bạn đã tham gia giao dịch và sử dụng dịch vụ tại <a href="http://dienmay.com" target="_blank" style="color:#0072cc; font-weight:bold; font-style:italic">dienmay.com</a><br />
+                Cảm ơn bạn đã tham gia giao dịch và sử dụng dịch vụ tại <a href="https://ecommerce.kubil.app" target="_blank" style="color:#0072cc; font-weight:bold; font-style:italic">dienmay.com</a><br />
 Bạn đã đặt hàng thành công với thông tin đơn hàng như sau:
             </td>
           </tr>
@@ -89,10 +89,10 @@ Bạn đã đặt hàng thành công với thông tin đơn hàng như sau:
   </tr>
   <tr>
         <td>
-            <a href="http://dienmay.com" target="_blank" style="color:#0072cc;font-weight:bold; font-style:italic;font-family: arial;font-size: 12px;">dienmay.com</a> sẽ liên lạc với bạn để xác nhận chi tiết đơn hàng qua tổng đài <strong>19001883</strong> hoặc <strong>08 39 48 6789</strong>. Sau khi đơn hàng được xác nhận, chúng tôi sẽ tiến hành giao hàng.<br /><br />
+            <a href="https://ecommerce.kubil.app" target="_blank" style="color:#0072cc;font-weight:bold; font-style:italic;font-family: arial;font-size: 12px;">dienmay.com</a> sẽ liên lạc với bạn để xác nhận chi tiết đơn hàng qua tổng đài <strong>19001883</strong> hoặc <strong>08 39 48 6789</strong>. Sau khi đơn hàng được xác nhận, chúng tôi sẽ tiến hành giao hàng.<br /><br />
 
         Trân trọng,<br />
-        <a href="http://dienmay.com" target="_blank" style="color:#0072cc;font-weight:bold; font-style:italic;font-family: arial;font-size: 12px;">dienmay.com</a><br /><br />
+        <a href="https://ecommerce.kubil.app" target="_blank" style="color:#0072cc;font-weight:bold; font-style:italic;font-family: arial;font-size: 12px;">dienmay.com</a><br /><br />
       </td>
   </tr>
   

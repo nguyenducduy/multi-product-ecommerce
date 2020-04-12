@@ -8,15 +8,15 @@
 </tr>
   </tr>
   <tr>
-    <td>(Để xem chi tiết tất cả mã số dự thưởng, {$formData.gender} vui lòng truy cập tại <a href="http://dienmay.com/giare" target="_blank" style="color:#00a1e6; text-decoration:none">dienmay.com/giare</a>)</td>
+    <td>(Để xem chi tiết tất cả mã số dự thưởng, {$formData.gender} vui lòng truy cập tại <a href="https://ecommerce.kubil.app/giare" target="_blank" style="color:#00a1e6; text-decoration:none">dienmay.com/giare</a>)</td>
   </tr>
   <tr>
-    <td>Chúc <b>{$formData.gender} {$formData.fname}</b> nhiều may mắn mua được các sản phẩm giá trị tại <a href="http://dienmay.com" target="_blank" style="text-decoration:none">dienmay.com</a> chỉ với <span style="font:bold 16px Arial">1000đ</span>.</td>
+    <td>Chúc <b>{$formData.gender} {$formData.fname}</b> nhiều may mắn mua được các sản phẩm giá trị tại <a href="https://ecommerce.kubil.app" target="_blank" style="text-decoration:none">dienmay.com</a> chỉ với <span style="font:bold 16px Arial">1000đ</span>.</td>
   </tr>
   
   <tr>
   	<td>Trân trọng, <br /> 		
-		<a href="http://dienmay.com" target="_blank" style="text-decoration:none">dienmay.com</a></td>
+		<a href="https://ecommerce.kubil.app" target="_blank" style="text-decoration:none">dienmay.com</a></td>
   </tr>
 </table>
 {include file="`$smartyMailContainerRoot`footer.tpl"}

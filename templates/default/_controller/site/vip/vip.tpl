@@ -426,12 +426,12 @@ Ngay từ đơn hàng kế tiếp, tôi sẽ được sử dụng 263,800đ này
     <div class="col-f-2"> 
         	<ul>
             	<p class="f-title"> Hỗ trợ khách hàng </p>
-                <li><i class="arrow2"></i><a href="http://dienmay.com/huong-dan-mua-online" title="Hướng dẫn mua online">Hướng dẫn mua online</a></li>
-	            <li><i class="arrow2"></i><a href="http://dienmay.com/huong-dan-mua-tra-gop-tai-dienmaycom" title="Hướng dẫn mua trả góp">Hướng dẫn mua trả góp</a></li>
-	            <li><i class="arrow2"></i><a href="http://dienmay.com/bao-hanh-doi-tra" title="Bảo hành, đổi trả">Bảo hành, đổi trả</a></li>
-	            <li><i class="arrow2"></i><a href="http://dienmay.com/danh-cho-doanh-nghiep" title="Dành cho doanh nghiệp">Dành cho doanh nghiệp</a></li>
-	            <li><i class="arrow2"></i><a href="http://dienmay.com/thanh-vien-vip" title="Thành viên VIP">Thành viên VIP</a></li>
-	            <li><i class="arrow2"></i><a href="http://dienmay.com/chinh-sach-giao-hang-lap-dat-50-km" title="Chính sách giao hàng">Chính sách giao hàng</a></li>
+                <li><i class="arrow2"></i><a href="https://ecommerce.kubil.app/huong-dan-mua-online" title="Hướng dẫn mua online">Hướng dẫn mua online</a></li>
+	            <li><i class="arrow2"></i><a href="https://ecommerce.kubil.app/huong-dan-mua-tra-gop-tai-dienmaycom" title="Hướng dẫn mua trả góp">Hướng dẫn mua trả góp</a></li>
+	            <li><i class="arrow2"></i><a href="https://ecommerce.kubil.app/bao-hanh-doi-tra" title="Bảo hành, đổi trả">Bảo hành, đổi trả</a></li>
+	            <li><i class="arrow2"></i><a href="https://ecommerce.kubil.app/danh-cho-doanh-nghiep" title="Dành cho doanh nghiệp">Dành cho doanh nghiệp</a></li>
+	            <li><i class="arrow2"></i><a href="https://ecommerce.kubil.app/thanh-vien-vip" title="Thành viên VIP">Thành viên VIP</a></li>
+	            <li><i class="arrow2"></i><a href="https://ecommerce.kubil.app/chinh-sach-giao-hang-lap-dat-50-km" title="Chính sách giao hàng">Chính sách giao hàng</a></li>
         
             </ul>
     </div>
@@ -439,8 +439,8 @@ Ngay từ đơn hàng kế tiếp, tôi sẽ được sử dụng 263,800đ này
     <div class="col-f-3"> 
         	<ul>
             	<p class="f-title"> Thông tin công ty </p>                
-	            <li><i class="arrow2"></i><a href="http://dienmay.com/gioi-thieu-ve-dienmaycom" title="Giới thiệu về dienmay.com">Giới thiệu về dienmay.com</a></li>
-	            <li><i class="arrow2"></i><a href="http://dienmay.com/tuyendung" title="Tuyển dụng">Tuyển dụng</a></li>
+	            <li><i class="arrow2"></i><a href="https://ecommerce.kubil.app/gioi-thieu-ve-dienmaycom" title="Giới thiệu về dienmay.com">Giới thiệu về dienmay.com</a></li>
+	            <li><i class="arrow2"></i><a href="https://ecommerce.kubil.app/tuyendung" title="Tuyển dụng">Tuyển dụng</a></li>
                 <li> <a href="https://www.facebook.com/dienmaycom" target="_blank"><i class="icon-face"></i></a> <a href="https://www.google.com/+dienmay" target="_blank"><i class="icon-gl-plus"></i></a></li>
                 
             </ul>

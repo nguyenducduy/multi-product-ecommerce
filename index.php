@@ -39,7 +39,7 @@ require 'controllers/core/class.base.php';
 if((isset($_GET['live']) || isset($_GET['xprofiler'])) && ($me->groupid == 0 || $me->groupid > 5))
 {
 	header('HTTP/1.0 404 Not Found');
-	die('Not found. <a href="http://dienmay.com/" title="Dienmay.com">http://dienmay.com</a>');
+	die('Not found. <a href="https://ecommerce.kubil.app/" title="Dienmay.com">https://ecommerce.kubil.app</a>');
 }
 
 

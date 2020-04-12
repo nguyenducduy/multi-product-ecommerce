@@ -105,14 +105,14 @@
 						  	<span style="font-weight:bold; font-size:14px;">THỂ LỆ CHƯƠNG TRÌNH</span>		
 						  	<div style="height:10px;"></div>				  	
 						  	<ul>
-								<li>Tất cả thành viên của dienmay.com trên toàn quốc đều được tham gia. Đăng ký thành viên <a target="_blank" href="http://dienmay.com/thanh-vien/dang-ky" style="text-decoration:none"><span style="font-weight:bold">tại đây</span></a></li>
+								<li>Tất cả thành viên của dienmay.com trên toàn quốc đều được tham gia. Đăng ký thành viên <a target="_blank" href="https://ecommerce.kubil.app/thanh-vien/dang-ky" style="text-decoration:none"><span style="font-weight:bold">tại đây</span></a></li>
 								<li>Thông tin mua hàng bắt buộc phải đầy đủ và chính xác, bao gồm : Họ tên, chứng minh nhân dân, nơi ở( tỉnh/thành phố), số điện thoại di động, địa chỉ email.</li>
 								<li>Giá bán 29,000đ chỉ áp dụng cho 12 sản phẩm nằm trong quy định của chương trình</li>
-								<li>12 sản phẩm sẽ được bán trong thời gian bất kỳ từ <span style=" font-weight:bold">08h – 20h</span> tại website <a target="_blank" style="color:#0000FF" href="http://dienmay.com/moi-gio-mot-bat-ngo">dienmay.com/moi-gio-mot-bat-ngo</a></li>
+								<li>12 sản phẩm sẽ được bán trong thời gian bất kỳ từ <span style=" font-weight:bold">08h – 20h</span> tại website <a target="_blank" style="color:#0000FF" href="https://ecommerce.kubil.app/moi-gio-mot-bat-ngo">dienmay.com/moi-gio-mot-bat-ngo</a></li>
 
 								<li>01 sản phẩm / 01 lần đăng ký mua</li>
 								<li>Mỗi khách hàng chỉ được mua thành công sản phẩm 29,000đ tối đa 1 lần.</li>
-								<li>Danh sách tham gia sẽ được cập nhật liên tục và công khai trên website <a target="_blank" style="color:#0000FF" href="http://dienmay.com/moi-gio-mot-bat-ngo">dienmay.com/moi-gio-mot-bat-ngo</a>.</li>
+								<li>Danh sách tham gia sẽ được cập nhật liên tục và công khai trên website <a target="_blank" style="color:#0000FF" href="https://ecommerce.kubil.app/moi-gio-mot-bat-ngo">dienmay.com/moi-gio-mot-bat-ngo</a>.</li>
 								<li>dienmay.com có quyền từ chối hỗ trợ các trường hợp thông tin cá nhân khách cung cấp không chính xác hoặc có dấu hiệu gian lận khi tham gia chương trình.</li>
 								<li>Giá trị giảm giá không được quy đổi thành tiền mặt.</li>
 								<li>Không áp dụng đồng thời chương trình khuyến mại khác.</li>

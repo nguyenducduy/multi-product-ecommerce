@@ -43,7 +43,7 @@ class DosDetector
 			$useragent = isset($_SERVER['HTTP_USER_AGENT']) ? strip_tags(substr($_SERVER['HTTP_USER_AGENT'], 0, 100)) : '';
 			$uri = substr($_SERVER["REQUEST_URI"], 0, 100);
 			$referer = isset($_SERVER['HTTP_REFERER']) ? substr($_SERVER["HTTP_REFERER"], 0, 100) : '';
-			$referer = str_replace(array('http://dienmay.com/', 'https://dienmay.com/'), '', $referer);
+			$referer = str_replace(array('https://ecommerce.kubil.app/', 'https://dienmay.com/'), '', $referer);
 			
 			//Ignore Bot, Internal access
 			if(!in_array($ipaddress, $this->ignoreIpAddress))

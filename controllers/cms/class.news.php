@@ -241,7 +241,7 @@ Class Controller_Cms_News Extends Controller_Cms_Base
         /*
         $myNews = new Core_News(23);
         $myExternalResourceDownload = new ExternalResourceDownload($myNews->content);
-        $contents = $myExternalResourceDownload->run('http://dienmay.com/', 'uploads/pimages/ex/');
+        $contents = $myExternalResourceDownload->run('https://ecommerce.kubil.app/', 'uploads/pimages/ex/');
         */
         //end testing using externalresourcedownload;
         $myFaq = new Core_Faq(1, true);

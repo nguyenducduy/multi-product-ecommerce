@@ -925,7 +925,7 @@
       //Doan gia
       if(doangia == "1"){
 	      if( pid == 62611){
-	    	  	$("<p style='text-align: center; margin-bottom: 15px;'><img style='max-width: 100%;' src='http://dienmay.com/uploads/pimages/Khuyen-mai/Event/doangiatab3lite/galaxy-lite-1200x160.jpg' alt='TRẢ LỜI HAY, TRÚNG NGAY NOKIA LUMIA 1320' /></p>" ).insertBefore("#detail-head");
+	    	  	$("<p style='text-align: center; margin-bottom: 15px;'><img style='max-width: 100%;' src='https://ecommerce.kubil.app/uploads/pimages/Khuyen-mai/Event/doangiatab3lite/galaxy-lite-1200x160.jpg' alt='TRẢ LỜI HAY, TRÚNG NGAY NOKIA LUMIA 1320' /></p>" ).insertBefore("#detail-head");
 	      }
         var dateguessprice = '';
   		  $.ajax({

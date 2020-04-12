@@ -19,14 +19,14 @@
                                         line-height: 18px; border-bottom: dotted 1px #ccc; border-top: dotted 1px #ccc;
                                         padding: 3px 5px;">
                                         Vui lòng thêm địa chỉ <a style="color: #f00" href="mailto:noreply@dienmay.com">noreply@dienmay.com</a>vào
-                                        sổ địa chỉ để đảm bảo luôn nhận được thư từ<a style="color: #f00" href="http://dienmay.com/">
+                                        sổ địa chỉ để đảm bảo luôn nhận được thư từ<a style="color: #f00" href="https://ecommerce.kubil.app/">
                                             dienmay.com</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td width="170" style="margin-top: 10px; float: left;">
-                                        <a href="http://dienmay.com/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=body-link-dienmay">
-                                            <img alt="dienmay.com" src="http://dienmay.com/uploads/pimages/email/logo-dienmay-com.jpg"
+                                        <a href="https://ecommerce.kubil.app/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=body-link-dienmay">
+                                            <img alt="dienmay.com" src="https://ecommerce.kubil.app/uploads/pimages/email/logo-dienmay-com.jpg"
                                                 width="168" height="53" /></a>
                                     </td>
                                     <td>
@@ -34,7 +34,7 @@
                                             <tr>
                                                 <td colspan="6">
                                                     <span style="float: left; font: bold 11px Arial; color: #222;">Hệ thống bán lẻ điện
-                                                        máy toàn quốc</span> <a href="http://dienmay.com/sieuthi?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=body-link-dienmay"
+                                                        máy toàn quốc</span> <a href="https://ecommerce.kubil.app/sieuthi?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=body-link-dienmay"
                                                             style="float: right; font: bold italic 11px Arial; color: #ff9c00;">Hệ thống 12
                                                             siêu thị »</a>
                                                 </td>
@@ -42,21 +42,21 @@
                                             <tr>
                                                 <td>
                                                     <img alt="Đảm bảo 100% hàng chính hãng" style="float: left; line-height: 50px; margin-right: 3px;"
-                                                        src="http://dienmay.com/uploads/pimages/email/icon-guarranty.png" />
+                                                        src="https://ecommerce.kubil.app/uploads/pimages/email/icon-guarranty.png" />
                                                 </td>
                                                 <td style="font: normal 10px Arial; color: #444;">
                                                     Đảm bảo 100% hàng chính hãng
                                                 </td>
                                                 <td>
                                                     <img alt="10 ngày bảo hành đổi trả miễn phí (*)" style="float: left; line-height: 50px;
-                                                        margin-right: 3px;" src="http://dienmay.com/uploads/pimages/email/icon-return.png" />
+                                                        margin-right: 3px;" src="https://ecommerce.kubil.app/uploads/pimages/email/icon-return.png" />
                                                 </td>
                                                 <td style="font: normal 10px Arial; color: #444;">
                                                     10 ngày bảo hành đổi trả miễn phí <sup>(*)</sup>
                                                 </td>
                                                 <td>
                                                     <img alt="Dịch vụ chăm sóc khách hàng tốt nhất" style="float: left; line-height: 50px;
-                                                        margin-right: 3px;" src="http://dienmay.com/uploads/pimages/email/icon-services.png" />
+                                                        margin-right: 3px;" src="https://ecommerce.kubil.app/uploads/pimages/email/icon-services.png" />
                                                 </td>
                                                 <td style="font: normal 10px Arial; color: #444;">
                                                     Dich vụ chăm sóc khách hàng tốt nhất
@@ -74,42 +74,42 @@
                                 <tr>
                                     <td style="background: #00a1e4; padding: 7px 3px; color: #fff; font: bold 11px arial;
                                         text-align: center; text-transform: uppercase">
-                                        <a href="http://dienmay.com/dien-thoai-may-tinh-bang/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=dien-thoai-mtb"
+                                        <a href="https://ecommerce.kubil.app/dien-thoai-may-tinh-bang/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=dien-thoai-mtb"
                                             style="text-decoration: none; color: #fff;">Điện thoại - máy tính bảng</a>
                                     </td>
                                     <td width="1">
                                     </td>
                                     <td style="background: #00a1e4; padding: 7px 3px; color: #fff; font: bold 11px arial;
                                         text-align: center; text-transform: uppercase">
-                                        <a href="http://dienmay.com/thiet-bi-van-phong/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=thiet-bi-van-phong"
+                                        <a href="https://ecommerce.kubil.app/thiet-bi-van-phong/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=thiet-bi-van-phong"
                                             style="text-decoration: none; color: #fff;">Laptop-pc-máy in</a>
                                     </td>
                                     <td width="1">
                                     </td>
                                     <td style="background: #00a1e4; padding: 7px 3px; color: #fff; font: bold 11px arial;
                                         text-align: center; text-transform: uppercase">
-                                        <a href="http://dienmay.com/dien-tu/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=dien-tu"
+                                        <a href="https://ecommerce.kubil.app/dien-tu/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=dien-tu"
                                             style="text-decoration: none; color: #fff;">Tivi- đầu máy</a>
                                     </td>
                                     <td width="1">
                                     </td>
                                     <td style="background: #00a1e4; padding: 7px 3px; color: #fff; font: bold 11px arial;
                                         text-align: center; text-transform: uppercase">
-                                        <a href="http://dienmay.com/dien-lanh/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=dien-lanh"
+                                        <a href="https://ecommerce.kubil.app/dien-lanh/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=dien-lanh"
                                             style="text-decoration: none; color: #fff;">Điện lạnh </a>
                                     </td>
                                     <td width="1">
                                     </td>
                                     <td style="background: #00a1e4; padding: 7px 3px; color: #fff; font: bold 11px arial;
                                         text-align: center; text-transform: uppercase">
-                                        <a href="http://dienmay.com/gia-dung/gia-dung"
+                                        <a href="https://ecommerce.kubil.app/gia-dung/gia-dung"
                                             style="text-decoration: none; color: #fff;">Gia dụng </a>
                                     </td>
                                     <td width="1">
                                     </td>
                                     <td style="background: #00a1e4; padding: 7px 3px; color: #fff; font: bold 11px arial;
                                         text-align: center; text-transform: uppercase">
-                                        <a href="http://dienmay.com/phu-kien/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=phu-kien"
+                                        <a href="https://ecommerce.kubil.app/phu-kien/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=phu-kien"
                                             style="text-decoration: none; color: #fff;">Phụ kiện</a>
                                     </td>
                                 </tr>
@@ -126,7 +126,7 @@
                                     <br />
                                     <br />
                                     Cám ơn <b>{$formData['fullname']}</b> đã bình luận sản phẩm <b><a href="[Product_URL]" title="[Product_Name]">
-                                        {$formData['productname']}</a></b> tại Siêu thị điện máy <a href="http://dienmay.com?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=body-link-dienmay" title="dienmay.com">
+                                        {$formData['productname']}</a></b> tại Siêu thị điện máy <a href="https://ecommerce.kubil.app?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=body-link-dienmay" title="dienmay.com">
                                             <i><strong>dienmay</strong>.com</i></a>. Chúng tôi nhận được yêu cầu gửi
                                     email thông báo khi có phản hồi ý kiến của bạn từ dienmay.
                                     <br />
@@ -160,15 +160,15 @@
                                     <td>
                                         <span style="float: left; font: 11px arial; color: #222; margin-right: 7px; margin-top: 5px;">
                                             Tìm <i><strong>dienmay</strong>.com</i> tại: </span><a href="https://www.facebook.com/dienmaycom">
-                                                <img alt="Facebook fanpage dienmay.com" style="margin-right: 5px;" src="http://dienmay.com/uploads/pimages/email/icon-facebook.jpg" /></a>
+                                                <img alt="Facebook fanpage dienmay.com" style="margin-right: 5px;" src="https://ecommerce.kubil.app/uploads/pimages/email/icon-facebook.jpg" /></a>
                                         <a href="https://plus.google.com/+dienmay/posts">
-                                            <img alt="Google Plus dienmay.com" style="margin-right: 7px;" src="http://dienmay.com/uploads/pimages/email/icon-gplus.jpg" /></a>
+                                            <img alt="Google Plus dienmay.com" style="margin-right: 7px;" src="https://ecommerce.kubil.app/uploads/pimages/email/icon-gplus.jpg" /></a>
                                         <a href="http://www.youtube.com/user/dienmaycom">
-                                            <img alt="Youtube dienmay.com" src="http://dienmay.com/uploads/pimages/email/icon-youtube.jpg" /></a>
+                                            <img alt="Youtube dienmay.com" src="https://ecommerce.kubil.app/uploads/pimages/email/icon-youtube.jpg" /></a>
                                     </td>
                                     <td width="240" style="float: right; background: #00a5e1; padding: 7px 3px; text-align: center;
                                         font: bold 11px arial; color: #fff; text-transform: uppercase;">
-                                        <a href="http://dienmay.com/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=footer-link-dienmay" style="text-decoration: none; color: #fff; text-align: center;">
+                                        <a href="https://ecommerce.kubil.app/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=footer-link-dienmay" style="text-decoration: none; color: #fff; text-align: center;">
                                             Mua hàng online tai dienmay.com</a>
                                     </td>
                                 </tr>
@@ -186,8 +186,8 @@
                                                 ĐCĐK: 130 Trần Quang Khải, P. Tân Định, Q.1, TP. HCM<br />
                                                 GPĐKKD số: 0310471746 do Sở KHĐT TP.HCM cấp ngày 3/11/2010<br />
                                                 Email liên hệ: <a href="mailto:cskh@dienmay.com" style="color: #F00">cskh@dienmay.com</a><br>
-                                                Website:<a href="http://dienmay.com/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=footer-link-dienmay"
-                                                    style="color: #F00"> http://dienmay.com</a><br />
+                                                Website:<a href="https://ecommerce.kubil.app/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=footer-link-dienmay"
+                                                    style="color: #F00"> https://ecommerce.kubil.app</a><br />
                                                 Điện thoại: (0838) 125 960. Fax: (0838) 125 961<br />
                                                 Giấy phép thiết lập trang TTĐT số 22/GP-iCP-STTTT, cấp ngày 20/03/1012
                                             </p>
@@ -206,9 +206,9 @@
                                                         »</i>Chuyển khoản</p>
                                                 <div style="margin-top: 5px; margin-left: 10px; display: block;">
                                                     <span style="font: bold italic 15px arial; color: #00a1e5;"><i style="margin-right: 5px;">
-                                                        <img src="http://dienmay.com/uploads/pimages/email/icon-hotline.jpg" alt="Hotline 1900 1883" /></i>1900 1883</span><br>
-                                                    <span style="font: bold italic 15px arial; color: #00a1e5; text-decoration: none;"><i style="margin-right: 5px;"><a href="http://dienmay.com/sieuthi/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=footer-link-dienmay">
-                                                            <img src="http://dienmay.com/uploads/pimages/email/icon-store.jpg" alt="Hệ thống 12 siêu thị điện máy dienmay.com" /></a></i><a href="http://dienmay.com/sieuthi/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=footer-link-dienmay"
+                                                        <img src="https://ecommerce.kubil.app/uploads/pimages/email/icon-hotline.jpg" alt="Hotline 1900 1883" /></i>1900 1883</span><br>
+                                                    <span style="font: bold italic 15px arial; color: #00a1e5; text-decoration: none;"><i style="margin-right: 5px;"><a href="https://ecommerce.kubil.app/sieuthi/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=footer-link-dienmay">
+                                                            <img src="https://ecommerce.kubil.app/uploads/pimages/email/icon-store.jpg" alt="Hệ thống 12 siêu thị điện máy dienmay.com" /></a></i><a href="https://ecommerce.kubil.app/sieuthi/?utm_source=trigger-email&utm_medium=email-reply-comment&utm_campaign=more-traffic-from-trigger-email&utm_content=footer-link-dienmay"
                                                                 style="font: bold italic 15px arial; color: #00a1e5; text-decoration: none;">Hệ
                                                                 thống 12 siêu thị</a></span>
                                                 </div>

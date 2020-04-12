@@ -28,7 +28,7 @@
               
               <tr>
                   <td>Trân trọng, <br />         
-                    <a href="http://dienmay.com" target="_blank" style="text-decoration:none">dienmay.com</a></td>
+                    <a href="https://ecommerce.kubil.app" target="_blank" style="text-decoration:none">dienmay.com</a></td>
               </tr>
             </table>
 

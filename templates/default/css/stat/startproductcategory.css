@@ -1,51 +1,175 @@
-#topheadstat{color: #fff;}
-#forecastlist{position: relative;margin-top: 25px;background: #222222; padding-top:30px;}
-/*#dropdownlistblock{width: 150px;margin: 0px auto;}
-#titledropdown{background: url(http://dienmay.com/templates/default/images/admin/select2x2.png) no-repeat 93px -2px transparent;margin: 0;padding: 5px 20px 5px 5px;cursor: pointer;}*/
-#forecastlist #tab{list-style: none;display: block;overflow: hidden;float: left;}
-#forecastlist #tab li{background: #fff;border-radius: 10px 10px 0 0;-moz-border-radius: 10px 10px 0 0;-webkit-border-radius: 10px 10px 0 0;-o-border-radius: 10px 10px 0 0;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
-    font: bold 12px Arial;
-    margin-left: 1px;
-    padding: 5px 10px;
-    text-shadow: 1px 1px 0 #ccc;float: left;/*background: none repeat scroll 0 0 #ccc;border-radius: 10px 10px 0 0;margin-left: 1px;padding: 5px 10px;*/}
- #tab li a{text-decoration: none;color: #111111;}
-#forecastlist #tab li.active{background: #0ef;}
-.uldropdownlist{list-style: none outside none;margin: 0;padding: 5px;background: #fff;display: none; position: absolute; top: 125px; left: 420px;color: #000;max-height: 350px; overflow-y: auto;min-width: 170px;}
-.uldropdownlist li{padding: 5px 0px;}
-.uldropdownlist li input[type="checkbox"]{float: left; margin-right: 5px;margin-top: 5px;}
-.celleditor{background: #fff!important; color:#000!important;}
-.cellreadonly{background: #EEE!important; color:#000!important;}
-.cellformular{background: #ff0!important; color:#000!important;}
-.displaynone{
-	display:none;
+#topheadstat {
+  color: #fff;
 }
-.changed current{
-    color : red !important;
-    font-weight: bold;
+#forecastlist {
+  position: relative;
+  margin-top: 25px;
+  background: #222222;
+  padding-top: 30px;
+}
+/*#dropdownlistblock{width: 150px;margin: 0px auto;}
+#titledropdown{background: url(https://ecommerce.kubil.app/templates/default/images/admin/select2x2.png) no-repeat 93px -2px transparent;margin: 0;padding: 5px 20px 5px 5px;cursor: pointer;}*/
+#forecastlist #tab {
+  list-style: none;
+  display: block;
+  overflow: hidden;
+  float: left;
+}
+#forecastlist #tab li {
+  background: #fff;
+  border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+  font: bold 12px Arial;
+  margin-left: 1px;
+  padding: 5px 10px;
+  text-shadow: 1px 1px 0 #ccc;
+  float: left; /*background: none repeat scroll 0 0 #ccc;border-radius: 10px 10px 0 0;margin-left: 1px;padding: 5px 10px;*/
+}
+#tab li a {
+  text-decoration: none;
+  color: #111111;
+}
+#forecastlist #tab li.active {
+  background: #0ef;
+}
+.uldropdownlist {
+  list-style: none outside none;
+  margin: 0;
+  padding: 5px;
+  background: #fff;
+  display: none;
+  position: absolute;
+  top: 125px;
+  left: 420px;
+  color: #000;
+  max-height: 350px;
+  overflow-y: auto;
+  min-width: 170px;
+}
+.uldropdownlist li {
+  padding: 5px 0px;
+}
+.uldropdownlist li input[type='checkbox'] {
+  float: left;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.celleditor {
+  background: #fff !important;
+  color: #000 !important;
+}
+.cellreadonly {
+  background: #eee !important;
+  color: #000 !important;
+}
+.cellformular {
+  background: #ff0 !important;
+  color: #000 !important;
+}
+.displaynone {
+  display: none;
+}
+.changed current {
+  color: red !important;
+  font-weight: bold;
 }
 
-.changed{
-    color: red !important;
-    font-weight: bold;
+.changed {
+  color: red !important;
+  font-weight: bold;
 }
-#dataTable{clear: both; display: block;}
-#exporttoexcel{float: right;display: block; margin-right: 2px;background: url(../../images/stat/excel.png) no-repeat 5px center #eee;border-radius: 5px 5px 0px 0px;-o-border-radius: 5px 5px 0px 0px;-webkit-border-radius: 5px 5px 0px 0px;-moz-border-radius: 5px 5px 0px 0px;padding: 5px 10px 5px 25px;box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 2px rgba(0, 0, 0, 0.05);font: bold 12px Arial;text-align: center;cursor: pointer;text-decoration: none;cursor: pointer;color: #3636EE;}
+#dataTable {
+  clear: both;
+  display: block;
+}
+#exporttoexcel {
+  float: right;
+  display: block;
+  margin-right: 2px;
+  background: url(../../images/stat/excel.png) no-repeat 5px center #eee;
+  border-radius: 5px 5px 0px 0px;
+  -o-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  padding: 5px 10px 5px 25px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+  font: bold 12px Arial;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
+  color: #3636ee;
+}
 /*#exporttoexcel:hover{background: #ccc;}*/
 
-#sharelink{float: right;display: block; margin-right: 2px;background: url(../../images/stat/link.png)no-repeat 5px center #eee;border-radius: 5px 5px 0px 0px;-o-border-radius: 5px 5px 0px 0px;-webkit-border-radius: 5px 5px 0px 0px;-moz-border-radius: 5px 5px 0px 0px;padding: 5px 10px 5px 25px;box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 2px rgba(0, 0, 0, 0.05);font: bold 12px Arial;text-align: center;cursor: pointer;text-decoration: none;cursor: pointer;color: #3636EE;}
+#sharelink {
+  float: right;
+  display: block;
+  margin-right: 2px;
+  background: url(../../images/stat/link.png) no-repeat 5px center #eee;
+  border-radius: 5px 5px 0px 0px;
+  -o-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  padding: 5px 10px 5px 25px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+  font: bold 12px Arial;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
+  color: #3636ee;
+}
 /*#sharelink:hover{background: #ccc;}*/
-#forecastlist .savebutton,#refreshbutton{height:25px;float:right;display: inline-block;background: url(../../images/stat/save.png)no-repeat 5px center #eee; color: #0000EE;border: none;border-radius: 5px 5px 0px 0px;-o-border-radius: 5px 5px 0px 0px;-webkit-border-radius: 5px 5px 0px 0px;-moz-border-radius: 5px 5px 0px 0px;padding: 5px 10px 5px 25px;font-size: 13px;margin-right: 5px;font: bold 12px Arial;}
+#forecastlist .savebutton,
+#refreshbutton {
+  height: 25px;
+  float: right;
+  display: inline-block;
+  background: url(../../images/stat/save.png) no-repeat 5px center #eee;
+  color: #0000ee;
+  border: none;
+  border-radius: 5px 5px 0px 0px;
+  -o-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  padding: 5px 10px 5px 25px;
+  font-size: 13px;
+  margin-right: 5px;
+  font: bold 12px Arial;
+}
 /*#forecastlist .savebutton:hover{background: #ccc;}*/
-.statformatdate{border: medium none !important;float: right;height: 13px !important;margin: 0 2px 0 0 !important;padding: 5px !important;width: 100px !important;border-radius: 5px!important;-o-border-radius: 5px!important;-webkit-border-radius: 5px!important;-moz-border-radius: 5px!important;text-align: center;}
-#refreshbutton{background-image: none;margin-right: 20% !important;display: block;text-align: center;text-decoration: none;color: #3636EE;}
+.statformatdate {
+  border: medium none !important;
+  float: right;
+  height: 13px !important;
+  margin: 0 2px 0 0 !important;
+  padding: 5px !important;
+  width: 100px !important;
+  border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  text-align: center;
+}
+#refreshbutton {
+  background-image: none;
+  margin-right: 20% !important;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #3636ee;
+}
 
-.inputeditable{
-    width: 100%;
-    padding: 10px;
-    margin: 0px;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    border: 1px solid #CCC;
+.inputeditable {
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 1px solid #ccc;
 }

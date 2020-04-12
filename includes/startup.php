@@ -176,7 +176,7 @@ $currency = new Currency($setting['payment']['vnd_to_usd_exchange']);
 ///////////////////////////////////////////
 //detect mobile device
 $mobiledetect = new MobileDetect();
-//trick here from the algorithm of extract subdomain just from the dot character, so if there is no subdomain, subdomain = dienmay (extract from http://dienmay.com)
+//trick here from the algorithm of extract subdomain just from the dot character, so if there is no subdomain, subdomain = dienmay (extract from https://ecommerce.kubil.app)
 if($mobiledetect->isMobile() && SUBDOMAIN == 'mywebshop')
 {
 	//check force desktopsite is disable

@@ -466,7 +466,7 @@ Class Core_Backend_Notification extends Core_Backend_Object
 		{
 			foreach($this->data as $key => $value)
 			{
-				$this->data[$key] = str_replace('http://dienmay.com', 'http://m.dienmay.com', $value);
+				$this->data[$key] = str_replace('https://ecommerce.kubil.app', 'http://m.dienmay.com', $value);
 			}
 		}
 	}
@@ -475,7 +475,7 @@ Class Core_Backend_Notification extends Core_Backend_Object
 	{
 		foreach($this->data as $key => $value)
 		{
-			$this->data[$key] = str_replace('http://m.dienmay.com', 'http://dienmay.com', $value);
+			$this->data[$key] = str_replace('http://m.dienmay.com', 'https://ecommerce.kubil.app', $value);
 		}
 	}
 }

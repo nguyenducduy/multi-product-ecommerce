@@ -3,7 +3,7 @@
     
     <tr>
         <td height="60" bgcolor="#FFFFFF"><blockquote>
-          <strong>Lưu ý:</strong>  Nếu bạn có bất kỳ thắc mắc nào, vui lòng liên hệ với <a href="http://dienmay.com" target="_blank" style="color:#0072cc;font-weight:bold; font-style:italic">dienmay.com</a> qua tổng đài <strong>19001883</strong> hoặc <strong>08 39 48 6789</strong>.
+          <strong>Lưu ý:</strong>  Nếu bạn có bất kỳ thắc mắc nào, vui lòng liên hệ với <a href="https://ecommerce.kubil.app" target="_blank" style="color:#0072cc;font-weight:bold; font-style:italic">dienmay.com</a> qua tổng đài <strong>19001883</strong> hoặc <strong>08 39 48 6789</strong>.
         </blockquote></td>
     </tr>
     <tr>

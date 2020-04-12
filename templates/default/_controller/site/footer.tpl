@@ -70,7 +70,7 @@
 	<p>&copy; 2013 Công ty Cổ phần Thế Giới Điện Tử - ĐCĐK: 130 Trần Quang Khải, P. Tân Định, Q.1, TP.HCM. GPĐKKD số: 0310471746 do Sở KHĐT Tp.HCM cấp ngày 3/11/2010.</p>
 	<p>Email: lienhe@dienmay.com. Điện thoại: 08 38 125 960. Fax: 08 38 125 961.</p>
 	<p>Giấy phép thiết lập trang TTĐT số 22/GP-ICP-STTTT, cấp ngày 20/03/2012.</p>
-	<p><a title="dienmay.com" href="http://dienmay.com">http://dienmay.com</a></p>
+	<p><a title="dienmay.com" href="https://ecommerce.kubil.app">https://ecommerce.kubil.app</a></p>
 </div>
 
 <div class="hide" style="display:none;">

@@ -5,7 +5,7 @@
 {literal}
     <script type="text/javascript">
       $(document).ready(function(){
-            $('.likefb').html('<iframe src="http://www.facebook.com/plugins/like.php?href=http://dienmay.com/dong-gia-33-ngan&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px; float:left" allowTransparency="true"></iframe>');
+            $('.likefb').html('<iframe src="http://www.facebook.com/plugins/like.php?href=https://ecommerce.kubil.app/dong-gia-33-ngan&colorscheme=light&layout=button_count&action=like&show_faces=true&send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px; float:left" allowTransparency="true"></iframe>');
             $.ajax({
                 url: rooturl+'eventproducthours/countdownajax',
                 dataType: 'html',
@@ -39,9 +39,9 @@
         <div class="block-ico">
             <div class="likefb">
             </div>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=http://dienmay.com/dong-gia-33-ngan" target="_blank"><i class="ico-face"></i></a>
-            <a href="https://plus.google.com/share?url=http://dienmay.com/dong-gia-33-ngan" target="_blank"><i class="ico-ggplus"></i></a>
-            <a href="http://twitthis.com/twit?url=http://dienmay.com/dong-gia-33-ngan" target="_blank"><i class="ico-tw"></i></a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://ecommerce.kubil.app/dong-gia-33-ngan" target="_blank"><i class="ico-face"></i></a>
+            <a href="https://plus.google.com/share?url=https://ecommerce.kubil.app/dong-gia-33-ngan" target="_blank"><i class="ico-ggplus"></i></a>
+            <a href="http://twitthis.com/twit?url=https://ecommerce.kubil.app/dong-gia-33-ngan" target="_blank"><i class="ico-tw"></i></a>
             
         </div>
         <div class="bt_view"> <a class='view-inline userpromo0209' rel="{$registry->conf.rooturl}eventproducthours/thele" href="javascript:void()">Xem Thể lệ »</a></div>

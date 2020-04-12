@@ -24,12 +24,12 @@ Disallow: /tim-kiem?s=*
 Disallow: /?vendor=
 Disallow: /*?vendor=*
 
-Sitemap: http://dienmay.com/sitemap/sitemap.xml
-Sitemap: http://dienmay.com/sitemap/sitemap-images.xml
-Sitemap: http://dienmay.com/sitemap/sitemap-nganhhang-thuonghieu.xml
-Sitemap: http://dienmay.com/sitemap/sitemap-nganhhang.xml
-Sitemap: http://dienmay.com/sitemap/sitemap-sanpham.xml
-Sitemap: http://dienmay.com/sitemap/sitemap-thuonghieu.xml
-Sitemap: http://dienmay.com/sitemap/sitemap-tintuc.xml
-Sitemap: http://dienmay.com/sitemap/sitemap.xml
-Sitemap: http://dienmay.com/
+Sitemap: https://ecommerce.kubil.app/sitemap/sitemap.xml
+Sitemap: https://ecommerce.kubil.app/sitemap/sitemap-images.xml
+Sitemap: https://ecommerce.kubil.app/sitemap/sitemap-nganhhang-thuonghieu.xml
+Sitemap: https://ecommerce.kubil.app/sitemap/sitemap-nganhhang.xml
+Sitemap: https://ecommerce.kubil.app/sitemap/sitemap-sanpham.xml
+Sitemap: https://ecommerce.kubil.app/sitemap/sitemap-thuonghieu.xml
+Sitemap: https://ecommerce.kubil.app/sitemap/sitemap-tintuc.xml
+Sitemap: https://ecommerce.kubil.app/sitemap/sitemap.xml
+Sitemap: https://ecommerce.kubil.app/

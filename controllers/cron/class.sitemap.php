@@ -95,7 +95,7 @@ class Controller_Cron_Sitemap extends Controller_Cron_Base
 			// Infomation xml
 			$header_xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n";
 			fwrite($fp, $header_xml);
-			$xml_content_default = "<url>\n<loc>http://dienmay.com/</loc>\n<changefreq>always</changefreq>\n<priority>1.00</priority>\n</url>\n";
+			$xml_content_default = "<url>\n<loc>https://ecommerce.kubil.app/</loc>\n<changefreq>always</changefreq>\n<priority>1.00</priority>\n</url>\n";
 			fwrite($fp, $xml_content_default);
 	
 			// Get all product avalible
@@ -169,7 +169,7 @@ class Controller_Cron_Sitemap extends Controller_Cron_Base
 			// Infomation xml
 			$header_xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n";
 			fwrite($fp, $header_xml);
-			$xml_content_default = "<url>\n<loc>http://dienmay.com/</loc>\n<changefreq>always</changefreq>\n<priority>1.00</priority>\n</url>\n";
+			$xml_content_default = "<url>\n<loc>https://ecommerce.kubil.app/</loc>\n<changefreq>always</changefreq>\n<priority>1.00</priority>\n</url>\n";
 			fwrite($fp, $xml_content_default);
 			// Get all category avalible
 			$listrootcategory = Core_Productcategory::getRootProductcategory();
@@ -226,7 +226,7 @@ class Controller_Cron_Sitemap extends Controller_Cron_Base
 			// Infomation xml
 			$header_xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n";
 			fwrite($fp, $header_xml);
-			$xml_content_default = "<url>\n<loc>http://dienmay.com/</loc>\n<changefreq>always</changefreq>\n<priority>1.00</priority>\n</url>\n";
+			$xml_content_default = "<url>\n<loc>https://ecommerce.kubil.app/</loc>\n<changefreq>always</changefreq>\n<priority>1.00</priority>\n</url>\n";
 			fwrite($fp, $xml_content_default);
 			// Get all vendor avalible
 			$arrConditionVendor = array();
@@ -285,7 +285,7 @@ class Controller_Cron_Sitemap extends Controller_Cron_Base
 			// Infomation xml
 			$header_xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n";
 			fwrite($fp, $header_xml);
-			$xml_content_default = "<url>\n<loc>http://dienmay.com/</loc>\n<changefreq>always</changefreq>\n<priority>1.00</priority>\n</url>\n";
+			$xml_content_default = "<url>\n<loc>https://ecommerce.kubil.app/</loc>\n<changefreq>always</changefreq>\n<priority>1.00</priority>\n</url>\n";
 			fwrite($fp, $xml_content_default);
 			// Get all Brand Category avalible
 			$arrConditionBrandcategory = array();
@@ -344,7 +344,7 @@ class Controller_Cron_Sitemap extends Controller_Cron_Base
 			// Infomation xml
 			$header_xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n";
 			fwrite($fp, $header_xml);
-			$xml_content_default = "<url>\n<loc>http://dienmay.com/</loc>\n<changefreq>" . $changefreq . "</changefreq>\n<priority>" . $priority . "</priority>\n</url>\n";
+			$xml_content_default = "<url>\n<loc>https://ecommerce.kubil.app/</loc>\n<changefreq>" . $changefreq . "</changefreq>\n<priority>" . $priority . "</priority>\n</url>\n";
 			fwrite($fp, $xml_content_default);
 			//Get all News avalible
 			$arrConditionNews = array();
