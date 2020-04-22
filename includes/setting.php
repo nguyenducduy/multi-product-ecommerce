@@ -55,9 +55,9 @@
 
 	$setting['mail']['usingAmazonses'] = true;	//neu true thi su dung co che send mail cua amazon, ket hop voi amazon api key o setting o duoi de send, neu false thi su dung co che mac dinh de goi mail
 	$setting['mail']['dateFormat'] = 'F j, Y, g:i a';
-	$setting['mail']['fromName'] = 'MyWebShop';
+	$setting['mail']['fromName'] = 'Ecommerce';
 	$setting['mail']['fromEmail'] = 'noreply@ecommerce.kubil.app';
-	$setting['mail']['toName'] = 'mywebshop Webmaster';
+	$setting['mail']['toName'] = 'ecommerce Webmaster';
 	$setting['mail']['toEmail'] = 'admin@ecommerce.kubil.app';
 	$setting['amazon']['publickey'] = '';
 	$setting['amazon']['privatekey'] = '';
