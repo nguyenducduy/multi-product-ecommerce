@@ -1,7 +1,7 @@
 <div class="navbar navbar-fixed-top">
    <div class="navbar-inner" style="height:50px;">
     <div class="container-fluid">
-      <a class="brand" href="{$me->getUserPath()}/home" title="Go to Dashboard">MyWebShop<span style="font-weight:normal;">.vn</span></a>
+      <a class="brand" href="{$me->getUserPath()}/home" title="Go to Dashboard">Ecommerce<span style="font-weight:normal;">.kubil.app</span></a>
       <div id="topnotify" class="pull-left">
 
             <div class="topitem" id="topmessage">
