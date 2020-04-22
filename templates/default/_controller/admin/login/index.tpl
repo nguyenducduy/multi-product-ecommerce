@@ -281,15 +281,9 @@
 		<div class="wrap">
 			<a href="{$conf.rooturl}" class="pull-right" style="color:#ccc;margin:20px;font-size:14px;"><i class="icon-home"></i></a>
 			
-			<h2>MyWebShop.vn</h2>
-			<h4>{$lang.controller.help}</h4>
+			<h2>Ecommerce</h2>
+			<h4>Đăng nhập: ngduy.it@gmail.com/123456</h4>
 			<form action="" autocomplete="off" method="post" class="validate">
-			
-			
-			<div class="clear" style="padding:20px;border-top:1px solid #eee;text-align:center; font-size:14px;">
-				<a href="{$conf.rooturl_admin}logintgdd" class="btn btn-primary" style="">{$lang.controller.loginWithTgdd}</a>
-				<br /><br /><em>Hoặc</em><br />
-			</div>
 			
 			{include file="notify.tpl" notifySuccess=$success notifyError=$error}
 			
